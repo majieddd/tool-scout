@@ -233,27 +233,79 @@ def mute(tool_id: str) -> None:
 
 @app.command()
 def takedown(tool_id: str, reason: Optional[str] = typer.Option(None, "--reason")) -> None:
-    _not_yet("takedown", 6)
+    """Permanently exclude a tool from public exports + future re-adds."""
+    from tool_scout.installer import takedown as do_takedown
+
+    res = do_takedown(tool_id, reason=reason)
+    console.print(res)
 
 
 # ---- install -------------------------------------------------------------
 @app.command()
 def install(
     tool_id: str,
-    yes: bool = typer.Option(False, "--yes", "-y"),
-    strategy: str = typer.Option("auto", "--strategy"),
+    yes: bool = typer.Option(False, "--yes", "-y", help="Skip confirmation prompt"),
+    strategy: str = typer.Option("auto", "--strategy", help="auto|native_mcp|skill|plugin"),
 ) -> None:
-    _not_yet("install", 6)
+    """Install a tool. Always dry-runs first and prints the diff unless --yes."""
+    from tool_scout.installer import install as do_install
+
+    # Dry run first
+    dry = do_install(tool_id, strategy_override=strategy, dry_run=True)
+    if not dry.get("ok"):
+        console.print(f"[red]install failed[/red]: {dry}")
+        raise typer.Exit(1)
+    console.print(f"[bold]Strategy:[/bold] {dry.get('strategy')}")
+    console.print(f"[bold]Diff (dry run):[/bold]")
+    console.print(dry.get("diff"))
+    if not yes:
+        ok = typer.confirm("Proceed with install?")
+        if not ok:
+            console.print("[yellow]aborted[/yellow]")
+            raise typer.Exit(0)
+    res = do_install(tool_id, strategy_override=strategy, dry_run=False)
+    if not res.get("ok"):
+        console.print(f"[red]install failed[/red]: {res}")
+        raise typer.Exit(1)
+    console.print(f"[green]install ok[/green]: {res.get('strategy')}")
 
 
 @app.command()
 def uninstall(tool_id: str) -> None:
-    _not_yet("uninstall", 6)
+    """Reverse a prior install (idempotent across all strategies)."""
+    from tool_scout.installer import uninstall as do_uninstall
+
+    res = do_uninstall(tool_id)
+    console.print(res)
 
 
 @app.command()
 def installed() -> None:
-    _not_yet("installed", 6)
+    """List currently installed tools (latest successful install per tool)."""
+    from tool_scout.installer import list_installed
+
+    rows = list_installed()
+    if not rows:
+        console.print("[dim]nothing installed[/dim]")
+        return
+    for r in rows:
+        console.print(f"  [{r['strategy']:12}] {r['tool_id']}  {r['installed_at']}")
+
+
+@app.command()
+def pin(tool_id: str) -> None:
+    """Mark a tool as pinned (boost in recommendations)."""
+    from tool_scout.installer import set_override
+
+    console.print(set_override(tool_id, "pinned"))
+
+
+@app.command()
+def mute(tool_id: str) -> None:
+    """Mute a tool (de-prioritized + excluded from public export)."""
+    from tool_scout.installer import set_override
+
+    console.print(set_override(tool_id, "muted"))
 
 
 # ---- sheets --------------------------------------------------------------
