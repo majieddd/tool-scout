@@ -100,8 +100,8 @@ anthropic_blog:
 local_projects:
   enabled: true
   roots:
-    - C:\Users\Majied\projects
-    - C:\Users\Majied\Documents\GitHub
+    - C:\Users\Majied LaFleur\Documents\ClaudeWorkspace
+    - C:\Users\Majied LaFleur\Documents\CursorProjects
   indicators:
     - SKILL.md
     - plugin.json

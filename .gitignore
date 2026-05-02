@@ -45,6 +45,8 @@ dist/
 build/
 *.egg-info/
 *.egg
+.venv/
+venv/
 
 # ----- Node / Next.js -----
 node_modules/

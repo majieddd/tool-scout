@@ -31,37 +31,38 @@ concurrency:
 # preflight: gates that must be true before any dispatch
 preflight:
   require_docker_running: true
-  require_claude_cli: true
+  require_ollama_running: true      # local Gemma backend instead of Claude CLI
   require_git_writable: true
   require_workflow_valid: true
 
 # workspace: per-job isolated directory
+# Hooks run via `pwsh -NoProfile -Command <script>` on Windows. Use PowerShell syntax.
 workspace:
   root: ~/.tool-scout/workspaces
   retention: keep_until_terminal    # cleanup on success / permanent fail
   hooks:
     after_create: |
-      cmd /c "if not exist input mkdir input"
-      cmd /c "if not exist output mkdir output"
-      cmd /c "if not exist meta mkdir meta"
-      cmd /c "echo %JOB_ID% > meta\job_id"
+      New-Item -ItemType Directory -Force -Path input,output,meta | Out-Null
+      Set-Content -Path meta/job_id -Value $env:JOB_ID -NoNewline -Encoding utf8
     before_turn: |
-      cmd /c "echo [%DATE% %TIME%] turn %TURN_NUMBER% starting >> meta\turns.log"
+      Add-Content -Path meta/turns.log -Value "[$((Get-Date).ToString('o'))] turn $env:TURN_NUMBER starting" -Encoding utf8
     after_turn: |
-      cmd /c "echo [%DATE% %TIME%] turn %TURN_NUMBER% ended status=%TURN_STATUS% >> meta\turns.log"
+      Add-Content -Path meta/turns.log -Value "[$((Get-Date).ToString('o'))] turn $env:TURN_NUMBER ended status=$env:TURN_STATUS" -Encoding utf8
     on_success: |
-      cmd /c "echo published > meta\status"
+      Set-Content -Path meta/status -Value "published" -NoNewline -Encoding utf8
     on_failure: |
-      cmd /c "echo failed > meta\status"
+      Set-Content -Path meta/status -Value "failed" -NoNewline -Encoding utf8
     before_remove: |
-      cmd /c "rem nothing — workspace retention is keep_until_terminal"
+      # nothing — workspace retention is keep_until_terminal
 
-# agent: the coding-agent runner
+# agent: the coding-agent runner (local Gemma via Ollama, not Claude CLI)
 agent:
-  command: claude
-  mode: subprocess_oneshot          # `claude -p ... --output-format json`
+  command: ollama                   # informational only — runner uses llm_client.py HTTP
+  mode: ollama_http                 # POST http://localhost:11434/api/generate
+  model: gemma3:4b                  # overridden by env LLM_MODEL if set
+  fallback_model: qwen3-coder:30b   # used only after N consecutive smoke failures
   max_turns: 3                      # 1 = first attempt, 2-3 = retries with stricter prompts
-  per_turn_timeout_s: 300           # 5 min hard timeout per Claude call
+  per_turn_timeout_s: 300           # 5 min hard timeout per LLM call
   stall_timeout_s: 90               # no event in 90s -> kill turn, schedule retry
 
 # retries: exponential backoff schedule
