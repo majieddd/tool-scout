@@ -177,7 +177,47 @@ def show(tool_id: str) -> None:
 @app.command()
 def recommend(count: int = typer.Option(15, "--count")) -> None:
     """Print top N recommendations from the latest crawl."""
-    _not_yet("recommend", 5)
+    from tool_scout.recommender import recommend as do_recommend
+
+    picks = do_recommend(count=count)
+    if not picks:
+        console.print("[yellow]No graded tools found — run `scout crawl` first.[/yellow]")
+        raise typer.Exit(1)
+    color_map = {"S": "magenta", "A": "green", "B": "cyan", "C": "yellow", "D": "bright_red", "F": "white"}
+    for i, p in enumerate(picks, start=1):
+        c = color_map.get(p.letter, "white")
+        console.print(
+            f"[bold]{i:>2}.[/bold] [bold {c}]{p.letter}[/bold {c}] "
+            f"[white]{p.name[:60]:<60}[/white] "
+            f"[dim]{p.category or '-':<14}[/dim] "
+            f"score=[bold]{p.score:.2f}[/bold]  [dim]{p.reasoning}[/dim]"
+        )
+
+
+@app.command(name="profile")
+def profile_cmd(
+    show: bool = typer.Option(False, "--show"),
+    analyze: bool = typer.Option(False, "--analyze"),
+) -> None:
+    """Show profile config (--show) or learning-loop diagnostics (--analyze)."""
+    if analyze:
+        from tool_scout.recommender import profile_analyze
+
+        console.print(profile_analyze())
+        return
+    if show:
+        from tool_scout.recommender import Profile
+
+        p = Profile.load()
+        console.print(f"[bold]Interests[/bold]: {len(p.interests)} tag weights")
+        for t, w in sorted(p.interests.items(), key=lambda kv: -kv[1])[:10]:
+            console.print(f"  {t:30} {w:+.0f}")
+        console.print(f"[bold]Projects[/bold]: {len(p.projects)}")
+        for proj in p.projects:
+            console.print(f"  {proj.name:20} weight={proj.weight} boost_tags={list(proj.boost_tags)[:5]}")
+        console.print(f"[bold]Excludes[/bold]: {sorted(p.excludes)}")
+        return
+    console.print("Use --show to dump profile, --analyze to inspect learning loop")
 
 
 # ---- personalization -----------------------------------------------------

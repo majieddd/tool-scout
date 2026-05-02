@@ -15,9 +15,16 @@ from typing import Callable
 
 import yaml
 
+from tool_scout.crawler.anthropic_blog import crawl_anthropic_blog
+from tool_scout.crawler.awesome_lists import crawl_awesome_lists
 from tool_scout.crawler.github import crawl_github
+from tool_scout.crawler.hackernews import crawl_hackernews
 from tool_scout.crawler.local_projects import crawl_local_projects
+from tool_scout.crawler.mcp_registries import crawl_mcp_registries
+from tool_scout.crawler.npm import crawl_npm
+from tool_scout.crawler.pypi import crawl_pypi
 from tool_scout.crawler.record import ToolRecord
+from tool_scout.crawler.reddit import crawl_reddit
 from tool_scout.db import SessionLocal
 from tool_scout.models import CrawlRun, Tag, Tool
 from tool_scout.util.logging import setup_logging
@@ -29,13 +36,21 @@ log = logging.getLogger("crawl")
 
 SourceFn = Callable[[dict, TimeBudget], list[ToolRecord]]
 
-# Phase 2: github + local_projects only. Phase 5 will register the rest.
 SOURCE_DRIVERS: dict[str, SourceFn] = {
     "github": lambda cfg, budget: crawl_github(cfg, budget),
     "local_projects": lambda cfg, budget: crawl_local_projects(cfg, budget),
+    "mcp_registries": lambda cfg, budget: crawl_mcp_registries(cfg, budget),
+    "npm": lambda cfg, budget: crawl_npm(cfg, budget),
+    "pypi": lambda cfg, budget: crawl_pypi(cfg, budget),
+    "awesome_lists": lambda cfg, budget: crawl_awesome_lists(cfg, budget),
+    "reddit": lambda cfg, budget: crawl_reddit(cfg, budget),
+    "hackernews": lambda cfg, budget: crawl_hackernews(cfg, budget),
+    "anthropic_blog": lambda cfg, budget: crawl_anthropic_blog(cfg, budget),
 }
 
-QUICK_ALLOWED = {"github", "local_projects", "mcp_registries"}  # mcp_registries lands in Phase 5
+# --quick mode skips the heavier sources (scrapers, paginated APIs) and runs
+# only the fast in-process ones.
+QUICK_ALLOWED = {"github", "local_projects", "mcp_registries", "anthropic_blog", "hackernews"}
 
 
 def load_sources_yaml(path: Path | str) -> dict:
