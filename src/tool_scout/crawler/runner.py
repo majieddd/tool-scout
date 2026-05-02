@@ -188,6 +188,16 @@ def run_crawl(
             pass
 
     new, updated = _upsert(all_records)
+    # Classify newly-added + still-unclassified records.
+    try:
+        from tool_scout.classifier import classify_all
+
+        classify_summary = classify_all()
+        log.info("classify summary: %s", classify_summary)
+    except Exception as e:  # noqa: BLE001
+        log.exception("classifier failed (crawl results still saved)")
+        errors.append(f"classifier: {type(e).__name__}: {e}")
+        classify_summary = {}
     duration_s = int(budget.elapsed_s())
 
     with SessionLocal() as s:
@@ -208,6 +218,7 @@ def run_crawl(
         "updated": updated,
         "errors": errors,
         "budget": budget.summary(),
+        "classify": classify_summary,
     }
     log.info("crawl complete: %s", summary)
     return summary

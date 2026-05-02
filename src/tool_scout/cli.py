@@ -84,6 +84,21 @@ def usage(window_hours: int = typer.Option(24, "--hours")) -> None:
     console.print(s)
 
 
+@app.command()
+def classify(
+    force: bool = typer.Option(False, "--force", help="Reclassify even already-categorized tools"),
+    cap: Optional[int] = typer.Option(None, "--cap", help="Process at most N records"),
+    batch_size: int = typer.Option(20, "--batch-size"),
+) -> None:
+    """Classify pending (or all if --force) tools via heuristics + Gemma."""
+    from tool_scout.classifier import classify_all
+
+    summary = classify_all(force=force, batch_size=batch_size, cap=cap)
+    console.print(f"[green]classify complete[/green]")
+    for k, v in summary.items():
+        console.print(f"  {k}: {v}")
+
+
 # ---- discovery -----------------------------------------------------------
 @app.command(name="list")
 def list_tools(
