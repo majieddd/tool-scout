@@ -71,8 +71,31 @@ def crawl(
 
 @app.command()
 def status() -> None:
-    """Show last crawl, publish, backup, queue, and surfaces health."""
-    _not_yet("status", 12)
+    """Show last crawl, publish, backup, queue, and surface health."""
+    from tool_scout.operations.status import collect_status
+
+    s = collect_status()
+    console.print("[bold]Tool Scout — status[/bold]")
+    console.print(f"  generated_at:        {s['generated_at']}")
+    console.print(f"  tools:               total={s['tools']['total']}  live_public={s['tools']['live_public']}")
+    if s["last_crawl"]:
+        c = s["last_crawl"]
+        console.print(f"  last_crawl:          #{c['id']}  ended={c['ended_at']}  new={c['new_tools']}  duration={c['duration_s']}s")
+    if s["last_backup"]:
+        b = s["last_backup"]
+        console.print(f"  last_backup:         {b['created_at']}  size={b['size_bytes']}  ok={b['integrity_ok']}")
+    q = s["queue"]
+    console.print(f"  queue:               pending={q['pending']}  running={q['running']}  succeeded_24h={q['succeeded_24h']}  failed_24h={q['failed_24h']}")
+    console.print(f"  llm_calls_today:     {s['llm']['calls_today']}")
+    docker_state = "[green]ok[/green]" if s["docker"] else "[red]missing[/red]"
+    ollama_state = "[green]ok[/green]" if s["ollama"] else "[red]down[/red]"
+    console.print(f"  docker:              {docker_state}")
+    console.print(f"  ollama:              {ollama_state}")
+    console.print(f"  nssm:                {'on PATH' if s['nssm_on_path'] else '[yellow]not on PATH[/yellow]'}")
+    console.print(f"  orchestrator svc:    {s['orchestrator_service_status']}")
+    console.print(f"  ngrok domain:        {s['ngrok_domain']}")
+    console.print(f"  webhook secret:      {'set' if s['webhook_secret_set'] else '[red]missing[/red]'}")
+    console.print(f"  vercel deploy hook:  {'set' if s['vercel_deploy_hook_set'] else '[yellow]not set[/yellow]'}")
 
 
 @app.command()
@@ -562,12 +585,23 @@ def workflow_show() -> None:
 # ---- operations ----------------------------------------------------------
 @app.command()
 def backup() -> None:
-    _not_yet("backup", 12)
+    """Run the SQLite online backup; rotate; gzip aged files."""
+    from tool_scout.operations.backup import backup_now
+
+    target = backup_now()
+    console.print(f"[green]backup ok[/green]: {target}")
 
 
 @app.command()
 def restore(date: str) -> None:
-    _not_yet("restore", 12)
+    """Restore from a backup taken on YYYY-MM-DD. Backs up live DB first."""
+    from tool_scout.operations.backup import restore as do_restore
+
+    if not typer.confirm(f"This will overwrite the live DB with the backup from {date}. Continue?"):
+        console.print("[yellow]aborted[/yellow]")
+        raise typer.Exit(0)
+    target = do_restore(date)
+    console.print(f"[green]restored[/green] -> {target}")
 
 
 if __name__ == "__main__":
