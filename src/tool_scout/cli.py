@@ -57,7 +57,16 @@ def crawl(
     quick: bool = typer.Option(False, "--quick", help="10-min GitHub+MCP-only run"),
 ) -> None:
     """Run the daily crawl."""
-    _not_yet("crawl", 2)
+    from tool_scout.crawler.runner import run_crawl
+
+    summary = run_crawl(quick=quick)
+    console.print(f"[green]crawl complete[/green]: run #{summary['run_id']}")
+    console.print(f"  duration:    {summary['duration_s']}s")
+    console.print(f"  new tools:   {summary['new_tools']}")
+    console.print(f"  updated:     {summary['updated']}")
+    if summary["errors"]:
+        console.print(f"  [red]errors:[/red] {summary['errors']}")
+    raise typer.Exit(0 if not summary["errors"] else 1)
 
 
 @app.command()
@@ -84,7 +93,43 @@ def list_tools(
     limit: int = typer.Option(20, "--limit"),
 ) -> None:
     """List crawled tools, optionally filtered."""
-    _not_yet("list", 5)
+    from rich.table import Table
+
+    from tool_scout.db import SessionLocal
+    from tool_scout.models import Grade, Tool
+
+    with SessionLocal() as s:
+        q = s.query(Tool)
+        if category:
+            q = q.filter(Tool.category == category)
+        if letter:
+            from sqlalchemy.orm import joinedload
+
+            q = q.outerjoin(Grade).filter(Grade.letter == letter).options(joinedload(Tool.grade))
+        rows = q.order_by(Tool.last_crawled.desc()).limit(limit).all()
+        # Letter is on the related grade row; load it eagerly.
+        for r in rows:
+            _ = r.grade
+
+    table = Table(title=f"scout list (latest {limit})", show_lines=False)
+    table.add_column("source", style="cyan", no_wrap=True)
+    table.add_column("letter", justify="center")
+    table.add_column("name")
+    table.add_column("category")
+    table.add_column("stars", justify="right")
+    table.add_column("url", style="dim")
+    for r in rows:
+        letter_cell = r.grade.letter if r.grade else "-"
+        table.add_row(
+            r.source,
+            letter_cell,
+            (r.name or "")[:60],
+            r.category or "-",
+            str(r.stars or 0),
+            r.url[:60],
+        )
+    console.print(table)
+    console.print(f"[dim]{len(rows)} row(s)[/dim]")
 
 
 @app.command()
