@@ -414,32 +414,85 @@ app.add_typer(queue_app, name="queue")
 
 @queue_app.command("dashboard")
 def queue_dashboard() -> None:
-    _not_yet("queue dashboard", 11)
+    """Live TUI dashboard of running wrapper jobs."""
+    from tool_scout.queue_worker.dashboard import run_dashboard
+    run_dashboard()
 
 
 @queue_app.command("list")
 def queue_list() -> None:
-    _not_yet("queue list", 11)
+    """List recent wrapper requests."""
+    from tool_scout.db import SessionLocal
+    from tool_scout.models import WrapperRequest
+    with SessionLocal() as s:
+        rows = s.query(WrapperRequest).order_by(WrapperRequest.requested_at.desc()).limit(20).all()
+    for r in rows:
+        console.print(f"  [{r.status:10}] {r.id[:8]}  tool={r.tool_id}  attempts={r.attempts or 0}  {r.requested_at}")
 
 
 @queue_app.command("show")
 def queue_show(job_id: str) -> None:
-    _not_yet("queue show", 11)
+    """Show a job's full state + last error."""
+    from tool_scout.db import SessionLocal
+    from tool_scout.models import WrapperRequest
+    with SessionLocal() as s:
+        r = s.get(WrapperRequest, job_id)
+    if r is None:
+        console.print(f"[red]job {job_id} not found[/red]")
+        raise typer.Exit(1)
+    console.print({
+        "id": r.id, "tool_id": r.tool_id, "status": r.status, "attempts": int(r.attempts or 0),
+        "result_url": r.result_url, "error": r.error, "terminal_reason": r.terminal_reason,
+        "requested_at": str(r.requested_at), "started_at": str(r.started_at), "finished_at": str(r.finished_at),
+    })
 
 
 @queue_app.command("events")
 def queue_events(job_id: str) -> None:
-    _not_yet("queue events", 11)
+    """Print every orchestrator event for a job."""
+    from tool_scout.db import SessionLocal
+    from tool_scout.models import OrchestratorEvent
+    with SessionLocal() as s:
+        rows = s.query(OrchestratorEvent).filter(OrchestratorEvent.job_id == job_id).order_by(OrchestratorEvent.id.asc()).all()
+    for e in rows:
+        console.print(f"  [{e.occurred_at}] {e.state} turn={e.turn_number} {e.payload_json or ''}")
 
 
 @queue_app.command("cancel")
 def queue_cancel(job_id: str) -> None:
-    _not_yet("queue cancel", 11)
+    """Mark a running job as canceled (orchestrator picks it up next tick)."""
+    from tool_scout.db import SessionLocal
+    from tool_scout.models import WrapperRequest
+    from datetime import datetime
+    with SessionLocal() as s:
+        r = s.get(WrapperRequest, job_id)
+        if r is None:
+            console.print(f"[red]job {job_id} not found[/red]")
+            raise typer.Exit(1)
+        r.status = "canceled"
+        r.terminal_reason = "user_canceled"
+        r.finished_at = datetime.utcnow()
+        s.commit()
+    console.print(f"[yellow]canceled[/yellow] {job_id}")
 
 
 @queue_app.command("retry")
 def queue_retry(job_id: str) -> None:
-    _not_yet("queue retry", 11)
+    """Reset a failed job to pending so the orchestrator re-attempts it."""
+    from tool_scout.db import SessionLocal
+    from tool_scout.models import WrapperRequest
+    with SessionLocal() as s:
+        r = s.get(WrapperRequest, job_id)
+        if r is None:
+            console.print(f"[red]job {job_id} not found[/red]")
+            raise typer.Exit(1)
+        r.status = "pending"
+        r.terminal_reason = None
+        r.error = None
+        r.claimed_at = None
+        r.claimed_by = None
+        s.commit()
+    console.print(f"[green]requeued[/green] {job_id}")
 
 
 orch_app = typer.Typer(help="Symphony orchestrator subcommands.")
@@ -448,12 +501,30 @@ app.add_typer(orch_app, name="orchestrator")
 
 @orch_app.command("start")
 def orch_start() -> None:
-    _not_yet("orchestrator start", 11)
+    """Start the orchestrator in the foreground (the Windows service uses this)."""
+    import asyncio
+    from tool_scout.queue_worker import SymphonyOrchestrator
+    from tool_scout.util.logging import setup_logging
+    setup_logging()
+    orch = SymphonyOrchestrator(workflow_path=Path(__file__).resolve().parents[2] / "WORKFLOW.md")
+    try:
+        asyncio.run(orch.run())
+    except KeyboardInterrupt:
+        console.print("[dim]orchestrator stopped[/dim]")
 
 
 @orch_app.command("status")
 def orch_status() -> None:
-    _not_yet("orchestrator status", 11)
+    """Show orchestrator service status (Windows: Get-Service)."""
+    import subprocess
+    try:
+        r = subprocess.run(
+            ["powershell", "-NoProfile", "-Command", "Get-Service ToolScoutOrchestrator -ErrorAction SilentlyContinue | Select-Object -Property Name,Status,StartType | Format-List"],
+            capture_output=True, text=True, timeout=10,
+        )
+        console.print(r.stdout or "[yellow]service not installed[/yellow]")
+    except Exception as e:
+        console.print(f"[red]check failed: {e}[/red]")
 
 
 workflow_app = typer.Typer(help="WORKFLOW.md tooling.")
@@ -462,12 +533,30 @@ app.add_typer(workflow_app, name="workflow")
 
 @workflow_app.command("validate")
 def workflow_validate() -> None:
-    _not_yet("workflow validate", 11)
+    """Parse WORKFLOW.md; report errors without applying."""
+    from tool_scout.queue_worker.workflow_config import load_workflow
+    p = Path(__file__).resolve().parents[2] / "WORKFLOW.md"
+    if not p.exists():
+        console.print(f"[red]WORKFLOW.md not found at {p}[/red]")
+        raise typer.Exit(1)
+    try:
+        cfg = load_workflow(p)
+        console.print(f"[green]valid[/green]: tick={cfg.polling.tick_interval_ms}ms, "
+                      f"concurrency={cfg.concurrency.max_concurrent_jobs}, "
+                      f"max_turns={cfg.agent.max_turns}, "
+                      f"prompt_body={len(cfg.prompt_body)} chars")
+    except Exception as e:
+        console.print(f"[red]invalid[/red]: {e}")
+        raise typer.Exit(1)
 
 
 @workflow_app.command("show")
 def workflow_show() -> None:
-    _not_yet("workflow show", 11)
+    """Dump the resolved WORKFLOW.md config."""
+    from tool_scout.queue_worker.workflow_config import load_workflow
+    p = Path(__file__).resolve().parents[2] / "WORKFLOW.md"
+    cfg = load_workflow(p)
+    console.print(cfg.model_dump())
 
 
 # ---- operations ----------------------------------------------------------
