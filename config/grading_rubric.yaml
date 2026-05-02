@@ -1,0 +1,57 @@
+# =============================================================================
+# Tool Scout — Grading Rubric
+# =============================================================================
+# Five axes (0-5 each), summed 0-25, mapped to S/A/B/C/D/F.
+# Recomputed every crawl — profile or rubric edits propagate automatically.
+# =============================================================================
+
+axes:
+  # Relevance: how much this tool matches profile.yaml interests
+  relevance:
+    max_raw_score: 30           # sum of profile weights before scaling
+    scale_to: 5
+
+  # Quality: signals from the upstream source
+  quality:
+    weights:
+      log_stars: 0.30
+      log_downloads: 0.15
+      recency: 0.25             # commits in last 90 days
+      readme_depth: 0.15        # README > 500 words
+      has_tests: 0.10           # presence of tests/ or test/ directory
+      has_license: 0.05
+
+  # Novelty: how recently this entered the catalog or got updated upstream
+  novelty:
+    # Days since first_seen OR last_updated, whichever is more recent
+    - {max_days: 3,    score: 5}
+    - {max_days: 14,   score: 4}
+    - {max_days: 30,   score: 3}
+    - {max_days: 90,   score: 2}
+    - {max_days: 180,  score: 1}
+    - {max_days: null, score: 0}
+
+  # Install ease: how painful is integration with Claude Code
+  install_ease:
+    native_claude_code: 5
+    mcp_ready: 4.5
+    needs_wrapper: 2.5
+    incompatible: 0
+
+  # Fit: stack alignment beyond pure relevance
+  fit:
+    windows_native_bonus: 1.0
+    primary_language_match: 1.5     # python or typescript
+    cli_workflow_bonus: 0.5
+    game_dev_stack_bonus: 1.0       # three-js, electron, blockbench-related
+    macos_only_penalty: -5.0
+    ios_only_penalty: -5.0
+
+# Letter bands — totals map to letter + hex color used in Sheets cells and web app
+letter_bands:
+  - {min: 22, letter: S, color: "#8B5CF6"}   # purple — "stop everything"
+  - {min: 18, letter: A, color: "#10B981"}   # green — "install this week"
+  - {min: 14, letter: B, color: "#3B82F6"}   # blue — "solid, try soon"
+  - {min: 10, letter: C, color: "#F59E0B"}   # amber — "situational"
+  - {min:  6, letter: D, color: "#F97316"}   # orange — "probably skip"
+  - {min:  0, letter: F, color: "#6B7280"}   # gray — "irrelevant or dead"

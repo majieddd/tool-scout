@@ -1,0 +1,82 @@
+# =============================================================================
+# Tool Scout — .gitignore
+# =============================================================================
+# CRITICAL: protects credentials and runtime data from accidental commit.
+# See `docs/01_SPEC.md` §50 for the policy.
+# =============================================================================
+
+# ----- Secrets — NEVER commit -----
+.env
+.env.local
+.env.*.local
+*.pem
+*.p12
+gcp-credentials.json
+git-credentials
+ngrok.yml
+*.key
+*.crt
+secrets/
+
+# ----- Local runtime -----
+*.db
+*.db-wal
+*.db-shm
+.tool-scout/
+~/.tool-scout/
+logs/
+cache/
+backups/
+installed/
+workspaces/
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ----- Node / Next.js -----
+node_modules/
+.next/
+out/
+web/.vercel/
+web/.env*.local
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ----- IDE -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ----- Misc -----
+*.log
+*.bak
+*.tmp
+
+# =============================================================================
+# Explicitly NOT ignored — these MUST be committed:
+#   web/public/data/**       (crawl output, public)
+#   web/public/wrappers/**   (generated wrappers, public)
+#   migrations/**            (DB schema history)
+#   config/**                (Tool Scout's own configs)
+#   templates/**             (legal page templates)
+#   scripts/**               (PowerShell installers)
+# =============================================================================

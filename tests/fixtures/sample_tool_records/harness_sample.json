@@ -1,0 +1,17 @@
+{
+  "id": "fixture_harness_001",
+  "name": "agent-loop-harness",
+  "url": "https://github.com/example/agent-loop-harness",
+  "source": "github",
+  "stars": 1840,
+  "language": "Python",
+  "license": "Apache-2.0",
+  "last_updated": "2026-04-18T10:20:00Z",
+  "readme_excerpt": "# Agent Loop Harness\n\nAn agentic framework for orchestrating long-running coding-agent runs against a project board. Inspired by OpenAI Symphony but model-agnostic; supports Claude Code, Codex, Gemini, and any agent that speaks JSON-RPC over stdio.\n\n## Architecture\n\nSix-layer design:\n\n1. **Policy** — `WORKFLOW.md` per project\n2. **Configuration** — typed loader with env-var resolution\n3. **Coordination** — single orchestrator with bounded concurrency\n4. **Execution** — per-issue isolated workspaces with lifecycle hooks\n5. **Tracker adapter** — Linear today, Jira/GitHub-Issues planned\n6. **Observability** — structured logs, optional Phoenix LiveView dashboard\n\nEach issue gets its own workspace. Failed runs retry with exponential backoff. The agent loop runs multi-turn continuation: turn 1 is the full prompt, turns 2..N are continuation guidance referring to prior workspace state.\n\n## Installation\n\n```bash\npip install agent-loop-harness\nharness init\n```\n\nThen edit `WORKFLOW.md` and start the daemon: `harness run`.\n\n## Why a harness rather than a single agent\n\nAgent loops at scale hit a human-attention ceiling. Engineers running 3-5 sessions in parallel start losing track of which session does what. A harness decouples work from sessions: tickets are the unit of work, agents are the executor, humans review the output.",
+  "expected": {
+    "category": "harness",
+    "subcategory": "orchestration",
+    "compatibility": "needs_wrapper",
+    "tags_must_include": ["agentic", "harness", "orchestration"]
+  }
+}

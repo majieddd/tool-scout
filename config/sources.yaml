@@ -1,0 +1,111 @@
+# =============================================================================
+# Tool Scout — Crawl Sources
+# =============================================================================
+# Each source has its own per-source time budget. The total daily budget is
+# 60-75 min; per-source budgets sum to ~50 min of crawling, leaving headroom
+# for classification and Sheets sync.
+# =============================================================================
+
+github:
+  enabled: true
+  token_env: GITHUB_TOKEN
+  searches:
+    - query: "topic:mcp-server"
+      type: repositories
+      budget_min: 4
+    - query: "topic:claude-code"
+      type: repositories
+      budget_min: 3
+    - query: "topic:anthropic-skill"
+      type: repositories
+      budget_min: 2
+    - query: "topic:claude-plugin"
+      type: repositories
+      budget_min: 2
+    - query: "topic:claude-desktop"
+      type: repositories
+      budget_min: 2
+    - query: "filename:SKILL.md path:/"
+      type: code
+      budget_min: 3
+    - query: '"mcp_servers" filename:claude_desktop_config.json'
+      type: code
+      budget_min: 3
+    - query: '"mcp" filename:claude.json'
+      type: code
+      budget_min: 3
+
+mcp_registries:
+  enabled: true
+  sources:
+    - url: https://pulsemcp.com/servers
+      selector: ".server-card a"
+      budget_min: 4
+    - url: https://mcp.so/
+      selector: ".project-item a"
+      budget_min: 3
+    - url: https://smithery.ai/
+      selector: "a[href*='/server/']"
+      budget_min: 3
+
+awesome_lists:
+  enabled: true
+  frequency: weekly                  # only crawled on Sundays
+  repos:
+    - punkpeye/awesome-mcp-servers
+    - wong2/awesome-mcp-servers
+    - hesreallyhim/awesome-claude-code
+    - langgptai/awesome-claude-prompts
+  budget_min: 10
+
+npm:
+  enabled: true
+  queries:
+    - keywords:mcp
+    - keywords:claude
+    - keywords:anthropic
+  budget_min: 5
+
+pypi:
+  enabled: true
+  queries:
+    - mcp
+    - claude
+    - anthropic-skill
+  budget_min: 5
+
+reddit:
+  enabled: true
+  subreddits:
+    - ClaudeAI
+    - mcp
+    - LocalLLaMA
+  budget_min: 3
+
+hackernews:
+  enabled: true
+  queries:
+    - "claude mcp"
+    - "anthropic skill"
+    - "claude code"
+  budget_min: 2
+
+anthropic_blog:
+  enabled: true
+  feeds:
+    - https://www.anthropic.com/news/rss.xml
+    - https://docs.claude.com/en/release-notes/claude-code
+  budget_min: 3
+
+local_projects:
+  enabled: true
+  roots:
+    - C:\Users\Majied\projects
+    - C:\Users\Majied\Documents\GitHub
+  indicators:
+    - SKILL.md
+    - plugin.json
+    - mcp.json
+    - .claude/plugins
+  max_depth: 4
+  budget_min: 2

@@ -1,0 +1,17 @@
+{
+  "id": "fixture_library_001",
+  "name": "voxel-mesh-py",
+  "url": "https://github.com/example/voxel-mesh-py",
+  "source": "github",
+  "stars": 156,
+  "language": "Python",
+  "license": "MIT",
+  "last_updated": "2026-01-15T09:00:00Z",
+  "readme_excerpt": "# voxel-mesh-py\n\nA Python library for generating optimized triangle meshes from voxel grids. Implements greedy meshing, monotone polygon decomposition, and texture-atlas-aware UV unwrapping.\n\n## Installation\n\n```bash\npip install voxel-mesh-py\n```\n\n## Quick start\n\n```python\nimport numpy as np\nfrom voxel_mesh import GreedyMesher\n\ngrid = np.zeros((32, 32, 32), dtype=np.uint8)\ngrid[10:20, 10:20, 10:20] = 1\n\nmesher = GreedyMesher(atlas_size=(512, 512))\nverts, faces, uvs = mesher.mesh(grid)\n```\n\n## API\n\nThe library exposes pure Python classes — no CLI, no server, no entry point. You import it and call functions. Useful for any tool that needs to convert voxel data into renderable geometry.",
+  "expected": {
+    "category": "library",
+    "subcategory": "voxel-mesh",
+    "compatibility": "needs_wrapper",
+    "tags_must_include": ["python", "voxel", "library"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "fixture_skill_001",
+  "name": "rust-async-patterns",
+  "url": "https://github.com/example/skills-rust-async",
+  "source": "github",
+  "stars": 89,
+  "language": "Markdown",
+  "license": "MIT",
+  "last_updated": "2026-03-30T15:45:00Z",
+  "readme_excerpt": "# Rust Async Patterns Skill\n\nA Claude Code SKILL.md that helps Claude write idiomatic Tokio-based async Rust code.\n\n## What it covers\n\n- When to use `Arc<Mutex<T>>` vs channels\n- Proper `?Send` bounds for non-Send futures\n- Avoiding common deadlock patterns in `select!`\n- Spawn vs spawn_blocking decisions\n- Cancellation safety\n\n## Installation\n\n```bash\ncp -r skill ~/.claude/skills/rust-async-patterns/\n```\n\nThe skill auto-loads. Verify with `claude` and asking about async Rust — Claude should reference patterns from the SKILL.md.\n\n## Frontmatter\n\nThe SKILL.md follows the standard frontmatter:\n\n```yaml\nname: rust-async-patterns\ndescription: Use this skill when writing Tokio-based async Rust code, especially when working with shared state, channels, or cancellation.\n```",
+  "expected": {
+    "category": "skill",
+    "subcategory": "language-patterns",
+    "compatibility": "native_claude_code",
+    "tags_must_include": ["anthropic-skill", "rust", "async"]
+  }
+}

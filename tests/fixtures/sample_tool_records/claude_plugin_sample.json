@@ -1,0 +1,17 @@
+{
+  "id": "fixture_claude_plugin_001",
+  "name": "claude-code-pr-reviewer",
+  "url": "https://github.com/example/claude-code-pr-reviewer",
+  "source": "github",
+  "stars": 340,
+  "language": "Markdown",
+  "license": "Apache-2.0",
+  "last_updated": "2026-04-10T08:30:00Z",
+  "readme_excerpt": "# Claude Code PR Reviewer\n\nA Claude Code plugin that adds slash commands for streamlined pull-request review workflows.\n\n## Installation\n\nDrop the contents into `~/.claude/plugins/pr-reviewer/`:\n\n```\n.claude/\n  plugins/\n    pr-reviewer/\n      manifest.json\n      commands/\n        review.md\n        suggest-tests.md\n```\n\n## Slash commands\n\n- `/review` — analyze the current PR\n- `/suggest-tests` — propose missing tests\n- `/breakdown` — split a large PR into smaller commits\n\n## Hooks\n\nIncludes a `pre-commit` hook that runs the reviewer locally before pushing.\n\n## Requirements\n\n- Claude Code CLI 1.0+\n- A `gh` CLI authenticated with your GitHub account",
+  "expected": {
+    "category": "claude_plugin",
+    "subcategory": "slash_command",
+    "compatibility": "native_claude_code",
+    "tags_must_include": ["claude-code", "claude-plugin", "code-review"]
+  }
+}

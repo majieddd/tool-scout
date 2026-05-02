@@ -1,0 +1,17 @@
+{
+  "id": "fixture_mcp_server_001",
+  "name": "filesystem-mcp",
+  "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+  "source": "github",
+  "stars": 12500,
+  "language": "TypeScript",
+  "license": "MIT",
+  "last_updated": "2026-04-15T12:00:00Z",
+  "readme_excerpt": "# filesystem MCP Server\n\nThe filesystem server provides MCP tools for safe filesystem access. It exposes tools for reading, writing, and listing files within a configurable allowed-directories whitelist.\n\n## Configuration\n\nAdd to your `claude_desktop_config.json`:\n\n```json\n{\n  \"mcpServers\": {\n    \"filesystem\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-filesystem\", \"/path/to/allowed/dir\"]\n    }\n  }\n}\n```\n\n## Tools\n\n- `read_file(path)` — read a file\n- `write_file(path, content)` — write a file\n- `list_directory(path)` — list directory contents\n- `search_files(pattern)` — glob search\n\n## Security\n\nAll filesystem access is restricted to the directories specified at startup. Path traversal attempts are rejected.",
+  "expected": {
+    "category": "mcp_server",
+    "subcategory": "filesystem",
+    "compatibility": "mcp_ready",
+    "tags_must_include": ["mcp", "mcp-server", "filesystem"]
+  }
+}

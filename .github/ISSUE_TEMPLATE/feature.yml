@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest something new
+title: "[feat] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tool Scout is a personal project. Feature requests are read but not guaranteed to be implemented.
+        For changes that would add a recurring monthly cost or break the zero-cost design, please don't bother.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+    validations:
+      required: true
+
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Would this introduce a recurring cost?
+      options:
+        - "No, this works on existing free tiers"
+        - "Yes, it requires a paid service"
+        - "Not sure"
+    validations:
+      required: true

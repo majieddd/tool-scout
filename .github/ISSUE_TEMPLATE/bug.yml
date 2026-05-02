@@ -1,0 +1,45 @@
+name: Bug report
+description: Something is broken
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: A clear description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: Steps, commands, URLs.
+      render: shell
+
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where did this happen?
+      options:
+        - CLI (scout commands)
+        - Public website (tool-scout.vercel.app)
+        - Wrapper request flow
+        - Google Sheets sync
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment (if local)
+      placeholder: "Windows version, Python version, scout version (`scout --version`)"

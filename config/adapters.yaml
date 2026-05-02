@@ -1,0 +1,30 @@
+# =============================================================================
+# Tool Scout — Installer Adapter Overrides
+# =============================================================================
+# Per-tool overrides for the installer. Most tools route automatically based on
+# detection; this file exists for the edge cases where auto-detection is wrong
+# or where you want to skip a tool entirely.
+#
+# Schema:
+#   overrides:
+#     "<tool-id-or-pkg-name>":
+#       strategy: native_mcp | plugin_copy | skill_copy | wrapper_generated | skip
+#       reason: "<short explanation>"
+#       config_block: |        # optional; for native_mcp overrides
+#         { ... }
+# =============================================================================
+
+overrides: {}
+  # Examples of what entries look like — uncomment and adapt as needed:
+  #
+  # "@some-org/some-tool":
+  #   strategy: native_mcp
+  #   config_block: |
+  #     {
+  #       "command": "npx",
+  #       "args": ["-y", "@some-org/some-tool", "--mcp"]
+  #     }
+  #
+  # "bad-actor-tool":
+  #   strategy: skip
+  #   reason: "Previously broke Claude Code config on Windows"

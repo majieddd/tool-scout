@@ -1,0 +1,17 @@
+{
+  "id": "fixture_tool_001",
+  "name": "blockbench-cli",
+  "url": "https://github.com/example/blockbench-cli",
+  "source": "github",
+  "stars": 420,
+  "language": "JavaScript",
+  "license": "MIT",
+  "last_updated": "2026-02-22T14:00:00Z",
+  "readme_excerpt": "# blockbench-cli\n\nA command-line tool for batch-converting Blockbench `.bbmodel` files between formats. Supports Bedrock geometry, Java OptiFine JEM, Hytale `.blockymodel`, and a few legacy formats.\n\n## Installation\n\n```bash\nnpm install -g blockbench-cli\n```\n\n## Usage\n\n```bash\nblockbench-cli convert input.bbmodel --to hytale --out ./out\nblockbench-cli convert input.bbmodel --to bedrock --textures ./textures --out ./out\nblockbench-cli batch ./models --to hytale --recursive\n```\n\n## Supported formats\n\n- Blockbench `.bbmodel` (input)\n- Bedrock geometry JSON\n- Java OptiFine JEM\n- Hytale `.blockymodel`\n\n## Note\n\nThis is a standalone CLI tool. There is no Claude Code integration, no MCP server, no plugin. Run it from a terminal.",
+  "expected": {
+    "category": "tool",
+    "subcategory": "format-converter",
+    "compatibility": "needs_wrapper",
+    "tags_must_include": ["cli", "blockbench", "hytale"]
+  }
+}

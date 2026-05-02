@@ -1,0 +1,50 @@
+name: Takedown request
+description: Request removal of a tool or generated wrapper from Tool Scout
+title: "Takedown: <tool-name-here>"
+labels: ["takedown"]
+assignees:
+  - Majied
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reaching out. Removals are typically processed within 48 hours.
+        Once a tool is removed, it will not be re-indexed on future crawls.
+
+  - type: input
+    id: tool_url
+    attributes:
+      label: Tool or wrapper URL
+      description: The full URL of the tool or generated wrapper you want removed.
+      placeholder: "https://github.com/owner/repo  OR  https://tool-scout.vercel.app/wrappers/abc123/server.py"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role
+      description: Your relationship to the tool or wrapper in question.
+      options:
+        - Tool owner / maintainer
+        - Authorized representative of the tool owner
+        - Concerned third party
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason (optional)
+      description: Why are you requesting removal? Helps us prioritize and confirm intent.
+      placeholder: "Optional. e.g., 'License does not permit redistribution', 'Project archived', 'Pre-release; not ready for indexing'"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: "I understand removed tools cannot be re-added unless I retract this request."
+          required: true

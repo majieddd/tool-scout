@@ -1,0 +1,90 @@
+# =============================================================================
+# Tool Scout — Profile (Majied)
+# =============================================================================
+# Drives the relevance axis of grading and the recommender. Public-safe — no
+# NDA-sensitive details. Adjustable; takes effect on next crawl (grades
+# recompute every run).
+#
+# Weight scale:
+#   3 = strong signal
+#   2 = medium
+#   1 = light interest
+#  -1 = de-prioritize
+#  -3 = effective exclusion
+# =============================================================================
+
+interests:
+  # Game dev & Hytale
+  hytale: 3
+  minecraft-modding: 2
+  game-dev: 3
+  blockbench: 2
+  voxel: 2
+
+  # AI / agentic
+  mcp: 3
+  mcp-server: 3
+  claude-code: 3
+  claude-plugin: 3
+  anthropic-skill: 3
+  agentic: 3
+  local-llm: 3
+  ollama: 2
+  llama-cpp: 2
+  multi-agent: 2
+  orchestration: 2
+  symphony: 2
+
+  # Languages & runtimes
+  python: 3
+  typescript: 2
+  javascript: 2
+  react: 2
+  three-js: 2
+  electron: 2
+  rust: 1
+
+  # Platforms
+  windows: 3
+  wsl: 2
+  cross-platform: 1
+
+  # Workflows
+  cli: 3
+  terminal: 3
+  voice-to-text: 2
+  automation: 3
+  sqlite: 2
+
+  # De-prioritize
+  macos-only: -3
+  ios-only: -3
+  android-only: -3
+  requires-paid-saas: -2
+  browser-extension-only: -1
+  no-recent-commits: -1
+
+# Active projects — bonus weight when a tool's tags match a project's boost_tags
+current_projects:
+  - name: HYDRA
+    boost_tags: [agentic, mcp, local-llm, orchestration, model-router, vram]
+    weight: 3
+  - name: Kingdoms-Mod
+    boost_tags: [hytale, reputation-system, faction, game-design]
+    weight: 2
+  - name: Echoes-Mod
+    boost_tags: [hytale, progression, bestiary, creature-memory]
+    weight: 2
+  - name: 2h2t-server
+    boost_tags: [hytale, server, anarchy, dns]
+    weight: 1
+  - name: tool-scout
+    boost_tags: [crawler, classifier, recommender, sqlite, symphony]
+    weight: 2
+
+# Anti-interests — never surface tools tagged with these
+exclude:
+  - crypto-trading
+  - nft
+  - dropshipping
+  - mlm
