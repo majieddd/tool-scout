@@ -315,17 +315,37 @@ app.add_typer(sheets_app, name="sheets")
 
 @sheets_app.command("sync")
 def sheets_sync() -> None:
-    _not_yet("sheets sync", 7)
+    """Sync monthly workbook (DASHBOARD + ALL-TIME + today's tab)."""
+    from tool_scout.sheets import sync as do_sync
+
+    summary = do_sync()
+    console.print(f"[green]sheets sync complete[/green]")
+    for k, v in summary.items():
+        console.print(f"  {k}: {v}")
 
 
 @sheets_app.command("open")
 def sheets_open() -> None:
-    _not_yet("sheets open", 7)
+    """Open the current month's workbook in the default browser."""
+    import webbrowser
+    from tool_scout.sheets import status as do_status
+
+    s = do_status()
+    wb_id = s.get("current_workbook_id")
+    if not wb_id:
+        console.print("[yellow]no current-month workbook (run `scout sheets sync` first)[/yellow]")
+        raise typer.Exit(1)
+    url = f"https://docs.google.com/spreadsheets/d/{wb_id}"
+    webbrowser.open(url)
+    console.print(f"opened {url}")
 
 
 @sheets_app.command("status")
 def sheets_status() -> None:
-    _not_yet("sheets status", 7)
+    """Show which workbooks exist in the configured Drive folder."""
+    from tool_scout.sheets import status as do_status
+
+    console.print(do_status())
 
 
 # ---- publishing ----------------------------------------------------------
