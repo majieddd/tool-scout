@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-05-02T21:00:37.077920Z",
+  "live_tools": 611,
+  "last_crawl": {
+    "started_at": "2026-05-02T20:25:57",
+    "ended_at": "2026-05-02T20:26:41.049683",
+    "new_tools": 611,
+    "errors": "[]"
+  },
+  "last_llm_call_at": "2026-05-02T20:42:25"
+}

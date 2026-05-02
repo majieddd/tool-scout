@@ -350,13 +350,61 @@ def sheets_status() -> None:
 
 # ---- publishing ----------------------------------------------------------
 @app.command()
-def export(force: bool = typer.Option(False, "--force")) -> None:
-    _not_yet("export", 9)
+def export(
+    force: bool = typer.Option(False, "--force", help="Skip guardrail check"),
+    push: bool = typer.Option(True, "--push/--no-push", help="git commit + push (default: yes)"),
+) -> None:
+    """Write web/public/data/*.json, commit + push to public repo (Vercel auto-deploys)."""
+    from tool_scout.export import export_to_disk
+    from tool_scout.operations.guardrail import passes_guardrail
+
+    g = passes_guardrail(force=force)
+    if not g.passed:
+        console.print(f"[red]guardrail failed[/red]: {g.reason}")
+        console.print("[dim]use `scout export --force` to publish anyway[/dim]")
+        raise typer.Exit(1)
+    summary = export_to_disk()
+    console.print(f"[green]export[/green]: wrote {summary['tools']} tools + {summary['recommendations']} recs to {len(summary['files'])} files")
+    if not push:
+        console.print("[dim]--no-push given; commit/push skipped[/dim]")
+        return
+    from datetime import datetime
+    from tool_scout.git_publisher import GitPublisher
+
+    try:
+        pub = GitPublisher.from_env(repo_path=Path(__file__).resolve().parents[2])
+    except RuntimeError as e:
+        console.print(f"[yellow]git publisher unavailable: {e}[/yellow]")
+        raise typer.Exit(1)
+    sha = pub.publish_data(
+        message=f"chore(data): crawl {datetime.utcnow().strftime('%Y-%m-%d')}",
+        paths=summary["files"],
+    )
+    if sha:
+        console.print(f"[green]pushed[/green] commit {sha[:8]}")
+    else:
+        console.print("[dim]nothing to commit[/dim]")
 
 
 @app.command()
 def deploy() -> None:
-    _not_yet("deploy", 9)
+    """Trigger Vercel deploy via VERCEL_DEPLOY_HOOK_URL."""
+    import os
+    import httpx
+
+    url = os.environ.get("VERCEL_DEPLOY_HOOK_URL")
+    if not url:
+        console.print("[red]VERCEL_DEPLOY_HOOK_URL not set in .env[/red]")
+        raise typer.Exit(1)
+    try:
+        r = httpx.post(url, timeout=30)
+    except httpx.HTTPError as e:
+        console.print(f"[red]deploy hook POST failed: {e}[/red]")
+        raise typer.Exit(1)
+    if r.status_code in (200, 201, 204):
+        console.print(f"[green]deploy triggered[/green] ({r.status_code})")
+    else:
+        console.print(f"[yellow]hook returned {r.status_code}[/yellow]: {r.text[:200]}")
 
 
 # ---- queue / orchestrator (Phase 11) -------------------------------------
