@@ -99,6 +99,21 @@ def classify(
         console.print(f"  {k}: {v}")
 
 
+@app.command()
+def grade() -> None:
+    """Recompute grades for every tool from the current rubric + profile."""
+    from tool_scout.grading import grade_all
+
+    summary = grade_all()
+    console.print(f"[green]grade complete[/green]")
+    console.print(f"  total: {summary.get('total')}")
+    by_letter = summary.get("by_letter", {})
+    for letter in ("S", "A", "B", "C", "D", "F"):
+        n = by_letter.get(letter, 0)
+        if n:
+            console.print(f"  {letter}: {n}")
+
+
 # ---- discovery -----------------------------------------------------------
 @app.command(name="list")
 def list_tools(

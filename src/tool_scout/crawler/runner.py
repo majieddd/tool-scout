@@ -198,6 +198,17 @@ def run_crawl(
         log.exception("classifier failed (crawl results still saved)")
         errors.append(f"classifier: {type(e).__name__}: {e}")
         classify_summary = {}
+    # Grade everything (recomputes existing grades too — profile/rubric edits
+    # propagate without needing a re-crawl).
+    try:
+        from tool_scout.grading import grade_all
+
+        grade_summary = grade_all()
+        log.info("grade summary: %s", grade_summary)
+    except Exception as e:  # noqa: BLE001
+        log.exception("grading failed")
+        errors.append(f"grading: {type(e).__name__}: {e}")
+        grade_summary = {}
     duration_s = int(budget.elapsed_s())
 
     with SessionLocal() as s:
@@ -219,6 +230,7 @@ def run_crawl(
         "errors": errors,
         "budget": budget.summary(),
         "classify": classify_summary,
+        "grade": grade_summary,
     }
     log.info("crawl complete: %s", summary)
     return summary
