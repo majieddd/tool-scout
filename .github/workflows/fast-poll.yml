@@ -1,0 +1,79 @@
+name: Fast-poll (hourly trending discovery)
+
+on:
+  schedule:
+    - cron: "12 * * * *"        # 12 minutes past every hour
+  workflow_dispatch:
+
+# Same group as daily-crawl so the hourly poll can't collide with the
+# nightly full crawl (whichever fires first wins; the other queues).
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      OLLAMA_HOST: "http://disabled.local:11434"
+      LLM_MODEL: "noop"
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GIT_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GIT_REPO_URL: "https://github.com/${{ github.repository }}.git"
+      GIT_BOT_USERNAME: "tool-scout-bot"
+      GIT_BOT_EMAIL: "bot@tool-scout.invalid"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        run: pip install -e ".[dev]"
+
+      - name: Initialize DB
+        run: |
+          mkdir -p ~/.tool-scout
+          alembic upgrade head
+
+      - name: Import existing tools.json (preserve prior classifications)
+        run: scout import-json web/public/data/tools.json
+
+      - name: Fast crawl (tier=fast — high-velocity sources only)
+        run: |
+          # The fast tier is GitHub trending searches + Anthropic blog +
+          # MCP registries + HN + Reddit. Each tagged `tier: fast` in
+          # config/sources.yaml. Heavy sources (npm, pypi, awesome_lists)
+          # only run in the daily-crawl workflow.
+          scout crawl --quick --tier fast || true
+
+      - name: Re-grade
+        run: scout grade
+
+      - name: Export
+        run: scout export --no-push --force
+
+      - name: Configure git
+        run: |
+          git config user.name "tool-scout-bot"
+          git config user.email "bot@tool-scout.invalid"
+
+      - name: Commit + push if data changed
+        run: |
+          if [[ -n "$(git status --porcelain web/public/data)" ]]; then
+            git add web/public/data
+            git commit -m "chore(data): hourly fast-poll $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+            echo "::notice::Catalog updated and pushed"
+          else
+            echo "no data changes — nothing to push"
+          fi

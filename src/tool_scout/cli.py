@@ -54,12 +54,15 @@ def doctor() -> None:
 
 @app.command()
 def crawl(
-    quick: bool = typer.Option(False, "--quick", help="10-min GitHub+MCP-only run"),
+    quick: bool = typer.Option(False, "--quick", help="10-min budget; skips heavy sources"),
+    sources: Optional[str] = typer.Option(None, "--sources", help="Comma-separated source allowlist (e.g. github,anthropic_blog)"),
+    tier: Optional[str] = typer.Option(None, "--tier", help="Filter searches by tier (e.g. 'fast' for hourly polls)"),
 ) -> None:
-    """Run the daily crawl."""
+    """Run a crawl. Combine --tier=fast --sources=github,... for hourly polls."""
     from tool_scout.crawler.runner import run_crawl
 
-    summary = run_crawl(quick=quick)
+    src_list = [s.strip() for s in sources.split(",")] if sources else None
+    summary = run_crawl(quick=quick, sources_filter=src_list, tier_filter=tier)
     console.print(f"[green]crawl complete[/green]: run #{summary['run_id']}")
     console.print(f"  duration:    {summary['duration_s']}s")
     console.print(f"  new tools:   {summary['new_tools']}")

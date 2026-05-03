@@ -140,12 +140,40 @@ def _upsert(records: list[ToolRecord]) -> tuple[int, int]:
     return new, updated
 
 
+def _filter_searches_by_tier(cfg: dict, tier: str | None) -> dict:
+    """Return a shallow-copied source cfg with `searches`/`sources` filtered to
+    entries tagged `tier: fast` (or untagged when tier is None). Used by the
+    hourly fast-poll workflow to skip slow searches.
+    """
+    if tier is None:
+        return cfg
+    out = dict(cfg)
+    for key in ("searches", "sources"):
+        items = cfg.get(key)
+        if isinstance(items, list):
+            kept = [s for s in items if isinstance(s, dict) and s.get("tier") == tier]
+            if kept:
+                out[key] = kept
+            else:
+                # Source has no fast-tier entries — disable for this run
+                out["enabled"] = False
+    return out
+
+
 def run_crawl(
     sources_path: str | Path | None = None,
     *,
     quick: bool = False,
+    sources_filter: list[str] | None = None,   # restrict to named sources
+    tier_filter: str | None = None,             # e.g. "fast" → skip slow searches
 ) -> dict:
-    """Top-level entry. Returns a summary dict with new/updated counts + errors."""
+    """Top-level entry. Returns a summary dict with new/updated counts + errors.
+
+    `sources_filter` restricts which top-level sources run (e.g. ["github",
+    "anthropic_blog"]). `tier_filter` further restricts each source's
+    `searches`/`sources` list to entries tagged `tier: <value>`. Both are
+    used by the hourly fast-poll workflow.
+    """
     setup_logging()
     sources_path = Path(sources_path) if sources_path else (
         Path(__file__).resolve().parents[3] / "config" / "sources.yaml"
@@ -175,8 +203,16 @@ def run_crawl(
 
     try:
         for src_name, driver in SOURCE_DRIVERS.items():
+            if sources_filter and src_name not in sources_filter:
+                log.info("--sources filter: skipping %s", src_name)
+                continue
             cfg = config.get(src_name) or {}
+            cfg = _filter_searches_by_tier(cfg, tier_filter)
             if not cfg.get("enabled", False):
+                continue
+            if tier_filter and cfg.get("tier") and cfg.get("tier") != tier_filter:
+                # Source-level tier mismatch: skip
+                log.info("--tier=%s: skipping source %s (tier=%s)", tier_filter, src_name, cfg.get("tier"))
                 continue
             if quick and src_name not in QUICK_ALLOWED:
                 log.info("--quick: skipping %s", src_name)

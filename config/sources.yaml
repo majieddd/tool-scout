@@ -1,30 +1,212 @@
 # =============================================================================
 # Tool Scout — Crawl Sources
 # =============================================================================
-# Each source has its own per-source time budget. The total daily budget is
-# 60-75 min; per-source budgets sum to ~50 min of crawling, leaving headroom
-# for classification and Sheets sync.
+# Per-source time budgets. Tagged with `tier: fast` are also picked up by the
+# hourly fast-poll workflow (high-velocity discovery). Untagged or `tier: slow`
+# only run in the daily full crawl.
 # =============================================================================
 
 github:
   enabled: true
+  tier: fast
   token_env: GITHUB_TOKEN
   searches:
+    # ── Anthropic / Claude ecosystem (core) ─────────────────────────────────
     - query: "topic:mcp-server"
       type: repositories
       budget_min: 4
+      tier: fast
     - query: "topic:claude-code"
       type: repositories
       budget_min: 3
+      tier: fast
     - query: "topic:anthropic-skill"
       type: repositories
       budget_min: 2
+      tier: fast
     - query: "topic:claude-plugin"
       type: repositories
       budget_min: 2
+      tier: fast
     - query: "topic:claude-desktop"
       type: repositories
       budget_min: 2
+    - query: "topic:claude-skill"
+      type: repositories
+      budget_min: 2
+    - query: "topic:claude-app"
+      type: repositories
+      budget_min: 1
+    - query: "topic:claude-agent"
+      type: repositories
+      budget_min: 2
+      tier: fast
+
+    # ── MCP-specific (broader than claude-tagged) ───────────────────────────
+    - query: "topic:model-context-protocol"
+      type: repositories
+      budget_min: 3
+      tier: fast
+    - query: "topic:mcp"
+      type: repositories
+      budget_min: 3
+      tier: fast
+    - query: "topic:mcp-tools"
+      type: repositories
+      budget_min: 2
+    - query: "topic:fastmcp"
+      type: repositories
+      budget_min: 1
+
+    # ── OpenAI Codex CLI ecosystem ─────────────────────────────────────────
+    - query: "topic:codex-cli"
+      type: repositories
+      budget_min: 2
+      tier: fast
+    - query: "topic:openai-codex"
+      type: repositories
+      budget_min: 2
+      tier: fast
+    - query: "topic:codex-extension"
+      type: repositories
+      budget_min: 1
+    - query: "topic:codex-prompts"
+      type: repositories
+      budget_min: 1
+
+    # ── Cursor ──────────────────────────────────────────────────────────────
+    - query: "topic:cursor-rules"
+      type: repositories
+      budget_min: 2
+      tier: fast
+    - query: "topic:cursor-extension"
+      type: repositories
+      budget_min: 1
+    - query: "topic:cursor-ai"
+      type: repositories
+      budget_min: 1
+    - query: "filename:.cursorrules"
+      type: code
+      budget_min: 2
+      tier: fast
+
+    # ── Cline (Claude Dev) ─────────────────────────────────────────────────
+    - query: "topic:cline-extension"
+      type: repositories
+      budget_min: 2
+      tier: fast
+    - query: "topic:cline-mcp"
+      type: repositories
+      budget_min: 1
+    - query: "topic:cline"
+      type: repositories
+      budget_min: 1
+
+    # ── Continue.dev ───────────────────────────────────────────────────────
+    - query: "topic:continuedev"
+      type: repositories
+      budget_min: 1
+    - query: "topic:continue-extension"
+      type: repositories
+      budget_min: 1
+    - query: "filename:config.json path:.continue"
+      type: code
+      budget_min: 2
+
+    # ── Aider ──────────────────────────────────────────────────────────────
+    - query: "topic:aider-config"
+      type: repositories
+      budget_min: 1
+    - query: "filename:.aider.conf.yml"
+      type: code
+      budget_min: 1
+
+    # ── Windsurf (Codeium successor) ───────────────────────────────────────
+    - query: "topic:windsurf-rules"
+      type: repositories
+      budget_min: 1
+    - query: "filename:.windsurfrules"
+      type: code
+      budget_min: 1
+
+    # ── Codeium ────────────────────────────────────────────────────────────
+    - query: "topic:codeium-extension"
+      type: repositories
+      budget_min: 1
+
+    # ── Cody (Sourcegraph) ─────────────────────────────────────────────────
+    - query: "topic:cody-extension"
+      type: repositories
+      budget_min: 1
+    - query: "topic:sourcegraph-cody"
+      type: repositories
+      budget_min: 1
+
+    # ── Zed AI ─────────────────────────────────────────────────────────────
+    - query: "topic:zed-extension"
+      type: repositories
+      budget_min: 1
+    - query: "topic:zed-ai"
+      type: repositories
+      budget_min: 1
+
+    # ── Gemini Code Assist ─────────────────────────────────────────────────
+    - query: "topic:gemini-code-assist"
+      type: repositories
+      budget_min: 1
+
+    # ── Generic agentic / LLM tooling ──────────────────────────────────────
+    - query: "topic:llm-agent"
+      type: repositories
+      budget_min: 2
+      tier: fast
+    - query: "topic:agent-framework"
+      type: repositories
+      budget_min: 2
+    - query: "topic:tool-use"
+      type: repositories
+      budget_min: 2
+    - query: "topic:function-calling"
+      type: repositories
+      budget_min: 2
+    - query: "topic:openai-tools"
+      type: repositories
+      budget_min: 2
+    - query: "topic:llm-orchestration"
+      type: repositories
+      budget_min: 1
+    - query: "topic:llm-tools"
+      type: repositories
+      budget_min: 2
+      tier: fast
+    - query: "topic:ai-agent"
+      type: repositories
+      budget_min: 2
+      tier: fast
+    - query: "topic:autonomous-agent"
+      type: repositories
+      budget_min: 1
+    - query: "topic:rag"
+      type: repositories
+      budget_min: 1
+
+    # ── Trending: recently-created MCP/agent repos (the "fast-poll" win) ───
+    # Note: dates resolve at crawl time; for now we use a fixed-date snapshot
+    # that the user can advance via PR. The fast-poll workflow uses these.
+    - query: "topic:mcp-server created:>2026-04-01"
+      type: repositories
+      budget_min: 2
+      tier: fast
+    - query: "topic:claude-code created:>2026-04-01"
+      type: repositories
+      budget_min: 1
+      tier: fast
+    - query: "topic:llm-agent created:>2026-04-01"
+      type: repositories
+      budget_min: 1
+      tier: fast
+
+    # ── Code-search markers for tools without topic tags ──────────────────
     - query: "filename:SKILL.md path:/"
       type: code
       budget_min: 3
@@ -33,38 +215,84 @@ github:
       budget_min: 3
     - query: '"mcp" filename:claude.json'
       type: code
-      budget_min: 3
+      budget_min: 2
+    - query: 'filename:.claude/plugins'
+      type: code
+      budget_min: 2
+
+# =============================================================================
 
 mcp_registries:
   enabled: true
+  tier: fast
   sources:
     - url: https://pulsemcp.com/servers
       selector: ".server-card a"
-      budget_min: 4
+      budget_min: 3
+      tier: fast
     - url: https://mcp.so/
       selector: ".project-item a"
-      budget_min: 3
+      budget_min: 2
+      tier: fast
     - url: https://smithery.ai/
       selector: "a[href*='/server/']"
-      budget_min: 3
+      budget_min: 2
+    - url: https://glama.ai/mcp/servers
+      selector: "a[href*='/mcp/servers/']"
+      budget_min: 2
+      tier: fast
+    - url: https://www.composio.dev/mcp
+      selector: "a[href*='/mcp/']"
+      budget_min: 2
+    - url: https://openmcp.io/
+      selector: "a[href*='github.com']"
+      budget_min: 1
+    - url: https://mcp.directory/
+      selector: "a[href*='/server/']"
+      budget_min: 1
+
+# =============================================================================
 
 awesome_lists:
   enabled: true
-  frequency: weekly                  # only crawled on Sundays
+  frequency: weekly                  # heavy lists; daily on Sundays
   repos:
+    # MCP focused
     - punkpeye/awesome-mcp-servers
     - wong2/awesome-mcp-servers
+    - appcypher/awesome-mcp-servers
+    # Claude focused
     - hesreallyhim/awesome-claude-code
     - langgptai/awesome-claude-prompts
-  budget_min: 10
+    - taylorwilsdon/awesome-claude-code-agents
+    # Cline / Cursor / coding-agent focused
+    - cline/awesome-cline
+    - PatrickJS/awesome-cursorrules
+    # Generic agent / LLM tooling
+    - e2b-dev/awesome-ai-agents
+    - kyrolabs/awesome-langchain
+    - cuongnvz/awesome-llm-tools
+    - Jenqyang/Awesome-AI-Agents
+    - underlines/awesome-ml
+  budget_min: 12
+
+# =============================================================================
 
 npm:
   enabled: true
+  tier: fast
   queries:
     - keywords:mcp
     - keywords:claude
     - keywords:anthropic
-  budget_min: 5
+    - keywords:llm-tools
+    - keywords:ai-agent
+    - keywords:tool-use
+    - keywords:function-calling
+    - keywords:openai-assistant
+  budget_min: 6
+
+# =============================================================================
 
 pypi:
   enabled: true
@@ -72,30 +300,57 @@ pypi:
     - mcp
     - claude
     - anthropic-skill
-  budget_min: 5
+    - fastmcp
+    - llm-agent
+    - agent-framework
+    - tool-use
+    - function-calling
+  budget_min: 4
+
+# =============================================================================
 
 reddit:
   enabled: true
+  tier: fast
   subreddits:
     - ClaudeAI
     - mcp
     - LocalLLaMA
-  budget_min: 3
+    - LangChain
+    - AIAgents
+    - ChatGPTCoding
+    - cursor
+    - cline
+  budget_min: 4
+
+# =============================================================================
 
 hackernews:
   enabled: true
+  tier: fast
   queries:
     - "claude mcp"
     - "anthropic skill"
     - "claude code"
-  budget_min: 2
+    - "openai codex cli"
+    - "cursor rules"
+    - "cline mcp"
+    - "agent framework"
+    - "function calling"
+  budget_min: 3
+
+# =============================================================================
 
 anthropic_blog:
   enabled: true
+  tier: fast
   feeds:
     - https://www.anthropic.com/news/rss.xml
     - https://docs.claude.com/en/release-notes/claude-code
-  budget_min: 3
+    - https://www.anthropic.com/research/rss.xml
+  budget_min: 2
+
+# =============================================================================
 
 local_projects:
   enabled: true
@@ -107,5 +362,8 @@ local_projects:
     - plugin.json
     - mcp.json
     - .claude/plugins
+    - .cursorrules
+    - .windsurfrules
+    - .aider.conf.yml
   max_depth: 4
   budget_min: 2
