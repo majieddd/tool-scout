@@ -1,0 +1,81 @@
+name: Daily crawl + export
+
+on:
+  schedule:
+    - cron: "0 3 * * *"        # 03:00 UTC daily
+  workflow_dispatch:
+    inputs:
+      quick:
+        description: "Run with --quick (skips heavy sources)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write   # commit web/public/data/*.json back to main
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      # No Ollama in CI — classifier defers to heuristics, then leaves the rest
+      # uncategorized. Catalog metadata (stars, descriptions, last_updated)
+      # still refreshes via the upstream APIs.
+      OLLAMA_HOST: "http://disabled.local:11434"
+      LLM_MODEL: "noop"
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GIT_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GIT_REPO_URL: "https://github.com/${{ github.repository }}.git"
+      GIT_BOT_USERNAME: "tool-scout-bot"
+      GIT_BOT_EMAIL: "bot@tool-scout.invalid"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        run: pip install -e ".[dev]"
+
+      - name: Initialize DB
+        run: |
+          mkdir -p ~/.tool-scout
+          alembic upgrade head
+
+      - name: Crawl (heuristics-only — no LLM in CI)
+        run: |
+          # The classifier will defer non-heuristic-matching tools to LLM,
+          # which fails because OLLAMA_HOST is unreachable. We tolerate that:
+          # records still get crawled and stored, just without LLM-assigned
+          # categories. The export step still produces fresh JSON.
+          scout crawl ${{ inputs.quick && '--quick' || '' }} || true
+
+      - name: Grade everything
+        run: scout grade
+
+      - name: Export JSON for the public site
+        run: scout export --no-push --force
+
+      - name: Configure git
+        run: |
+          git config user.name "tool-scout-bot"
+          git config user.email "bot@tool-scout.invalid"
+
+      - name: Commit + push if data changed
+        run: |
+          if [[ -n "$(git status --porcelain web/public/data)" ]]; then
+            git add web/public/data
+            git commit -m "chore(data): nightly crawl $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "no data changes — skipping push"
+          fi

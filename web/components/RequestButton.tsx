@@ -1,68 +1,42 @@
 "use client";
 
-import { useState } from "react";
+/**
+ * Static-export RequestButton.
+ *
+ * The original spec used a serverless POST to /api/request-wrapper which
+ * forwarded to the maintainer's local orchestrator via ngrok. In the
+ * GitHub Pages deploy there's no server, so the button instead opens a
+ * pre-filled GitHub issue. The maintainer's local orchestrator (or a
+ * future GitHub Action with an LLM secret) processes the request and
+ * commits the wrapper file to web/public/wrappers/<tool_id>/server.py,
+ * which the next Pages build picks up.
+ */
 
-export function RequestButton({ toolId }: { toolId: string }) {
-  const [state, setState] = useState<"idle" | "submitting" | "queued" | "error" | "rate-limited">("idle");
-  const [message, setMessage] = useState<string>("");
+const REPO = "majieddd/tool-scout";
 
-  const onClick = async () => {
-    setState("submitting");
-    setMessage("");
-    try {
-      const res = await fetch("/api/request-wrapper", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ tool_id: toolId, recaptcha_token: "stub" }),
-      });
-      if (res.status === 429) {
-        setState("rate-limited");
-        const body = await res.json().catch(() => ({}));
-        setMessage(body.message || "Rate limit hit. Try again tomorrow.");
-        return;
-      }
-      if (!res.ok) {
-        setState("error");
-        setMessage(`server returned ${res.status}`);
-        return;
-      }
-      const body = await res.json();
-      setState("queued");
-      setMessage(`Job ${body.job_id?.slice(0, 8)} queued — ETA ${body.estimated_wait_minutes ?? "?"} min`);
-    } catch (e) {
-      setState("error");
-      setMessage(e instanceof Error ? e.message : String(e));
-    }
-  };
-
-  const labelMap: Record<typeof state, string> = {
-    idle: "Request Claude wrapper",
-    submitting: "Queueing…",
-    queued: "Queued ✓",
-    error: "Try again",
-    "rate-limited": "Rate limited",
-  };
-
-  const stateColor = {
-    idle: "bg-accent/90 hover:bg-accent text-bg",
-    submitting: "bg-bg-subtle text-ink-muted cursor-wait",
-    queued: "bg-grade-a/80 text-bg",
-    error: "bg-grade-d/80 text-bg",
-    "rate-limited": "bg-grade-c/80 text-bg",
-  }[state];
+export function RequestButton({ toolId, toolName }: { toolId: string; toolName: string }) {
+  const issueTitle = encodeURIComponent(`wrapper request: ${toolName}`);
+  const issueBody = encodeURIComponent(
+    `Tool ID: \`${toolId}\`\n\n` +
+      `Tool name: ${toolName}\n\n` +
+      `Catalog page: https://majieddd.github.io/tool-scout/tool/${toolId}/\n\n` +
+      `---\n\n` +
+      `Submitted from the public Tool Scout catalog. The maintainer's local agent ` +
+      `picks these up, generates a minimal MCP server in a sandboxed container, ` +
+      `runs static_scan + Docker smoke test, and commits the result.`
+  );
+  const labels = "wrapper-request";
+  const url = `https://github.com/${REPO}/issues/new?title=${issueTitle}&body=${issueBody}&labels=${labels}`;
 
   return (
-    <div className="space-y-2">
-      <button
-        onClick={onClick}
-        disabled={state === "submitting" || state === "queued"}
-        className={`px-4 py-2 rounded font-medium text-sm transition ${stateColor}`}
-      >
-        {labelMap[state]}
-      </button>
-      {message && (
-        <p className="text-xs text-ink-muted">{message}</p>
-      )}
-    </div>
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 px-4 py-2 rounded font-medium text-sm bg-accent/90 hover:bg-accent text-bg transition"
+    >
+      Request Claude wrapper
+      <span aria-hidden className="text-xs opacity-80">↗</span>
+    </a>
   );
 }

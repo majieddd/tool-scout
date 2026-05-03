@@ -167,7 +167,7 @@ export default async function ToolDetailPage({
           a minimal MCP server in a sandboxed container on the maintainer's
           machine, smoke-test it, and publish the file here.
         </p>
-        <RequestButton toolId={tool.id} />
+        <RequestButton toolId={tool.id} toolName={tool.name} />
       </section>
     </article>
   );
