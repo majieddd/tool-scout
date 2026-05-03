@@ -97,18 +97,30 @@ def classify_all(
                 heuristic_hits += 1
         s.commit()
 
-    # Tier 2
+    # Tier 2 — only attempt if Ollama is actually reachable. CI runs (where
+    # OLLAMA_HOST is unreachable on purpose) skip cleanly here instead of
+    # blocking on per-record connect timeouts.
     llm_hits = 0
     if deferred:
-        results = classify_in_batches(deferred, batch_size=batch_size)
-        with SessionLocal() as s:
-            for rec_id, res in results.items():
-                t = s.get(Tool, rec_id)
-                if t is None:
-                    continue
-                _apply_result(t, res, s)
-                llm_hits += 1
-            s.commit()
+        from tool_scout.llm_client import LlmClient
+
+        cli = LlmClient()
+        if not cli.ping():
+            log.warning(
+                "LLM unreachable at %s — skipping tier-2 (heuristics-only run; "
+                "%d records left uncategorized)",
+                cli.host, len(deferred),
+            )
+        else:
+            results = classify_in_batches(deferred, batch_size=batch_size, client=cli)
+            with SessionLocal() as s:
+                for rec_id, res in results.items():
+                    t = s.get(Tool, rec_id)
+                    if t is None:
+                        continue
+                    _apply_result(t, res, s)
+                    llm_hits += 1
+                s.commit()
 
     summary = {
         "total": len(target_ids),
