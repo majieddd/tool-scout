@@ -7,6 +7,14 @@ on:
       - "web/**"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
+  # Re-deploy after a successful daily-crawl. The bot's push uses
+  # GITHUB_TOKEN, which by design does NOT trigger downstream `push`
+  # workflows (loop protection). workflow_run fires on the upstream
+  # workflow's completion event regardless of pusher.
+  workflow_run:
+    workflows: ["Daily crawl + export"]
+    types: [completed]
+    branches: [main]
 
 # Single in-flight deployment; cancel obsolete builds.
 concurrency:
@@ -21,6 +29,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Skip if dispatched-via-workflow_run reports the upstream as failed.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     defaults:
       run:
         working-directory: web
