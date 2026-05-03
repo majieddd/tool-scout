@@ -111,6 +111,23 @@ const DOMAIN_PATTERNS: Array<[string, RegExp[]]> = [
   ["security", [/\b(security|vuln(erability)?|pentest|encrypt(ion)?|auth\s+(check|test))\b/i]],
 ];
 
+// Language detection from description text. Order matters — more specific first.
+const LANGUAGE_PATTERNS: Array<[string, RegExp[]]> = [
+  ["typescript", [/\btypescript\b/i, /\bts\b/i, /\.tsx?\b/i]],
+  ["javascript", [/\bjavascript\b/i, /\bnode\.?js\b/i, /\bnpm\b/i]],
+  ["python", [/\bpython\b/i, /\bpy(?:thon)?\s*3\b/i, /\bpip\b/i, /\buv\b.*\b(?:install|tool)\b/i]],
+  ["rust", [/\brust\b/i, /\bcargo\b/i, /\b\.rs\b/i]],
+  ["go", [/\bgolang\b/i, /\bgo\s+(?:lang|module|build)\b/i]],
+  ["ruby", [/\bruby\b/i, /\brails\b/i, /\bgem(?:file)?\b/i]],
+  ["java", [/\bjava\b(?!\s*script)/i, /\bmaven\b/i, /\bgradle\b/i]],
+  ["kotlin", [/\bkotlin\b/i]],
+  ["swift", [/\bswift\b/i, /\bxcode\b/i]],
+  ["csharp", [/\bc#\b/i, /\bdotnet\b/i, /\b\.net\b/i]],
+  ["cpp", [/\bc\+\+\b/i, /\bcpp\b/i]],
+  ["php", [/\bphp\b/i, /\blaravel\b/i]],
+  ["shell", [/\bbash\b/i, /\bzsh\b/i, /\bshell\s+script\b/i]],
+];
+
 const GOAL_PATTERNS: Array<[GoalType, RegExp[]]> = [
   ["build_mcp_server", [/\b(build|create|make|implement)(ing)?\b.*\bmcp\s+server\b/i, /\bmcp\s+server\b.*\b(for|that)\b/i, /\bnew\s+mcp\b/i]],
   ["build_skill", [/\b(build|create|write|author)(ing)?\b.*\bskill\b/i, /\bSKILL\.md\b/i, /\banthropic[\s-]?skill\b/i]],
@@ -167,6 +184,20 @@ export function extractFromDescription(description: string, base?: ProjectProfil
   const platform = detectFirstMatch<Platform>(desc, PLATFORM_PATTERNS, "unknown");
   const goal = detectFirstMatch<GoalType>(desc, GOAL_PATTERNS, "general");
   const domains = detectAllMatches<string>(desc, DOMAIN_PATTERNS);
+
+  // Detect primary language from description text (only when code didn't tell us)
+  let descLanguage: string | null = null;
+  if (!baseProfile.primaryLanguage) {
+    descLanguage = detectFirstMatch<string | null>(
+      desc,
+      LANGUAGE_PATTERNS.map(([l, rxs]) => [l, rxs]) as Array<[string | null, RegExp[]]>,
+      null,
+    );
+    if (descLanguage) {
+      baseProfile.primaryLanguage = descLanguage;
+      baseProfile.languages = { ...baseProfile.languages, [descLanguage]: 1 };
+    }
+  }
 
   // Boost the base profile's keyword bag with detected signals
   const merged = new Set(baseProfile.keywords);
