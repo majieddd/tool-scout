@@ -372,6 +372,17 @@ def sheets_status() -> None:
 
 
 # ---- publishing ----------------------------------------------------------
+@app.command(name="import-json")
+def import_json_cmd(
+    path: str = typer.Argument("web/public/data/tools.json", help="Path to tools.json"),
+) -> None:
+    """Import the public tools.json into SQLite (preserves classifications across CI runs)."""
+    from tool_scout.export import import_from_json
+
+    summary = import_from_json(path)
+    console.print(f"[green]import-json[/green]: {summary}")
+
+
 @app.command()
 def export(
     force: bool = typer.Option(False, "--force", help="Skip guardrail check"),

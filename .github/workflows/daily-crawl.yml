@@ -51,6 +51,9 @@ jobs:
           mkdir -p ~/.tool-scout
           alembic upgrade head
 
+      - name: Import existing tools.json (preserve prior classifications)
+        run: scout import-json web/public/data/tools.json
+
       - name: Crawl (heuristics-only — no LLM in CI)
         run: |
           # The classifier will defer non-heuristic-matching tools to LLM,
