@@ -1,0 +1,242 @@
+{
+  "scenario_id": "02-typescript-cursor-nextjs",
+  "title": "TypeScript + Next.js + Cursor extension on macOS",
+  "prompt": "I'm building a Cursor extension in TypeScript with .cursorrules for a Next.js codebase that ships to Vercel. Running on macOS Sequoia. I want fast iteration and code review.",
+  "expected_notes": "Target should be 'cursor', language 'typescript', platform 'macos'. SDK should be TS-flavored (NOT Python fastmcp). Method skill should pick a code-review tool. Should NOT pick Python-only tools as primary anywhere.",
+  "catalog_size": 4381,
+  "profile": {
+    "targetAgent": "cursor",
+    "primaryLanguage": "typescript",
+    "platform": "macos",
+    "goal": "build_extension",
+    "domains": [
+      "frontend"
+    ],
+    "frameworks": [
+      "nextjs"
+    ],
+    "hasTests": false,
+    "hasDocker": false,
+    "hasMcp": false,
+    "hasCI": false,
+    "tokens": [
+      "code-review",
+      "cursor",
+      "frontend",
+      "nextjs",
+      "typescript",
+      "web"
+    ],
+    "description": "I'm building a Cursor extension in TypeScript with .cursorrules for a Next.js codebase that ships to Vercel. Running on macOS Sequoia. I want fast iteration and code review."
+  },
+  "composed": {
+    "totalPrimaryCount": 3,
+    "generatedAt": "2026-05-03T20:21:52.402Z",
+    "skipped": [
+      "context-fs (n/a)",
+      "context-git (not for goal=build_extension)",
+      "memory-retrieval (not for goal=build_extension)",
+      "data-storage (not for goal=build_extension)",
+      "auth (not for goal=build_extension)",
+      "web-api (not for goal=build_extension)",
+      "search (not for goal=build_extension)",
+      "code-exec (not for goal=build_extension)",
+      "observability (not for goal=build_extension)",
+      "domain-skill (no candidates)"
+    ],
+    "layers": [
+      {
+        "id": "sdk-runtime",
+        "name": "SDK & runtime",
+        "description": "The core SDK or runtime your project will depend on.",
+        "primary": [
+          {
+            "tool_id": "051adb666903da57",
+            "name": "@modelcontextprotocol/server",
+            "url": "https://www.npmjs.com/package/@modelcontextprotocol/server",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 0,
+            "description": "Model Context Protocol implementation for TypeScript - Server package",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 14.91,
+            "score": 8.48,
+            "reason": "grade B · JavaScript match · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "4b4f41702d61ad6f",
+            "name": "@modelcontextprotocol/sdk",
+            "url": "https://www.npmjs.com/package/@modelcontextprotocol/sdk",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 0,
+            "description": "Model Context Protocol implementation for TypeScript",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 14.73,
+            "score": 8.45,
+            "reason": "grade B · JavaScript match · MCP-ready"
+          },
+          {
+            "tool_id": "2de8f366f1cc7e08",
+            "name": "modelcontextprotocol/csharp-sdk",
+            "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "C#",
+            "stars": 4235,
+            "description": "The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 16.36,
+            "score": 7.09,
+            "reason": "grade B · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "method-skill",
+        "name": "Method skill (TDD / debugging / review)",
+        "description": "Codified workflows — TDD, debugging, code review.",
+        "primary": [
+          {
+            "tool_id": "bccb1446f159e679",
+            "name": "backnotprop/plannotator",
+            "url": "https://github.com/backnotprop/plannotator",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 4883,
+            "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.88,
+            "score": 7.92,
+            "reason": "grade B · TypeScript match · Claude-native"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "fc31db0c8484f4cd",
+            "name": "josstei/maestro-orchestrate",
+            "url": "https://github.com/josstei/maestro-orchestrate",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 395,
+            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.64,
+            "score": 7.33,
+            "reason": "grade B · JavaScript match · Claude-native"
+          },
+          {
+            "tool_id": "8f222bb37f6ca0a9",
+            "name": "waybarrios/opencode-power-pack",
+            "url": "https://github.com/waybarrios/opencode-power-pack",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 218,
+            "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 15.88,
+            "score": 7.25,
+            "reason": "grade B · JavaScript match · Claude-native"
+          },
+          {
+            "tool_id": "30e7e23c568b7351",
+            "name": "yzhao062/anywhere-agents",
+            "url": "https://github.com/yzhao062/anywhere-agents",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 166,
+            "description": "One config to rule all your AI agents: portable (every project, every session), effective (curated writing, routing, skills), and safer (destructive-command guard).",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.33,
+            "score": 7.08,
+            "reason": "grade B · Claude-native"
+          }
+        ]
+      },
+      {
+        "id": "agent-plugin",
+        "name": "Agent quality-of-life plugin",
+        "description": "Slash commands, hooks, output styles.",
+        "primary": [
+          {
+            "tool_id": "40f11453f8dd4f11",
+            "name": "AltimateAI/claude-consensus",
+            "url": "https://github.com/AltimateAI/claude-consensus",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": null,
+            "stars": 24,
+            "description": "Multi-model consensus code review and plan review plugin for Claude Code",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 15.52,
+            "score": 8.2,
+            "reason": "grade B · Claude-native"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "06391080705d6a03",
+            "name": "dementev-dev/adversarial-review",
+            "url": "https://github.com/dementev-dev/adversarial-review",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": null,
+            "stars": 7,
+            "description": "Claude Code skill for adversarial AI code & plan review. One AI writes, another tears it apart. Iterative fix loop until approved.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 15.34,
+            "score": 7.92,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "17620ba4fe8a0815",
+            "name": "ChenXi-hub/tju-thesis-review-kit",
+            "url": "https://github.com/ChenXi-hub/tju-thesis-review-kit",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "BibTeX Style",
+            "stars": 12,
+            "description": "Cursor, Codex, and Claude Code workflows, prompts, and a LaTeX starter template for reviewing Tianjin University undergraduate theses.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 15.41,
+            "score": 7.04,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "e12a7937646ae751",
+            "name": "jarrodwatts/claude-hud",
+            "url": "https://github.com/jarrodwatts/claude-hud",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 21592,
+            "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.83,
+            "score": 6.47,
+            "reason": "grade B · JavaScript match · Claude-native"
+          }
+        ]
+      }
+    ]
+  }
+}

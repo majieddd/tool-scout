@@ -1,0 +1,327 @@
+{
+  "scenario_id": "08-mobile-react-native-continue",
+  "title": "Mobile React Native app with Continue on macOS targeting iOS",
+  "prompt": "React Native mobile app for iOS and Android. Using Continue.dev as the AI coding assistant. macOS development. Backend hits a Firebase API. Need accessibility testing and crash reporting.",
+  "expected_notes": "Target 'continue', language 'typescript', platform 'macos'. Most MCP server layers should be irrelevant. Web-API may apply (Firebase). Should NOT over-pick — mobile apps don't need most MCP tooling. Tight stack is fine.",
+  "catalog_size": 4381,
+  "profile": {
+    "targetAgent": "continue",
+    "primaryLanguage": "typescript",
+    "platform": "macos",
+    "goal": "general",
+    "domains": [
+      "database",
+      "frontend",
+      "backend",
+      "observability",
+      "mobile",
+      "accessibility"
+    ],
+    "frameworks": [
+      "react-native",
+      "firebase"
+    ],
+    "hasTests": true,
+    "hasDocker": false,
+    "hasMcp": false,
+    "hasCI": false,
+    "tokens": [
+      "accessibility",
+      "backend",
+      "continue",
+      "database",
+      "firebase",
+      "frontend",
+      "mobile",
+      "observability",
+      "react-native",
+      "typescript"
+    ],
+    "description": "React Native mobile app for iOS and Android. Using Continue.dev as the AI coding assistant. macOS development. Backend hits a Firebase API. Need accessibility testing and crash reporting."
+  },
+  "composed": {
+    "totalPrimaryCount": 5,
+    "generatedAt": "2026-05-03T20:21:52.579Z",
+    "skipped": [
+      "context-fs (n/a)",
+      "context-git (n/a)",
+      "memory-retrieval (n/a)",
+      "auth (n/a)",
+      "web-api (no candidates)",
+      "search (n/a)",
+      "code-exec (n/a)",
+      "domain-skill (no candidates)"
+    ],
+    "layers": [
+      {
+        "id": "sdk-runtime",
+        "name": "SDK & runtime",
+        "description": "The core SDK or runtime your project will depend on.",
+        "primary": [
+          {
+            "tool_id": "051adb666903da57",
+            "name": "@modelcontextprotocol/server",
+            "url": "https://www.npmjs.com/package/@modelcontextprotocol/server",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 0,
+            "description": "Model Context Protocol implementation for TypeScript - Server package",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 14.91,
+            "score": 8.48,
+            "reason": "grade B · JavaScript match · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "4b4f41702d61ad6f",
+            "name": "@modelcontextprotocol/sdk",
+            "url": "https://www.npmjs.com/package/@modelcontextprotocol/sdk",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 0,
+            "description": "Model Context Protocol implementation for TypeScript",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 14.73,
+            "score": 8.45,
+            "reason": "grade B · JavaScript match · MCP-ready"
+          },
+          {
+            "tool_id": "2de8f366f1cc7e08",
+            "name": "modelcontextprotocol/csharp-sdk",
+            "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "C#",
+            "stars": 4235,
+            "description": "The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 16.36,
+            "score": 7.09,
+            "reason": "grade B · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "data-storage",
+        "name": "Data layer",
+        "description": "Database / storage MCP servers — let the agent query domain data directly.",
+        "primary": [
+          {
+            "tool_id": "ce8e83c78dec9f97",
+            "name": "gannonh/firebase-mcp",
+            "url": "https://github.com/gannonh/firebase-mcp",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": null,
+            "stars": 0,
+            "description": "Listed in punkpeye/awesome-mcp-servers",
+            "compatibility": "mcp_ready",
+            "grade_letter": "C",
+            "grade_total": 13.5,
+            "score": 3.7,
+            "reason": "grade C · MCP-ready"
+          }
+        ],
+        "alternatives": []
+      },
+      {
+        "id": "observability",
+        "name": "Observability",
+        "description": "Logs, metrics, traces.",
+        "primary": [
+          {
+            "tool_id": "55bec2efd5398b97",
+            "name": "@traceloop/instrumentation-mcp",
+            "url": "https://www.npmjs.com/package/@traceloop/instrumentation-mcp",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 0,
+            "description": "MCP (Model Context Protocol) Instrumentation",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 14.75,
+            "score": 5.95,
+            "reason": "grade B · JavaScript match · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "c7bf791f2743989c",
+            "name": "pab1it0/prometheus-mcp-server",
+            "url": "https://github.com/pab1it0/prometheus-mcp-server",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 429,
+            "description": "A Model Context Protocol (MCP) server that enables AI agents and LLMs to query and analyze Prometheus metrics through standardized interfaces.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 17.49,
+            "score": 3.81,
+            "reason": "grade B · MCP-ready"
+          },
+          {
+            "tool_id": "8cabaabe439b8086",
+            "name": "bitDive/mcp-server",
+            "url": "https://github.com/bitDive/mcp-server",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Java",
+            "stars": 86,
+            "description": "BitDive Model Context Protocol (MCP) server. The Autonomous Quality Loop for AI agents. Provides real runtime context, before/after trace comparison, and integration testing workflows.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 15.98,
+            "score": 3.67,
+            "reason": "grade B · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "method-skill",
+        "name": "Method skill (TDD / debugging / review)",
+        "description": "Codified workflows — TDD, debugging, code review.",
+        "primary": [
+          {
+            "tool_id": "bccb1446f159e679",
+            "name": "backnotprop/plannotator",
+            "url": "https://github.com/backnotprop/plannotator",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 4883,
+            "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.88,
+            "score": 5.42,
+            "reason": "grade B · TypeScript match · Claude-native"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "80961e40c337d8f2",
+            "name": "nizos/tdd-guard",
+            "url": "https://github.com/nizos/tdd-guard",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 2056,
+            "description": "Automated TDD enforcement for Claude Code",
+            "compatibility": "native_claude_code",
+            "grade_letter": "A",
+            "grade_total": 18.24,
+            "score": 5.3,
+            "reason": "grade A · TypeScript match · Claude-native"
+          },
+          {
+            "tool_id": "fc31db0c8484f4cd",
+            "name": "josstei/maestro-orchestrate",
+            "url": "https://github.com/josstei/maestro-orchestrate",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 395,
+            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.64,
+            "score": 5.23,
+            "reason": "grade B · JavaScript match · Claude-native"
+          },
+          {
+            "tool_id": "8f222bb37f6ca0a9",
+            "name": "waybarrios/opencode-power-pack",
+            "url": "https://github.com/waybarrios/opencode-power-pack",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 218,
+            "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 15.88,
+            "score": 4.75,
+            "reason": "grade B · JavaScript match · Claude-native"
+          }
+        ]
+      },
+      {
+        "id": "agent-plugin",
+        "name": "Agent quality-of-life plugin",
+        "description": "Slash commands, hooks, output styles.",
+        "primary": [
+          {
+            "tool_id": "e12a7937646ae751",
+            "name": "jarrodwatts/claude-hud",
+            "url": "https://github.com/jarrodwatts/claude-hud",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 21592,
+            "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.83,
+            "score": 6.47,
+            "reason": "grade B · JavaScript match · Claude-native"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "706970c2b711facc",
+            "name": "abhisekjha/pith",
+            "url": "https://github.com/abhisekjha/pith",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 94,
+            "description": "Pith is the hook that makes Claude Code sessions last 3x longer.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.24,
+            "score": 4.94,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "40f11453f8dd4f11",
+            "name": "AltimateAI/claude-consensus",
+            "url": "https://github.com/AltimateAI/claude-consensus",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": null,
+            "stars": 24,
+            "description": "Multi-model consensus code review and plan review plugin for Claude Code",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 15.52,
+            "score": 4.8,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "06391080705d6a03",
+            "name": "dementev-dev/adversarial-review",
+            "url": "https://github.com/dementev-dev/adversarial-review",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": null,
+            "stars": 7,
+            "description": "Claude Code skill for adversarial AI code & plan review. One AI writes, another tears it apart. Iterative fix loop until approved.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 15.34,
+            "score": 4.52,
+            "reason": "grade B · Claude-native"
+          }
+        ]
+      }
+    ]
+  }
+}

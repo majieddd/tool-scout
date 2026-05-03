@@ -1,0 +1,118 @@
+{
+  "scenario_id": "03-rust-codex-cli-linux",
+  "title": "Rust system utility wrapping ripgrep for Codex CLI on Linux",
+  "prompt": "I'm building an OpenAI Codex extension in Rust that wraps the ripgrep CLI for fast project-wide search. Running on Linux Ubuntu 24.04.",
+  "expected_notes": "Target should be 'codex-cli', language 'rust', platform 'linux'. SDK layer might be skipped if no Rust MCP SDK exists. Goal should be wrap_cli. Should NOT pick TS or Python tools as primary SDK without language-mismatch warning.",
+  "catalog_size": 4381,
+  "profile": {
+    "targetAgent": "codex-cli",
+    "primaryLanguage": "rust",
+    "platform": "linux",
+    "goal": "wrap_cli",
+    "domains": [
+      "search",
+      "filesystem"
+    ],
+    "frameworks": [],
+    "hasTests": false,
+    "hasDocker": false,
+    "hasMcp": false,
+    "hasCI": false,
+    "tokens": [
+      "codex-cli",
+      "filesystem",
+      "rust",
+      "search"
+    ],
+    "description": "I'm building an OpenAI Codex extension in Rust that wraps the ripgrep CLI for fast project-wide search. Running on Linux Ubuntu 24.04."
+  },
+  "composed": {
+    "totalPrimaryCount": 1,
+    "generatedAt": "2026-05-03T20:21:52.418Z",
+    "skipped": [
+      "sdk-runtime (no candidates)",
+      "context-fs (not for goal=wrap_cli)",
+      "context-git (not for goal=wrap_cli)",
+      "memory-retrieval (not for goal=wrap_cli)",
+      "data-storage (not for goal=wrap_cli)",
+      "auth (not for goal=wrap_cli)",
+      "web-api (not for goal=wrap_cli)",
+      "search (not for goal=wrap_cli)",
+      "code-exec (not for goal=wrap_cli)",
+      "observability (not for goal=wrap_cli)",
+      "method-skill (n/a)",
+      "domain-skill (not for goal=wrap_cli)"
+    ],
+    "layers": [
+      {
+        "id": "agent-plugin",
+        "name": "Agent quality-of-life plugin",
+        "description": "Slash commands, hooks, output styles.",
+        "primary": [
+          {
+            "tool_id": "80961e40c337d8f2",
+            "name": "nizos/tdd-guard",
+            "url": "https://github.com/nizos/tdd-guard",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 2056,
+            "description": "Automated TDD enforcement for Claude Code",
+            "compatibility": "native_claude_code",
+            "grade_letter": "A",
+            "grade_total": 18.24,
+            "score": 6.3,
+            "reason": "grade A · Claude-native"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "e12a7937646ae751",
+            "name": "jarrodwatts/claude-hud",
+            "url": "https://github.com/jarrodwatts/claude-hud",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 21592,
+            "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.83,
+            "score": 5.57,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "fc31db0c8484f4cd",
+            "name": "josstei/maestro-orchestrate",
+            "url": "https://github.com/josstei/maestro-orchestrate",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 395,
+            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.64,
+            "score": 5.33,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "706970c2b711facc",
+            "name": "abhisekjha/pith",
+            "url": "https://github.com/abhisekjha/pith",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 94,
+            "description": "Pith is the hook that makes Claude Code sessions last 3x longer.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.24,
+            "score": 4.94,
+            "reason": "grade B · Claude-native"
+          }
+        ]
+      }
+    ]
+  }
+}

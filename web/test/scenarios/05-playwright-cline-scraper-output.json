@@ -1,0 +1,312 @@
+{
+  "scenario_id": "05-playwright-cline-scraper",
+  "title": "Browser automation + Playwright + Cline on macOS",
+  "prompt": "Cline-based scraper using Playwright in TypeScript. Scrapes news sites for sentiment analysis. Stores results in SQLite. macOS Sonoma.",
+  "expected_notes": "Target 'cline', language 'typescript', platform 'macos'. Domains: scraping + browser-automation + database. Web-API layer should populate with Playwright/browser MCP. Data layer should pick SQLite tool.",
+  "catalog_size": 4381,
+  "profile": {
+    "targetAgent": "cline",
+    "primaryLanguage": "typescript",
+    "platform": "macos",
+    "goal": "data_pipeline",
+    "domains": [
+      "database",
+      "scraping",
+      "browser-automation"
+    ],
+    "frameworks": [
+      "playwright"
+    ],
+    "hasTests": false,
+    "hasDocker": false,
+    "hasMcp": false,
+    "hasCI": false,
+    "tokens": [
+      "browser-automation",
+      "cline",
+      "database",
+      "playwright",
+      "scraping",
+      "typescript"
+    ],
+    "description": "Cline-based scraper using Playwright in TypeScript. Scrapes news sites for sentiment analysis. Stores results in SQLite. macOS Sonoma."
+  },
+  "composed": {
+    "totalPrimaryCount": 4,
+    "generatedAt": "2026-05-03T20:21:52.492Z",
+    "skipped": [
+      "context-fs (not for goal=data_pipeline)",
+      "context-git (not for goal=data_pipeline)",
+      "memory-retrieval (not for goal=data_pipeline)",
+      "auth (n/a)",
+      "search (not for goal=data_pipeline)",
+      "code-exec (n/a)",
+      "observability (n/a)",
+      "method-skill (n/a)",
+      "domain-skill (not for goal=data_pipeline)"
+    ],
+    "layers": [
+      {
+        "id": "sdk-runtime",
+        "name": "SDK & runtime",
+        "description": "The core SDK or runtime your project will depend on.",
+        "primary": [
+          {
+            "tool_id": "051adb666903da57",
+            "name": "@modelcontextprotocol/server",
+            "url": "https://www.npmjs.com/package/@modelcontextprotocol/server",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 0,
+            "description": "Model Context Protocol implementation for TypeScript - Server package",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 14.91,
+            "score": 8.48,
+            "reason": "grade B · JavaScript match · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "4b4f41702d61ad6f",
+            "name": "@modelcontextprotocol/sdk",
+            "url": "https://www.npmjs.com/package/@modelcontextprotocol/sdk",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 0,
+            "description": "Model Context Protocol implementation for TypeScript",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 14.73,
+            "score": 8.45,
+            "reason": "grade B · JavaScript match · MCP-ready"
+          },
+          {
+            "tool_id": "2de8f366f1cc7e08",
+            "name": "modelcontextprotocol/csharp-sdk",
+            "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "C#",
+            "stars": 4235,
+            "description": "The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 16.36,
+            "score": 7.09,
+            "reason": "grade B · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "data-storage",
+        "name": "Data layer",
+        "description": "Database / storage MCP servers — let the agent query domain data directly.",
+        "primary": [
+          {
+            "tool_id": "eb82454d5512a249",
+            "name": "hannesrudolph/sqlite-explorer-fastmcp-mcp-server",
+            "url": "https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server",
+            "category": "mcp_server",
+            "subcategory": "database",
+            "language": "Python",
+            "stars": 105,
+            "description": "An MCP server that provides safe, read-only access to SQLite databases through Model Context Protocol (MCP). This server is built with the FastMCP framework, which enables LLMs to explore and query SQLite databases with built-in safety feat",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 17.21,
+            "score": 7.35,
+            "reason": "grade B · sqlite-specific · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "bf4616ff2f105e30",
+            "name": "janbjorge/rekal",
+            "url": "https://github.com/janbjorge/rekal",
+            "category": "mcp_server",
+            "subcategory": "search",
+            "language": "Python",
+            "stars": 43,
+            "description": "Long-term memory for LLMs. MCP server backed by hybrid search in a single SQLite file.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "A",
+            "grade_total": 18.28,
+            "score": 5.98,
+            "reason": "grade A · MCP-ready"
+          },
+          {
+            "tool_id": "58b655ff30ebb737",
+            "name": "jparkerweb/mcp-sqlite",
+            "url": "https://github.com/jparkerweb/mcp-sqlite",
+            "category": "mcp_server",
+            "subcategory": "database",
+            "language": null,
+            "stars": 0,
+            "description": "Listed in punkpeye/awesome-mcp-servers",
+            "compatibility": "mcp_ready",
+            "grade_letter": "C",
+            "grade_total": 13.5,
+            "score": 5.7,
+            "reason": "grade C · sqlite-specific · MCP-ready"
+          },
+          {
+            "tool_id": "ebb41727705ac68e",
+            "name": "ofershap/mcp-server-sqlite",
+            "url": "https://github.com/ofershap/mcp-server-sqlite",
+            "category": "mcp_server",
+            "subcategory": "database",
+            "language": null,
+            "stars": 0,
+            "description": "Listed in punkpeye/awesome-mcp-servers",
+            "compatibility": "mcp_ready",
+            "grade_letter": "C",
+            "grade_total": 13.5,
+            "score": 5.7,
+            "reason": "grade C · sqlite-specific · MCP-ready"
+          },
+          {
+            "tool_id": "5db7df9b15def8a6",
+            "name": "panasenco/mcp-sqlite",
+            "url": "https://github.com/panasenco/mcp-sqlite",
+            "category": "mcp_server",
+            "subcategory": "database",
+            "language": null,
+            "stars": 0,
+            "description": "Listed in wong2/awesome-mcp-servers",
+            "compatibility": "mcp_ready",
+            "grade_letter": "C",
+            "grade_total": 13.5,
+            "score": 5.7,
+            "reason": "grade C · sqlite-specific · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "web-api",
+        "name": "Web & API access",
+        "description": "Outbound HTTP — fetch URLs, hit external APIs, scrape pages.",
+        "primary": [
+          {
+            "tool_id": "fcd6d234e4cf52b4",
+            "name": "microsoft/playwright-mcp",
+            "url": "https://github.com/microsoft/playwright-mcp",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 31948,
+            "description": "Playwright MCP server",
+            "compatibility": "mcp_ready",
+            "grade_letter": "A",
+            "grade_total": 18,
+            "score": 11.6,
+            "reason": "grade A · TypeScript match · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "7587206c1acff638",
+            "name": "ChromeDevTools/chrome-devtools-mcp",
+            "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 38007,
+            "description": "Chrome DevTools for coding agents",
+            "compatibility": "mcp_ready",
+            "grade_letter": "A",
+            "grade_total": 18,
+            "score": 8.6,
+            "reason": "grade A · TypeScript match · MCP-ready"
+          },
+          {
+            "tool_id": "e072973a5b0eb0d1",
+            "name": "AgentDeskAI/browser-tools-mcp",
+            "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 7210,
+            "description": "Monitor browser logs directly from Cursor and other MCP compatible IDEs.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 16.39,
+            "score": 7.71,
+            "reason": "grade B · JavaScript match · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "agent-plugin",
+        "name": "Agent quality-of-life plugin",
+        "description": "Slash commands, hooks, output styles.",
+        "primary": [
+          {
+            "tool_id": "e12a7937646ae751",
+            "name": "jarrodwatts/claude-hud",
+            "url": "https://github.com/jarrodwatts/claude-hud",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 21592,
+            "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.83,
+            "score": 6.47,
+            "reason": "grade B · JavaScript match · Claude-native"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "80961e40c337d8f2",
+            "name": "nizos/tdd-guard",
+            "url": "https://github.com/nizos/tdd-guard",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 2056,
+            "description": "Automated TDD enforcement for Claude Code",
+            "compatibility": "native_claude_code",
+            "grade_letter": "A",
+            "grade_total": 18.24,
+            "score": 6.3,
+            "reason": "grade A · TypeScript match · Claude-native"
+          },
+          {
+            "tool_id": "fc31db0c8484f4cd",
+            "name": "josstei/maestro-orchestrate",
+            "url": "https://github.com/josstei/maestro-orchestrate",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 395,
+            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.64,
+            "score": 5.33,
+            "reason": "grade B · JavaScript match · Claude-native"
+          },
+          {
+            "tool_id": "706970c2b711facc",
+            "name": "abhisekjha/pith",
+            "url": "https://github.com/abhisekjha/pith",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 94,
+            "description": "Pith is the hook that makes Claude Code sessions last 3x longer.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.24,
+            "score": 4.94,
+            "reason": "grade B · Claude-native"
+          }
+        ]
+      }
+    ]
+  }
+}

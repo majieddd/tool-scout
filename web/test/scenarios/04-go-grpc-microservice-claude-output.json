@@ -1,0 +1,229 @@
+{
+  "scenario_id": "04-go-grpc-microservice-claude",
+  "title": "Go + gRPC microservice with observability + Docker on WSL",
+  "prompt": "I'm building a Go gRPC microservice for Claude Code, with Datadog observability, structured logs, distributed tracing, deployed via Docker Compose. Running on WSL2 Ubuntu.",
+  "expected_notes": "Language 'go', platform 'wsl', target 'claude-code'. Domains should include observability + docker. Observability layer should populate (Datadog/Grafana/Prometheus tools). Code-exec layer may apply (Docker). Should NOT pick generic chat-clone apps.",
+  "catalog_size": 4381,
+  "profile": {
+    "targetAgent": "claude-code",
+    "primaryLanguage": "go",
+    "platform": "wsl",
+    "goal": "general",
+    "domains": [
+      "backend",
+      "docker",
+      "observability",
+      "llm"
+    ],
+    "frameworks": [],
+    "hasTests": false,
+    "hasDocker": true,
+    "hasMcp": false,
+    "hasCI": false,
+    "tokens": [
+      "backend",
+      "claude-code",
+      "docker",
+      "go",
+      "llm",
+      "observability",
+      "server"
+    ],
+    "description": "I'm building a Go gRPC microservice for Claude Code, with Datadog observability, structured logs, distributed tracing, deployed via Docker Compose. Running on WSL2 Ubuntu."
+  },
+  "composed": {
+    "totalPrimaryCount": 3,
+    "generatedAt": "2026-05-03T20:21:52.458Z",
+    "skipped": [
+      "sdk-runtime (no candidates)",
+      "context-fs (n/a)",
+      "context-git (n/a)",
+      "memory-retrieval (n/a)",
+      "data-storage (n/a)",
+      "auth (n/a)",
+      "web-api (no candidates)",
+      "search (n/a)",
+      "method-skill (n/a)",
+      "domain-skill (no candidates)"
+    ],
+    "layers": [
+      {
+        "id": "code-exec",
+        "name": "Code execution",
+        "description": "Sandboxed REPL or container exec.",
+        "primary": [
+          {
+            "tool_id": "83ac20b9b04d8f95",
+            "name": "BIGPPWONG/EdgeBox",
+            "url": "https://github.com/BIGPPWONG/EdgeBox",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 198,
+            "description": "A fully-featured, GUI-powered local LLM Agent sandbox with complete MCP protocol support.   Features both CLI and full desktop environment, enabling AI agents to operate browsers, terminal, and other desktop applications just like humans. B",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 17.86,
+            "score": 4.62,
+            "reason": "grade B · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "6bfc44e8236878a1",
+            "name": "QuantGeekDev/docker-mcp",
+            "url": "https://github.com/QuantGeekDev/docker-mcp",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": null,
+            "stars": 0,
+            "description": "Listed in punkpeye/awesome-mcp-servers",
+            "compatibility": "mcp_ready",
+            "grade_letter": "C",
+            "grade_total": 13.5,
+            "score": 1.6,
+            "reason": "grade C · MCP-ready"
+          },
+          {
+            "tool_id": "571028e0c09b14dc",
+            "name": "alfonsograziano/node-code-sandbox-mcp",
+            "url": "https://github.com/alfonsograziano/node-code-sandbox-mcp",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": null,
+            "stars": 0,
+            "description": "Listed in punkpeye/awesome-mcp-servers",
+            "compatibility": "mcp_ready",
+            "grade_letter": "C",
+            "grade_total": 13.5,
+            "score": 1.2,
+            "reason": "grade C · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "observability",
+        "name": "Observability",
+        "description": "Logs, metrics, traces.",
+        "primary": [
+          {
+            "tool_id": "158e0c39737560e6",
+            "name": "glidea/zenfeed",
+            "url": "https://github.com/glidea/zenfeed",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Go",
+            "stars": 1677,
+            "description": "Make RSS 📰 great again with AI 🧠✨!! [gpt-5.5 -> https://token.glidea.app 0.2 倍率, 0.2元当1刀花，比官方便宜35倍]",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 16.2,
+            "score": 7.35,
+            "reason": "grade B · Go match · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "c7bf791f2743989c",
+            "name": "pab1it0/prometheus-mcp-server",
+            "url": "https://github.com/pab1it0/prometheus-mcp-server",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 429,
+            "description": "A Model Context Protocol (MCP) server that enables AI agents and LLMs to query and analyze Prometheus metrics through standardized interfaces.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 17.49,
+            "score": 5.21,
+            "reason": "grade B · MCP-ready"
+          },
+          {
+            "tool_id": "8cabaabe439b8086",
+            "name": "bitDive/mcp-server",
+            "url": "https://github.com/bitDive/mcp-server",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Java",
+            "stars": 86,
+            "description": "BitDive Model Context Protocol (MCP) server. The Autonomous Quality Loop for AI agents. Provides real runtime context, before/after trace comparison, and integration testing workflows.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 15.98,
+            "score": 4.17,
+            "reason": "grade B · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "agent-plugin",
+        "name": "Agent quality-of-life plugin",
+        "description": "Slash commands, hooks, output styles.",
+        "primary": [
+          {
+            "tool_id": "80961e40c337d8f2",
+            "name": "nizos/tdd-guard",
+            "url": "https://github.com/nizos/tdd-guard",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 2056,
+            "description": "Automated TDD enforcement for Claude Code",
+            "compatibility": "native_claude_code",
+            "grade_letter": "A",
+            "grade_total": 18.24,
+            "score": 8.7,
+            "reason": "grade A · Claude-native"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "40f11453f8dd4f11",
+            "name": "AltimateAI/claude-consensus",
+            "url": "https://github.com/AltimateAI/claude-consensus",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": null,
+            "stars": 24,
+            "description": "Multi-model consensus code review and plan review plugin for Claude Code",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 15.52,
+            "score": 8.1,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "e12a7937646ae751",
+            "name": "jarrodwatts/claude-hud",
+            "url": "https://github.com/jarrodwatts/claude-hud",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 21592,
+            "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.83,
+            "score": 7.97,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "fc31db0c8484f4cd",
+            "name": "josstei/maestro-orchestrate",
+            "url": "https://github.com/josstei/maestro-orchestrate",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 395,
+            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.64,
+            "score": 7.73,
+            "reason": "grade B · Claude-native"
+          }
+        ]
+      }
+    ]
+  }
+}

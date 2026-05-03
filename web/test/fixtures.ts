@@ -191,7 +191,7 @@ export const TOOL_PYTHON_NOTEBOOK: Tool = {
   source: "github",
   category: "mcp_server",
   subcategory: null,
-  description: "Lightweight Python Notebook MCP - Enable AI assistants to create, edit, and view Jupyter notebooks via MCP.",
+  description: "Lightweight Python Notebook MCP - Enable AI assistants to create, edit, run Jupyter notebooks with kernel exec via MCP.",
   readme_excerpt: null,
   language: "Python",
   stars: 220,

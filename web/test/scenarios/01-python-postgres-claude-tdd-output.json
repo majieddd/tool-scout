@@ -1,0 +1,543 @@
+{
+  "scenario_id": "01-python-postgres-claude-tdd",
+  "title": "Python + Postgres + Claude Code + Windows + TDD (canonical baseline)",
+  "prompt": "I'm building a Claude Code MCP server in Python that lets the agent query our Postgres database with row-level auth. Running on Windows 11 with Docker. I want test-driven development.",
+  "expected_notes": "Should pick: fastmcp (SDK), Python FS MCP, Git MCP, pg-aiguide or similar Postgres-named tool (Data), fastapi_mcp or auth tool (Auth), python-notebook-mcp or similar (Code-exec), tdd-guard (Method), Pith or similar real plugin (Plugin). Should NOT pick: XHS-Downloader, mcp-use, claude-plugins-official, harnesses, off-topic skills.",
+  "catalog_size": 4381,
+  "profile": {
+    "targetAgent": "claude-code",
+    "primaryLanguage": "python",
+    "platform": "windows",
+    "goal": "build_mcp_server",
+    "domains": [
+      "database",
+      "auth",
+      "docker",
+      "testing",
+      "llm"
+    ],
+    "frameworks": [],
+    "hasTests": true,
+    "hasDocker": true,
+    "hasMcp": true,
+    "hasCI": false,
+    "tokens": [
+      "auth",
+      "claude-code",
+      "database",
+      "docker",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "python",
+      "tdd",
+      "testing"
+    ],
+    "description": "I'm building a Claude Code MCP server in Python that lets the agent query our Postgres database with row-level auth. Running on Windows 11 with Docker. I want test-driven development."
+  },
+  "composed": {
+    "totalPrimaryCount": 8,
+    "generatedAt": "2026-05-03T20:21:52.377Z",
+    "skipped": [
+      "memory-retrieval (n/a)",
+      "web-api (n/a)",
+      "search (n/a)",
+      "observability (n/a)",
+      "domain-skill (no candidates)"
+    ],
+    "layers": [
+      {
+        "id": "sdk-runtime",
+        "name": "SDK & runtime",
+        "description": "The core SDK or runtime your project will depend on.",
+        "primary": [
+          {
+            "tool_id": "43d7b799ee18b00d",
+            "name": "PrefectHQ/fastmcp",
+            "url": "https://github.com/PrefectHQ/fastmcp",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 24967,
+            "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "A",
+            "grade_total": 18.5,
+            "score": 14.2,
+            "reason": "grade A · Python match · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "eb82454d5512a249",
+            "name": "hannesrudolph/sqlite-explorer-fastmcp-mcp-server",
+            "url": "https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server",
+            "category": "mcp_server",
+            "subcategory": "database",
+            "language": "Python",
+            "stars": 105,
+            "description": "An MCP server that provides safe, read-only access to SQLite databases through Model Context Protocol (MCP). This server is built with the FastMCP framework, which enables LLMs to explore and query SQLite databases with built-in safety feat",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 17.21,
+            "score": 13.25,
+            "reason": "grade B · Python match · fits database + llm"
+          },
+          {
+            "tool_id": "2140342e1d85e896",
+            "name": "fastmcp",
+            "url": "https://pypi.org/project/fastmcp/",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 0,
+            "description": "The fast, Pythonic way to build MCP servers and clients.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 15.4,
+            "score": 11.08,
+            "reason": "grade B · Python match · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "context-fs",
+        "name": "Filesystem context",
+        "description": "Let the agent read your code via a sandboxed filesystem MCP.",
+        "primary": [
+          {
+            "tool_id": "5dd11c7e1ca7ec2a",
+            "name": "MarcusJellinghaus/mcp-workspace",
+            "url": "https://github.com/MarcusJellinghaus/mcp-workspace",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 47,
+            "description": "MCP Workspace Server: A secure Model Context Protocol server providing file, git, and GitHub tools for AI assistants within a sandboxed project directory.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 17.63,
+            "score": 9.37,
+            "reason": "grade B · Python match · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "3ca9cb175dd17faf",
+            "name": "j0hanz/filesystem-context-mcp-server",
+            "url": "https://github.com/j0hanz/filesystem-context-mcp-server",
+            "category": "mcp_server",
+            "subcategory": "filesystem",
+            "language": null,
+            "stars": 0,
+            "description": "Listed in punkpeye/awesome-mcp-servers",
+            "compatibility": "mcp_ready",
+            "grade_letter": "C",
+            "grade_total": 13.5,
+            "score": 4.2,
+            "reason": "grade C · MCP-ready"
+          },
+          {
+            "tool_id": "227977d6fd2899e9",
+            "name": "mark3labs/mcp-filesystem-server",
+            "url": "https://github.com/mark3labs/mcp-filesystem-server",
+            "category": "mcp_server",
+            "subcategory": "filesystem",
+            "language": null,
+            "stars": 0,
+            "description": "Listed in punkpeye/awesome-mcp-servers",
+            "compatibility": "mcp_ready",
+            "grade_letter": "C",
+            "grade_total": 13.5,
+            "score": 4.2,
+            "reason": "grade C · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "context-git",
+        "name": "Git context",
+        "description": "Git ops MCP — read commit history, branches, diffs.",
+        "primary": [
+          {
+            "tool_id": "ef2c5aee76b7f19e",
+            "name": "puravparab/Gitingest-MCP",
+            "url": "https://github.com/puravparab/Gitingest-MCP",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 137,
+            "description": "mcp server for gitingest",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 16.05,
+            "score": 7.78,
+            "reason": "grade B · Python match · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "d173a0316ce4f804",
+            "name": "mcp-server-git",
+            "url": "https://pypi.org/project/mcp-server-git/",
+            "category": "mcp_server",
+            "subcategory": "search",
+            "language": "Python",
+            "stars": 0,
+            "description": "A Model Context Protocol server providing tools to read, search, and manipulate Git repositories programmatically via LLMs",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 16.15,
+            "score": 7.63,
+            "reason": "grade B · Python match · MCP-ready"
+          },
+          {
+            "tool_id": "908fd706fd8664de",
+            "name": "mcp",
+            "url": "https://pypi.org/project/mcp/",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 0,
+            "description": "Model Context Protocol SDK",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 16.15,
+            "score": 7.23,
+            "reason": "grade B · Python match · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "data-storage",
+        "name": "Data layer",
+        "description": "Database / storage MCP servers — let the agent query domain data directly.",
+        "primary": [
+          {
+            "tool_id": "ad2fb6ccddbe15e3",
+            "name": "timescale/pg-aiguide",
+            "url": "https://github.com/timescale/pg-aiguide",
+            "category": "mcp_server",
+            "subcategory": "database",
+            "language": "Python",
+            "stars": 1709,
+            "description": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "A",
+            "grade_total": 18.21,
+            "score": 13.26,
+            "reason": "grade A · Python match · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "f9da5c17793f5bb7",
+            "name": "mcp-server-postgres",
+            "url": "https://pypi.org/project/mcp-server-postgres/",
+            "category": "mcp_server",
+            "subcategory": "database",
+            "language": "Python",
+            "stars": 0,
+            "description": "Add your description here",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 15,
+            "score": 11,
+            "reason": "grade B · postgres-specific · Python match"
+          },
+          {
+            "tool_id": "d591839dd41ed721",
+            "name": "alexander-zuev/supabase-mcp-server",
+            "url": "https://github.com/alexander-zuev/supabase-mcp-server",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 820,
+            "description": "Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 16.89,
+            "score": 10.84,
+            "reason": "grade B · Python match · MCP-ready"
+          },
+          {
+            "tool_id": "76fe547945788a17",
+            "name": "mgorabbani/askdb",
+            "url": "https://github.com/mgorabbani/askdb",
+            "category": "mcp_server",
+            "subcategory": "database",
+            "language": "TypeScript",
+            "stars": 36,
+            "description": "Give AI agents safe access to your database.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 17.09,
+            "score": 9.6,
+            "reason": "grade B · MCP-ready"
+          },
+          {
+            "tool_id": "ac8d4326cd38489b",
+            "name": "Show HN: MCP server that teaches LLMs to write production grade Postgres SQL",
+            "url": "https://github.com/timescale/tiger-cli",
+            "category": "mcp_server",
+            "subcategory": "database",
+            "language": null,
+            "stars": 0,
+            "description": "HN story (points=5)",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 14.89,
+            "score": 9.38,
+            "reason": "grade B · postgres-specific · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "auth",
+        "name": "Auth / identity",
+        "description": "Authentication, RBAC, or row-level security.",
+        "primary": [
+          {
+            "tool_id": "3531cb23693f1975",
+            "name": "tadata-org/fastapi_mcp",
+            "url": "https://github.com/tadata-org/fastapi_mcp",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 11836,
+            "description": "Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 17.52,
+            "score": 9.9,
+            "reason": "grade B · Python match · fits auth + llm"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "94a7ae3bf8d5265f",
+            "name": "casdoor/casdoor",
+            "url": "https://github.com/casdoor/casdoor",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "Go",
+            "stars": 13540,
+            "description": "An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 16,
+            "score": 6.5,
+            "reason": "grade B · fits auth + llm · MCP-ready"
+          },
+          {
+            "tool_id": "19eaa7771b5a1c91",
+            "name": "gsd-build/agent-inbox",
+            "url": "https://github.com/gsd-build/agent-inbox",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 35,
+            "description": "Give any AI agent a disposable email inbox in one tool call. MCP server for email verification, auth flows, and testing.",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 15.58,
+            "score": 5.69,
+            "reason": "grade B · fits auth + testing · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "code-exec",
+        "name": "Code execution",
+        "description": "Sandboxed REPL or container exec.",
+        "primary": [
+          {
+            "tool_id": "83ac20b9b04d8f95",
+            "name": "BIGPPWONG/EdgeBox",
+            "url": "https://github.com/BIGPPWONG/EdgeBox",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 198,
+            "description": "A fully-featured, GUI-powered local LLM Agent sandbox with complete MCP protocol support.   Features both CLI and full desktop environment, enabling AI agents to operate browsers, terminal, and other desktop applications just like humans. B",
+            "compatibility": "mcp_ready",
+            "grade_letter": "B",
+            "grade_total": 17.86,
+            "score": 5.62,
+            "reason": "grade B · MCP-ready"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "6bfc44e8236878a1",
+            "name": "QuantGeekDev/docker-mcp",
+            "url": "https://github.com/QuantGeekDev/docker-mcp",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": null,
+            "stars": 0,
+            "description": "Listed in punkpeye/awesome-mcp-servers",
+            "compatibility": "mcp_ready",
+            "grade_letter": "C",
+            "grade_total": 13.5,
+            "score": 2.6,
+            "reason": "grade C · MCP-ready"
+          },
+          {
+            "tool_id": "571028e0c09b14dc",
+            "name": "alfonsograziano/node-code-sandbox-mcp",
+            "url": "https://github.com/alfonsograziano/node-code-sandbox-mcp",
+            "category": "mcp_server",
+            "subcategory": "general",
+            "language": null,
+            "stars": 0,
+            "description": "Listed in punkpeye/awesome-mcp-servers",
+            "compatibility": "mcp_ready",
+            "grade_letter": "C",
+            "grade_total": 13.5,
+            "score": 2.2,
+            "reason": "grade C · MCP-ready"
+          }
+        ]
+      },
+      {
+        "id": "method-skill",
+        "name": "Method skill (TDD / debugging / review)",
+        "description": "Codified workflows — TDD, debugging, code review.",
+        "primary": [
+          {
+            "tool_id": "80961e40c337d8f2",
+            "name": "nizos/tdd-guard",
+            "url": "https://github.com/nizos/tdd-guard",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 2056,
+            "description": "Automated TDD enforcement for Claude Code",
+            "compatibility": "native_claude_code",
+            "grade_letter": "A",
+            "grade_total": 18.24,
+            "score": 11.3,
+            "reason": "grade A · Claude-native"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "bccb1446f159e679",
+            "name": "backnotprop/plannotator",
+            "url": "https://github.com/backnotprop/plannotator",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 4883,
+            "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.88,
+            "score": 7.92,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "fc31db0c8484f4cd",
+            "name": "josstei/maestro-orchestrate",
+            "url": "https://github.com/josstei/maestro-orchestrate",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 395,
+            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.64,
+            "score": 7.33,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "30e7e23c568b7351",
+            "name": "yzhao062/anywhere-agents",
+            "url": "https://github.com/yzhao062/anywhere-agents",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 166,
+            "description": "One config to rule all your AI agents: portable (every project, every session), effective (curated writing, routing, skills), and safer (destructive-command guard).",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.33,
+            "score": 7.08,
+            "reason": "grade B · Python match · Claude-native"
+          }
+        ]
+      },
+      {
+        "id": "agent-plugin",
+        "name": "Agent quality-of-life plugin",
+        "description": "Slash commands, hooks, output styles.",
+        "primary": [
+          {
+            "tool_id": "e12a7937646ae751",
+            "name": "jarrodwatts/claude-hud",
+            "url": "https://github.com/jarrodwatts/claude-hud",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 21592,
+            "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.83,
+            "score": 8.47,
+            "reason": "grade B · Claude-native"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "40f11453f8dd4f11",
+            "name": "AltimateAI/claude-consensus",
+            "url": "https://github.com/AltimateAI/claude-consensus",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": null,
+            "stars": 24,
+            "description": "Multi-model consensus code review and plan review plugin for Claude Code",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 15.52,
+            "score": 8.1,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "706970c2b711facc",
+            "name": "abhisekjha/pith",
+            "url": "https://github.com/abhisekjha/pith",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 94,
+            "description": "Pith is the hook that makes Claude Code sessions last 3x longer.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 17.24,
+            "score": 7.84,
+            "reason": "grade B · Python match · Claude-native"
+          },
+          {
+            "tool_id": "f6cf95f05b675898",
+            "name": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "TypeScript",
+            "stars": 71456,
+            "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "A",
+            "grade_total": 18.17,
+            "score": 7.63,
+            "reason": "grade A · Claude-native"
+          }
+        ]
+      }
+    ]
+  }
+}
