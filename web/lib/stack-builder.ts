@@ -309,23 +309,37 @@ const LAYERS: LayerDef[] = [
     applies: () => true,
     candidate: (t, p) => {
       // Strict: must look like an SDK or framework, not a tool that uses MCP.
-      // Name match is required — descriptions are too noisy to be authoritative.
-      const nameHit =
-        nameHas(t, "fastmcp", "mcp-sdk", "/sdk", "anthropic-sdk", "@anthropic", "mcp-cli", "mcp-server-cli")
-        || /(^|[\s/-])mcp([-_]server)?($|[\s/-])/.test(nameOnly(t));
-      const tagHit = tagHas(t, "mcp-sdk", "fastmcp", "sdk");
-      const libCat = t.category === "library" && tagHas(t, "mcp");
-      // For Python target, require Python language declaration on the tool
+      // The previous version had a broad regex /(^|[\s/-])mcp([-_]server)?($|[\s/-])/
+      // that matched ANY tool with "mcp" in the name (mcp-workspace, gitingest-mcp,
+      // python-notebook-mcp, etc.) — those are MCP *servers*, not SDKs. They got
+      // claimed as sdk-runtime alternatives and then couldn't surface in their
+      // proper layers (context-fs, context-git, code-exec). Tightened to require
+      // either category=library, a specific SDK name fragment, or an SDK tag.
+      const isLibrary = t.category === "library" && tagHas(t, "mcp");
+      const isSpecificSdk = nameHas(
+        t,
+        "fastmcp",
+        "mcp-sdk",
+        "anthropic-sdk",
+        "@anthropic",
+        "mcp-cli",
+        "mcp-server-cli",
+        "/sdk",
+      );
+      const tagSdk = tagHas(t, "mcp-sdk", "fastmcp", "sdk");
+      const isSdk = isLibrary || isSpecificSdk || tagSdk;
+      if (!isSdk) return false;
+      // Language gate: the SDK pick must match the project's primary language.
       if (p.primaryLanguage === "python") {
-        return (nameHit || tagHit || libCat) && (t.language?.toLowerCase() === "python" || nameHas(t, "py"));
+        return t.language?.toLowerCase() === "python" || nameHas(t, "py");
       }
       if (p.primaryLanguage === "typescript" || p.primaryLanguage === "javascript") {
-        return (nameHit || tagHit || libCat) && (
+        return (
           ["typescript", "javascript"].includes(t.language?.toLowerCase() || "") ||
           nameHas(t, "ts-", "-ts", "/sdk")
         );
       }
-      return nameHit || tagHit || libCat;
+      return true;
     },
   },
   {

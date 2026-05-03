@@ -48,6 +48,12 @@ jobs:
       - name: Install deps
         run: npm ci --no-audit --no-fund
 
+      - name: Run architect / stack-builder regression tests
+        # Deploy gate: every architect-logic regression we've shipped is
+        # encoded as a vitest assertion. If any fail, the deploy stops here
+        # rather than shipping a broken recommendation engine to users.
+        run: npm test
+
       - name: Build static export
         env:
           DEPLOY_TARGET: github-pages

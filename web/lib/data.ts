@@ -28,7 +28,7 @@ export type Tool = {
   last_updated: string | null;
   first_seen: string | null;
   compatibility: string | null;
-  install_hint: string;
+  install_hint: string | null;
   tags: string[];
   grade: Grade | null;
 };
