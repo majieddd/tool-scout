@@ -30,10 +30,10 @@ export function Header() {
             Stack
           </Link>
           <Link
-            href="/analyze"
+            href="/architect"
             className="px-3 py-1.5 rounded hover:text-ink hover:bg-white/5 transition"
           >
-            Analyze
+            Architect
           </Link>
           <Link
             href="/about"

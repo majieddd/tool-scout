@@ -1,31 +1,33 @@
-import { AnalyzeClient } from "./AnalyzeClient";
+import Link from "next/link";
 
 export const metadata = {
-  title: "Project Analyze — Tool Scout",
-  description:
-    "Drop a project zip, manifest file, or paste text. Tool Scout reads the structure entirely in your browser and ranks the catalog tools most likely to help.",
+  title: "Moved — see Project Architect",
+  robots: { index: false, follow: true },
 };
 
-export default function AnalyzePage() {
+export default function MovedPage() {
   return (
-    <div className="mx-auto max-w-4xl px-4 sm:px-6 py-10">
-      <header className="mb-8">
-        <h1 className="font-mono text-2xl sm:text-3xl text-ink">Project Analyze</h1>
-        <p className="text-sm text-ink-muted mt-3 max-w-2xl">
-          Drop a project zip, a single manifest file (
-          <code className="text-ink">package.json</code>,{" "}
-          <code className="text-ink">pyproject.toml</code>,{" "}
-          <code className="text-ink">Cargo.toml</code>, …), or paste any project
-          text. We extract the structure — languages, frameworks, dependencies,
-          markers — entirely in your browser, then rank the catalog tools most
-          likely to help.
+    <>
+      {/* meta-refresh as fallback for clients that don't run JS */}
+      <head>
+        <meta httpEquiv="refresh" content="0; url=/tool-scout/architect/" />
+      </head>
+      <div className="mx-auto max-w-2xl px-4 sm:px-6 py-20 text-center">
+        <h1 className="font-mono text-xl text-ink">Moved → Project Architect</h1>
+        <p className="text-sm text-ink-muted mt-3">
+          The Analyze page is now{" "}
+          <Link href="/architect" className="text-accent hover:underline">
+            /architect
+          </Link>{" "}
+          — same idea, more depth, with optional starter-prompt generation.
         </p>
-        <p className="text-xs text-ink-subtle mt-2">
-          🔒 Everything stays in the browser. Nothing is uploaded anywhere.
-        </p>
-      </header>
-
-      <AnalyzeClient />
-    </div>
+        <p className="text-xs text-ink-subtle mt-6">Redirecting…</p>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `setTimeout(() => { location.replace('/tool-scout/architect/'); }, 50);`,
+          }}
+        />
+      </div>
+    </>
   );
 }

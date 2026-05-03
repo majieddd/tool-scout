@@ -1,20 +1,22 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ProjectUpload } from "@/components/ProjectUpload";
-import { AnalyzeResults } from "@/components/AnalyzeResults";
-import { rankMatches } from "@/lib/match";
-import type { ProjectProfile } from "@/lib/analyze";
+import { ArchitectInput } from "@/components/ArchitectInput";
+import { StackComposition } from "@/components/StackComposition";
+import { PromptModal } from "@/components/PromptModal";
+import { composeStack, type ComposedStack } from "@/lib/stack-builder";
+import { checkCompat, type Warning } from "@/lib/compat-check";
+import type { ExtendedProfile } from "@/lib/architect";
 import type { Tool } from "@/lib/data";
 
-export function AnalyzeClient() {
-  const [profile, setProfile] = useState<ProjectProfile | null>(null);
+export function ArchitectClient() {
+  const [profile, setProfile] = useState<ExtendedProfile | null>(null);
   const [tools, setTools] = useState<Tool[] | null>(null);
   const [toolsErr, setToolsErr] = useState<string | null>(null);
+  const [showPrompt, setShowPrompt] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
-    // Use relative path so it works under any basePath (and on `npm run dev`).
     fetch("./../data/tools.json")
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -24,7 +26,6 @@ export function AnalyzeClient() {
         if (!cancelled) setTools(data);
       })
       .catch((e) => {
-        // Fallback: try without the relative dance (works if route is shallow)
         fetch("./data/tools.json")
           .then((r) => r.json())
           .then((data: Tool[]) => {
@@ -39,9 +40,11 @@ export function AnalyzeClient() {
     };
   }, []);
 
-  const matches = useMemo(() => {
-    if (!profile || !tools) return [];
-    return rankMatches(tools, profile, 12);
+  const composed: { stack: ComposedStack; warnings: Warning[] } | null = useMemo(() => {
+    if (!profile || !tools) return null;
+    const stack = composeStack(tools, profile);
+    const warnings = checkCompat(stack, profile);
+    return { stack, warnings };
   }, [profile, tools]);
 
   if (toolsErr) {
@@ -63,18 +66,30 @@ export function AnalyzeClient() {
   if (!profile) {
     return (
       <div className="space-y-3">
-        <ProjectUpload onProfile={setProfile} />
+        <ArchitectInput onCompose={setProfile} />
         <p className="text-xs text-ink-subtle text-right">
           Catalog loaded · {tools.length.toLocaleString()} tools ready to match
         </p>
       </div>
     );
   }
+
   return (
-    <AnalyzeResults
-      profile={profile}
-      matches={matches}
-      onReset={() => setProfile(null)}
-    />
+    <>
+      <StackComposition
+        profile={profile}
+        stack={composed!.stack}
+        warnings={composed!.warnings}
+        onReset={() => setProfile(null)}
+        onGeneratePrompt={() => setShowPrompt(true)}
+      />
+      {showPrompt && composed && (
+        <PromptModal
+          profile={profile}
+          stack={composed.stack}
+          onClose={() => setShowPrompt(false)}
+        />
+      )}
+    </>
   );
 }

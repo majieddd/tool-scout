@@ -50,10 +50,10 @@ export default async function HomePage() {
               Recommended stack →
             </Link>
             <Link
-              href="/analyze"
+              href="/architect"
               className="text-accent hover:underline underline-offset-2"
             >
-              Analyze your project →
+              Architect your project →
             </Link>
             <Link
               href="/today"
