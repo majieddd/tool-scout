@@ -204,6 +204,17 @@ function score(t: Tool, profile: ExtendedProfile, layerId?: string): number {
   // Penalize awesome-list stub records (no real verification signal)
   if (t.description && t.description.toLowerCase().startsWith("listed in ")) s -= 2;
 
+  // Method-skill TDD intent boost: when the project asks for TDD specifically
+  // (not generic "tests"), prefer tools whose NAME contains tdd / test-driven
+  // over generic review/debug skills.
+  if (layerId === "method-skill") {
+    const projectWantsTdd = /\b(tdd|test[\s-]?driven|red[\s-]?green)\b/i.test(profile.description);
+    if (projectWantsTdd) {
+      if (nameHas(t, "tdd", "test-driven", "test-guard")) s += 3;
+      else if (/\b(automated\s+tdd|tdd\s+enforcement|test[\s-]?driven\s+(?:development|enforcement))\b/i.test(nameAndDesc(t))) s += 2;
+    }
+  }
+
   // Demote misclassified shapes in the plugin layer (audit's harness/marketplace fix):
   // tools whose descriptions imply they ARE an agent, not a plugin FOR an agent
   if (layerId === "agent-plugin") {
@@ -489,12 +500,23 @@ const LAYERS: LayerDef[] = [
     primary: 1,
     alternatives: 3,
     applies: (p) => p.hasTests || /\b(tdd|test[\s-]?driven|red[\s-]?green|debug|code[\s-]?review)\b/i.test(p.description),
-    candidate: (t) => {
-      if (t.category !== "skill") return false;
-      // Skills are short-form — require explicit method keyword in name OR description
+    candidate: (t, p) => {
+      // A "method skill" can be packaged as either a `skill` OR a `claude_plugin`
+      // (e.g. nizos/tdd-guard is a plugin that enforces TDD — same intent).
+      // What matters is that it's a CODIFIED METHOD, not a domain-specific app.
+      if (t.category !== "skill" && t.category !== "claude_plugin") return false;
+
+      // Project asked for TDD specifically? Strongly prefer TDD-named tools.
+      const projectWantsTdd = /\b(tdd|test[\s-]?driven|red[\s-]?green)\b/i.test(p.description);
+      const tddNamed = nameHas(t, "tdd", "test-driven", "test-guard");
+      const tddDesc = /\b(automated\s+tdd|test[\s-]?driven\s+(?:development|enforcement)|red[\s-]?green[\s-]?refactor)\b/i.test(nameAndDesc(t));
+      if (projectWantsTdd && (tddNamed || tddDesc)) return true;
+
+      // Otherwise standard method-skill markers — but require unambiguous name match,
+      // not just any "debug"/"review" anywhere in description.
       return (
-        nameHas(t, "tdd", "test-driven", "debug", "review", "refactor") ||
-        /\b(test[\s-]?driven|tdd|red[\s-]?green|systematic[\s-]?debug|code[\s-]?review)\b/i.test(nameAndDesc(t))
+        nameHas(t, "tdd", "test-driven", "debug-guide", "code-review", "review-skill", "refactor-skill") ||
+        /\b(systematic[\s-]?debug|automated\s+(?:tdd|review)|debug.*workflow)\b/i.test(nameAndDesc(t))
       );
     },
   },
@@ -508,8 +530,25 @@ const LAYERS: LayerDef[] = [
     applies: (p) => !!p.primaryLanguage || p.frameworks.size > 0,
     candidate: (t, p) => {
       if (t.category !== "skill") return false;
-      if (p.primaryLanguage && nameAndDesc(t).includes(p.primaryLanguage)) return true;
-      for (const fw of p.frameworks) if (nameAndDesc(t).includes(fw)) return true;
+
+      // Tighter: language match must be in NAME or TAG, not description.
+      // ("claude-code-stock-analysis" has python in description but the skill
+      //  is about stocks, not Python coding.)
+      const langInNameOrTag = (lang: string) =>
+        nameHas(t, lang, lang + "-", "-" + lang) || tagHas(t, lang);
+
+      // Plus require an actual coding-pattern signal (idiomatic, patterns, async,
+      // typing, structure, organize) — otherwise it's an app skill, not a
+      // language skill.
+      const codingPatternSignal =
+        /\b(idiomatic|patterns?|async|typing|annotations?|conventions|best[\s-]?practices|structure|organize|architecture|style[\s-]?guide|refactor)\b/i.test(nameAndDesc(t));
+
+      if (p.primaryLanguage) {
+        if (langInNameOrTag(p.primaryLanguage) && codingPatternSignal) return true;
+      }
+      for (const fw of p.frameworks) {
+        if (langInNameOrTag(fw) && codingPatternSignal) return true;
+      }
       return false;
     },
   },
