@@ -301,16 +301,6 @@
   },
   {
     "rank": 31,
-    "tool_id": "efb9170d572b4102",
-    "name": "doITmagic/rag-code-mcp",
-    "url": "https://github.com/doITmagic/rag-code-mcp",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.855,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 32,
     "tool_id": "94565b617707c1a4",
     "name": "ykdojo/claude-code-tips",
     "url": "https://github.com/ykdojo/claude-code-tips",
@@ -320,7 +310,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 33,
+    "rank": 32,
     "tool_id": "e72bf72cf3da1065",
     "name": "wanshuiyin/Auto-claude-code-research-in-sleep",
     "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -330,7 +320,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 34,
+    "rank": 33,
     "tool_id": "9815c7905964b67e",
     "name": "firerpa/lamda",
     "url": "https://github.com/firerpa/lamda",
@@ -340,7 +330,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 35,
+    "rank": 34,
     "tool_id": "c914b299fab537e1",
     "name": "zircote/subcog",
     "url": "https://github.com/zircote/subcog",
@@ -350,7 +340,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 36,
+    "rank": 35,
     "tool_id": "c09a4031cfb8a9fe",
     "name": "JoeanAmier/XHS-Downloader",
     "url": "https://github.com/JoeanAmier/XHS-Downloader",
@@ -360,7 +350,7 @@
     "reasoning": "relevance 1.00; recent activity; matches 2h2t-server,tool-scout"
   },
   {
-    "rank": 37,
+    "rank": 36,
     "tool_id": "48d662b416efffc4",
     "name": "3spky5u-oss/HandsOn",
     "url": "https://github.com/3spky5u-oss/HandsOn",
@@ -370,7 +360,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 38,
+    "rank": 37,
     "tool_id": "143a7fcca0834fc4",
     "name": "haris-musa/excel-mcp-server",
     "url": "https://github.com/haris-musa/excel-mcp-server",
@@ -380,7 +370,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 39,
+    "rank": 38,
     "tool_id": "d6824d5d5dd53646",
     "name": "drolosoft/immich-photo-manager",
     "url": "https://github.com/drolosoft/immich-photo-manager",
@@ -390,7 +380,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 39,
     "tool_id": "0e57ebd1d707b3c3",
     "name": "debytesio/claude-plugin-jobhunter",
     "url": "https://github.com/debytesio/claude-plugin-jobhunter",
@@ -400,7 +390,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 41,
+    "rank": 40,
     "tool_id": "04db7fa09dfecc36",
     "name": "davepoon/buildwithclaude",
     "url": "https://github.com/davepoon/buildwithclaude",
@@ -410,7 +400,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 41,
     "tool_id": "d0a15238a1ff75e8",
     "name": "blazickjp/arxiv-mcp-server",
     "url": "https://github.com/blazickjp/arxiv-mcp-server",
@@ -420,7 +410,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
+    "rank": 42,
     "tool_id": "039020d7290faff6",
     "name": "deedy5/ddgs",
     "url": "https://github.com/deedy5/ddgs",
@@ -430,7 +420,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 43,
     "tool_id": "8dbba1be5b1f74e1",
     "name": "ComposioHQ/awesome-claude-skills",
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
@@ -440,7 +430,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "tool_id": "7da3a9ed70566ada",
     "name": "anthropics/claude-plugins-official",
     "url": "https://github.com/anthropics/claude-plugins-official",
@@ -450,7 +440,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "tool_id": "2449b173d95f297e",
     "name": "prgilabert/agent-ecosystem-generator",
     "url": "https://github.com/prgilabert/agent-ecosystem-generator",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "975e587c60e44ca6",
     "name": "gagarinyury/claude-config-editor",
     "url": "https://github.com/gagarinyury/claude-config-editor",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "ad2fb6ccddbe15e3",
     "name": "timescale/pg-aiguide",
     "url": "https://github.com/timescale/pg-aiguide",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "8189febd757fe4e7",
     "name": "lukinov/ai-form-builder",
     "url": "https://github.com/lukinov/ai-form-builder",
@@ -490,7 +480,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "3703eafca234f57b",
     "name": "rusiaaman/wcgw",
     "url": "https://github.com/rusiaaman/wcgw",
@@ -498,5 +488,15 @@
     "letter": "A",
     "score": 0.833,
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "b6ac53886a902b5e",
+    "name": "aidrivencoder/claude-plugins",
+    "url": "https://github.com/aidrivencoder/claude-plugins",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.83,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
