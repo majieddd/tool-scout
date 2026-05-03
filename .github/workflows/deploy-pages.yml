@@ -12,7 +12,9 @@ on:
   # workflows (loop protection). workflow_run fires on the upstream
   # workflow's completion event regardless of pusher.
   workflow_run:
-    workflows: ["Daily crawl + export"]
+    workflows:
+      - "Daily crawl + export"
+      - "Fast-poll (hourly trending discovery)"
     types: [completed]
     branches: [main]
 
