@@ -24,6 +24,12 @@ export function Header() {
             Today
           </Link>
           <Link
+            href="/analyze"
+            className="px-3 py-1.5 rounded hover:text-ink hover:bg-white/5 transition"
+          >
+            Analyze
+          </Link>
+          <Link
             href="/about"
             className="px-3 py-1.5 rounded hover:text-ink hover:bg-white/5 transition"
           >
