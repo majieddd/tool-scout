@@ -215,6 +215,20 @@ function score(t: Tool, profile: ExtendedProfile, layerId?: string): number {
     ) {
       s -= 4;
     }
+    // Project-relevance for plugins: a "PPTX generator" plugin doesn't help
+    // someone building a Postgres MCP server. Boost plugins that touch the
+    // project's dev workflow (test/lint/type/review/mcp/debug); demote ones
+    // about media/presentations/voice/games/social.
+    const text = nameAndDesc(t);
+    const devToolingHits = (text.match(/\b(mcp|test|lint|format|type|review|debug|status|hook|spec|tdd)\b/gi) || []).length;
+    s += Math.min(devToolingHits * 0.5, 2);
+    if (/\b(pptx|powerpoint|slide|presentation|audio|voice|video|image|game|social|tweet|instagram)\b/i.test(text)) {
+      s -= 2;
+    }
+    // Boost when plugin's tags overlap the project's detected domains
+    const projectTokens = profile.tokens;
+    const tagHitCount = (t.tags || []).filter((tg) => projectTokens.has(tg.toLowerCase())).length;
+    s += Math.min(tagHitCount * 0.4, 1.5);
   }
 
   // Windows-compat soft preference: Python/Go/TS/JS install with one command
