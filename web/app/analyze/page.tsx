@@ -1,5 +1,4 @@
 import { AnalyzeClient } from "./AnalyzeClient";
-import { loadTools } from "@/lib/data";
 
 export const metadata = {
   title: "Project Analyze — Tool Scout",
@@ -7,9 +6,7 @@ export const metadata = {
     "Drop a project zip, manifest file, or paste text. Tool Scout reads the structure entirely in your browser and ranks the catalog tools most likely to help.",
 };
 
-export default async function AnalyzePage() {
-  // Pre-render the catalog into the page so the matcher runs offline.
-  const tools = await loadTools();
+export default function AnalyzePage() {
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 py-10">
       <header className="mb-8">
@@ -20,15 +17,15 @@ export default async function AnalyzePage() {
           <code className="text-ink">pyproject.toml</code>,{" "}
           <code className="text-ink">Cargo.toml</code>, …), or paste any project
           text. We extract the structure — languages, frameworks, dependencies,
-          markers — entirely in your browser, then rank the {tools.length} catalog
-          tools most likely to help.
+          markers — entirely in your browser, then rank the catalog tools most
+          likely to help.
         </p>
         <p className="text-xs text-ink-subtle mt-2">
           🔒 Everything stays in the browser. Nothing is uploaded anywhere.
         </p>
       </header>
 
-      <AnalyzeClient tools={tools} />
+      <AnalyzeClient />
     </div>
   );
 }

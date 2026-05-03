@@ -1,7 +1,13 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+
+export const viewport: Viewport = {
+  themeColor: "#0a0a0a",
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   title: "Tool Scout — Catalog of Claude-compatible developer tools",
@@ -28,7 +34,6 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  themeColor: "#0a0a0a",
 };
 
 export default function RootLayout({

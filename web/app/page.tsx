@@ -44,6 +44,18 @@ export default async function HomePage() {
               </span>
             )}
             <Link
+              href="/stack"
+              className="text-accent hover:underline underline-offset-2"
+            >
+              Recommended stack →
+            </Link>
+            <Link
+              href="/analyze"
+              className="text-accent hover:underline underline-offset-2"
+            >
+              Analyze your project →
+            </Link>
+            <Link
               href="/today"
               className="text-accent hover:underline underline-offset-2"
             >
