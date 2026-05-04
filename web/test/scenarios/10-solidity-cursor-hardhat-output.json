@@ -3,7 +3,7 @@
   "title": "Solidity + Hardhat + Cursor for DeFi smart contracts on Linux",
   "prompt": "Building a DeFi lending protocol in Solidity with Hardhat and Foundry for testing. Using Cursor IDE on Linux. Need security audit tooling, formal verification, and gas optimization.",
   "expected_notes": "Language 'solidity' (or fall through). Target 'cursor'. Frameworks: hardhat, foundry. Most generic MCP server layers may be skipped. Method-skill might pick security-audit/review tooling. Should NOT pick unrelated tools just because they're popular.",
-  "catalog_size": 4383,
+  "catalog_size": 4392,
   "profile": {
     "targetAgent": "cursor",
     "primaryLanguage": "solidity",
@@ -33,9 +33,9 @@
   },
   "composed": {
     "totalPrimaryCount": 2,
-    "generatedAt": "2026-05-04T05:01:29.582Z",
+    "generatedAt": "2026-05-04T05:50:55.427Z",
     "skipped": [
-      "sdk-runtime (no candidates)",
+      "sdk-runtime (n/a)",
       "context-fs (n/a)",
       "context-git (n/a)",
       "memory-retrieval (n/a)",
@@ -92,7 +92,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 4886,
+            "stars": 4887,
             "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
@@ -146,7 +146,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 21595,
+            "stars": 21608,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",

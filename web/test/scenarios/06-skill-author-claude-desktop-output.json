@@ -3,7 +3,7 @@
   "title": "Skill author building a SKILL.md skill for Claude Desktop",
   "prompt": "I'm authoring a Claude Code skill (SKILL.md) that codifies my code-review workflow. No external dependencies, just the skill markdown. Will install into ~/.claude/skills.",
   "expected_notes": "Goal 'build_skill', target 'claude-code' or 'claude-desktop'. Most server-y layers (FS, Git, Data, Code-exec) should be skipped. Method-skill layer might surface code-review skills. Should NOT pick MCP servers as primary anywhere.",
-  "catalog_size": 4383,
+  "catalog_size": 4392,
   "profile": {
     "targetAgent": "claude-code",
     "primaryLanguage": null,
@@ -28,7 +28,7 @@
   },
   "composed": {
     "totalPrimaryCount": 2,
-    "generatedAt": "2026-05-04T05:01:29.457Z",
+    "generatedAt": "2026-05-04T05:50:55.330Z",
     "skipped": [
       "sdk-runtime (not for goal=build_skill)",
       "context-fs (not for goal=build_skill)",
@@ -55,7 +55,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 4886,
+            "stars": 4887,
             "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",

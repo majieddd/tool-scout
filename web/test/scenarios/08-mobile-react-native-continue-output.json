@@ -3,7 +3,7 @@
   "title": "Mobile React Native app with Continue on macOS targeting iOS",
   "prompt": "React Native mobile app for iOS and Android. Using Continue.dev as the AI coding assistant. macOS development. Backend hits a Firebase API. Need accessibility testing and crash reporting.",
   "expected_notes": "Target 'continue', language 'typescript', platform 'macos'. Most MCP server layers should be irrelevant. Web-API may apply (Firebase). Should NOT over-pick — mobile apps don't need most MCP tooling. Tight stack is fine.",
-  "catalog_size": 4383,
+  "catalog_size": 4392,
   "profile": {
     "targetAgent": "continue",
     "primaryLanguage": "typescript",
@@ -40,9 +40,10 @@
     "description": "React Native mobile app for iOS and Android. Using Continue.dev as the AI coding assistant. macOS development. Backend hits a Firebase API. Need accessibility testing and crash reporting."
   },
   "composed": {
-    "totalPrimaryCount": 5,
-    "generatedAt": "2026-05-04T05:01:29.534Z",
+    "totalPrimaryCount": 4,
+    "generatedAt": "2026-05-04T05:50:55.397Z",
     "skipped": [
+      "sdk-runtime (n/a)",
       "context-fs (n/a)",
       "context-git (n/a)",
       "memory-retrieval (n/a)",
@@ -53,60 +54,6 @@
       "domain-skill (no candidates)"
     ],
     "layers": [
-      {
-        "id": "sdk-runtime",
-        "name": "SDK & runtime",
-        "description": "The core SDK or runtime your project will depend on.",
-        "primary": [
-          {
-            "tool_id": "051adb666903da57",
-            "name": "@modelcontextprotocol/server",
-            "url": "https://www.npmjs.com/package/@modelcontextprotocol/server",
-            "category": "mcp_server",
-            "subcategory": "general",
-            "language": "JavaScript",
-            "stars": 0,
-            "description": "Model Context Protocol implementation for TypeScript - Server package",
-            "compatibility": "mcp_ready",
-            "grade_letter": "B",
-            "grade_total": 14.91,
-            "score": 8.48,
-            "reason": "grade B · JavaScript match · MCP-ready"
-          }
-        ],
-        "alternatives": [
-          {
-            "tool_id": "4b4f41702d61ad6f",
-            "name": "@modelcontextprotocol/sdk",
-            "url": "https://www.npmjs.com/package/@modelcontextprotocol/sdk",
-            "category": "mcp_server",
-            "subcategory": "general",
-            "language": "JavaScript",
-            "stars": 0,
-            "description": "Model Context Protocol implementation for TypeScript",
-            "compatibility": "mcp_ready",
-            "grade_letter": "B",
-            "grade_total": 14.73,
-            "score": 8.45,
-            "reason": "grade B · JavaScript match · MCP-ready"
-          },
-          {
-            "tool_id": "2de8f366f1cc7e08",
-            "name": "modelcontextprotocol/csharp-sdk",
-            "url": "https://github.com/modelcontextprotocol/csharp-sdk",
-            "category": "mcp_server",
-            "subcategory": "general",
-            "language": "C#",
-            "stars": 4235,
-            "description": "The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.",
-            "compatibility": "mcp_ready",
-            "grade_letter": "B",
-            "grade_total": 16.36,
-            "score": 7.09,
-            "reason": "grade B · MCP-ready"
-          }
-        ]
-      },
       {
         "id": "data-storage",
         "name": "Data layer",
@@ -196,7 +143,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 4886,
+            "stars": 4887,
             "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
@@ -265,7 +212,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 21595,
+            "stars": 21608,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",

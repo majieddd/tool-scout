@@ -41,10 +41,13 @@ describe.skipIf(!haveCatalog)("stack-builder-v2: vague-prompt returns zero picks
   it("'I want an agent or tool' is treated as goal-oriented (generic-automation fallback)", () => {
     // The new design: if the prompt names a project shape (app/bot/agent/tool),
     // fire the generic-automation fallback so the user gets *some* breakdown
-    // instead of a confusing empty result.
+    // instead of a confusing empty result. The VALUE here is the archetype's
+    // technical-parts checklist + example_stack — not catalog picks (the
+    // generic case has no archetype-specific catalog matches).
     const { stack } = compose("I want to build something cool with AI, maybe an agent or tool.");
     expect(stack.archetype?.id).toBe("generic-automation-app");
-    expect(stack.totalPrimaryCount).toBeGreaterThan(0);
+    expect(stack.archetype?.technicalParts.length).toBeGreaterThan(0);
+    expect(stack.archetype?.exampleStack.length).toBeGreaterThan(0);
   });
 });
 
@@ -220,6 +223,69 @@ describe.skipIf(!haveCatalog)("stack-builder-v2: data-storage specific-DB preced
     for (const p of all) {
       const name = p.tool.name?.toLowerCase() || "";
       expect(name).not.toMatch(/mysql|mongodb|mongo-/);
+    }
+  });
+});
+
+describe.skipIf(!haveCatalog)("stack-builder-v2: SDK lane gated on MCP intent", () => {
+  it("'An app that trades on kalshi for me' does NOT pick fastmcp (no MCP intent)", () => {
+    // Critical regression: the user reported fastmcp was picked for a trading
+    // app prompt. They're not building an MCP server, so the SDK lane should
+    // skip entirely — no fastmcp pick anywhere.
+    const { stack } = compose("An app that trades on kalshi for me");
+    const sdk = findLayer(stack, "sdk-runtime");
+    expect(sdk).toBeUndefined();
+    for (const pick of allPicks(stack)) {
+      expect(pick.tool.name?.toLowerCase()).not.toMatch(/^prefecthq\/fastmcp$/);
+    }
+  });
+
+  it("Spotify playlist generator (recommendation-engine) does NOT pick fastmcp", () => {
+    const { stack } = compose(
+      "Building a Spotify playlist generator that suggests songs based on my mood"
+    );
+    const sdk = findLayer(stack, "sdk-runtime");
+    expect(sdk).toBeUndefined();
+  });
+
+  it("'Build a Python MCP server for Postgres' DOES pick fastmcp (explicit MCP intent)", () => {
+    const { stack } = compose("Build a Python MCP server for Postgres");
+    const sdk = findLayer(stack, "sdk-runtime");
+    expect(sdk?.primary[0]?.tool.name?.toLowerCase()).toContain("fastmcp");
+  });
+
+  it("ai-agent-app archetype gets the SDK lane (usesMcpDirectly=true)", () => {
+    const { stack } = compose("I want to build an autonomous agent that does research");
+    // SDK lane should fire — ai-agent-app legitimately uses MCP as the tool protocol
+    const sdk = findLayer(stack, "sdk-runtime");
+    expect(sdk).toBeDefined();
+  });
+});
+
+describe.skipIf(!haveCatalog)("stack-builder-v2: archetype-driven preferredDataStore", () => {
+  it("market-trader prompt picks Postgres-flavored data tool, NOT MySQL", () => {
+    // The user reported this exact bug: trading app got designcomputer/mysql_mcp_server.
+    // The archetype's example_stack uses Postgres + Timescale, so preferredDataStore
+    // is "postgres" and the data-storage candidate should bias accordingly.
+    const { stack } = compose("An app that trades on kalshi for me");
+    const data = findLayer(stack, "data-storage");
+    if (data && data.primary.length > 0) {
+      const name = data.primary[0].tool.name?.toLowerCase() || "";
+      const desc = (data.primary[0].tool.description || "").toLowerCase();
+      expect(`${name} ${desc}`).toMatch(/postgres|timescale|supabase|neon/);
+      expect(name).not.toMatch(/mysql/);
+    }
+  });
+
+  it("rag-chatbot archetype prefers Postgres (pgvector) for vector store", () => {
+    const { stack } = compose("I want a chatbot for our company documents in PDF");
+    const data = findLayer(stack, "data-storage");
+    if (data && data.primary.length > 0) {
+      const name = data.primary[0].tool.name?.toLowerCase() || "";
+      // Either explicitly Postgres-flavored or the data lane skipped (RAG often uses memory-retrieval lane instead)
+      if (data.primary[0].tool.tags?.includes("database")) {
+        expect(name).not.toMatch(/mysql/);
+      }
     }
   });
 });

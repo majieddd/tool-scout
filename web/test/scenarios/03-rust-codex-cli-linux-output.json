@@ -3,7 +3,7 @@
   "title": "Rust system utility wrapping ripgrep for Codex CLI on Linux",
   "prompt": "I'm building an OpenAI Codex extension in Rust that wraps the ripgrep CLI for fast project-wide search. Running on Linux Ubuntu 24.04.",
   "expected_notes": "Target should be 'codex-cli', language 'rust', platform 'linux'. SDK layer might be skipped if no Rust MCP SDK exists. Goal should be wrap_cli. Should NOT pick TS or Python tools as primary SDK without language-mismatch warning.",
-  "catalog_size": 4383,
+  "catalog_size": 4392,
   "profile": {
     "targetAgent": "codex-cli",
     "primaryLanguage": "rust",
@@ -28,9 +28,9 @@
   },
   "composed": {
     "totalPrimaryCount": 1,
-    "generatedAt": "2026-05-04T05:01:29.368Z",
+    "generatedAt": "2026-05-04T05:50:55.251Z",
     "skipped": [
-      "sdk-runtime (no candidates)",
+      "sdk-runtime (n/a)",
       "context-fs (not for goal=wrap_cli)",
       "context-git (not for goal=wrap_cli)",
       "memory-retrieval (not for goal=wrap_cli)",
@@ -73,7 +73,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 21595,
+            "stars": 21608,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",

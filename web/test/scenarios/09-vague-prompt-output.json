@@ -3,7 +3,7 @@
   "title": "Vague: 'I want to build something cool with AI'",
   "prompt": "I want to build something cool with AI, maybe an agent or tool.",
   "expected_notes": "No language, no platform, no clear target agent. targetAgent should be 'unknown'. Stack should be small (≤5 picks). Most layers should be skipped due to no signal. The architect must NOT hallucinate a stack from nothing.",
-  "catalog_size": 4383,
+  "catalog_size": 4392,
   "profile": {
     "targetAgent": "unknown",
     "primaryLanguage": "python",
@@ -28,9 +28,10 @@
     "description": "I want to build something cool with AI, maybe an agent or tool."
   },
   "composed": {
-    "totalPrimaryCount": 1,
-    "generatedAt": "2026-05-04T05:01:29.558Z",
+    "totalPrimaryCount": 0,
+    "generatedAt": "2026-05-04T05:50:55.412Z",
     "skipped": [
+      "sdk-runtime (n/a)",
       "context-fs (n/a)",
       "context-git (n/a)",
       "memory-retrieval (n/a)",
@@ -44,61 +45,6 @@
       "domain-skill (no candidates)",
       "agent-plugin (n/a)"
     ],
-    "layers": [
-      {
-        "id": "sdk-runtime",
-        "name": "SDK & runtime",
-        "description": "The core SDK or runtime your project will depend on.",
-        "primary": [
-          {
-            "tool_id": "43d7b799ee18b00d",
-            "name": "PrefectHQ/fastmcp",
-            "url": "https://github.com/PrefectHQ/fastmcp",
-            "category": "mcp_server",
-            "subcategory": "general",
-            "language": "Python",
-            "stars": 24968,
-            "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
-            "compatibility": "mcp_ready",
-            "grade_letter": "A",
-            "grade_total": 18.5,
-            "score": 12.7,
-            "reason": "grade A · Python match · MCP-ready"
-          }
-        ],
-        "alternatives": [
-          {
-            "tool_id": "eb82454d5512a249",
-            "name": "hannesrudolph/sqlite-explorer-fastmcp-mcp-server",
-            "url": "https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server",
-            "category": "mcp_server",
-            "subcategory": "database",
-            "language": "Python",
-            "stars": 105,
-            "description": "An MCP server that provides safe, read-only access to SQLite databases through Model Context Protocol (MCP). This server is built with the FastMCP framework, which enables LLMs to explore and query SQLite databases with built-in safety feat",
-            "compatibility": "mcp_ready",
-            "grade_letter": "B",
-            "grade_total": 17.21,
-            "score": 11.35,
-            "reason": "grade B · Python match · MCP-ready"
-          },
-          {
-            "tool_id": "2140342e1d85e896",
-            "name": "fastmcp",
-            "url": "https://pypi.org/project/fastmcp/",
-            "category": "mcp_server",
-            "subcategory": "general",
-            "language": "Python",
-            "stars": 0,
-            "description": "The fast, Pythonic way to build MCP servers and clients.",
-            "compatibility": "mcp_ready",
-            "grade_letter": "B",
-            "grade_total": 15.4,
-            "score": 9.58,
-            "reason": "grade B · Python match · MCP-ready"
-          }
-        ]
-      }
-    ]
+    "layers": []
   }
 }

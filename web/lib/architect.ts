@@ -71,6 +71,26 @@ export type ProjectArchetype = {
   technicalParts: string[];
   /** Brief "typical stack" string the UI can show as guidance */
   exampleStack: string;
+  /**
+   * Does this archetype involve MCP-protocol tools as a CORE dependency?
+   * - true: build_mcp_server, RAG chatbots that consume MCP retrieval, AI agents
+   *   that orchestrate MCP tool calls. The SDK lane should fire and pick fastmcp /
+   *   @modelcontextprotocol/sdk.
+   * - false (default): domain apps (trading bots, social platforms, scrapers,
+   *   content generators). The user is building a regular app and pip-installs
+   *   their own libraries (ccxt, alpaca, etc.). The catalog's MCP-flavored SDK
+   *   picks would be confusing — skip the SDK lane entirely for these.
+   */
+  usesMcpDirectly: boolean;
+  /**
+   * If set, the data-storage lane treats this archetype's prompts AS IF the
+   * user had named that database, even when they didn't. Comes from each
+   * archetype's typical example_stack. Example: market-trader → "postgres"
+   * (matches the example stack "PostgreSQL + TimescaleDB"); a vague algo
+   * trading prompt then picks a Postgres MCP rather than a generic MySQL one.
+   * `null` means "no preference, fall through to generic matching."
+   */
+  preferredDataStore: "postgres" | "mysql" | "sqlite" | "mongo" | "redis" | "firebase" | "supabase" | null;
 };
 
 export type ExtendedProfile = ProjectProfile & {
@@ -269,12 +289,17 @@ const GOAL_PATTERNS: Array<[GoalType, RegExp[]]> = [
  * the user hasn't already given an explicit signal. So if the user says
  * "trading app in Rust", we still respect Rust.
  */
-type ArchetypeDef = ProjectArchetype & {
+// Internal definition. The new fields (usesMcpDirectly, preferredDataStore)
+// are OPTIONAL here so we don't have to set them on every archetype — defaults
+// apply at the public-export step (ARCHETYPE_CATALOG below).
+type ArchetypeDef = Omit<ProjectArchetype, "usesMcpDirectly" | "preferredDataStore"> & {
   patterns: RegExp[];
   inferDomains: string[];
   inferFrameworks: string[];
   inferLanguage: string | null;
   inferGoal: GoalType | null;
+  usesMcpDirectly?: boolean;
+  preferredDataStore?: ProjectArchetype["preferredDataStore"];
 };
 
 const ARCHETYPES: ArchetypeDef[] = [
@@ -320,6 +345,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "python",
     inferGoal: "data_pipeline",
+    preferredDataStore: "postgres", // example_stack: PostgreSQL + Timescale typical
   },
   {
     id: "rag-chatbot",
@@ -347,6 +373,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "python",
     inferGoal: null,
+    preferredDataStore: "postgres", // pgvector is standard
   },
   {
     id: "social-app",
@@ -374,6 +401,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "typescript",
     inferGoal: "web_app",
+    preferredDataStore: "postgres", // Supabase / Postgres standard for social
   },
   {
     id: "scraper-tracker",
@@ -405,6 +433,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: ["playwright"],
     inferLanguage: "python",
     inferGoal: "data_pipeline",
+    preferredDataStore: "sqlite", // Small local stores typical for personal scrapers
   },
   {
     id: "ai-agent-app",
@@ -433,6 +462,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "python", // Most agent frameworks (LangGraph, smolagents, autogen) are Python-first
     inferGoal: "build_harness",
+    usesMcpDirectly: true, // MCP IS the dominant agent-tool protocol now — agents legitimately benefit from MCP SDK + servers
   },
   {
     id: "personal-assistant",
@@ -458,6 +488,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "python", // Personal assistants tend to be backend-heavy automation
     inferGoal: "automation",
+    preferredDataStore: "postgres",
   },
   {
     id: "saas-dashboard",
@@ -484,6 +515,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: ["nextjs"],
     inferLanguage: "typescript",
     inferGoal: "web_app",
+    preferredDataStore: "postgres",
   },
   // voice-calling-agent must come BEFORE voice-assistant — they share a few
   // patterns ("phone agent") but the calling-agent's outbound + booking
@@ -515,6 +547,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "python",
     inferGoal: "automation",
+    preferredDataStore: "postgres",
   },
   {
     id: "voice-assistant",
@@ -569,6 +602,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "typescript",
     inferGoal: "automation",
+    preferredDataStore: "postgres",
   },
   {
     id: "social-listener",
@@ -597,6 +631,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "python",
     inferGoal: "automation",
+    preferredDataStore: "sqlite",
   },
   {
     id: "content-generator",
@@ -672,6 +707,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "typescript", // Recommendation apps are usually UI-heavy (Next.js, RN, etc.)
     inferGoal: null,
+    preferredDataStore: "postgres",
   },
   // ────────────────────────────────────────────────────────────────────
   // SMB / freelancer archetypes
@@ -705,6 +741,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "python",
     inferGoal: "automation",
+    preferredDataStore: "postgres",
   },
   {
     id: "scheduled-publisher",
@@ -733,6 +770,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "typescript",
     inferGoal: "automation",
+    preferredDataStore: "postgres",
   },
   {
     id: "lead-prospector",
@@ -760,6 +798,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: ["playwright"],
     inferLanguage: "python",
     inferGoal: "data_pipeline",
+    preferredDataStore: "postgres",
   },
 
   // ────────────────────────────────────────────────────────────────────
@@ -791,6 +830,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "python",
     inferGoal: "automation",
+    preferredDataStore: "sqlite", // Anki + study apps typically use SQLite
   },
 
   // ────────────────────────────────────────────────────────────────────
@@ -969,6 +1009,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "typescript",
     inferGoal: "cli_tool",
+    preferredDataStore: "postgres", // test-tooling: cross-CI persistence
   },
 
   // ────────────────────────────────────────────────────────────────────
@@ -1141,6 +1182,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "python",
     inferGoal: "automation",
+    preferredDataStore: "postgres", // creative-writing-assistant: lore + bible storage
   },
 
   {
@@ -1171,6 +1213,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: ["nextjs"],
     inferLanguage: "typescript",
     inferGoal: "web_app",
+    preferredDataStore: "postgres",
   },
   {
     id: "generic-automation-app",
@@ -1218,6 +1261,13 @@ function detectArchetype(desc: string): ArchetypeDef | null {
  * Public read-only view of the archetypes — exposed so the UI / LLM
  * refinement layer can list valid archetype ids and labels without
  * needing access to the internal pattern arrays.
+ *
+ * Applies defaults for the optional fields:
+ *   usesMcpDirectly: false (most apps don't depend on the MCP catalog as
+ *     a core dep — overridden true for ai-agent-app, where MCP is the
+ *     dominant agent-tool protocol)
+ *   preferredDataStore: null (no preference) — overridden per archetype
+ *     when its example_stack implies a specific DB family
  */
 export const ARCHETYPE_CATALOG: ProjectArchetype[] = ARCHETYPES.map((a) => ({
   id: a.id,
@@ -1225,6 +1275,8 @@ export const ARCHETYPE_CATALOG: ProjectArchetype[] = ARCHETYPES.map((a) => ({
   summary: a.summary,
   technicalParts: a.technicalParts,
   exampleStack: a.exampleStack,
+  usesMcpDirectly: a.usesMcpDirectly ?? false,
+  preferredDataStore: a.preferredDataStore ?? null,
 }));
 
 function detectFirstMatch<T>(text: string, patterns: Array<[T, RegExp[]]>, fallback: T): T {
@@ -1367,7 +1419,9 @@ export function extractFromDescription(description: string, base?: ProjectProfil
     /\b(pytest|jest|vitest|cypress|playwright\s+test)\b/i.test(desc);
 
   // Strip the internal pattern array before exposing the archetype on the
-  // profile (UI doesn't need to see the regex bag).
+  // profile (UI doesn't need to see the regex bag). Apply defaults for the
+  // optional usesMcpDirectly / preferredDataStore fields so consumers don't
+  // have to handle undefined.
   const archetype: ProjectArchetype | null = archetypeMatch
     ? {
         id: archetypeMatch.id,
@@ -1375,6 +1429,8 @@ export function extractFromDescription(description: string, base?: ProjectProfil
         summary: archetypeMatch.summary,
         technicalParts: archetypeMatch.technicalParts,
         exampleStack: archetypeMatch.exampleStack,
+        usesMcpDirectly: archetypeMatch.usesMcpDirectly ?? false,
+        preferredDataStore: archetypeMatch.preferredDataStore ?? null,
       }
     : null;
 

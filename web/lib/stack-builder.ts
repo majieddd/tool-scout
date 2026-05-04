@@ -546,7 +546,33 @@ const LAYERS: LayerDef[] = [
     required: true,
     primary: 1,
     alternatives: 2,
-    applies: () => true,
+    // applies: now gates on MCP-intent. Previously this lane fired for every
+    // project, leading to fastmcp being recommended for trading bots, social
+    // apps, etc. — projects where the user just installs domain libraries
+    // (ccxt, alpaca, supabase) themselves. The MCP-flavored SDK pick was
+    // confusing and irrelevant.
+    //
+    // Now: fire only when the user is BUILDING an MCP-related thing OR the
+    // detected archetype natively depends on MCP infrastructure (currently
+    // just ai-agent-app — see usesMcpDirectly on the archetype).
+    applies: (p) => {
+      // Explicit MCP signal in the description
+      if (p.hasMcp) return true;
+      // Project-shape signals: building an MCP server, plugin, extension,
+      // skill, harness, or consuming an MCP-flavored library
+      if ([
+        "build_mcp_server",
+        "build_plugin",
+        "build_extension",
+        "build_skill",
+        "build_harness",
+        "library",
+      ].includes(p.goal)) return true;
+      // Archetype-level signal: ai-agent-app legitimately uses MCP as the
+      // tool-call protocol, even when the user didn't say "MCP" verbatim.
+      if (p.archetype?.usesMcpDirectly) return true;
+      return false;
+    },
     candidate: (t, p) => {
       // Strict: must look like an SDK or framework, not a tool that uses MCP.
       // The previous broad regex matched ANY tool with "mcp" in the name
@@ -674,7 +700,18 @@ const LAYERS: LayerDef[] = [
         firebase:  ["firebase", "firestore"],
         supabase:  ["supabase"],
       };
+      // Treat the archetype's preferredDataStore as if it were named in the
+      // prompt. This is what fixes the "trading app gets MySQL pick" bug —
+      // market-trader's example_stack uses Postgres + Timescale, so when the
+      // user describes a trading project we should bias toward Postgres
+      // tools even if they didn't say "Postgres" verbatim.
       let specificDbNamed = false;
+      const archetypePreferredDb = p.archetype?.preferredDataStore;
+      if (archetypePreferredDb && namedDbs[archetypePreferredDb]) {
+        const aliases = namedDbs[archetypePreferredDb];
+        if (aliases.some((a) => nameHas(t, a) || tagHas(t, a))) return true;
+        specificDbNamed = true;
+      }
       for (const [dbName, aliases] of Object.entries(namedDbs)) {
         if (desc.includes(dbName)) {
           specificDbNamed = true;

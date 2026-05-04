@@ -3,7 +3,7 @@
   "title": "Go + gRPC microservice with observability + Docker on WSL",
   "prompt": "I'm building a Go gRPC microservice for Claude Code, with Datadog observability, structured logs, distributed tracing, deployed via Docker Compose. Running on WSL2 Ubuntu.",
   "expected_notes": "Language 'go', platform 'wsl', target 'claude-code'. Domains should include observability + docker. Observability layer should populate (Datadog/Grafana/Prometheus tools). Code-exec layer may apply (Docker). Should NOT pick generic chat-clone apps.",
-  "catalog_size": 4383,
+  "catalog_size": 4392,
   "profile": {
     "targetAgent": "claude-code",
     "primaryLanguage": "go",
@@ -33,9 +33,9 @@
   },
   "composed": {
     "totalPrimaryCount": 3,
-    "generatedAt": "2026-05-04T05:01:29.410Z",
+    "generatedAt": "2026-05-04T05:50:55.289Z",
     "skipped": [
-      "sdk-runtime (no candidates)",
+      "sdk-runtime (n/a)",
       "context-fs (n/a)",
       "context-git (n/a)",
       "memory-retrieval (n/a)",
@@ -114,7 +114,7 @@
             "subcategory": "general",
             "language": "Go",
             "stars": 1677,
-            "description": "Make RSS 📰 great again with AI 🧠✨!! [gpt-5.5 -> https://token.glidea.app 0.2 倍率, 0.2元当1刀花，比官方便宜35倍]",
+            "description": "Make RSS 📰 great again with AI 🧠✨!! [gpt-5.5 -> https://pay.ldxp.cn/shop/8465P8HU 0.2 倍率, 0.2元当1刀花，比官方便宜35倍]",
             "compatibility": "mcp_ready",
             "grade_letter": "B",
             "grade_total": 16.2,
@@ -199,7 +199,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 21595,
+            "stars": 21608,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
