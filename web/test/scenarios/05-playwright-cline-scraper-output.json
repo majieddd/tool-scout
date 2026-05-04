@@ -33,7 +33,7 @@
   },
   "composed": {
     "totalPrimaryCount": 4,
-    "generatedAt": "2026-05-04T03:37:33.048Z",
+    "generatedAt": "2026-05-04T05:01:29.442Z",
     "skipped": [
       "context-fs (not for goal=data_pipeline)",
       "context-git (not for goal=data_pipeline)",

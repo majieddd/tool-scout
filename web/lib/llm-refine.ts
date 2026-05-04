@@ -309,6 +309,146 @@ export async function refineWithOllama(
   };
 }
 
+// ── Tier 2: Browser-side LLM via @huggingface/transformers ────────────────
+//
+// For users without a local Ollama, we fall back to a small instruct model
+// running entirely in the browser. The model is downloaded from HuggingFace
+// on first use (~250-400MB depending on quantization) and cached in
+// IndexedDB by the browser. Subsequent visits are instant.
+//
+// Default model: Qwen2.5-0.5B-Instruct (Apache 2.0). Why this choice:
+//   - 500M params: enough to follow strict-JSON output formatting
+//   - Apache 2.0 license: matches "no tokens, no proprietary"
+//   - ONNX Runtime Web: works on WASM (any browser) AND WebGPU (faster)
+//   - q4 quantized: ~400MB download, ~600MB RAM
+//
+// We use the high-level `pipeline('text-generation', ...)` API which
+// handles tokenization, generation, and chat-template application
+// automatically.
+
+export type BrowserLlmProgress = {
+  status: "downloading" | "loading" | "ready" | "running" | "done" | "error";
+  /** 0..1 for download/load phases */
+  progress: number;
+  /** Bytes downloaded so far (only set during download phase) */
+  loaded?: number;
+  /** Total bytes to download (only set during download phase) */
+  total?: number;
+  /** Currently-downloading file (only set during download phase) */
+  file?: string;
+  /** Error message when status === "error" */
+  message?: string;
+};
+
+const BROWSER_MODEL_ID = "onnx-community/Qwen2.5-0.5B-Instruct";
+const BROWSER_DTYPE = "q4"; // q4 is ~250MB; q4f16 is ~400MB (better quality)
+
+// Lazy-loaded pipeline. Cached at module level so we don't re-load.
+let browserPipelinePromise: Promise<unknown> | null = null;
+
+/**
+ * Initialize (or return the already-initialized) text-generation pipeline.
+ * The first call downloads model weights — subsequent calls are instant.
+ */
+async function getBrowserPipeline(
+  onProgress?: (p: BrowserLlmProgress) => void,
+): Promise<unknown> {
+  if (browserPipelinePromise) return browserPipelinePromise;
+  browserPipelinePromise = (async () => {
+    onProgress?.({ status: "loading", progress: 0 });
+    // Dynamic import: the transformers.js bundle (~600KB) is only loaded
+    // when AI refinement actually runs, not on every page view.
+    const { pipeline, env } = await import("@huggingface/transformers");
+    // Force CDN-hosted models (we don't ship weights locally)
+    env.allowLocalModels = false;
+    env.useBrowserCache = true;
+    return pipeline("text-generation", BROWSER_MODEL_ID, {
+      dtype: BROWSER_DTYPE,
+      device: "auto", // WebGPU if available, WASM otherwise
+      progress_callback: (data: {
+        status: string;
+        progress?: number;
+        loaded?: number;
+        total?: number;
+        file?: string;
+      }) => {
+        if (data.status === "progress") {
+          onProgress?.({
+            status: "downloading",
+            progress: typeof data.progress === "number" ? data.progress / 100 : 0,
+            loaded: data.loaded,
+            total: data.total,
+            file: data.file,
+          });
+        } else if (data.status === "ready") {
+          onProgress?.({ status: "ready", progress: 1 });
+        }
+      },
+    });
+  })();
+  return browserPipelinePromise;
+}
+
+/**
+ * Run refinement using the browser-side LLM. First call may take 30-60s
+ * to download the model; subsequent calls are typically 5-15s for inference.
+ */
+export async function refineWithBrowserLLM(
+  description: string,
+  profile: ExtendedProfile,
+  archetypes: ProjectArchetype[],
+  catalogSampleNames: string[],
+  onProgress?: (p: BrowserLlmProgress) => void,
+): Promise<LlmRefinement> {
+  const archetypeIds = archetypes.map((a) => a.id);
+  const validIds = new Set(archetypeIds);
+  const prompt = buildRefinementPrompt(description, profile, archetypeIds, catalogSampleNames);
+
+  const pipe = (await getBrowserPipeline(onProgress)) as (
+    msgs: Array<{ role: string; content: string }>,
+    opts: Record<string, unknown>,
+  ) => Promise<Array<{ generated_text: Array<{ role: string; content: string }> }>>;
+
+  onProgress?.({ status: "running", progress: 0 });
+  const messages = [
+    { role: "system", content: prompt.system },
+    { role: "user", content: prompt.user },
+  ];
+  const out = await pipe(messages, {
+    max_new_tokens: 384,
+    temperature: 0.2,
+    do_sample: true,
+    return_full_text: false,
+  });
+
+  // The pipeline returns the full chat history; the last message is the assistant's reply.
+  const generated = out?.[0]?.generated_text;
+  let text = "";
+  if (Array.isArray(generated)) {
+    const last = generated[generated.length - 1];
+    text = last?.content ?? "";
+  } else if (typeof generated === "string") {
+    text = generated;
+  }
+
+  const parsed = extractJson(text);
+  const validated = validateRefinement(parsed, validIds);
+  if (!validated) {
+    throw new Error(
+      "Browser model returned an unparseable response. The local model is small (0.5B params); try refining your prompt with more specifics.",
+    );
+  }
+  const refinedLabel = validated.refinedArchetypeId
+    ? archetypes.find((a) => a.id === validated.refinedArchetypeId)?.label ?? null
+    : null;
+  onProgress?.({ status: "done", progress: 1 });
+  return {
+    ...validated,
+    refinedArchetypeLabel: refinedLabel,
+    backend: { kind: "browser", modelId: BROWSER_MODEL_ID },
+  };
+}
+
 // ── Re-export internals for tests ─────────────────────────────────────────
 
 export const __test__ = {

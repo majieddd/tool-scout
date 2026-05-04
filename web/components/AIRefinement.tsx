@@ -1,32 +1,77 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   detectOllama,
   preferredOllamaModel,
   refineWithOllama,
+  refineWithBrowserLLM,
   type LlmRefinement,
+  type BrowserLlmProgress,
 } from "@/lib/llm-refine";
 import type { ExtendedProfile, ProjectArchetype } from "@/lib/architect";
 import type { Tool } from "@/lib/data";
 
 /**
- * AIRefinement — opt-in AI augmentation for the architect's analysis.
+ * AIRefinement — auto-running AI augmentation for the architect's analysis.
  *
- * Behavior:
- *   1. On mount, probes localhost for a running Ollama (cheap, ~1s timeout).
- *   2. If found, surfaces a "Refine with local Ollama" button.
- *   3. If not, shows a setup hint with the one-line install command and the
- *      CORS env var the user needs (Ollama doesn't allow cross-origin
- *      browser fetches by default).
- *   4. On click, sends the description + detected profile + small catalog
- *      sample to Ollama, parses the structured JSON response, renders a
- *      separate "AI suggestions" card BELOW the deterministic breakdown.
- *      The deterministic detection is never overwritten — the LLM augments.
+ * Zero-friction design:
+ *   1. On profile change, auto-runs refinement in the background.
+ *   2. Tier 1: If Ollama is reachable on localhost, use it (fast, free,
+ *      private, no download). Detected silently in ~1s.
+ *   3. Tier 2: Otherwise, lazy-load Qwen2.5-0.5B-Instruct via
+ *      @huggingface/transformers (Apache 2.0, ~250MB on first visit,
+ *      cached in IndexedDB by the browser thereafter).
+ *   4. Results cached per-description in sessionStorage so re-renders or
+ *      identical re-prompts return instantly.
  *
- * Privacy: all inference is local. Nothing leaves the browser unless the
- * user explicitly bridges to a remote Ollama (advanced).
+ * The deterministic detection is never overwritten — the LLM section
+ * appears below the breakdown and adds:
+ *   - Refined archetype suggestion (validated against canonical id list)
+ *   - Additional technical parts the regex didn't catch
+ *   - Specific catalog tool names worth investigating
+ *   - 1-2 sentence rationale
  */
+
+type RefinementState =
+  | { kind: "idle" }
+  | { kind: "checking-ollama" }
+  | { kind: "loading-browser-model"; progress: BrowserLlmProgress }
+  | { kind: "running"; via: "ollama" | "browser"; modelLabel: string }
+  | { kind: "done"; result: LlmRefinement }
+  | { kind: "error"; message: string };
+
+const SESSION_CACHE_PREFIX = "tool-scout:llm-refinement:v1:";
+
+function cacheKey(description: string): string {
+  // Simple hash for sessionStorage key — collision-free for our use
+  let h = 0;
+  for (let i = 0; i < description.length; i++) {
+    h = (h << 5) - h + description.charCodeAt(i);
+    h |= 0;
+  }
+  return `${SESSION_CACHE_PREFIX}${h}`;
+}
+
+function readCache(description: string): LlmRefinement | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = window.sessionStorage.getItem(cacheKey(description));
+    return raw ? (JSON.parse(raw) as LlmRefinement) : null;
+  } catch {
+    return null;
+  }
+}
+
+function writeCache(description: string, result: LlmRefinement): void {
+  if (typeof window === "undefined") return;
+  try {
+    window.sessionStorage.setItem(cacheKey(description), JSON.stringify(result));
+  } catch {
+    // Quota exceeded or private mode — non-fatal
+  }
+}
+
 export function AIRefinement({
   profile,
   archetypes,
@@ -36,211 +81,245 @@ export function AIRefinement({
   archetypes: ProjectArchetype[];
   tools: Tool[];
 }) {
-  const [status, setStatus] = useState<
-    | { kind: "checking" }
-    | { kind: "available"; models: string[]; preferred: string }
-    | { kind: "unavailable"; reason: string }
-  >({ kind: "checking" });
+  const [state, setState] = useState<RefinementState>({ kind: "idle" });
 
-  const [refinement, setRefinement] = useState<LlmRefinement | null>(null);
-  const [refinementError, setRefinementError] = useState<string | null>(null);
-  const [running, setRunning] = useState(false);
-  const [selectedModel, setSelectedModel] = useState<string | null>(null);
+  // Track the description we last ran for, so we don't re-run on unrelated re-renders
+  const lastRunFor = useRef<string | null>(null);
 
-  // Probe Ollama once on mount
   useEffect(() => {
-    let cancelled = false;
-    detectOllama().then((r) => {
-      if (cancelled) return;
-      if (r.available) {
-        const preferred = preferredOllamaModel(r.models);
-        setStatus({ kind: "available", models: r.models, preferred });
-        setSelectedModel(preferred);
-      } else {
-        setStatus({ kind: "unavailable", reason: r.reason });
-      }
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
+    const desc = profile.description;
+    if (!desc || lastRunFor.current === desc) return;
+    lastRunFor.current = desc;
 
-  async function runRefinement() {
-    if (status.kind !== "available" || !selectedModel) return;
-    setRunning(true);
-    setRefinementError(null);
-    setRefinement(null);
-    try {
+    // 1. Cache check — instant return for previously-seen descriptions
+    const cached = readCache(desc);
+    if (cached) {
+      setState({ kind: "done", result: cached });
+      return;
+    }
+
+    let cancelled = false;
+    (async () => {
       // Sample catalog tool names — give the LLM ~80 names to choose from
       const sampleNames = tools
         .filter((t) => t.grade && t.grade.total >= 16)
         .slice(0, 80)
         .map((t) => t.name);
-      const result = await refineWithOllama(profile.description, profile, archetypes, sampleNames, {
-        baseUrl: "http://localhost:11434",
-        model: selectedModel,
+
+      // 2. Tier 1: Probe Ollama. If available, use it — much faster and
+      //    higher quality than the 0.5B browser model.
+      setState({ kind: "checking-ollama" });
+      const ollama = await detectOllama();
+      if (cancelled) return;
+
+      if (ollama.available) {
+        const model = preferredOllamaModel(ollama.models);
+        setState({ kind: "running", via: "ollama", modelLabel: model });
+        try {
+          const result = await refineWithOllama(desc, profile, archetypes, sampleNames, {
+            baseUrl: "http://localhost:11434",
+            model,
+          });
+          if (cancelled) return;
+          writeCache(desc, result);
+          setState({ kind: "done", result });
+          return;
+        } catch (e) {
+          if (cancelled) return;
+          // Fall through to Tier 2 — Ollama might be running but failing
+          console.warn("Ollama refinement failed, falling back to browser model", e);
+        }
+      }
+
+      // 3. Tier 2: Browser model (Qwen2.5-0.5B-Instruct via transformers.js)
+      setState({
+        kind: "loading-browser-model",
+        progress: { status: "loading", progress: 0 },
       });
-      setRefinement(result);
-    } catch (e) {
-      setRefinementError(e instanceof Error ? e.message : String(e));
-    } finally {
-      setRunning(false);
-    }
-  }
+      try {
+        const result = await refineWithBrowserLLM(
+          desc,
+          profile,
+          archetypes,
+          sampleNames,
+          (p) => {
+            if (cancelled) return;
+            // While model is downloading/loading, surface progress in UI
+            if (p.status === "downloading" || p.status === "loading") {
+              setState({ kind: "loading-browser-model", progress: p });
+            } else if (p.status === "ready") {
+              setState({ kind: "running", via: "browser", modelLabel: "Qwen2.5-0.5B" });
+            }
+          },
+        );
+        if (cancelled) return;
+        writeCache(desc, result);
+        setState({ kind: "done", result });
+      } catch (e) {
+        if (cancelled) return;
+        const msg = e instanceof Error ? e.message : String(e);
+        setState({ kind: "error", message: msg });
+      }
+    })();
 
-  // ── Status: probing ──
-  if (status.kind === "checking") {
-    return (
-      <section className="bg-bg-card border border-white/5 rounded-lg p-4 text-sm text-ink-subtle">
-        Checking for local AI…
-      </section>
-    );
-  }
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [profile.description]);
 
-  // ── Status: not available — show install hint ──
-  if (status.kind === "unavailable") {
-    return (
-      <section className="bg-bg-card border border-white/5 rounded-lg p-5">
-        <h3 className="font-mono text-base text-ink mb-2">Optional: AI refinement</h3>
-        <p className="text-sm text-ink-muted mb-3">
-          You&apos;re seeing the deterministic analysis above. For an extra
-          AI-augmented pass — suggested by a local LLM running on your own
-          machine, no tokens, no data leaves your device — install Ollama
-          and start it with cross-origin fetches enabled:
-        </p>
-        <pre className="bg-bg text-xs text-ink-muted font-mono p-3 rounded overflow-x-auto border border-white/5">
-{`# 1. Install Ollama (if you don't have it)
-#    macOS / Linux: curl -fsSL https://ollama.com/install.sh | sh
-#    Windows: download from https://ollama.com/download
+  // ── Render ──────────────────────────────────────────────────────────────
 
-# 2. Pull a small Apache-2.0 model
-ollama pull qwen2.5:0.5b   # ~400MB, fast, Apache 2.0
-# or:
-ollama pull gemma3:4b      # ~3GB, more capable
+  if (state.kind === "idle") return null;
 
-# 3. Restart Ollama with browser CORS allowed
-OLLAMA_ORIGINS='*' ollama serve
-
-# Then refresh this page.`}
-        </pre>
-        <p className="text-xs text-ink-subtle mt-2">
-          Why? <code className="font-mono">{status.reason}</code>
-        </p>
-      </section>
-    );
-  }
-
-  // ── Status: available ──
   return (
     <section className="bg-bg-card border border-white/5 rounded-lg p-5">
-      <div className="flex items-baseline gap-3 mb-3">
+      <div className="flex items-baseline gap-3 mb-3 flex-wrap">
         <h3 className="font-mono text-base text-ink">AI refinement</h3>
-        <span className="text-xs text-ink-subtle font-mono">
-          local Ollama detected · {status.models.length} model{status.models.length !== 1 ? "s" : ""}
-        </span>
-      </div>
-      <p className="text-sm text-ink-muted mb-3">
-        The deterministic breakdown above is rule-based. Run an extra AI
-        pass through a local model to refine the archetype, suggest
-        additional technical parts, and pinpoint specific tools to
-        investigate. All inference is local — no tokens, no data leaves
-        your device.
-      </p>
-      <div className="flex flex-wrap items-center gap-2 mb-3">
-        <label className="text-xs text-ink-subtle font-mono">model:</label>
-        <select
-          value={selectedModel ?? status.preferred}
-          onChange={(e) => setSelectedModel(e.target.value)}
-          disabled={running}
-          className="bg-bg border border-white/10 rounded px-2 py-1 text-xs font-mono text-ink"
-        >
-          {status.models.map((m) => (
-            <option key={m} value={m}>
-              {m}
-            </option>
-          ))}
-        </select>
-        <button
-          onClick={runRefinement}
-          disabled={running}
-          className="ml-auto bg-accent text-bg px-3 py-1.5 rounded text-sm font-medium hover:bg-accent/90 disabled:opacity-50 disabled:cursor-not-allowed"
-        >
-          {running ? "Refining…" : refinement ? "Run again" : "Refine with AI ✨"}
-        </button>
+        <RefinementStatusBadge state={state} />
       </div>
 
-      {refinementError && (
-        <div className="bg-grade-d/10 border border-grade-d/30 text-grade-d text-sm rounded p-3 mt-2">
-          <span className="font-mono text-xs uppercase mr-2">⚠ error</span>
-          {refinementError}
-        </div>
+      {state.kind === "checking-ollama" && (
+        <p className="text-sm text-ink-muted">
+          Checking for local AI…
+        </p>
       )}
 
-      {refinement && (
-        <div className="mt-4 space-y-3 border-t border-white/5 pt-4">
-          {refinement.refinedArchetypeId &&
-            refinement.refinedArchetypeId !== profile.archetype?.id && (
-              <div className="bg-grade-s/10 border border-grade-s/30 rounded p-3">
-                <p className="text-xs font-mono uppercase text-grade-s mb-1">
-                  Suggested archetype refinement
-                </p>
-                <p className="text-sm text-ink">
-                  The LLM thinks this might be a better fit:{" "}
-                  <span className="font-mono text-grade-s">
-                    {refinement.refinedArchetypeLabel ?? refinement.refinedArchetypeId}
-                  </span>
-                </p>
-              </div>
-            )}
+      {state.kind === "loading-browser-model" && (
+        <BrowserLoadProgress progress={state.progress} />
+      )}
 
-          {refinement.additionalTechnicalParts.length > 0 && (
-            <div>
-              <p className="text-xs font-mono uppercase text-ink-subtle mb-1.5">
-                Additional technical parts (LLM-suggested)
-              </p>
-              <ul className="space-y-1">
-                {refinement.additionalTechnicalParts.map((part, i) => (
-                  <li key={i} className="text-sm text-ink-muted flex items-start gap-2">
-                    <span className="text-accent font-mono text-xs pt-0.5">+</span>
-                    <span>{part}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+      {state.kind === "running" && (
+        <p className="text-sm text-ink-muted">
+          Running analysis through{" "}
+          <span className="font-mono text-ink">{state.modelLabel}</span>
+          {state.via === "ollama" ? " (local)" : " (in your browser)"}…
+        </p>
+      )}
 
-          {refinement.suggestedTools.length > 0 && (
-            <div>
-              <p className="text-xs font-mono uppercase text-ink-subtle mb-1.5">
-                Specific tools worth investigating
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {refinement.suggestedTools.map((tool, i) => (
-                  <span
-                    key={i}
-                    className="inline-flex items-center px-2 py-0.5 rounded text-xs font-mono bg-white/5 text-ink-muted border border-white/10"
-                  >
-                    {tool}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {refinement.rationale && (
-            <p className="text-xs text-ink-subtle italic mt-2 pt-2 border-t border-white/5">
-              {refinement.rationale}
-            </p>
-          )}
-
-          <p className="text-[10px] text-ink-subtle font-mono">
-            via{" "}
-            {refinement.backend.kind === "ollama"
-              ? `Ollama / ${refinement.backend.model}`
-              : "browser LLM"}
+      {state.kind === "error" && (
+        <div className="bg-grade-d/10 border border-grade-d/30 text-grade-d text-sm rounded p-3">
+          <span className="font-mono text-xs uppercase mr-2">⚠ AI refinement failed</span>
+          <span className="block mt-1 text-ink-muted">{state.message}</span>
+          <p className="text-xs text-ink-subtle mt-2">
+            The deterministic breakdown above is unaffected. AI refinement is purely additive.
           </p>
         </div>
       )}
+
+      {state.kind === "done" && <RefinementDisplay result={state.result} profileArchetypeId={profile.archetype?.id ?? null} />}
     </section>
+  );
+}
+
+function RefinementStatusBadge({ state }: { state: RefinementState }) {
+  let label = "";
+  if (state.kind === "checking-ollama") label = "probing local AI";
+  else if (state.kind === "loading-browser-model") label = "loading in-browser model";
+  else if (state.kind === "running") label = "thinking";
+  else if (state.kind === "done") {
+    const b = state.result.backend;
+    if (b.kind === "ollama") label = `via ${b.model} (local)`;
+    else if (b.kind === "browser") label = `via ${b.modelId} (browser)`;
+    else label = "via fallback";
+  } else if (state.kind === "error") label = "error";
+  return <span className="text-xs text-ink-subtle font-mono">{label}</span>;
+}
+
+function BrowserLoadProgress({ progress }: { progress: BrowserLlmProgress }) {
+  const pct = Math.round(progress.progress * 100);
+  const mb =
+    progress.loaded != null && progress.total != null
+      ? `${(progress.loaded / 1024 / 1024).toFixed(0)}MB / ${(progress.total / 1024 / 1024).toFixed(0)}MB`
+      : null;
+  return (
+    <div>
+      <p className="text-sm text-ink-muted mb-2">
+        {progress.status === "downloading"
+          ? "Downloading the AI model (one-time, ~250MB, cached for next time)…"
+          : progress.status === "loading"
+            ? "Initializing the AI model…"
+            : "Loading…"}
+      </p>
+      <div className="h-1.5 w-full bg-white/5 rounded-full overflow-hidden">
+        <div
+          className="h-full bg-accent transition-all"
+          style={{ width: `${Math.max(2, pct)}%` }}
+        />
+      </div>
+      <p className="text-xs text-ink-subtle font-mono mt-1.5">
+        {pct}% {mb ? `· ${mb}` : ""} {progress.file ? `· ${progress.file}` : ""}
+      </p>
+      <p className="text-xs text-ink-subtle mt-2">
+        Apache 2.0, runs entirely on your device. No tokens, no data leaves your browser.
+      </p>
+    </div>
+  );
+}
+
+function RefinementDisplay({
+  result,
+  profileArchetypeId,
+}: {
+  result: LlmRefinement;
+  profileArchetypeId: string | null;
+}) {
+  return (
+    <div className="space-y-3">
+      {result.refinedArchetypeId &&
+        result.refinedArchetypeId !== profileArchetypeId && (
+          <div className="bg-grade-s/10 border border-grade-s/30 rounded p-3">
+            <p className="text-xs font-mono uppercase text-grade-s mb-1">
+              Suggested archetype refinement
+            </p>
+            <p className="text-sm text-ink">
+              The AI thinks this might be a closer fit:{" "}
+              <span className="font-mono text-grade-s">
+                {result.refinedArchetypeLabel ?? result.refinedArchetypeId}
+              </span>
+            </p>
+          </div>
+        )}
+
+      {result.additionalTechnicalParts.length > 0 && (
+        <div>
+          <p className="text-xs font-mono uppercase text-ink-subtle mb-1.5">
+            Additional technical parts
+          </p>
+          <ul className="space-y-1">
+            {result.additionalTechnicalParts.map((part, i) => (
+              <li key={i} className="text-sm text-ink-muted flex items-start gap-2">
+                <span className="text-accent font-mono text-xs pt-0.5">+</span>
+                <span>{part}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {result.suggestedTools.length > 0 && (
+        <div>
+          <p className="text-xs font-mono uppercase text-ink-subtle mb-1.5">
+            Specific tools worth investigating
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {result.suggestedTools.map((tool, i) => (
+              <span
+                key={i}
+                className="inline-flex items-center px-2 py-0.5 rounded text-xs font-mono bg-white/5 text-ink-muted border border-white/10"
+              >
+                {tool}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {result.rationale && (
+        <p className="text-xs text-ink-subtle italic mt-2 pt-2 border-t border-white/5">
+          {result.rationale}
+        </p>
+      )}
+    </div>
   );
 }

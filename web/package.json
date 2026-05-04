@@ -13,6 +13,7 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
+    "@huggingface/transformers": "^4.2.0",
     "jszip": "^3.10.1",
     "next": "15.0.3",
     "react": "18.3.1",
