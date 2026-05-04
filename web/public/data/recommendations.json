@@ -411,21 +411,21 @@
   },
   {
     "rank": 42,
-    "tool_id": "02dc7fbcc1b0b0c1",
-    "name": "yantrikos/yantrikdb-server",
-    "url": "https://github.com/yantrikos/yantrikdb-server",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.865,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 43,
     "tool_id": "ecd3970804bed707",
     "name": "mercurialsolo/claudectl",
     "url": "https://github.com/mercurialsolo/claudectl",
     "category": "claude_plugin",
     "letter": "A",
+    "score": 0.865,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 43,
+    "tool_id": "02dc7fbcc1b0b0c1",
+    "name": "yantrikos/yantrikdb-server",
+    "url": "https://github.com/yantrikos/yantrikdb-server",
+    "category": "mcp_server",
+    "letter": "B",
     "score": 0.865,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
