@@ -26,7 +26,7 @@
  *      large bonus over generic tools.
  */
 import type { Tool } from "./data";
-import type { ExtendedProfile, AgentTarget, GoalType } from "./architect";
+import type { ExtendedProfile, AgentTarget, GoalType, ProjectArchetype } from "./architect";
 
 export type ComposedPick = {
   tool: Tool;
@@ -48,6 +48,9 @@ export type ComposedStack = {
   totalPrimaryCount: number;
   skipped: string[];
   generatedAt: string;
+  /** Detected project archetype (when the prompt was goal-oriented). The UI
+   *  should render this above the stack as a "your project breakdown" view. */
+  archetype?: ProjectArchetype | null;
 };
 
 const MAX_PICKS = 15;
@@ -904,15 +907,19 @@ const LAYERS: LayerDef[] = [
 
 export function composeStack(tools: Tool[], profile: ExtendedProfile): ComposedStack {
   // Underspecified-prompt early return: when the user has given us nothing
-  // to go on (no agent, no language, no goal, no domains, no flags), don't
-  // hallucinate a stack. Previously we'd still pick fastmcp + a Python FS
-  // server — two random-feeling MCP servers with no fit rationale.
+  // to go on AND we couldn't even match an archetype, don't hallucinate a
+  // stack. Previously we'd still pick fastmcp + a Python FS server — two
+  // random-feeling MCP servers with no fit rationale.
+  // When an archetype DID match (e.g. "trading app", "RAG chatbot"), the
+  // archetype's inferred domains/frameworks/language fill the profile, so
+  // this early-return shouldn't fire.
   const isUnderspecified =
     profile.targetAgent === "unknown" &&
     !profile.primaryLanguage &&
     profile.goal === "general" &&
     profile.domains.length === 0 &&
     profile.frameworks.size === 0 &&
+    !profile.archetype &&
     !profile.hasMcp &&
     !profile.hasTests &&
     !profile.hasDocker;
@@ -922,6 +929,7 @@ export function composeStack(tools: Tool[], profile: ExtendedProfile): ComposedS
       totalPrimaryCount: 0,
       skipped: ["all layers — prompt too vague to recommend (please specify language, agent, or goal)"],
       generatedAt: new Date().toISOString(),
+      archetype: null,
     };
   }
 
@@ -990,5 +998,11 @@ export function composeStack(tools: Tool[], profile: ExtendedProfile): ComposedS
     layers.push({ id: def.id, name: def.name, description: def.description, primary, alternatives: alternative });
   }
 
-  return { layers, totalPrimaryCount: totalPrimary, skipped, generatedAt: new Date().toISOString() };
+  return {
+    layers,
+    totalPrimaryCount: totalPrimary,
+    skipped,
+    generatedAt: new Date().toISOString(),
+    archetype: profile.archetype,
+  };
 }

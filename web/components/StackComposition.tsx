@@ -66,6 +66,49 @@ export function StackComposition({
         </div>
       </section>
 
+      {/* Archetype breakdown -------------------------------------------
+        Renders when the user described what they want to build in plain
+        English ("an app that trades on the stock market") instead of
+        naming technologies. The architect decomposes it into the
+        technical parts they'll need so the recommendations make sense
+        in context. */}
+      {stack.archetype && (
+        <section className="bg-bg-card border border-white/5 rounded-lg p-5">
+          <div className="flex items-baseline gap-3 mb-1">
+            <h2 className="font-mono text-lg text-ink">Your project breakdown</h2>
+            <span className="text-xs text-ink-subtle font-mono">
+              detected: {stack.archetype.label}
+            </span>
+          </div>
+          <p className="text-sm text-ink-muted mt-2 mb-4">{stack.archetype.summary}</p>
+          <div className="space-y-1.5">
+            <p className="text-xs font-mono uppercase text-ink-subtle">
+              Technical parts you&apos;ll need
+            </p>
+            <ul className="space-y-1.5">
+              {stack.archetype.technicalParts.map((part, i) => (
+                <li key={i} className="text-sm text-ink-muted flex items-start gap-2">
+                  <span className="text-accent font-mono text-xs pt-0.5">
+                    {(i + 1).toString().padStart(2, "0")}
+                  </span>
+                  <span>{part}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="mt-4 pt-3 border-t border-white/5">
+            <p className="text-xs font-mono uppercase text-ink-subtle mb-1">
+              Typical stack for this archetype
+            </p>
+            <p className="text-sm text-ink-muted font-mono">{stack.archetype.exampleStack}</p>
+          </div>
+          <p className="text-xs text-ink-subtle mt-3 italic">
+            The recommendations below are filtered by the inferred technical needs above.
+            Refine your description to override these guesses.
+          </p>
+        </section>
+      )}
+
       {/* Warnings ----------------------------------------------------- */}
       {warnings.length > 0 && (
         <section className="space-y-2">

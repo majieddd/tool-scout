@@ -55,6 +55,24 @@ export type GoalType =
 
 export type DeployTarget = "web" | "mobile" | "desktop" | "server" | "cli" | "unknown";
 
+/**
+ * Project archetype = a coarse classification of WHAT the user is building,
+ * detected from goal-oriented prose ("an app that trades on the stock market",
+ * "a chatbot for our docs"). Archetypes break a bare goal into the technical
+ * components needed to build it — without an archetype, the architect was
+ * keyword-blind to project ideas that didn't name technologies.
+ */
+export type ProjectArchetype = {
+  id: string;
+  label: string;
+  /** Plain-English summary the UI can show under "Your project breakdown" */
+  summary: string;
+  /** Technical components a builder will need (rendered as a checklist) */
+  technicalParts: string[];
+  /** Brief "typical stack" string the UI can show as guidance */
+  exampleStack: string;
+};
+
 export type ExtendedProfile = ProjectProfile & {
   description: string;
   targetAgent: AgentTarget;
@@ -63,6 +81,7 @@ export type ExtendedProfile = ProjectProfile & {
   goal: GoalType;
   domains: string[];              // ordered by detection confidence
   tokens: Set<string>;            // every detected tag-shaped signal (lang, fw, marker, domain, agent)
+  archetype: ProjectArchetype | null;  // detected from goal-oriented prose
 };
 
 const AGENT_PATTERNS: Array<[AgentTarget, RegExp[]]> = [
@@ -227,6 +246,259 @@ const GOAL_PATTERNS: Array<[GoalType, RegExp[]]> = [
   ["research", [/\b(research|exper(iment|imental)|prototype|poc|proof[\s-]?of[\s-]?concept)\b/i]],
 ];
 
+/**
+ * Project archetypes — pattern → inferred technical breakdown.
+ *
+ * The architect was previously keyword-only: a goal-oriented prompt like
+ * "I want to build an app that trades for me on the stock market" yielded
+ * `domains=["financial"]` and nothing else, because no technology was named.
+ * Now we recognize common project shapes and infer the technical parts they
+ * imply, plus suggested domains/frameworks/language that downstream layers
+ * can act on.
+ *
+ * Order matters — first match wins, so put more specific patterns first.
+ *
+ * Each archetype's `inferred*` fields are SOFT hints: they only fire when
+ * the user hasn't already given an explicit signal. So if the user says
+ * "trading app in Rust", we still respect Rust.
+ */
+type ArchetypeDef = ProjectArchetype & {
+  patterns: RegExp[];
+  inferDomains: string[];
+  inferFrameworks: string[];
+  inferLanguage: string | null;
+  inferGoal: GoalType | null;
+};
+
+const ARCHETYPES: ArchetypeDef[] = [
+  {
+    id: "stock-trading-app",
+    label: "Algorithmic / automated trading app",
+    summary:
+      "An always-on bot that ingests market data, makes trading decisions, and executes orders against a brokerage API.",
+    technicalParts: [
+      "Market data ingestion (real-time quotes + historical bars)",
+      "Brokerage API integration (Alpaca, Interactive Brokers, Tradier, etc.)",
+      "Strategy / decision engine (signals, position sizing)",
+      "Order execution + risk management (stop-loss, max drawdown)",
+      "Backtesting harness against historical data",
+      "Scheduling / always-on runner (or event-driven on tick)",
+      "Persistence (orders, fills, P&L, equity curve)",
+      "Observability (alerts on failures, slippage, daily summary)",
+      "Paper-trading sandbox before live capital",
+    ],
+    exampleStack:
+      "Python + Alpaca/IBKR SDK + pandas/numpy + APScheduler + PostgreSQL + Sentry",
+    patterns: [
+      /\b(?:algo(?:rithmic)?|automated|auto)\s+trad(?:ing|er)\b/i,
+      // Either order: "trading X" OR "X trader/trading"
+      /\btrad(?:ing|es?|er|e)\b.*\b(?:stock|equity|market|forex|fx|crypto|coin|option)/i,
+      /\b(?:stock|equity|forex|fx|crypto|coin|option)\b.*\btrad(?:ing|es?|er|e)\b/i,
+      /\b(?:stock|equity|forex|crypto|coin|option)\s+market\b.*\b(?:bot|app|trader|trading|invest|buy|sell)/i,
+      /\b(?:trades?|trading)\s+for\s+me\b/i,
+      /\bbuild(?:ing)?\s+a\s+(?:trading|trader)\b/i,
+      /\b(?:buys?\s+and\s+sells?|signals?)\b.*\bstock\b/i,
+      /\bstock\s+(?:bot|trader|app|invest)/i,
+    ],
+    inferDomains: ["financial", "backend", "automation", "observability", "database"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: "data_pipeline",
+  },
+  {
+    id: "rag-chatbot",
+    label: "RAG chatbot / document Q&A",
+    summary:
+      "A chatbot that answers questions grounded in your documents using retrieval-augmented generation.",
+    technicalParts: [
+      "Document ingestion + chunking (PDFs, markdown, web pages)",
+      "Embeddings generation (OpenAI / local model)",
+      "Vector store (pgvector / Chroma / Pinecone / Qdrant)",
+      "Retrieval + reranking (hybrid keyword + vector)",
+      "LLM completion with grounded context",
+      "Conversation history + session state",
+      "Optional: streaming responses, citations",
+    ],
+    exampleStack:
+      "Python + LangChain or LlamaIndex + pgvector + OpenAI/Anthropic API + FastAPI",
+    patterns: [
+      /\b(?:rag|retrieval[\s-]?augmented)\b/i,
+      /\b(?:chatbot|chat[\s-]?bot|assistant)\b.*\b(?:document|knowledge[\s-]?base|company|internal|wiki|pdf)/i,
+      /\b(?:answer\s+questions?|q\s*&\s*a)\b.*\b(?:document|wiki|knowledge[\s-]?base)/i,
+      /\b(?:talk|chat)\s+(?:to|with)\s+(?:my|our|your)\s+(?:docs?|documents?|pdfs?|notes?)\b/i,
+    ],
+    inferDomains: ["embeddings-rag", "search", "llm", "backend"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: null,
+  },
+  {
+    id: "social-app",
+    label: "Social / community platform",
+    summary:
+      "A multi-user app with profiles, posts, and a feed — a social network or community space.",
+    technicalParts: [
+      "User auth + profiles (signup, OAuth, password reset)",
+      "Posts / content creation (text, media uploads)",
+      "Feed / timeline (chronological or ranked)",
+      "Comments, likes, follows",
+      "Notifications (in-app, email, push)",
+      "Real-time updates (websockets or polling)",
+      "Moderation tooling (report, ban, content review)",
+      "Media storage (S3 / CDN)",
+    ],
+    exampleStack:
+      "Next.js + Supabase or Firebase + S3/Cloudflare R2 + Pusher/Ably for realtime",
+    patterns: [
+      /\b(?:social\s+(?:app|network|media|platform)|community\s+(?:app|platform|site))\b/i,
+      /\b(?:twitter|instagram|tiktok|reddit|discord)[\s-]?(?:clone|alternative|like)\b/i,
+      /\bbuild(?:ing)?\s+(?:a|an)\s+(?:social|community)\b/i,
+    ],
+    inferDomains: ["frontend", "backend", "auth", "database"],
+    inferFrameworks: [],
+    inferLanguage: "typescript",
+    inferGoal: "web_app",
+  },
+  {
+    id: "scraper-tracker",
+    label: "Web scraper / price-or-listing tracker",
+    summary:
+      "An automated system that watches websites and fires alerts (or stores data) when something changes.",
+    technicalParts: [
+      "Target site discovery + URL list management",
+      "HTML fetching + parsing (static or browser-rendered)",
+      "Change detection (diff against previous snapshot)",
+      "Persistence (history of values / listings)",
+      "Alerting (email, Discord, Slack, push)",
+      "Anti-bot handling (rate limits, rotating UAs, sometimes proxies)",
+      "Scheduling (cron / always-on poller)",
+    ],
+    exampleStack:
+      "Python + Playwright or BeautifulSoup + SQLite/PostgreSQL + cron/APScheduler",
+    patterns: [
+      /\b(?:price|deal|inventory|product|stock|listing|availability)\s+(?:tracker|monitor|watcher|alert)/i,
+      /\b(?:watch|monitor|track)\s+(?:websites?|prices?|listings?|inventory)/i,
+      /\bnotif(?:y|ies|ication)\s+(?:me|us)\s+when\b.*\b(?:website|page|product|price|in\s+stock)/i,
+      /\bscrape\b.*\b(?:and|then)\s+(?:store|save|alert|notify)/i,
+    ],
+    inferDomains: ["scraping", "browser-automation", "automation", "database", "observability"],
+    inferFrameworks: ["playwright"],
+    inferLanguage: "python",
+    inferGoal: "data_pipeline",
+  },
+  {
+    id: "ai-agent-app",
+    label: "Autonomous AI agent",
+    summary:
+      "An LLM-driven agent that pursues a goal across multiple steps — research, code, ops, etc.",
+    technicalParts: [
+      "Agent loop (plan → act → observe)",
+      "Tool / function calling (web search, file ops, shell)",
+      "Memory (conversation history + long-term)",
+      "LLM provider integration (Anthropic / OpenAI / local)",
+      "Sandboxed execution for code/shell tools",
+      "Observability (trace each step, cost tracking)",
+      "Safety rails (allowed tools, max iterations)",
+    ],
+    exampleStack:
+      "Python or TypeScript + Anthropic/OpenAI API + LangGraph or custom loop + E2B sandbox",
+    patterns: [
+      /\b(?:autonomous|ai)\s+agent\b/i,
+      /\b(?:research|coding|ops)\s+agent\b/i,
+      /\b(?:agent|assistant)\s+that\s+(?:does|can|will|writes|reviews|plans)\b/i,
+      /\bbuild(?:ing)?\s+an\s+agent\s+to\b/i,
+      /\bmulti[\s-]?step\s+(?:agent|reasoning|tool)/i,
+    ],
+    inferDomains: ["agent-orchestration", "llm", "automation"],
+    inferFrameworks: [],
+    inferLanguage: null, // could be Python or TS — leave open
+    inferGoal: "build_harness",
+  },
+  {
+    id: "personal-assistant",
+    label: "Personal assistant / lifestyle automation",
+    summary:
+      "An always-on helper that automates personal tasks — reminders, summaries, scheduling, errands.",
+    technicalParts: [
+      "Trigger source (calendar, email, voice, schedule)",
+      "Task queue / orchestration",
+      "External integrations (calendar, email, messaging, todo app)",
+      "LLM for summarization / decision-making",
+      "Persistence + history",
+      "Notifications (push, SMS, email, voice)",
+    ],
+    exampleStack:
+      "Python or TS + cron/n8n + LLM API + Twilio/Pushover + PostgreSQL",
+    patterns: [
+      /\b(?:personal\s+assistant|life\s+assistant|daily\s+(?:planner|assistant))\b/i,
+      /\b(?:reminds?|nudges?|summari[sz]es?)\s+me\b.*\b(?:every|daily|weekly|when)/i,
+      /\b(?:plans?|schedules?)\s+my\s+(?:day|week|tasks?)/i,
+    ],
+    inferDomains: ["automation", "llm", "backend"],
+    inferFrameworks: [],
+    inferLanguage: null,
+    inferGoal: "automation",
+  },
+  {
+    id: "saas-dashboard",
+    label: "SaaS dashboard / admin panel",
+    summary:
+      "An internal/external dashboard for managing data, users, or business operations.",
+    technicalParts: [
+      "User auth + roles (admin, member, viewer)",
+      "Data tables with filters / sort / pagination",
+      "Charts / KPI visualizations",
+      "CRUD on domain entities",
+      "Audit log",
+      "Multi-tenancy (if customer-facing)",
+      "Billing integration (if paid)",
+    ],
+    exampleStack:
+      "Next.js + Supabase or Postgres + Stripe + Recharts/Tremor",
+    patterns: [
+      /\b(?:saas|admin|internal)\s+(?:dashboard|panel|tool)\b/i,
+      /\b(?:dashboard|panel)\s+(?:for|to)\s+(?:manage|track|view|monitor)/i,
+      /\b(?:crud|admin)\s+(?:app|panel|interface)\b/i,
+    ],
+    inferDomains: ["frontend", "backend", "auth", "database"],
+    inferFrameworks: ["nextjs"],
+    inferLanguage: "typescript",
+    inferGoal: "web_app",
+  },
+  {
+    id: "voice-assistant",
+    label: "Voice / audio assistant",
+    summary:
+      "A voice-driven app — STT input, LLM reasoning, TTS output. Could be phone, smart speaker, or in-app.",
+    technicalParts: [
+      "Speech-to-text (Whisper, Deepgram, AssemblyAI)",
+      "Wake-word / endpointing (if always-listening)",
+      "LLM dialogue management",
+      "Text-to-speech (ElevenLabs, OpenAI TTS, local)",
+      "Audio I/O pipeline (low-latency)",
+      "Optional: streaming for under-1s round-trip",
+    ],
+    exampleStack:
+      "Python + Whisper + OpenAI/Anthropic + ElevenLabs + WebRTC for realtime",
+    patterns: [
+      /\b(?:voice|speech|audio)\s+(?:assistant|agent|app|interface|bot)\b/i,
+      /\btalk\s+(?:to|with)\s+(?:my|the)\s+(?:app|computer|ai)/i,
+      /\b(?:phone|call|telephony)\s+(?:bot|agent|assistant)/i,
+    ],
+    inferDomains: ["voice-audio", "llm", "backend"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: null,
+  },
+];
+
+function detectArchetype(desc: string): ArchetypeDef | null {
+  for (const a of ARCHETYPES) {
+    if (a.patterns.some((rx) => rx.test(desc))) return a;
+  }
+  return null;
+}
+
 function detectFirstMatch<T>(text: string, patterns: Array<[T, RegExp[]]>, fallback: T): T {
   for (const [value, rxs] of patterns) {
     for (const rx of rxs) {
@@ -268,8 +540,26 @@ export function extractFromDescription(description: string, base?: ProjectProfil
   const targetAgent = detectFirstMatch<AgentTarget>(desc, AGENT_PATTERNS, "unknown");
   const platform = detectFirstMatch<Platform>(desc, PLATFORM_PATTERNS, "unknown");
   const deployTarget = detectFirstMatch<DeployTarget>(desc, DEPLOY_TARGET_PATTERNS, "unknown");
-  const goal = detectFirstMatch<GoalType>(desc, GOAL_PATTERNS, "general");
+  let goal = detectFirstMatch<GoalType>(desc, GOAL_PATTERNS, "general");
   const domains = detectAllMatches<string>(desc, DOMAIN_PATTERNS);
+
+  // Archetype detection: when the user has described WHAT they want to build
+  // in plain English (no technologies named), match against known project
+  // shapes and INFER the technical signals their idea implies.
+  // The archetype is exposed on the profile so the UI can render the
+  // technical breakdown — and its inferred domains/frameworks/language
+  // populate the standard fields downstream layers consume.
+  const archetypeMatch = detectArchetype(desc);
+  if (archetypeMatch) {
+    // Inferred domains augment (don't replace) explicit ones
+    for (const d of archetypeMatch.inferDomains) {
+      if (!domains.includes(d)) domains.push(d);
+    }
+    // Inferred frameworks augment baseProfile.frameworks (only if base is empty)
+    for (const fw of archetypeMatch.inferFrameworks) baseProfile.frameworks.add(fw);
+    // Inferred goal only fills the "general" fallback
+    if (goal === "general" && archetypeMatch.inferGoal) goal = archetypeMatch.inferGoal;
+  }
 
   // Detect frameworks from description text. This populates baseProfile.frameworks
   // for paste-mode prompts (where lib/analyze.ts can't see a real codebase).
@@ -302,6 +592,12 @@ export function extractFromDescription(description: string, base?: ProjectProfil
           break;
         }
       }
+    }
+    // Archetype-based fallback inference: if neither explicit language nor a
+    // framework gave us a hint, fall back to the archetype's typical language.
+    // (e.g. "trading app" → python, "social app" → typescript)
+    if (!descLanguage && archetypeMatch?.inferLanguage) {
+      descLanguage = archetypeMatch.inferLanguage;
     }
     if (descLanguage) {
       baseProfile.primaryLanguage = descLanguage;
@@ -342,6 +638,18 @@ export function extractFromDescription(description: string, base?: ProjectProfil
     /\b(unit|integration|e2e|end[\s-]?to[\s-]?end)\s+tests?\b/i.test(desc) ||
     /\b(pytest|jest|vitest|cypress|playwright\s+test)\b/i.test(desc);
 
+  // Strip the internal pattern array before exposing the archetype on the
+  // profile (UI doesn't need to see the regex bag).
+  const archetype: ProjectArchetype | null = archetypeMatch
+    ? {
+        id: archetypeMatch.id,
+        label: archetypeMatch.label,
+        summary: archetypeMatch.summary,
+        technicalParts: archetypeMatch.technicalParts,
+        exampleStack: archetypeMatch.exampleStack,
+      }
+    : null;
+
   return {
     ...baseProfile,
     description: desc,
@@ -355,6 +663,7 @@ export function extractFromDescription(description: string, base?: ProjectProfil
     hasDocker,
     hasMcp,
     hasTests,
+    archetype,
   };
 }
 
@@ -375,6 +684,7 @@ export function mergeProfiles(
     keywords: new Set([...fromCode.keywords, ...fromDescription.keywords]),
     tokens: new Set([...fromCode.keywords, ...fromDescription.tokens]),
     deployTarget: fromDescription.deployTarget,
+    archetype: fromDescription.archetype,
     hasDocker: fromCode.hasDocker || fromDescription.hasDocker,
     hasCI: fromCode.hasCI || fromDescription.hasCI,
     hasTests: fromCode.hasTests || fromDescription.hasTests,
