@@ -146,7 +146,7 @@ const DOMAIN_PATTERNS: Array<[string, RegExp[]]> = [
   ["testing", [/\b(tdd|test[\s-]?driven|red[\s-]?green|pytest|jest|vitest|cypress|playwright\s+test|unit\s+tests?|integration\s+tests?|e2e\s+tests?|test\s+coverage|test\s+suite|test\s+harness)\b/i]],
   ["llm", [/\b(llm|language\s+model|gpt|claude|gemini|mistral|llama|ollama)\b/i]],
   ["game-dev", [/\b(game|hytale|minecraft|voxel|blockbench|unity|unreal|godot)\b/i]],
-  ["financial", [/\b(financial|trading|stocks?|bank(ing)?)\b/i]],
+  ["financial", [/\b(financial|trading|stocks?|bank(ing)?|invoic(?:e|ing)|expenses?|receipts?|bookkeeping|payroll|quickbooks|xero|wave|stripe|paypal|square|tax(?:es)?)\b/i]],
   ["security", [/\b(security|vuln(erability)?|pentest|encrypt(ion)?|auth\s+(check|test))\b/i]],
   // NEW: blockchain / web3 / smart contracts
   ["blockchain", [/\b(blockchain|smart\s+contracts?|defi|web3|ethereum|evm|solana|polygon|arbitrum|optimism|hardhat|foundry|forge|truffle|brownie|anchor|gas\s+optim)/i]],
@@ -242,7 +242,14 @@ const GOAL_PATTERNS: Array<[GoalType, RegExp[]]> = [
   ["data_pipeline", [/\b(data\s+pipeline|etl|elt|ingest(ion)?)\b/i, /\b(scrap(e|er|ing|es)|crawl(er|ing)?)\b.*\b(stor(es?|age)|sav(es?)|persist|database|sqlite|postgres|mongo)\b/i]],
   ["web_app", [/\b(web\s+(app|application|site)|landing\s+page|dashboard)\b/i, /\b(django|rails|laravel|next\.?js|remix|astro|svelte)\b.*\b(app|site|application|project)\b/i]],
   ["cli_tool", [/\b(cli\s+(tool|app|application)|command[\s-]?line\s+(tool|app))\b/i]],
-  ["library", [/\b(library|sdk|package|module)\b.*\b(for|to)\b/i]],
+  // library: previously misfired on "package.json for outdated" because the
+  // regex accepted "package ... for". Tightened to require the noun at the
+  // start of a phrase ("a Rust library for X", "an SDK for Y") rather than
+  // anywhere in the prompt.
+  ["library", [
+    /\b(?:building|build|create|creating|writing|writes?)\s+(?:a|an|the|my)\s+(?:library|sdk|package|module)\s+(?:for|to)\s+\w/i,
+    /\b(?:rust|python|go|typescript|javascript|java)\s+(?:library|sdk|package|crate)\b.*\b(?:for|to)\s+\w/i,
+  ]],
   ["research", [/\b(research|exper(iment|imental)|prototype|poc|proof[\s-]?of[\s-]?concept)\b/i]],
 ];
 
@@ -272,33 +279,42 @@ type ArchetypeDef = ProjectArchetype & {
 
 const ARCHETYPES: ArchetypeDef[] = [
   {
-    id: "stock-trading-app",
-    label: "Algorithmic / automated trading app",
+    id: "market-trader",
+    label: "Algorithmic / automated market trader",
     summary:
-      "An always-on bot that ingests market data, makes trading decisions, and executes orders against a brokerage API.",
+      "An always-on bot that ingests market data, makes decisions, and executes positions against a market API — stocks, crypto, prediction markets (Kalshi, Polymarket), or sports betting.",
     technicalParts: [
-      "Market data ingestion (real-time quotes + historical bars)",
-      "Brokerage API integration (Alpaca, Interactive Brokers, Tradier, etc.)",
-      "Strategy / decision engine (signals, position sizing)",
-      "Order execution + risk management (stop-loss, max drawdown)",
+      "Market data ingestion (real-time quotes / orderbook / event prices)",
+      "Market API integration (Alpaca/IBKR for stocks, Coinbase/Binance for crypto, Kalshi/Polymarket for prediction markets, etc.)",
+      "Strategy / decision engine (signals, edge calculation, position sizing)",
+      "Order execution + risk management (stop-loss, max position, kelly sizing)",
       "Backtesting harness against historical data",
       "Scheduling / always-on runner (or event-driven on tick)",
       "Persistence (orders, fills, P&L, equity curve)",
       "Observability (alerts on failures, slippage, daily summary)",
-      "Paper-trading sandbox before live capital",
+      "Paper / sandbox mode before live capital",
     ],
     exampleStack:
-      "Python + Alpaca/IBKR SDK + pandas/numpy + APScheduler + PostgreSQL + Sentry",
+      "Python + market SDK (Alpaca / Coinbase / Kalshi API) + pandas/numpy + APScheduler + PostgreSQL + Sentry",
     patterns: [
       /\b(?:algo(?:rithmic)?|automated|auto)\s+trad(?:ing|er)\b/i,
-      // Either order: "trading X" OR "X trader/trading"
-      /\btrad(?:ing|es?|er|e)\b.*\b(?:stock|equity|market|forex|fx|crypto|coin|option)/i,
-      /\b(?:stock|equity|forex|fx|crypto|coin|option)\b.*\btrad(?:ing|es?|er|e)\b/i,
-      /\b(?:stock|equity|forex|crypto|coin|option)\s+market\b.*\b(?:bot|app|trader|trading|invest|buy|sell)/i,
+      // Either order: "trading X" OR "X trader/trading" — covers stocks, forex, crypto, options
+      /\btrad(?:ing|es?|er|e)\b.*\b(?:stock|equity|market|forex|fx|crypto|coin|option|future|derivative)/i,
+      /\b(?:stock|equity|forex|fx|crypto|coin|option|future)\b.*\btrad(?:ing|es?|er|e)\b/i,
+      /\b(?:stock|equity|forex|crypto|coin|option|future)\s+market\b.*\b(?:bot|app|trader|trading|invest|buy|sell)/i,
       /\b(?:trades?|trading)\s+for\s+me\b/i,
       /\bbuild(?:ing)?\s+a\s+(?:trading|trader)\b/i,
-      /\b(?:buys?\s+and\s+sells?|signals?)\b.*\bstock\b/i,
+      /\b(?:buys?\s+and\s+sells?|signals?)\b.*\b(?:stock|crypto|option)/i,
       /\bstock\s+(?:bot|trader|app|invest)/i,
+      // Prediction markets — Kalshi, Polymarket, Manifold, PredictIt, Augur, Hedgehog
+      /\b(?:trades?|trading|trader|bets?|betting|bettor)\b.*\b(?:kalshi|polymarket|manifold|predictit|augur|hedgehog|prediction[\s-]?market)\b/i,
+      /\b(?:kalshi|polymarket|manifold|predictit|augur|hedgehog|prediction[\s-]?market)\b.*\b(?:trades?|trading|trader|bets?|betting|bot|app|automat)/i,
+      /\bbets?\s+on\s+(?:kalshi|polymarket|manifold|predictit|polymarkets?|markets?)\b/i,
+      // Sports betting — DraftKings, FanDuel, Betfair, sportsbook
+      /\b(?:bets?|betting|bettor|wager|wagers?)\b.*\b(?:sport|nba|nfl|mlb|nhl|epl|soccer|football|baseball|basketball|hockey|fantasy|draftkings|fanduel|betfair|sportsbook)/i,
+      /\b(?:sports?[\s-]?bet|sportsbook|fantasy[\s-]?(?:football|sport|league)|draftkings|fanduel|betfair)\b.*\b(?:bot|app|automat|optim|lineup)/i,
+      /\b(?:fantasy[\s-]?(?:football|baseball|basketball|hockey|sport)|fantasy\s+(?:lineup|league|team))\b.*\b(?:bot|app|automat|optim|lineup)/i,
+      /\b(?:bot|app|automat)\b.*\b(?:fantasy[\s-]?(?:football|baseball|basketball|hockey|sport)|fantasy\s+(?:lineup|league|team))/i,
     ],
     inferDomains: ["financial", "backend", "automation", "observability", "database"],
     inferFrameworks: [],
@@ -376,10 +392,14 @@ const ARCHETYPES: ArchetypeDef[] = [
     exampleStack:
       "Python + Playwright or BeautifulSoup + SQLite/PostgreSQL + cron/APScheduler",
     patterns: [
-      /\b(?:price|deal|inventory|product|stock|listing|availability)\s+(?:tracker|monitor|watcher|alert)/i,
-      /\b(?:watch|monitor|track)\s+(?:websites?|prices?|listings?|inventory)/i,
-      /\bnotif(?:y|ies|ication)\s+(?:me|us)\s+when\b.*\b(?:website|page|product|price|in\s+stock)/i,
-      /\bscrape\b.*\b(?:and|then)\s+(?:store|save|alert|notify)/i,
+      /\b(?:price|deal|inventory|product|stock|listing|availability|competitor|rival|flight|ticket)\s+(?:tracker|monitor|watcher|alert(?:s|ing)?)/i,
+      // Allow optional intervening words: "monitor competitor pricing", "monitors flight prices"
+      /\b(?:watch(?:es)?|monitor(?:s)?|tracks?)\s+(?:\w+\s+)?(?:websites?|prices?|listings?|inventory|pricing|availab|deals?|flights?|tickets?)/i,
+      /\bnotif(?:y|ies|ication)\s+(?:me|us)\s+when\b.*\b(?:website|page|product|price|in\s+stock|listing|change|drop|matches)/i,
+      /\bscrape\b.*\b(?:and|then)\s+(?:store|save|alert|notify|dm|message)/i,
+      /\bscrapes?\b.*\b(?:zillow|realtor|airbnb|booking|amazon|ebay|craigslist)/i,
+      // "DMs me when X matches" / "texts me when X drops"
+      /\b(?:dm|dms|text|texts|message|messages|ping|pings)\s+me\b.*\b(?:when|if)\b.*\b(?:matches|drops|available|in\s+stock|changes|goes)/i,
     ],
     inferDomains: ["scraping", "browser-automation", "automation", "database", "observability"],
     inferFrameworks: ["playwright"],
@@ -411,7 +431,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     ],
     inferDomains: ["agent-orchestration", "llm", "automation"],
     inferFrameworks: [],
-    inferLanguage: null, // could be Python or TS — leave open
+    inferLanguage: "python", // Most agent frameworks (LangGraph, smolagents, autogen) are Python-first
     inferGoal: "build_harness",
   },
   {
@@ -436,7 +456,7 @@ const ARCHETYPES: ArchetypeDef[] = [
     ],
     inferDomains: ["automation", "llm", "backend"],
     inferFrameworks: [],
-    inferLanguage: null,
+    inferLanguage: "python", // Personal assistants tend to be backend-heavy automation
     inferGoal: "automation",
   },
   {
@@ -465,6 +485,37 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferLanguage: "typescript",
     inferGoal: "web_app",
   },
+  // voice-calling-agent must come BEFORE voice-assistant — they share a few
+  // patterns ("phone agent") but the calling-agent's outbound + booking
+  // intent is the more specific case.
+  {
+    id: "voice-calling-agent",
+    label: "Outbound voice / phone agent",
+    summary:
+      "An AI that makes phone calls on your behalf — booking appointments, screening leads, handling reservations.",
+    technicalParts: [
+      "Telephony provider (Twilio, Telnyx, Vapi)",
+      "Speech-to-text (real-time / streaming)",
+      "LLM dialogue manager with goal completion logic",
+      "Text-to-speech (low-latency, natural prosody)",
+      "Conversation state machine (handle objections, hang-up, voicemail)",
+      "Calendar / booking integration (Google Calendar, Calendly)",
+      "Recording + transcript storage",
+      "Compliance (call recording disclosure, opt-out)",
+    ],
+    exampleStack:
+      "Python or TS + Twilio/Vapi + Deepgram/Whisper + OpenAI/Anthropic + ElevenLabs + Google Calendar API",
+    patterns: [
+      /\b(?:ai|agent|bot)\b.*\bcalls?\s+(?:businesses?|stores?|restaurants?|people|leads?)\b/i,
+      /\b(?:books?|booking)\s+(?:me\s+)?(?:appointments?|reservations?|tables?)\b/i,
+      /\b(?:phone|call|telephony)\s+(?:bot|agent)\b.*\b(?:books?|schedules?|negotiates?|orders?)/i,
+      /\bmakes?\s+(?:phone\s+)?calls?\s+(?:for\s+me|on\s+my\s+behalf)\b/i,
+    ],
+    inferDomains: ["voice-audio", "llm", "automation", "backend"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: "automation",
+  },
   {
     id: "voice-assistant",
     label: "Voice / audio assistant",
@@ -489,6 +540,670 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "python",
     inferGoal: null,
+  },
+  {
+    id: "chat-platform-bot",
+    label: "Chat-platform bot (Discord / Slack / Telegram / WhatsApp)",
+    summary:
+      "A bot that lives inside a chat platform — responds to commands, posts on schedule, moderates, or summarizes.",
+    technicalParts: [
+      "Platform SDK / webhook integration (Discord.py, Slack Bolt, telegraf, etc.)",
+      "Command parsing + slash-commands or natural-language triggers",
+      "Persistence (per-server config, user memory, command history)",
+      "LLM integration (if it's an AI bot)",
+      "Scheduling (cron jobs for daily posts, reminders)",
+      "Permission / role handling (admin commands, opt-in channels)",
+      "Hosting (always-on; serverless for webhooks or VPS for gateway connections)",
+      "Rate-limit handling (platform-specific limits)",
+    ],
+    exampleStack:
+      "TypeScript + Discord.js / Slack Bolt + Postgres or Redis + Railway/Fly.io for hosting",
+    patterns: [
+      /\b(?:discord|slack|telegram|whatsapp|signal|matrix|teams)\s+(?:bot|app|integration|plugin)\b/i,
+      /\bbot\s+(?:for|in|on)\s+(?:my\s+)?(?:discord|slack|telegram|whatsapp|signal|server|channel|community|group)/i,
+      /\bbuild(?:ing)?\s+a\s+(?:discord|slack|telegram|whatsapp)\b/i,
+      /\b(?:reddit|x|twitter)\s+bot\b/i,
+      /\bbot\s+that\s+(?:posts?|replies|responds?)\s+(?:on|in|to)\s+(?:reddit|x|twitter|discord|slack|telegram)/i,
+    ],
+    inferDomains: ["llm", "automation", "backend"],
+    inferFrameworks: [],
+    inferLanguage: "typescript",
+    inferGoal: "automation",
+  },
+  {
+    id: "social-listener",
+    label: "Social-media listener / alerting watcher",
+    summary:
+      "Monitors social platforms or websites for keywords / mentions / events and notifies you when something matches.",
+    technicalParts: [
+      "Source ingestion (Twitter/X API, Reddit API, RSS, Hacker News, web scraping)",
+      "Keyword / regex / semantic match engine",
+      "Optional: LLM filter for relevance ranking",
+      "Deduplication (don't re-alert on the same item)",
+      "Notification channels (DM, email, Discord/Slack webhook, push)",
+      "Persistence (seen items, user preferences)",
+      "Scheduling / always-on poller",
+    ],
+    exampleStack:
+      "Python + tweepy/PRAW + APScheduler + SQLite + ntfy.sh / Pushover / Discord webhook",
+    patterns: [
+      /\b(?:watch|listen|monitor|track)\b.*\b(?:twitter|x|reddit|hacker[\s-]?news|hackernews|hn|tweet|subreddit|mentions?|keywords?)\b.*\b(?:notif|alert|dm|message|me\b|email)/i,
+      /\bnotif(?:y|ies|ication)\s+me\s+when\b.*\b(?:twitter|x|reddit|tweet|posts?|mentions?)/i,
+      /\b(?:keyword|mention|alert)\s+(?:tracker|watcher|monitor|alerts?|alerting)\b/i,
+      /\bdms?\s+me\b.*\b(?:keyword|tweet|post|reddit)/i,
+      /\bbot\s+that\s+watches?\b/i,
+    ],
+    inferDomains: ["scraping", "automation", "llm", "backend"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: "automation",
+  },
+  {
+    id: "content-generator",
+    label: "Content generator (podcast / resume / summary / blog from input)",
+    summary:
+      "Takes structured input (notes, profile data, transcripts) and produces formatted output (podcast audio, resume PDF, blog post, summary).",
+    technicalParts: [
+      "Input adapter (parse notes / LinkedIn / docs / transcripts)",
+      "LLM transformation (summarize, expand, restructure, brand-voice)",
+      "Output renderer (PDF / DOCX for resumes, audio for podcasts, MD for blogs)",
+      "Template management (multiple output styles)",
+      "Optional: TTS for audio output (ElevenLabs, OpenAI TTS)",
+      "Optional: image generation for thumbnails",
+      "Persistence (input + output history, user preferences)",
+      "Delivery (download, email, RSS for podcasts)",
+    ],
+    exampleStack:
+      "Python + OpenAI/Anthropic + ElevenLabs (audio) or WeasyPrint (PDF) + S3 storage",
+    patterns: [
+      // Verbs widened: drafts/writes/composes in addition to generate/create/produce
+      /\b(?:generate|generator|generates?|creates?|produces?|drafts?|writes?|composes?|build(?:ing)?)\b.*\b(?:resume|cv|podcast|summary|summaries|blog|article|newsletter|video\s+summary|listing\s+description|product\s+description|property\s+description|quote|quotes?|proposal|invoice|estimate|contract)/i,
+      // "X generator/builder/maker/writer" — allow optional middle word ("blog post generator")
+      /\b(?:resume|cv|podcast|summary|summaries|blog(?:\s+\w+)?|article|newsletter|video|listing|product|property|airbnb|etsy|amazon|shopify|ebay|quote|proposal|invoice|estimate|contract|cover\s+letter)\s+(?:generator|builder|maker|creator|writer)\b/i,
+      // Inputs widened: charts/records/files/cases/documents
+      /\bsummari[sz]es?\b.*\b(?:videos?|youtube|articles?|papers?|notes?|meetings?|podcasts?|transcripts?|charts?|records?|files?|cases?|documents?|emails?|threads?)/i,
+      // "Turn X into Y" — much broader inputs and outputs (with or without article).
+      /\bturns?\s+(?:my\s+)?(?:\w+\s+)?(?:notes?|ideas?|profile|linkedin|transcripts?|recordings?|meetings?|writing|docs?|emails?|calls?|charts?|records?|files?|cases?|documents?|stripe|sales|data|threads?)\s+(?:into|to)\s+(?:a\s+|the\s+|an\s+)?(?:podcasts?|resumes?|blogs?|articles?|summaries?|newsletters?|posts?|reports?|pdfs?|invoices?|quotes?)/i,
+      /\b(?:podcast|resume|blog|newsletter|article|report)\s+from\s+(?:my\s+)?(?:notes?|profile|linkedin|docs|writing|transcripts?|meetings?|recordings?|stripe|data)/i,
+      // Vertical-specific output verbs
+      /\bdrafts?\s+(?:contracts?|emails?|messages?|proposals?|invoices?|quotes?|reports?|cover\s+letters?|listings?)/i,
+      // "PDF" / "report" / "doc" generation from data — note "generates" with the s,
+      // and broader output nouns including documentation
+      /\b(?:generate|generates|generating|generator|build|builds|building|create|creates|creating|produce|produces|writes?|writing)\s+(?:pricing\s+|monthly\s+|weekly\s+|financial\s+|onboarding\s+)?(?:pdfs?|reports?|invoices?|quotes?|estimates?|docs?|documents?|documentation|readmes?|onboarding|tutorials?)/i,
+      // "writes an X doc/document" / "reads a repo and writes onboarding"
+      // Note: "an" article support added after "an onboarding doc" was missed.
+      /\b(?:reads?|takes?|consumes?)\s+(?:a\s+|an\s+|my\s+|the\s+)?\w+\s+and\s+(?:writes?|generates?|produces?)\s+(?:a\s+|an\s+|the\s+)?(?:onboarding|tutorial|doc|document|readme|guide)/i,
+    ],
+    inferDomains: ["llm", "automation", "backend"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: "automation",
+  },
+  {
+    id: "recommendation-engine",
+    label: "Recommendation / personalization engine",
+    summary:
+      "Suggests items to a user based on their preferences, mood, past behavior, or current context (food, media, products, plans).",
+    technicalParts: [
+      "User profile / preference capture",
+      "Item catalog (restaurants, recipes, products, media — usually a 3rd-party API)",
+      "Scoring / ranking model (rules, embeddings, collaborative filtering, or LLM)",
+      "Context input (mood, location, time, weather, what's-in-fridge)",
+      "Feedback loop (thumbs up/down updates preferences)",
+      "Persistence (user history, accepted/rejected suggestions)",
+      "Delivery UI (mobile, web, voice)",
+    ],
+    exampleStack:
+      "Python or TS + OpenAI embeddings or LLM + a domain API (Yelp, Spoonacular, etc.) + Postgres + Next.js or React Native",
+    patterns: [
+      // Verbs widened: adjusts/curates/optimizes/personalizes/picks/plans in addition to recommend/suggest
+      /\b(?:recommends?|recommendation|suggests?|suggestion|adjusts?|curates?|optimi[sz]es?|personali[sz]es?|picks?|plans?\b(?!\s+to))\b.*\b(?:restaurants?|recipes?|meals?|movies?|shows?|books?|products?|songs?|playlists?|workouts?|trips?|itinerar(?:y|ies)|routes?|outfits?|gifts?|exercises?|reads?)\b/i,
+      // "X planner/recommender/generator" — outputs widened
+      /\b(?:meal|recipe|workout|movie|book|gift|outfit|trip|itinerary|playlist|exercise|reading|date|travel)\s+(?:planner|recommender|suggestion|generator|optimizer|picker)\b/i,
+      // Preference signals widened
+      /\bbased\s+on\s+(?:my\s+)?(?:mood|taste|preferences?|history|location|weather|fridge|pantry|ingredients?|interests?|budget|goals?|fitness|macros?|level|skill|schedule)\b/i,
+      /\bwhat'?s\s+in\s+my\s+(?:fridge|pantry|kitchen|closet|library|wardrobe)\b/i,
+      // Macro/fitness adjusters
+      /\b(?:tracks?|adjusts?)\s+(?:my\s+)?(?:macros?|workout|exercise|calories|fitness)\b.*\b(?:and|then|to)\b/i,
+      // Trip/itinerary planners
+      /\bplans?\s+(?:my\s+)?(?:trip|itinerary|route|day|week|vacation)\b/i,
+    ],
+    inferDomains: ["llm", "backend", "embeddings-rag"],
+    inferFrameworks: [],
+    inferLanguage: "typescript", // Recommendation apps are usually UI-heavy (Next.js, RN, etc.)
+    inferGoal: null,
+  },
+  // ────────────────────────────────────────────────────────────────────
+  // SMB / freelancer archetypes
+  // ────────────────────────────────────────────────────────────────────
+  {
+    id: "inbox-autoresponder",
+    label: "Inbox autoresponder / lead follow-up",
+    summary:
+      "An automation that watches your inbox (email, Etsy, Shopify, Google reviews) and sends contextual replies or follow-ups.",
+    technicalParts: [
+      "Inbox connector (Gmail/Outlook OAuth, Etsy/Shopify webhook, Google Business API)",
+      "Trigger router (new message, no-reply timer, review posted)",
+      "Brand-voice prompt + LLM reply generation",
+      "Draft-vs-send mode (review queue or auto-send rules)",
+      "Persistence (conversation history, dedup, opt-outs)",
+      "Scheduling for follow-up cadence",
+      "Compliance (CAN-SPAM, opt-out links, do-not-contact list)",
+      "Optional: human handoff when confidence is low",
+    ],
+    exampleStack:
+      "Python or TS + Gmail API / Etsy API + LLM provider + Postgres + cron / Cloud Run",
+    patterns: [
+      /\bauto[\s-]?(?:respond|reply|replies)\b.*\b(?:email|message|messages|inbox|customer|review|reviews|comments?)/i,
+      /\b(?:auto[\s-]?(?:respond|reply)|automat(?:ed|e)\s+(?:replies|responses?))/i,
+      /\bfollow[\s-]?ups?\b.*\b(?:leads?|customers?|prospects?|emails?|clients?)/i,
+      /\b(?:didn'?t|didnt|haven'?t)\s+(?:reply|respond)/i,
+      /\b(?:reach\s+out|nudge|chase)\b.*\b(?:leads?|customers?|prospects?)/i,
+      /\breply\s+to\b.*\b(?:reviews?|customers?|messages?)/i,
+    ],
+    inferDomains: ["llm", "automation", "backend", "auth"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: "automation",
+  },
+  {
+    id: "scheduled-publisher",
+    label: "Scheduled publisher (social / newsletter)",
+    summary:
+      "Posts content to social platforms or sends newsletters on a schedule, often pulled from a notes/CMS source.",
+    technicalParts: [
+      "Source ingestion (Notion, Google Docs, markdown, RSS)",
+      "Content transformation (LLM rewrite per platform: short for Twitter, long for LinkedIn, etc.)",
+      "Platform APIs (Buffer, Hootsuite, native Instagram Graph API, Mailchimp/Beehiiv)",
+      "Scheduling (cron, queue, time-zone aware)",
+      "Asset handling (image resize per platform, OG cards)",
+      "Audit log + retry on failures",
+      "Approval workflow (draft → publish)",
+    ],
+    exampleStack:
+      "TypeScript + Buffer/native APIs + cron / Inngest + Postgres + Notion API",
+    patterns: [
+      /\b(?:posts?|publish(?:es|ing)?|sends?)\b.*\b(?:on\s+a\s+schedule|every\s+\w+|daily|weekly|tuesday|monday)/i,
+      /\b(?:schedule(?:s|d|r)?|scheduled?)\s+(?:posts?|publishing|posting|sending|emails?|tweets?)/i,
+      /\b(?:newsletter|email\s+(?:list|campaign))\b.*\b(?:every|daily|weekly|automate|schedule)/i,
+      /\bposts?\s+to\s+(?:my\s+)?(?:instagram|tiktok|facebook|twitter|x|linkedin|threads|bluesky|mastodon)/i,
+      /\b(?:cross[\s-]?post|multi[\s-]?platform\s+post)/i,
+    ],
+    inferDomains: ["automation", "llm", "backend", "database"],
+    inferFrameworks: [],
+    inferLanguage: "typescript",
+    inferGoal: "automation",
+  },
+  {
+    id: "lead-prospector",
+    label: "Lead prospector / sales-research bot",
+    summary:
+      "Finds and enriches leads (LinkedIn, Apollo, Google Maps, Sales Navigator), exports to a CRM or sheet.",
+    technicalParts: [
+      "Source connector (Apollo / Sales Nav / LinkedIn / Google Maps / Crunchbase)",
+      "Search filter builder (industry, role, geography, signal)",
+      "Enrichment (email finder, company info, recent funding)",
+      "Dedup against existing CRM",
+      "Export to CRM (HubSpot, Pipedrive, Salesforce) or Sheets",
+      "Throttling + rotating proxies (anti-detection)",
+      "Compliance (GDPR, CCPA — opt-out lists)",
+    ],
+    exampleStack:
+      "Python + Playwright (for site scraping) + Apollo/Hunter API + HubSpot API + Postgres",
+    patterns: [
+      /\b(?:find(?:s|ing)?|generate|prospect(?:ing|s)?|scrape|gather)\b.*\b(?:leads?|prospects?|contacts?)/i,
+      /\bleads?\b.*\b(?:on|from|via)\s+(?:linkedin|apollo|sales\s+nav|google\s+maps?|crunchbase)/i,
+      /\b(?:linkedin|apollo|sales\s+nav)\s+(?:scrap(?:er|ing)|prospector|lead\s+gen)/i,
+      /\blead\s+(?:gen(?:eration)?|prospector|finder|hunter)\b/i,
+    ],
+    inferDomains: ["scraping", "automation", "backend", "database"],
+    inferFrameworks: ["playwright"],
+    inferLanguage: "python",
+    inferGoal: "data_pipeline",
+  },
+
+  // ────────────────────────────────────────────────────────────────────
+  // Education
+  // ────────────────────────────────────────────────────────────────────
+  {
+    id: "study-aid-generator",
+    label: "Study aid / flashcard / quiz generator",
+    summary:
+      "Ingests learning material (PDFs, lectures, notes, textbooks) and produces flashcards, quizzes, or spaced-repetition decks.",
+    technicalParts: [
+      "PDF / transcript ingestion + chunking",
+      "LLM Q→A pair generation (or cloze deletion)",
+      "Deck export (Anki .apkg, CSV for Quizlet, JSON)",
+      "Spaced-repetition scheduling (SM-2, FSRS)",
+      "Optional review UI (web or mobile)",
+      "Persistence (cards, review history, scheduling state)",
+      "Card-quality filtering (LLM-as-judge to drop weak cards)",
+    ],
+    exampleStack:
+      "Python + PyPDF + OpenAI/Ollama + genanki + SQLite + Streamlit (optional UI)",
+    patterns: [
+      /\b(?:flashcards?|flash[\s-]?cards?|quiz(?:zes)?|study\s+(?:aids?|guides?)|anki\s+deck)\s+(?:generator|builder|maker|creator)/i,
+      /\b(?:generate|create|build|make)\b.*\b(?:flashcards?|quiz(?:zes)?|anki|study\s+(?:aid|guide))/i,
+      /\b(?:study|learn(?:ing)?|memori[sz]e)\b.*\b(?:from|out\s+of)\s+(?:my\s+)?(?:lecture|textbook|pdf|notes?|book|chapter)/i,
+      /\b(?:spaced[\s-]?repetition|sm[\s-]?2|fsrs)/i,
+    ],
+    inferDomains: ["llm", "embeddings-rag", "backend"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: "automation",
+  },
+
+  // ────────────────────────────────────────────────────────────────────
+  // Developer / DevOps tooling
+  // ────────────────────────────────────────────────────────────────────
+  {
+    id: "ci-bot",
+    label: "CI / PR-automation bot",
+    summary:
+      "Reacts to git events (PR opened, push, label added) — runs jobs, posts checks/comments, opens follow-up PRs.",
+    technicalParts: [
+      "GitHub/GitLab webhook receiver or App",
+      "Octokit/PyGithub client + auth (App token or PAT)",
+      "Status-check / commit-status API",
+      "PR comment / review API",
+      "Job runner (workflow dispatch, container, or local CLI)",
+      "Persistence for run history",
+      "Rate-limit + retry handling",
+      "Secrets management for tokens",
+    ],
+    exampleStack:
+      "TypeScript + Probot/Octokit + GitHub Actions + Vercel/Cloudflare Workers (webhook) + KV/Postgres",
+    patterns: [
+      /\b(?:bot|app|action|tool)\b.*\b(?:pull[\s-]?request|pr|merge|commit)\b.*\b(?:github|gitlab|bitbucket|status\s+check|comment|review)/i,
+      /\b(?:auto[\s-]?generate|generates?)\b.*\b(?:changelogs?|release\s+notes?)/i,
+      /\bci\s+matrix\b/i,
+      /\b(?:opens?|creates?)\s+(?:upgrade\s+|patch\s+|fix\s+)?prs?\b/i,
+      /\b(?:reviews?|comments?\s+on|leaves?\s+comments?\s+on)\s+(?:my\s+)?prs?\b/i,
+      /\bgithub\s+(?:bot|app|action)\b.*\b(?:pr|merge|push|label)/i,
+      /\b(?:depend(?:abot|ency)|outdated\s+deps?|upgrade\s+deps?)/i,
+    ],
+    inferDomains: ["git-vcs", "devops", "automation", "backend"],
+    inferFrameworks: [],
+    inferLanguage: "typescript",
+    inferGoal: "automation",
+  },
+  {
+    id: "static-analysis-tool",
+    label: "Static analysis / code-scanning tool",
+    summary:
+      "Walks a codebase and surfaces issues — dead code, secret leaks, anti-patterns, license issues — emitting a report or annotations.",
+    technicalParts: [
+      "Repo discovery + file glob",
+      "Language-aware parser (tree-sitter, AST modules)",
+      "Rule engine (regex + semantic checks)",
+      "Ignore-list / config (.scanignore, glob patterns)",
+      "SARIF or JSON report output",
+      "Pre-commit / CI integration",
+      "Incremental scanning (only changed files)",
+      "Performance optimization for large repos",
+    ],
+    exampleStack:
+      "Rust or Go (for speed) OR Python with ast/tree-sitter — depends on the languages being scanned",
+    patterns: [
+      /\b(?:dead\s+code|unused\s+(?:imports?|code|deps?|exports?)|code\s+smell|anti[\s-]?pattern)/i,
+      /\b(?:scan|detect|find|hunt(?:s|ing)?)\b.*\b(?:leaked|exposed|hardcoded|secrets?|api\s+keys?|credentials?|tokens?)/i,
+      /\bpre[\s-]?commit\s+hook\b.*\b(?:scans?|checks?|lints?|secrets?|formats?)/i,
+      /\b(?:semantic|ast|tree[\s-]?sitter)\s+code\s+(?:search|analysis|scan)/i,
+      /\b(?:lint(?:er|ing)?|static\s+analysis|sast)\b.*\b(?:tool|cli|builds?|writes?)/i,
+      /\b(?:vulnerab|cve)\b.*\b(?:scanner?|detect)/i,
+    ],
+    inferDomains: ["filesystem", "git-vcs", "security", "automation"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: "cli_tool",
+  },
+  {
+    id: "infra-ops-tool",
+    label: "Infra / DevOps operator tool",
+    summary:
+      "CLI or daemon that operates on cloud / container infrastructure — kubectl wrappers, Terraform inspectors, Docker orchestrators.",
+    technicalParts: [
+      "Infra SDK or CLI shell-out (kubectl, aws-cli, terraform, docker)",
+      "Auth (kubeconfig, AWS creds, service accounts, OIDC)",
+      "Concurrent log/event streaming (multi-pod, multi-region)",
+      "Diff / state-comparison logic",
+      "TUI or formatted CLI output (Bubble Tea, rich)",
+      "Safe-mode / dry-run flag",
+      "Config file (YAML)",
+      "Credential refresh + caching",
+    ],
+    exampleStack:
+      "Go + cobra + Kubernetes / AWS / Terraform Go SDKs + Bubble Tea (TUI)",
+    patterns: [
+      /\b(?:kubernetes|k8s|kubectl)\b.*\b(?:logs?|pods?|tail|events?|deploy(?:ments?)?)/i,
+      /\b(?:terraform|pulumi|cdk|opentofu)\b.*\b(?:drift|diff|state|plan|apply)/i,
+      /\bdocker[\s-]?compose\b.*\b(?:manage|orchestrat|start|stop|local|dev|environment)/i,
+      /\b(?:cli|tool|daemon)\b.*\b(?:k8s|kubernetes|aws|gcp|azure|cluster|infra)/i,
+      /\bmanages?\s+my\s+(?:local\s+)?(?:dev\s+)?(?:environments?|env|envs)\b/i,
+      /\b(?:tail|stream|aggregate)\s+logs?\s+from\b/i,
+      // Docker image analysis (Dive-style)
+      /\b(?:analy[sz]e(?:s|d)?|inspect(?:s|ing)?)\b.*\bdocker\s+images?\b/i,
+      /\bdocker\s+image\s+(?:layer|size|bloat|analy)/i,
+      /\bwhich\s+layers?\s+are\s+(?:bloated|big|large)/i,
+    ],
+    inferDomains: ["deployment", "docker", "devops", "observability"],
+    inferFrameworks: [],
+    inferLanguage: "go",
+    inferGoal: "cli_tool",
+  },
+  {
+    id: "db-tooling",
+    label: "Database tooling / schema management",
+    summary:
+      "Operates on databases — schema diff, migration generation, data masking, query analysis, prod/staging comparison.",
+    technicalParts: [
+      "DB driver per dialect (psycopg, mysql2, sqlite3)",
+      "Information_schema / pg_catalog introspection",
+      "Migration DSL or SQL emitter",
+      "Connection-pool + SSL handling",
+      "Safe diffing (don't drop unless explicit)",
+      "Dry-run output + plan preview",
+      "Optional data masking for staging mirrors",
+    ],
+    exampleStack:
+      "Go (Atlas, sqldef) or Python (alembic/migra) + appropriate DB driver",
+    patterns: [
+      /\b(?:diffs?|compares?|drift)\b.*\b(?:databases?|schemas?|postgres|mysql|sqlite|prod\s+and\s+staging)/i,
+      /\b(?:schema|migration)\s+(?:diff|drift|generator|tool|management)/i,
+      /\bdb\s+(?:diff|migration|tool)/i,
+      /\b(?:staging|prod(?:uction)?)\b.*\b(?:database|db|schema)\b.*\b(?:diff|sync|compare)/i,
+    ],
+    inferDomains: ["database", "backend", "devops"],
+    inferFrameworks: [],
+    inferLanguage: "go",
+    inferGoal: "cli_tool",
+  },
+  {
+    id: "api-tooling",
+    label: "API tooling (mock / SDK gen / spec validation)",
+    summary:
+      "Consumes an OpenAPI/GraphQL spec and produces a mock server, client SDK, types, or validation report.",
+    technicalParts: [
+      "Spec parser (OpenAPI 3, Swagger 2, GraphQL SDL)",
+      "Request matcher + example responder (Prism-style)",
+      "Codegen templates (Mustache/Handlebars or AST-based)",
+      "CLI scaffolder",
+      "Watch-mode hot reload",
+      "Auth simulation (OAuth, API key)",
+    ],
+    exampleStack:
+      "TypeScript + Prism / openapi-generator + Commander/Yargs",
+    patterns: [
+      /\b(?:openapi|swagger|graphql)\s+(?:spec|schema|definition)/i,
+      /\bmock\s+(?:api\s+)?server\b/i,
+      /\b(?:sdk|client)\s+(?:gen(?:erator)?|generation)\b/i,
+      /\bspins?\s+up\s+a\s+(?:mock|fake|stub)/i,
+    ],
+    inferDomains: ["backend", "automation"],
+    inferFrameworks: [],
+    inferLanguage: "typescript",
+    inferGoal: "cli_tool",
+  },
+  {
+    id: "test-tooling",
+    label: "Test-suite tooling (flaky-test detection / coverage)",
+    summary:
+      "Operates on a test suite — finds flakes, ranks slow tests, generates fixtures, surfaces coverage trends.",
+    technicalParts: [
+      "Test-runner integration (Jest/Pytest/Vitest reporters)",
+      "junit.xml / coverage parsing",
+      "Statistical re-run + quarantine logic",
+      "Result persistence (across CI runs)",
+      "PR-comment / dashboard reporter",
+      "Flake-rate computation (% over N runs)",
+    ],
+    exampleStack:
+      "TypeScript or Python + jest/pytest reporters + Postgres + GitHub Actions integration",
+    patterns: [
+      /\b(?:flaky|flake|flak(?:ey|ier))\s+tests?\b/i,
+      /\b(?:test|coverage)\s+(?:dashboard|report|tracker|tool|trend)/i,
+      /\b(?:re[\s-]?runs?|quarantines?)\s+(?:failed\s+)?tests?\b/i,
+      /\bslow(?:est)?\s+tests?\b.*\b(?:rank|find|profile)/i,
+    ],
+    inferDomains: ["testing", "automation", "observability"],
+    inferFrameworks: [],
+    inferLanguage: "typescript",
+    inferGoal: "cli_tool",
+  },
+
+  // ────────────────────────────────────────────────────────────────────
+  // Creative / hobbyist
+  // ────────────────────────────────────────────────────────────────────
+  {
+    id: "image-generator",
+    label: "Image / visual content generator",
+    summary:
+      "Takes input (text, photo, sketch) and produces stylized images using diffusion models or vision LLMs.",
+    technicalParts: [
+      "Input handling (text prompt, image upload, sketch capture)",
+      "Diffusion model (Stable Diffusion / SDXL / Flux) — local GPU or hosted API",
+      "ControlNet / LoRA conditioning (style, pose, depth)",
+      "Output post-processing (upscaling, GIF/MP4 stitching for animation)",
+      "Storage (S3 / R2 for images)",
+      "Optional: gallery UI",
+      "Cost / quota tracking (if hosted API)",
+    ],
+    exampleStack:
+      "Python + diffusers / ComfyUI / Replicate API + S3 + FastAPI/Streamlit",
+    patterns: [
+      // "stylized comic book panels" — allow optional adjective before output noun
+      /\b(?:turns?|converts?|transforms?)\s+(?:my\s+)?(?:\w+\s+)?(?:doodles?|sketches?|photos?|images?|drawings?)\s+(?:into|to)\s+(?:a\s+|the\s+|stylized\s+|\w+\s+)?(?:pixel\s?art|comic|cartoon|anime|painting|gif|sticker|3d|panel|panels)/i,
+      /\b(?:generate|generator|create)\b.*\b(?:images?|pixel\s?art|stickers?|comic|tattoo|flash\s+sheet|thumbnails?|wallpapers?|avatars?|cover\s+art)/i,
+      /\b(?:stable[\s-]?diffusion|midjourney|dall[\s-]?e|sdxl|flux|controlnet|comfy[\s-]?ui)\b/i,
+      // Animates: handle "es" form
+      /\b(?:animat(?:e|es|ing|ion)|loop(?:ing)?\s+gif)\b.*\b(?:sketch|character|drawing|photo|gif)/i,
+      /\bdesign(?:s|ing)?\s+(?:tattoo|posters?|logos?|covers?)\b.*\b(?:from|using|with|via)\s+(?:text|prompts?)/i,
+    ],
+    inferDomains: ["image-vision", "llm", "backend", "automation"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: "automation",
+  },
+  {
+    id: "music-tool",
+    label: "Music / audio analysis or generation tool",
+    summary:
+      "Analyzes or generates musical content — pitch detection, transcription, chord/melody suggestion, beat generation, practice feedback.",
+    technicalParts: [
+      "Audio I/O (microphone capture, file upload)",
+      "DSP library (librosa, aubio, essentia) for pitch/beat/key detection",
+      "Optional ML model (Magenta, Demucs, Music Source Separation)",
+      "MIDI generation (mido) or notation rendering (LilyPond, music21)",
+      "Real-time feedback loop (low-latency processing)",
+      "Persistence (practice history, generated stems)",
+      "Optional UI (web with Tone.js for playback)",
+    ],
+    exampleStack:
+      "Python + librosa + Magenta + mido + WebMIDI + FastAPI",
+    patterns: [
+      // Allow hyphen between noun and tool-word: "chord-progression suggester"
+      /\b(?:chord|melody|tab|tabs|riff|drum|beat|bassline|midi|metronome)[\s-]+(?:generator|suggester|tracker|maker|builder|engine|progression)/i,
+      // "Chord-progression suggester" — handle the compound noun
+      /\bchord[\s-]progression[\s-](?:generator|suggester|recommender|builder|maker)/i,
+      /\b(?:music|guitar|piano|bass|drum|vocal)\s+(?:practice|trainer|tutor|tracker|coach)/i,
+      /\b(?:humm(?:ed|ing)|sing(?:s|ing)?|whistle)\b.*\b(?:melody|tab|notation|score|chord)/i,
+      /\bdrum\s+machine\b/i,
+      /\b(?:listens?\s+through|listening\s+to)\s+(?:my\s+)?(?:microphone|mic)\b.*\b(?:scales?|notes?|chord|pitch|tempo)/i,
+      /\b(?:chord|key|tempo|pitch)\s+(?:detection|analysis|recogniz)/i,
+      /\bsongwriter\b/i,
+    ],
+    inferDomains: ["voice-audio", "llm", "backend"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: null,
+  },
+  {
+    id: "creative-coding",
+    label: "Creative coding / generative art",
+    summary:
+      "Real-time visual or audio art piece — Processing, p5.js, Three.js, TouchDesigner, openFrameworks. Often interactive.",
+    technicalParts: [
+      "Rendering layer (p5.js / Three.js / shader / canvas)",
+      "Input source (microphone / camera / OSC / MIDI / mouse / live data)",
+      "Frame loop / animation system",
+      "Audio reactivity (FFT, pitch tracking)",
+      "Shader pipeline (GLSL / WGSL)",
+      "Optional: recording / capture for output",
+    ],
+    exampleStack:
+      "TypeScript + Three.js + p5.js + Tone.js + Vite (or Processing/openFrameworks for desktop)",
+    patterns: [
+      /\b(?:generative|procedural|algorithmic)\s+(?:art|visuals?|animation|graphics?)/i,
+      /\b(?:p5\.?js|processing|openframeworks|touchdesigner|shadertoy|cables\.gl|three\.?js|hydra)\b/i,
+      /\b(?:interactive|live)\s+(?:art|visuals?|installation|piece)/i,
+      /\b(?:art\s+piece|visual\s+piece|installation|visualizer)\b.*\b(?:responds?|reacts?|listens?)/i,
+    ],
+    inferDomains: ["frontend", "image-vision", "voice-audio"],
+    inferFrameworks: [],
+    inferLanguage: "typescript",
+    inferGoal: null,
+  },
+  {
+    id: "game-mod",
+    label: "Game mod / extension / plugin",
+    summary:
+      "An add-on for an existing game — Minecraft mod, Roblox script, Skyrim plugin, etc. Distinct from a from-scratch game.",
+    technicalParts: [
+      "Host-game modding API / SDK (Forge, Fabric, Roblox Studio, SKSE, etc.)",
+      "Asset pipeline (textures, models, sounds → game-native formats)",
+      "Lifecycle hooks (on tick, on entity spawn, on use, etc.)",
+      "Persistence (save data, world state)",
+      "LLM integration (if AI dialogue / behavior is mentioned)",
+      "Distribution (CurseForge / Modrinth / Roblox Marketplace)",
+      "Compatibility / version management",
+    ],
+    exampleStack:
+      "Java (Minecraft Forge/Fabric) or Lua (Roblox) or Papyrus (Skyrim) — host-dependent",
+    patterns: [
+      /\b(?:minecraft|roblox|skyrim|fallout|hytale|terraria|stardew|factorio|valheim|gta|the\s+sims)\s+(?:mod|plugin|addon|add[\s-]?on|extension|script)/i,
+      /\bmod(?:s|ding)?\s+(?:for|in)\s+(?:minecraft|roblox|skyrim|hytale|fallout)/i,
+      /\b(?:adds?|add)\b.*\b(?:custom\s+(?:npcs?|items?|biomes?|blocks?|mobs?)|new\s+(?:mobs?|recipes?|dimensions?|enchantments?))/i,
+    ],
+    inferDomains: ["game-dev", "filesystem"],
+    inferFrameworks: [],
+    inferLanguage: "java", // Minecraft has the largest modding fanbase; we'll guess wrong on Roblox/Skyrim but it's a defensible default
+    inferGoal: null,
+  },
+  {
+    id: "procedural-generator",
+    label: "Procedural generator / game-content toolkit",
+    summary:
+      "Generates game content algorithmically — dungeons, maps, names, loot tables, terrain, quests. Often a library, not a full game.",
+    technicalParts: [
+      "Seed-based RNG (deterministic, reproducible)",
+      "Noise functions (Perlin, simplex, voronoi)",
+      "Generation algorithm (BSP, cellular automata, wave function collapse)",
+      "Constraint satisfaction (loot balance, room connectivity)",
+      "Visualization / preview output",
+      "Export format (JSON, image, game-engine asset)",
+    ],
+    exampleStack:
+      "Python + tcod / numpy + matplotlib (preview) — or TS + Phaser/Pixi for visual procgen",
+    patterns: [
+      /\bproc(?:edurally|edural)\b.*\b(?:generat|creat|build)/i,
+      /\b(?:dungeon|map|terrain|level|world|name|quest|loot)\s+generator/i,
+      /\b(?:roguelike|rogue[\s-]?lite|metroidvania)\b.*\b(?:generat|procedural|dungeon|map)/i,
+      /\bloot\s+tables?\b/i,
+    ],
+    inferDomains: ["game-dev", "automation"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: "library",
+  },
+  {
+    id: "creative-writing-assistant",
+    label: "Creative writing / worldbuilding assistant",
+    summary:
+      "LLM-powered helper for fiction, TTRPGs, or worldbuilding — tracks characters, lore, continuity, plot beats. Drafts scenes or campaign material.",
+    technicalParts: [
+      "Long-form context management (story bible, OC profiles, world canon)",
+      "Vector store for lore retrieval (so LLM can quote canon accurately)",
+      "Continuity checker (flag canon contradictions)",
+      "Scene/chapter drafter (LLM with bible context)",
+      "Plot-beat / pacing tracker",
+      "Optional: collaborative editor",
+    ],
+    exampleStack:
+      "Python + LlamaIndex (lore RAG) + LLM API + FastAPI + SQLite or pgvector",
+    patterns: [
+      /\b(?:fanfic(?:tion)?|fiction|novel|screenplay|script|story|worldbuild(?:ing)?|lore|narrative)\b.*\b(?:co[\s-]?writer|writer|drafter|assistant|helper|generator)/i,
+      /\b(?:d&amp;d|dnd|dungeons?\s+&amp;?\s+dragons?|pathfinder|ttrpg|tabletop\s+rpg|gm|dungeon\s+master|game\s+master)\b.*\b(?:notes?|campaign|session|prep|tools?|assistant|drafts?)/i,
+      /\b(?:character|oc|world)\s+(?:continuity|consistency|bible|tracker|sheet|sheets?)/i,
+      /\b(?:campaign|session)\s+(?:notes?|recap|summary|prep)/i,
+      /\bdrafts?\b.*\b(?:campaign|session|chapter|scene|story|plot)/i,
+    ],
+    inferDomains: ["llm", "embeddings-rag", "backend"],
+    inferFrameworks: [],
+    inferLanguage: "python",
+    inferGoal: "automation",
+  },
+
+  {
+    id: "booking-payment-app",
+    label: "Booking / scheduling app with payment",
+    summary:
+      "A web app where customers see your availability, pick a time slot, and pay — Calendly-with-payment, AppointMint-style.",
+    technicalParts: [
+      "Calendar / availability management (admin sets working hours, blocks)",
+      "Public booking page (customers pick time slot)",
+      "Payment integration (Stripe Checkout, PayPal)",
+      "Email + SMS confirmations + reminders",
+      "Calendar sync (Google Calendar, Outlook, iCal)",
+      "Buffer time + double-booking prevention",
+      "Admin dashboard (upcoming bookings, payments, refunds)",
+      "Optional: client intake form before payment",
+    ],
+    exampleStack:
+      "Next.js + Cal.com or Calendly API + Stripe Checkout + Postgres + Resend (email)",
+    patterns: [
+      /\b(?:appointment|booking|reservation|scheduling)\s+(?:page|app|tool|platform|system)\b/i,
+      /\bbooks?\s+(?:my\s+)?(?:clients?|customers?|appointments?|reservations?)\b.*\b(?:and|then)\b/i,
+      /\b(?:clients?|customers?)\s+(?:pick|choose|book|select)\s+(?:a\s+)?time\b/i,
+      /\b(?:pay|pays|payment|paid)\b.*\b(?:appointment|booking|reservation)/i,
+      /\b(?:calendly|cal\.com|appointmint|squarespace\s+scheduling)[\s-]?(?:like|alternative|clone)\b/i,
+    ],
+    inferDomains: ["frontend", "backend", "auth", "database", "automation", "financial"],
+    inferFrameworks: ["nextjs"],
+    inferLanguage: "typescript",
+    inferGoal: "web_app",
+  },
+  {
+    id: "generic-automation-app",
+    label: "Generic automation / 'app that does X for me'",
+    summary:
+      "A goal-oriented automation: you described a task you want offloaded to an app or bot, but didn't name a specific platform or technology. We've inferred the broad shape so you have a starting point — refining the description (with a platform, language, or specific data source) will tighten the recommendations.",
+    technicalParts: [
+      "Trigger source (schedule, webhook, manual, event-driven)",
+      "Input adapter (where the data or action originates)",
+      "Decision logic (rule-based or LLM-driven)",
+      "External integrations (APIs the task touches)",
+      "Output / side-effects (notifications, writes, calls, posts)",
+      "Persistence (state, history, dedup)",
+      "Hosting (cron, serverless, always-on worker)",
+      "Observability (did the run succeed? alert me if not)",
+    ],
+    exampleStack:
+      "Python or TypeScript + n8n / Zapier / cron + an LLM API + the platform API you're integrating with + a small DB",
+    patterns: [
+      // This is the fallback — must match LAST in the array. Catches generic
+      // "an app/bot/tool/thing that does X" phrasing where no specific archetype fired.
+      // Broadened from earlier version to also catch "page where", "system that",
+      // "build me an app that ___ automatically" (without that/to/for connector).
+      /\b(?:an?|build(?:ing)?|i\s+want|i'?d\s+like|create|make)\s+(?:an?\s+)?(?:app|bot|tool|thing|system|service|agent|script|page|dashboard|platform)\b/i,
+      /\b(?:automat(?:e|ing|ion)|do(?:es)?\s+\w+\s+for\s+me|takes?\s+care\s+of|handles?)\b/i,
+      /\b(?:an?\s+)?(?:app|bot|tool|service|system)\s+(?:for|to|that)\s+(?:my|me|our|us)\b/i,
+      // "Something that ___" — vague but goal-oriented
+      /\b(?:something|anything)\s+(?:that|to|which)\b/i,
+    ],
+    inferDomains: ["automation", "llm", "backend"],
+    inferFrameworks: [],
+    inferLanguage: "python", // Default for the generic fallback — Python is the most catalog-friendly automation language
+    inferGoal: "automation",
   },
 ];
 

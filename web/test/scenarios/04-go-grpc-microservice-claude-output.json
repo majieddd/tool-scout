@@ -3,7 +3,7 @@
   "title": "Go + gRPC microservice with observability + Docker on WSL",
   "prompt": "I'm building a Go gRPC microservice for Claude Code, with Datadog observability, structured logs, distributed tracing, deployed via Docker Compose. Running on WSL2 Ubuntu.",
   "expected_notes": "Language 'go', platform 'wsl', target 'claude-code'. Domains should include observability + docker. Observability layer should populate (Datadog/Grafana/Prometheus tools). Code-exec layer may apply (Docker). Should NOT pick generic chat-clone apps.",
-  "catalog_size": 4381,
+  "catalog_size": 4383,
   "profile": {
     "targetAgent": "claude-code",
     "primaryLanguage": "go",
@@ -33,7 +33,7 @@
   },
   "composed": {
     "totalPrimaryCount": 3,
-    "generatedAt": "2026-05-04T02:34:50.856Z",
+    "generatedAt": "2026-05-04T03:21:58.022Z",
     "skipped": [
       "sdk-runtime (no candidates)",
       "context-fs (n/a)",
@@ -199,7 +199,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 21592,
+            "stars": 21595,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",

@@ -79,7 +79,11 @@ const GOAL_LAYER_ALLOWLIST: Partial<Record<GoalType, Set<string> | "__ALL__">> =
   wrap_cli:        new Set(["sdk-runtime", "method-skill", "agent-plugin"]),
   data_pipeline:   new Set(["sdk-runtime", "data-storage", "auth", "web-api", "code-exec", "observability", "method-skill", "agent-plugin"]),
   web_app:         new Set(["data-storage", "auth", "web-api", "observability", "method-skill", "domain-skill", "agent-plugin"]),
-  cli_tool:        new Set(["sdk-runtime", "method-skill", "domain-skill", "agent-plugin"]),
+  // cli_tool: broadened from {sdk, method, domain, plugin} to include the
+  // infra-adjacent layers — db-tooling/infra-ops/api-tooling all set
+  // goal=cli_tool but legitimately need data-storage, observability,
+  // code-exec, web-api candidates so the lane composes more than just an SDK.
+  cli_tool:        new Set(["sdk-runtime", "context-fs", "context-git", "data-storage", "code-exec", "web-api", "observability", "method-skill", "domain-skill", "agent-plugin"]),
   library:         new Set(["sdk-runtime", "method-skill", "domain-skill"]),
   research:        "__ALL__",
   automation:      "__ALL__",

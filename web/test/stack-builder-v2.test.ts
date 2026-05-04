@@ -30,10 +30,21 @@ const allPicks = (stack: ReturnType<typeof compose>["stack"]) =>
   stack.layers.flatMap((l) => [...l.primary, ...l.alternatives]);
 
 describe.skipIf(!haveCatalog)("stack-builder-v2: vague-prompt returns zero picks", () => {
-  it("'I want to build something cool with AI' produces zero primary picks", () => {
-    const { stack } = compose("I want to build something cool with AI, maybe an agent or tool.");
+  it("a TRULY vague prompt (no project shape at all) produces zero primary picks", () => {
+    // The architect should still hard-skip when the prompt has no shape.
+    // ("Something cool with AI" has no archetype-detectable verb-noun shape.)
+    const { stack } = compose("hello");
     expect(stack.totalPrimaryCount).toBe(0);
     expect(stack.skipped[0]).toMatch(/too vague|underspecified/i);
+  });
+
+  it("'I want an agent or tool' is treated as goal-oriented (generic-automation fallback)", () => {
+    // The new design: if the prompt names a project shape (app/bot/agent/tool),
+    // fire the generic-automation fallback so the user gets *some* breakdown
+    // instead of a confusing empty result.
+    const { stack } = compose("I want to build something cool with AI, maybe an agent or tool.");
+    expect(stack.archetype?.id).toBe("generic-automation-app");
+    expect(stack.totalPrimaryCount).toBeGreaterThan(0);
   });
 });
 
