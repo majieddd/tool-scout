@@ -1214,6 +1214,19 @@ function detectArchetype(desc: string): ArchetypeDef | null {
   return null;
 }
 
+/**
+ * Public read-only view of the archetypes — exposed so the UI / LLM
+ * refinement layer can list valid archetype ids and labels without
+ * needing access to the internal pattern arrays.
+ */
+export const ARCHETYPE_CATALOG: ProjectArchetype[] = ARCHETYPES.map((a) => ({
+  id: a.id,
+  label: a.label,
+  summary: a.summary,
+  technicalParts: a.technicalParts,
+  exampleStack: a.exampleStack,
+}));
+
 function detectFirstMatch<T>(text: string, patterns: Array<[T, RegExp[]]>, fallback: T): T {
   for (const [value, rxs] of patterns) {
     for (const rx of rxs) {

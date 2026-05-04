@@ -28,7 +28,7 @@
   },
   "composed": {
     "totalPrimaryCount": 1,
-    "generatedAt": "2026-05-04T03:21:57.979Z",
+    "generatedAt": "2026-05-04T03:37:32.973Z",
     "skipped": [
       "sdk-runtime (no candidates)",
       "context-fs (not for goal=wrap_cli)",

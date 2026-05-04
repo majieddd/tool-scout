@@ -4,9 +4,10 @@ import { useEffect, useMemo, useState } from "react";
 import { ArchitectInput } from "@/components/ArchitectInput";
 import { StackComposition } from "@/components/StackComposition";
 import { PromptModal } from "@/components/PromptModal";
+import { AIRefinement } from "@/components/AIRefinement";
 import { composeStack, type ComposedStack } from "@/lib/stack-builder";
 import { checkCompat, type Warning } from "@/lib/compat-check";
-import type { ExtendedProfile } from "@/lib/architect";
+import { ARCHETYPE_CATALOG, type ExtendedProfile } from "@/lib/architect";
 import type { Tool } from "@/lib/data";
 
 export function ArchitectClient() {
@@ -83,6 +84,7 @@ export function ArchitectClient() {
         onReset={() => setProfile(null)}
         onGeneratePrompt={() => setShowPrompt(true)}
       />
+      <AIRefinement profile={profile} archetypes={ARCHETYPE_CATALOG} tools={tools} />
       {showPrompt && composed && (
         <PromptModal
           profile={profile}
