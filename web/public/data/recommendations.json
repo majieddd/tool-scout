@@ -276,7 +276,7 @@
     "url": "https://github.com/GammaLabTechnologies/harmonist",
     "category": "claude_plugin",
     "letter": "A",
-    "score": 0.883,
+    "score": 0.884,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -411,21 +411,21 @@
   },
   {
     "rank": 42,
-    "tool_id": "ecd3970804bed707",
-    "name": "mercurialsolo/claudectl",
-    "url": "https://github.com/mercurialsolo/claudectl",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.865,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 43,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
     "category": "mcp_server",
     "letter": "B",
+    "score": 0.866,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 43,
+    "tool_id": "ecd3970804bed707",
+    "name": "mercurialsolo/claudectl",
+    "url": "https://github.com/mercurialsolo/claudectl",
+    "category": "claude_plugin",
+    "letter": "A",
     "score": 0.865,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
