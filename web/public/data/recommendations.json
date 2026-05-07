@@ -391,21 +391,21 @@
   },
   {
     "rank": 40,
-    "tool_id": "5d5f571565af6de5",
-    "name": "yonatangross/orchestkit",
-    "url": "https://github.com/yonatangross/orchestkit",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.867,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 41,
     "tool_id": "ada3cc14bdc2e1fb",
     "name": "RoggeOhta/awesome-codex-cli",
     "url": "https://github.com/RoggeOhta/awesome-codex-cli",
     "category": "mcp_server",
     "letter": "B",
+    "score": 0.867,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 41,
+    "tool_id": "5d5f571565af6de5",
+    "name": "yonatangross/orchestkit",
+    "url": "https://github.com/yonatangross/orchestkit",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.867,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
@@ -461,9 +461,9 @@
   },
   {
     "rank": 47,
-    "tool_id": "22ad3907e6ec0a44",
-    "name": "jamubc/gemini-mcp-tool",
-    "url": "https://github.com/jamubc/gemini-mcp-tool",
+    "tool_id": "4c77b72c5229d285",
+    "name": "Storybloq/storybloq",
+    "url": "https://github.com/Storybloq/storybloq",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.863,
@@ -471,12 +471,12 @@
   },
   {
     "rank": 48,
-    "tool_id": "4c77b72c5229d285",
-    "name": "Storybloq/storybloq",
-    "url": "https://github.com/Storybloq/storybloq",
+    "tool_id": "22ad3907e6ec0a44",
+    "name": "jamubc/gemini-mcp-tool",
+    "url": "https://github.com/jamubc/gemini-mcp-tool",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.862,
+    "score": 0.863,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
