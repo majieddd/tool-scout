@@ -226,7 +226,7 @@
     "url": "https://github.com/TabularisDB/tabularis",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.883,
+    "score": 0.884,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
@@ -381,16 +381,6 @@
   },
   {
     "rank": 39,
-    "tool_id": "1ddc6008400e626f",
-    "name": "oaslananka/kicad-mcp-pro",
-    "url": "https://github.com/oaslananka/kicad-mcp-pro",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.864,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 40,
     "tool_id": "54da31e633a5f858",
     "name": "mathomhaus/guild",
     "url": "https://github.com/mathomhaus/guild",
@@ -398,6 +388,16 @@
     "letter": "B",
     "score": 0.864,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 40,
+    "tool_id": "1ddc6008400e626f",
+    "name": "oaslananka/kicad-mcp-pro",
+    "url": "https://github.com/oaslananka/kicad-mcp-pro",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.864,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 41,
@@ -461,16 +461,6 @@
   },
   {
     "rank": 47,
-    "tool_id": "bf4616ff2f105e30",
-    "name": "janbjorge/rekal",
-    "url": "https://github.com/janbjorge/rekal",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.856,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 48,
     "tool_id": "c3dfa760bae21132",
     "name": "hlpun/Train-in-Silence",
     "url": "https://github.com/hlpun/Train-in-Silence",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "68d407d5afdf41c9",
     "name": "radimsem/remindb",
     "url": "https://github.com/radimsem/remindb",
@@ -490,10 +480,20 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "aa16dbbb677d4a7f",
     "name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.855,
+    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "8bfd0b9e5a37f816",
+    "name": "mksglu/context-mode",
+    "url": "https://github.com/mksglu/context-mode",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.855,
