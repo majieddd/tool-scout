@@ -441,21 +441,21 @@
   },
   {
     "rank": 45,
-    "tool_id": "537f944d2eaf6974",
-    "name": "kuberstar/qartez-mcp",
-    "url": "https://github.com/kuberstar/qartez-mcp",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.856,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 46,
     "tool_id": "4f155ac31adc7a4f",
     "name": "CodeAbra/iai-mcp",
     "url": "https://github.com/CodeAbra/iai-mcp",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.857,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 46,
+    "tool_id": "537f944d2eaf6974",
+    "name": "kuberstar/qartez-mcp",
+    "url": "https://github.com/kuberstar/qartez-mcp",
+    "category": "mcp_server",
+    "letter": "B",
     "score": 0.856,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
