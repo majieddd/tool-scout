@@ -216,7 +216,7 @@
     "url": "https://github.com/chrisryugj/korean-law-mcp",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.885,
+    "score": 0.886,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -256,7 +256,7 @@
     "url": "https://github.com/Beever-AI/beever-atlas",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.87,
+    "score": 0.871,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -411,6 +411,16 @@
   },
   {
     "rank": 42,
+    "tool_id": "b3d74d2a6e12ba20",
+    "name": "omermaksutii/mnemo",
+    "url": "https://github.com/omermaksutii/mnemo",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.856,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 43,
     "tool_id": "bf4616ff2f105e30",
     "name": "janbjorge/rekal",
     "url": "https://github.com/janbjorge/rekal",
@@ -420,7 +430,27 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 43,
+    "rank": 44,
+    "tool_id": "54da31e633a5f858",
+    "name": "mathomhaus/guild",
+    "url": "https://github.com/mathomhaus/guild",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.855,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 45,
+    "tool_id": "c3dfa760bae21132",
+    "name": "hlpun/Train-in-Silence",
+    "url": "https://github.com/hlpun/Train-in-Silence",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.855,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 46,
     "tool_id": "aa16dbbb677d4a7f",
     "name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
@@ -430,7 +460,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 47,
     "tool_id": "8bfd0b9e5a37f816",
     "name": "mksglu/context-mode",
     "url": "https://github.com/mksglu/context-mode",
@@ -440,7 +470,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 48,
     "tool_id": "4c86898c9b77fb8f",
     "name": "0xJacky/nginx-ui",
     "url": "https://github.com/0xJacky/nginx-ui",
@@ -450,7 +480,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 49,
     "tool_id": "00be61cb9f67e513",
     "name": "jeecgboot/JeecgBoot",
     "url": "https://github.com/jeecgboot/JeecgBoot",
@@ -460,40 +490,10 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 50,
     "tool_id": "df90477cbe711fb5",
     "name": "tirth8205/code-review-graph",
     "url": "https://github.com/tirth8205/code-review-graph",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 48,
-    "tool_id": "43d7b799ee18b00d",
-    "name": "PrefectHQ/fastmcp",
-    "url": "https://github.com/PrefectHQ/fastmcp",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 49,
-    "tool_id": "025421aeb7aa74a8",
-    "name": "MemPalace/mempalace",
-    "url": "https://github.com/MemPalace/mempalace",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "97b40ddf3091619a",
-    "name": "mcp-use/mcp-use",
-    "url": "https://github.com/mcp-use/mcp-use",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.855,
