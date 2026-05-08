@@ -126,7 +126,7 @@
     "url": "https://github.com/HKUDS/Vibe-Trading",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.895,
+    "score": 0.896,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -451,6 +451,16 @@
   },
   {
     "rank": 46,
+    "tool_id": "68d407d5afdf41c9",
+    "name": "radimsem/remindb",
+    "url": "https://github.com/radimsem/remindb",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.855,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 47,
     "tool_id": "4f155ac31adc7a4f",
     "name": "CodeAbra/iai-mcp",
     "url": "https://github.com/CodeAbra/iai-mcp",
@@ -460,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "aa16dbbb677d4a7f",
     "name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
@@ -470,7 +480,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "tool_id": "8bfd0b9e5a37f816",
     "name": "mksglu/context-mode",
     "url": "https://github.com/mksglu/context-mode",
@@ -480,22 +490,12 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "4c86898c9b77fb8f",
     "name": "0xJacky/nginx-ui",
     "url": "https://github.com/0xJacky/nginx-ui",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "00be61cb9f67e513",
-    "name": "jeecgboot/JeecgBoot",
-    "url": "https://github.com/jeecgboot/JeecgBoot",
-    "category": "mcp_server",
-    "letter": "B",
     "score": 0.855,
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   }
