@@ -441,6 +441,16 @@
   },
   {
     "rank": 45,
+    "tool_id": "4f155ac31adc7a4f",
+    "name": "CodeAbra/iai-mcp",
+    "url": "https://github.com/CodeAbra/iai-mcp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.855,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 46,
     "tool_id": "c3dfa760bae21132",
     "name": "hlpun/Train-in-Silence",
     "url": "https://github.com/hlpun/Train-in-Silence",
@@ -450,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "tool_id": "68d407d5afdf41c9",
     "name": "radimsem/remindb",
     "url": "https://github.com/radimsem/remindb",
@@ -458,16 +468,6 @@
     "letter": "B",
     "score": 0.855,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 47,
-    "tool_id": "4f155ac31adc7a4f",
-    "name": "CodeAbra/iai-mcp",
-    "url": "https://github.com/CodeAbra/iai-mcp",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.855,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 48,
