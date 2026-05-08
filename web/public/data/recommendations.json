@@ -371,16 +371,6 @@
   },
   {
     "rank": 38,
-    "tool_id": "4b6c169941142aab",
-    "name": "wxtsky/byob",
-    "url": "https://github.com/wxtsky/byob",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.864,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 39,
     "tool_id": "54da31e633a5f858",
     "name": "mathomhaus/guild",
     "url": "https://github.com/mathomhaus/guild",
@@ -388,6 +378,16 @@
     "letter": "B",
     "score": 0.864,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 39,
+    "tool_id": "4b6c169941142aab",
+    "name": "wxtsky/byob",
+    "url": "https://github.com/wxtsky/byob",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.864,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 40,
@@ -431,21 +431,21 @@
   },
   {
     "rank": 44,
-    "tool_id": "b3d74d2a6e12ba20",
-    "name": "omermaksutii/mnemo",
-    "url": "https://github.com/omermaksutii/mnemo",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.857,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 45,
     "tool_id": "4f155ac31adc7a4f",
     "name": "CodeAbra/iai-mcp",
     "url": "https://github.com/CodeAbra/iai-mcp",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.857,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 45,
+    "tool_id": "b3d74d2a6e12ba20",
+    "name": "omermaksutii/mnemo",
+    "url": "https://github.com/omermaksutii/mnemo",
+    "category": "mcp_server",
+    "letter": "B",
     "score": 0.857,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
