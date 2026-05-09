@@ -331,21 +331,21 @@
   },
   {
     "rank": 34,
-    "tool_id": "7e3477dae5e8c6ee",
-    "name": "bvisible/mcp-ssh-manager",
-    "url": "https://github.com/bvisible/mcp-ssh-manager",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.868,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 35,
     "tool_id": "4c77b72c5229d285",
     "name": "Storybloq/storybloq",
     "url": "https://github.com/Storybloq/storybloq",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.868,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 35,
+    "tool_id": "7e3477dae5e8c6ee",
+    "name": "bvisible/mcp-ssh-manager",
+    "url": "https://github.com/bvisible/mcp-ssh-manager",
+    "category": "mcp_server",
+    "letter": "B",
     "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
