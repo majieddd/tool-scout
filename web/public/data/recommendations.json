@@ -481,6 +481,16 @@
   },
   {
     "rank": 49,
+    "tool_id": "68d407d5afdf41c9",
+    "name": "radimsem/remindb",
+    "url": "https://github.com/radimsem/remindb",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.856,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 50,
     "tool_id": "acd218b48ad60eef",
     "name": "sverklo/sverklo",
     "url": "https://github.com/sverklo/sverklo",
@@ -488,15 +498,5 @@
     "letter": "B",
     "score": 0.855,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "68d407d5afdf41c9",
-    "name": "radimsem/remindb",
-    "url": "https://github.com/radimsem/remindb",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.855,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   }
 ]
