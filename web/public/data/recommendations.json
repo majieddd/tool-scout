@@ -451,6 +451,16 @@
   },
   {
     "rank": 46,
+    "tool_id": "68d407d5afdf41c9",
+    "name": "radimsem/remindb",
+    "url": "https://github.com/radimsem/remindb",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.857,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 47,
     "tool_id": "b3d74d2a6e12ba20",
     "name": "omermaksutii/mnemo",
     "url": "https://github.com/omermaksutii/mnemo",
@@ -460,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "537f944d2eaf6974",
     "name": "kuberstar/qartez-mcp",
     "url": "https://github.com/kuberstar/qartez-mcp",
@@ -470,7 +480,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "tool_id": "c3dfa760bae21132",
     "name": "hlpun/Train-in-Silence",
     "url": "https://github.com/hlpun/Train-in-Silence",
@@ -480,23 +490,13 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
-    "tool_id": "68d407d5afdf41c9",
-    "name": "radimsem/remindb",
-    "url": "https://github.com/radimsem/remindb",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.856,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
     "rank": 50,
     "tool_id": "acd218b48ad60eef",
     "name": "sverklo/sverklo",
     "url": "https://github.com/sverklo/sverklo",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.855,
+    "score": 0.856,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
