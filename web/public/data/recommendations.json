@@ -136,7 +136,7 @@
     "url": "https://github.com/HKUDS/Vibe-Trading",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.896,
+    "score": 0.897,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -391,9 +391,9 @@
   },
   {
     "rank": 40,
-    "tool_id": "1ddc6008400e626f",
-    "name": "oaslananka/kicad-mcp-pro",
-    "url": "https://github.com/oaslananka/kicad-mcp-pro",
+    "tool_id": "4b6c169941142aab",
+    "name": "wxtsky/byob",
+    "url": "https://github.com/wxtsky/byob",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.864,
@@ -401,9 +401,9 @@
   },
   {
     "rank": 41,
-    "tool_id": "4b6c169941142aab",
-    "name": "wxtsky/byob",
-    "url": "https://github.com/wxtsky/byob",
+    "tool_id": "1ddc6008400e626f",
+    "name": "oaslananka/kicad-mcp-pro",
+    "url": "https://github.com/oaslananka/kicad-mcp-pro",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.864,
