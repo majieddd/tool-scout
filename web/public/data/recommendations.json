@@ -401,6 +401,16 @@
   },
   {
     "rank": 41,
+    "tool_id": "4f155ac31adc7a4f",
+    "name": "CodeAbra/iai-mcp",
+    "url": "https://github.com/CodeAbra/iai-mcp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.862,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 42,
     "tool_id": "c5bdab0de382324e",
     "name": "josephgoksu/TaskWing",
     "url": "https://github.com/josephgoksu/TaskWing",
@@ -408,16 +418,6 @@
     "letter": "B",
     "score": 0.861,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 42,
-    "tool_id": "4f155ac31adc7a4f",
-    "name": "CodeAbra/iai-mcp",
-    "url": "https://github.com/CodeAbra/iai-mcp",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.861,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 43,
