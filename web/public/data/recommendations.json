@@ -421,6 +421,16 @@
   },
   {
     "rank": 43,
+    "tool_id": "4f155ac31adc7a4f",
+    "name": "CodeAbra/iai-mcp",
+    "url": "https://github.com/CodeAbra/iai-mcp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.861,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 44,
     "tool_id": "b902a4c51fc3f956",
     "name": "zhensherlock/sp500-mcp-server",
     "url": "https://github.com/zhensherlock/sp500-mcp-server",
@@ -430,22 +440,12 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "tool_id": "d323fe55e59a4c8f",
     "name": "glincker/stacklit",
     "url": "https://github.com/glincker/stacklit",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.861,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 45,
-    "tool_id": "4f155ac31adc7a4f",
-    "name": "CodeAbra/iai-mcp",
-    "url": "https://github.com/CodeAbra/iai-mcp",
-    "category": "mcp_server",
-    "letter": "A",
     "score": 0.861,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
