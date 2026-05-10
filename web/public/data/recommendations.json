@@ -356,7 +356,7 @@
     "url": "https://github.com/alvinunreal/openpets",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.867,
+    "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -451,6 +451,16 @@
   },
   {
     "rank": 46,
+    "tool_id": "c3dfa760bae21132",
+    "name": "hlpun/Train-in-Silence",
+    "url": "https://github.com/hlpun/Train-in-Silence",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.857,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 47,
     "tool_id": "b3d74d2a6e12ba20",
     "name": "omermaksutii/mnemo",
     "url": "https://github.com/omermaksutii/mnemo",
@@ -460,22 +470,12 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "acd218b48ad60eef",
     "name": "sverklo/sverklo",
     "url": "https://github.com/sverklo/sverklo",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.857,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 48,
-    "tool_id": "c3dfa760bae21132",
-    "name": "hlpun/Train-in-Silence",
-    "url": "https://github.com/hlpun/Train-in-Silence",
-    "category": "mcp_server",
-    "letter": "A",
     "score": 0.857,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
