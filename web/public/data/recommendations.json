@@ -361,6 +361,16 @@
   },
   {
     "rank": 37,
+    "tool_id": "c871da3c7d25e2ee",
+    "name": "alvinunreal/openpets",
+    "url": "https://github.com/alvinunreal/openpets",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.867,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 38,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
@@ -370,7 +380,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 38,
+    "rank": 39,
     "tool_id": "02dc7fbcc1b0b0c1",
     "name": "yantrikos/yantrikdb-server",
     "url": "https://github.com/yantrikos/yantrikdb-server",
@@ -380,7 +390,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 39,
+    "rank": 40,
     "tool_id": "54da31e633a5f858",
     "name": "mathomhaus/guild",
     "url": "https://github.com/mathomhaus/guild",
@@ -390,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "tool_id": "4b6c169941142aab",
     "name": "wxtsky/byob",
     "url": "https://github.com/wxtsky/byob",
@@ -400,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "tool_id": "1ddc6008400e626f",
     "name": "oaslananka/kicad-mcp-pro",
     "url": "https://github.com/oaslananka/kicad-mcp-pro",
@@ -410,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "tool_id": "c5bdab0de382324e",
     "name": "josephgoksu/TaskWing",
     "url": "https://github.com/josephgoksu/TaskWing",
@@ -418,16 +428,6 @@
     "letter": "B",
     "score": 0.861,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 43,
-    "tool_id": "d323fe55e59a4c8f",
-    "name": "glincker/stacklit",
-    "url": "https://github.com/glincker/stacklit",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.861,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 44,
@@ -441,26 +441,36 @@
   },
   {
     "rank": 45,
+    "tool_id": "d323fe55e59a4c8f",
+    "name": "glincker/stacklit",
+    "url": "https://github.com/glincker/stacklit",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.861,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 46,
     "tool_id": "4f155ac31adc7a4f",
     "name": "CodeAbra/iai-mcp",
     "url": "https://github.com/CodeAbra/iai-mcp",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.859,
+    "score": 0.86,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "tool_id": "68d407d5afdf41c9",
     "name": "radimsem/remindb",
     "url": "https://github.com/radimsem/remindb",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.857,
+    "score": 0.858,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "b3d74d2a6e12ba20",
     "name": "omermaksutii/mnemo",
     "url": "https://github.com/omermaksutii/mnemo",
@@ -470,30 +480,20 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
-    "tool_id": "537f944d2eaf6974",
-    "name": "kuberstar/qartez-mcp",
-    "url": "https://github.com/kuberstar/qartez-mcp",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.856,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
     "rank": 49,
     "tool_id": "c3dfa760bae21132",
     "name": "hlpun/Train-in-Silence",
     "url": "https://github.com/hlpun/Train-in-Silence",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.856,
+    "score": 0.857,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 50,
-    "tool_id": "acd218b48ad60eef",
-    "name": "sverklo/sverklo",
-    "url": "https://github.com/sverklo/sverklo",
+    "tool_id": "537f944d2eaf6974",
+    "name": "kuberstar/qartez-mcp",
+    "url": "https://github.com/kuberstar/qartez-mcp",
     "category": "mcp_server",
     "letter": "B",
     "score": 0.856,
