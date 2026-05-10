@@ -481,16 +481,6 @@
   },
   {
     "rank": 49,
-    "tool_id": "537f944d2eaf6974",
-    "name": "kuberstar/qartez-mcp",
-    "url": "https://github.com/kuberstar/qartez-mcp",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.856,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
     "tool_id": "e4817616c26cc3e0",
     "name": "drhalto/agentmako",
     "url": "https://github.com/drhalto/agentmako",
@@ -498,5 +488,15 @@
     "letter": "A",
     "score": 0.855,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 50,
+    "tool_id": "aa16dbbb677d4a7f",
+    "name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.855,
+    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   }
 ]
