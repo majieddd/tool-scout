@@ -246,7 +246,7 @@
     "url": "https://github.com/TabularisDB/tabularis",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.884,
+    "score": 0.885,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
@@ -431,6 +431,16 @@
   },
   {
     "rank": 44,
+    "tool_id": "bf4616ff2f105e30",
+    "name": "janbjorge/rekal",
+    "url": "https://github.com/janbjorge/rekal",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.856,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 45,
     "tool_id": "e4817616c26cc3e0",
     "name": "drhalto/agentmako",
     "url": "https://github.com/drhalto/agentmako",
@@ -440,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "tool_id": "aa16dbbb677d4a7f",
     "name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
@@ -450,7 +460,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "tool_id": "8bfd0b9e5a37f816",
     "name": "mksglu/context-mode",
     "url": "https://github.com/mksglu/context-mode",
@@ -460,7 +470,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "4c86898c9b77fb8f",
     "name": "0xJacky/nginx-ui",
     "url": "https://github.com/0xJacky/nginx-ui",
@@ -470,7 +480,7 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "tool_id": "9d611b13e0fbadf8",
     "name": "affaan-m/everything-claude-code",
     "url": "https://github.com/affaan-m/everything-claude-code",
@@ -480,22 +490,12 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "00be61cb9f67e513",
     "name": "jeecgboot/JeecgBoot",
     "url": "https://github.com/jeecgboot/JeecgBoot",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "43d7b799ee18b00d",
-    "name": "PrefectHQ/fastmcp",
-    "url": "https://github.com/PrefectHQ/fastmcp",
-    "category": "mcp_server",
-    "letter": "A",
     "score": 0.855,
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   }
