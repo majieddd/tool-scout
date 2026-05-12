@@ -296,7 +296,7 @@
     "url": "https://github.com/alvinunreal/openpets",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.87,
+    "score": 0.871,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -351,6 +351,16 @@
   },
   {
     "rank": 36,
+    "tool_id": "54da31e633a5f858",
+    "name": "mathomhaus/guild",
+    "url": "https://github.com/mathomhaus/guild",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.867,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 37,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
@@ -358,16 +368,6 @@
     "letter": "B",
     "score": 0.867,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 37,
-    "tool_id": "54da31e633a5f858",
-    "name": "mathomhaus/guild",
-    "url": "https://github.com/mathomhaus/guild",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.866,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 38,
@@ -401,20 +401,20 @@
   },
   {
     "rank": 41,
-    "tool_id": "fbd1b812fbc71b2c",
-    "name": "golutra/golutra",
-    "url": "https://github.com/golutra/golutra",
-    "category": "claude_plugin",
+    "tool_id": "b902a4c51fc3f956",
+    "name": "zhensherlock/sp500-mcp-server",
+    "url": "https://github.com/zhensherlock/sp500-mcp-server",
+    "category": "mcp_server",
     "letter": "B",
     "score": 0.861,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 42,
-    "tool_id": "b902a4c51fc3f956",
-    "name": "zhensherlock/sp500-mcp-server",
-    "url": "https://github.com/zhensherlock/sp500-mcp-server",
-    "category": "mcp_server",
+    "tool_id": "fbd1b812fbc71b2c",
+    "name": "golutra/golutra",
+    "url": "https://github.com/golutra/golutra",
+    "category": "claude_plugin",
     "letter": "B",
     "score": 0.861,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
@@ -431,16 +431,6 @@
   },
   {
     "rank": 44,
-    "tool_id": "b3d74d2a6e12ba20",
-    "name": "omermaksutii/mnemo",
-    "url": "https://github.com/omermaksutii/mnemo",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.858,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 45,
     "tool_id": "c3dfa760bae21132",
     "name": "hlpun/Train-in-Silence",
     "url": "https://github.com/hlpun/Train-in-Silence",
@@ -450,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "tool_id": "537f944d2eaf6974",
     "name": "kuberstar/qartez-mcp",
     "url": "https://github.com/kuberstar/qartez-mcp",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "acd218b48ad60eef",
     "name": "sverklo/sverklo",
     "url": "https://github.com/sverklo/sverklo",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "e4817616c26cc3e0",
     "name": "drhalto/agentmako",
     "url": "https://github.com/drhalto/agentmako",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "aa16dbbb677d4a7f",
     "name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
@@ -490,10 +480,20 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "8bfd0b9e5a37f816",
     "name": "mksglu/context-mode",
     "url": "https://github.com/mksglu/context-mode",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.855,
+    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "4c86898c9b77fb8f",
+    "name": "0xJacky/nginx-ui",
+    "url": "https://github.com/0xJacky/nginx-ui",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.855,
