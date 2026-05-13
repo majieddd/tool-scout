@@ -451,6 +451,16 @@
   },
   {
     "rank": 46,
+    "tool_id": "c3e1903477c43929",
+    "name": "olo-dot-io/Uni-CLI",
+    "url": "https://github.com/olo-dot-io/Uni-CLI",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.856,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 47,
     "tool_id": "e4817616c26cc3e0",
     "name": "drhalto/agentmako",
     "url": "https://github.com/drhalto/agentmako",
@@ -460,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "fee42a9cc126c16f",
     "name": "GammaLabTechnologies/harmonist",
     "url": "https://github.com/GammaLabTechnologies/harmonist",
@@ -470,7 +480,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "tool_id": "aa16dbbb677d4a7f",
     "name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
@@ -480,20 +490,10 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "8bfd0b9e5a37f816",
     "name": "mksglu/context-mode",
     "url": "https://github.com/mksglu/context-mode",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "4c86898c9b77fb8f",
-    "name": "0xJacky/nginx-ui",
-    "url": "https://github.com/0xJacky/nginx-ui",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.855,
