@@ -241,6 +241,16 @@
   },
   {
     "rank": 25,
+    "tool_id": "9da21edc519e6070",
+    "name": "esengine/DeepSeek-Reasonix",
+    "url": "https://github.com/esengine/DeepSeek-Reasonix",
+    "category": "harness",
+    "letter": "B",
+    "score": 0.886,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 26,
     "tool_id": "5720873393b5d31a",
     "name": "TabularisDB/tabularis",
     "url": "https://github.com/TabularisDB/tabularis",
@@ -248,16 +258,6 @@
     "letter": "A",
     "score": 0.885,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 26,
-    "tool_id": "9da21edc519e6070",
-    "name": "esengine/DeepSeek-Reasonix",
-    "url": "https://github.com/esengine/DeepSeek-Reasonix",
-    "category": "harness",
-    "letter": "B",
-    "score": 0.885,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 27,
@@ -286,7 +286,7 @@
     "url": "https://github.com/alvinunreal/openpets",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.874,
+    "score": 0.875,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -306,7 +306,7 @@
     "url": "https://github.com/Storybloq/storybloq",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.87,
+    "score": 0.871,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -411,13 +411,13 @@
   },
   {
     "rank": 42,
-    "tool_id": "c5bdab0de382324e",
-    "name": "josephgoksu/TaskWing",
-    "url": "https://github.com/josephgoksu/TaskWing",
+    "tool_id": "c3e1903477c43929",
+    "name": "olo-dot-io/Uni-CLI",
+    "url": "https://github.com/olo-dot-io/Uni-CLI",
     "category": "mcp_server",
-    "letter": "B",
-    "score": 0.862,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+    "letter": "A",
+    "score": 0.857,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 43,
@@ -451,16 +451,6 @@
   },
   {
     "rank": 46,
-    "tool_id": "c3e1903477c43929",
-    "name": "olo-dot-io/Uni-CLI",
-    "url": "https://github.com/olo-dot-io/Uni-CLI",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.856,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 47,
     "tool_id": "e4817616c26cc3e0",
     "name": "drhalto/agentmako",
     "url": "https://github.com/drhalto/agentmako",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "fee42a9cc126c16f",
     "name": "GammaLabTechnologies/harmonist",
     "url": "https://github.com/GammaLabTechnologies/harmonist",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "aa16dbbb677d4a7f",
     "name": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli",
@@ -490,10 +480,20 @@
     "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "8bfd0b9e5a37f816",
     "name": "mksglu/context-mode",
     "url": "https://github.com/mksglu/context-mode",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.855,
+    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "4c86898c9b77fb8f",
+    "name": "0xJacky/nginx-ui",
+    "url": "https://github.com/0xJacky/nginx-ui",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.855,
