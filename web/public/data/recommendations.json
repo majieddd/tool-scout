@@ -241,21 +241,21 @@
   },
   {
     "rank": 25,
-    "tool_id": "5cc80a4dbdcb6c6d",
-    "name": "chrisryugj/korean-law-mcp",
-    "url": "https://github.com/chrisryugj/korean-law-mcp",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.886,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 26,
     "tool_id": "9da21edc519e6070",
     "name": "esengine/DeepSeek-Reasonix",
     "url": "https://github.com/esengine/DeepSeek-Reasonix",
     "category": "harness",
     "letter": "B",
+    "score": 0.886,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 26,
+    "tool_id": "5cc80a4dbdcb6c6d",
+    "name": "chrisryugj/korean-law-mcp",
+    "url": "https://github.com/chrisryugj/korean-law-mcp",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.886,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
@@ -281,9 +281,9 @@
   },
   {
     "rank": 29,
-    "tool_id": "546c5ba9655f6193",
-    "name": "Cranot/roam-code",
-    "url": "https://github.com/Cranot/roam-code",
+    "tool_id": "c871da3c7d25e2ee",
+    "name": "alvinunreal/openpets",
+    "url": "https://github.com/alvinunreal/openpets",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.875,
@@ -291,9 +291,9 @@
   },
   {
     "rank": 30,
-    "tool_id": "c871da3c7d25e2ee",
-    "name": "alvinunreal/openpets",
-    "url": "https://github.com/alvinunreal/openpets",
+    "tool_id": "546c5ba9655f6193",
+    "name": "Cranot/roam-code",
+    "url": "https://github.com/Cranot/roam-code",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.875,
