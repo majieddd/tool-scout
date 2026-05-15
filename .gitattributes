@@ -1,0 +1,48 @@
+# Line-ending policy for this repo.
+#
+# Default: all text files committed with LF, working tree LF on all platforms.
+# This stops the "LF will be replaced by CRLF the next time Git touches it"
+# warning that fired on every commit when there was no .gitattributes.
+*               text=auto eol=lf
+
+# Code, config, data, docs — explicit LF
+*.ts            text eol=lf
+*.tsx           text eol=lf
+*.js            text eol=lf
+*.jsx           text eol=lf
+*.json          text eol=lf
+*.css           text eol=lf
+*.html          text eol=lf
+*.md            text eol=lf
+*.yml           text eol=lf
+*.yaml          text eol=lf
+*.toml          text eol=lf
+*.py            text eol=lf
+*.sh            text eol=lf
+
+# Windows-native files — keep CRLF so Notepad / cmd.exe / PowerShell behave
+# correctly. PowerShell scripts in particular MUST be CRLF; the runtime
+# tolerates LF but many editors mis-render.
+*.ps1           text eol=crlf
+*.psm1          text eol=crlf
+*.psd1          text eol=crlf
+*.bat           text eol=crlf
+*.cmd           text eol=crlf
+
+# Binaries — never normalize
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.ico           binary
+*.svg           text eol=lf
+*.woff          binary
+*.woff2         binary
+*.ttf           binary
+*.otf           binary
+*.pdf           binary
+*.zip           binary
+*.gz            binary
+*.tar           binary
+*.db            binary
+*.sqlite        binary
