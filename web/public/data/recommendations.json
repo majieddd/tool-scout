@@ -431,6 +431,16 @@
   },
   {
     "rank": 44,
+    "tool_id": "42e5c7487dc53a84",
+    "name": "PiaoyangGuohai1/cli-anything-zotero",
+    "url": "https://github.com/PiaoyangGuohai1/cli-anything-zotero",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.857,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 45,
     "tool_id": "537f944d2eaf6974",
     "name": "kuberstar/qartez-mcp",
     "url": "https://github.com/kuberstar/qartez-mcp",
@@ -440,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "tool_id": "bf4616ff2f105e30",
     "name": "janbjorge/rekal",
     "url": "https://github.com/janbjorge/rekal",
@@ -448,16 +458,6 @@
     "letter": "A",
     "score": 0.857,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 46,
-    "tool_id": "42e5c7487dc53a84",
-    "name": "PiaoyangGuohai1/cli-anything-zotero",
-    "url": "https://github.com/PiaoyangGuohai1/cli-anything-zotero",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.856,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 47,
