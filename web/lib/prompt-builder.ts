@@ -92,6 +92,31 @@ export function buildPrompt(stack: ComposedStack, profile: ExtendedProfile, opts
     lines.push(`> Tools install into: ${AGENT_INSTALL_LOCATION[opts.targetAgent]}`);
     lines.push("");
   }
+
+  // Essential off-catalog libraries — surfaced FIRST because they're the
+  // foundational domain dependencies (ccxt for trading, langchain for RAG,
+  // discord.js for chat bots, etc.) that the catalog deliberately doesn't
+  // try to mirror. Without these, the catalog picks are useless: a Postgres
+  // MCP isn't helpful if the user doesn't have ccxt + pandas to feed it.
+  // The architect identifies these per-archetype; the UI shows them under
+  // "Typical stack" — and the starter prompt must include them too or the
+  // bridge from "9 technical parts" to actionable installs breaks at the
+  // last mile.
+  if (stack.archetype && stack.archetype.essentialLibraries.length > 0) {
+    lines.push("### Essential off-catalog libraries");
+    lines.push(
+      `*Standard domain libraries for ${stack.archetype.label.toLowerCase()}. These aren't in the catalog (it's curated for agent-tooling MCPs/plugins/skills); install them yourself first.*`,
+    );
+    lines.push("");
+    for (const lib of stack.archetype.essentialLibraries) {
+      lines.push(`- **${lib.name}** — ${lib.why}`);
+      lines.push("  ```");
+      lines.push("  " + lib.install);
+      lines.push("  ```");
+    }
+    lines.push("");
+  }
+
   for (const layer of stack.layers) {
     if (layer.primary.length === 0) continue;
     lines.push(`### ${layer.name}`);
