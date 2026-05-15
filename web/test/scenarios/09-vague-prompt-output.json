@@ -3,7 +3,6 @@
   "title": "Vague: 'I want to build something cool with AI'",
   "prompt": "I want to build something cool with AI, maybe an agent or tool.",
   "expected_notes": "No language, no platform, no clear target agent. targetAgent should be 'unknown'. Stack should be small (≤5 picks). Most layers should be skipped due to no signal. The architect must NOT hallucinate a stack from nothing.",
-  "catalog_size": 5589,
   "profile": {
     "targetAgent": "unknown",
     "primaryLanguage": "python",
@@ -29,7 +28,6 @@
   },
   "composed": {
     "totalPrimaryCount": 0,
-    "generatedAt": "2026-05-15T17:01:46.293Z",
     "skipped": [
       "sdk-runtime (n/a)",
       "context-fs (n/a)",

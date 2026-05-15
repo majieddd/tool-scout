@@ -3,7 +3,6 @@
   "title": "TypeScript + Next.js + Cursor extension on macOS",
   "prompt": "I'm building a Cursor extension in TypeScript with .cursorrules for a Next.js codebase that ships to Vercel. Running on macOS Sequoia. I want fast iteration and code review.",
   "expected_notes": "Target should be 'cursor', language 'typescript', platform 'macos'. SDK should be TS-flavored (NOT Python fastmcp). Method skill should pick a code-review tool. Should NOT pick Python-only tools as primary anywhere.",
-  "catalog_size": 5589,
   "profile": {
     "targetAgent": "cursor",
     "primaryLanguage": "typescript",
@@ -31,7 +30,6 @@
   },
   "composed": {
     "totalPrimaryCount": 3,
-    "generatedAt": "2026-05-15T17:01:46.106Z",
     "skipped": [
       "context-fs (n/a)",
       "context-git (not for goal=build_extension)",
@@ -61,7 +59,7 @@
             "description": "Model Context Protocol implementation for TypeScript - Server package",
             "compatibility": "mcp_ready",
             "grade_letter": "C",
-            "grade_total": 13.87,
+            "grade_total": 13.86,
             "score": 8.27,
             "reason": "grade C · JavaScript match · MCP-ready"
           }
@@ -111,7 +109,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 5334,
+            "stars": 5335,
             "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
@@ -227,7 +225,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 22859,
+            "stars": 22864,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",

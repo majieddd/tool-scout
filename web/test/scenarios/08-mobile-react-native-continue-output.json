@@ -3,7 +3,6 @@
   "title": "Mobile React Native app with Continue on macOS targeting iOS",
   "prompt": "React Native mobile app for iOS and Android. Using Continue.dev as the AI coding assistant. macOS development. Backend hits a Firebase API. Need accessibility testing and crash reporting.",
   "expected_notes": "Target 'continue', language 'typescript', platform 'macos'. Most MCP server layers should be irrelevant. Web-API may apply (Firebase). Should NOT over-pick — mobile apps don't need most MCP tooling. Tight stack is fine.",
-  "catalog_size": 5589,
   "profile": {
     "targetAgent": "continue",
     "primaryLanguage": "typescript",
@@ -41,7 +40,6 @@
   },
   "composed": {
     "totalPrimaryCount": 4,
-    "generatedAt": "2026-05-15T17:01:46.279Z",
     "skipped": [
       "sdk-runtime (n/a)",
       "context-fs (n/a)",
@@ -143,7 +141,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 5334,
+            "stars": 5335,
             "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
@@ -212,7 +210,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 22859,
+            "stars": 22864,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
@@ -229,7 +227,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 414,
+            "stars": 415,
             "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
             "compatibility": "native_claude_code",
             "grade_letter": "B",

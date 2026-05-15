@@ -3,7 +3,6 @@
   "title": "Rust system utility wrapping ripgrep for Codex CLI on Linux",
   "prompt": "I'm building an OpenAI Codex extension in Rust that wraps the ripgrep CLI for fast project-wide search. Running on Linux Ubuntu 24.04.",
   "expected_notes": "Target should be 'codex-cli', language 'rust', platform 'linux'. SDK layer might be skipped if no Rust MCP SDK exists. Goal should be wrap_cli. Should NOT pick TS or Python tools as primary SDK without language-mismatch warning.",
-  "catalog_size": 5589,
   "profile": {
     "targetAgent": "codex-cli",
     "primaryLanguage": "rust",
@@ -28,7 +27,6 @@
   },
   "composed": {
     "totalPrimaryCount": 1,
-    "generatedAt": "2026-05-15T17:01:46.118Z",
     "skipped": [
       "sdk-runtime (n/a)",
       "context-fs (not for goal=wrap_cli)",
@@ -73,7 +71,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 22859,
+            "stars": 22864,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
@@ -88,7 +86,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 414,
+            "stars": 415,
             "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
             "compatibility": "native_claude_code",
             "grade_letter": "B",

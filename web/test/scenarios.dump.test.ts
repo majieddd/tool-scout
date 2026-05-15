@@ -142,7 +142,9 @@ describe.skipIf(!haveCatalog)("scenarios dump", () => {
         title: sc.title,
         prompt: sc.prompt,
         expected_notes: sc.expectedNotes,
-        catalog_size: tools.length,
+        // catalog_size omitted — it changes every crawl (~3–30 new tools/day)
+        // and would cause every dump to show as modified after each crawler
+        // push. The dump is a SHAPE inspection, not a freshness audit.
         profile: {
           targetAgent: profile.targetAgent,
           primaryLanguage: profile.primaryLanguage,
@@ -159,7 +161,10 @@ describe.skipIf(!haveCatalog)("scenarios dump", () => {
         },
         composed: {
           totalPrimaryCount: stack.totalPrimaryCount,
-          generatedAt: stack.generatedAt,
+          // generatedAt omitted — was an ISO timestamp from Date.now(), so
+          // every test run produced a new value, marking all 10 dump files
+          // as modified in git. The dumps are for reviewing scoring/layer
+          // decisions; the timestamp adds no signal and just creates noise.
           skipped: stack.skipped,
           layers: stack.layers.map((l) => ({
             id: l.id,
