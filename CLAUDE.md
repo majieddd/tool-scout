@@ -17,6 +17,30 @@ This file is read at the start of every Claude Code session in this repository. 
 - Local data lives outside the repo at `~/.tool-scout/` (never committed)
 - See `.gitignore` for the full exclusion list
 
+## Automated crawler (DO NOT touch — runs in GitHub Actions)
+
+The catalog data files (`web/public/data/*.json`) are maintained automatically by **two GitHub Actions workflows** that push commits directly to `origin/main` throughout the day. **The user wants this kept fully automatic — do not propose disabling either workflow.**
+
+| Workflow | Cron | What it does | Commit message |
+|---|---|---|---|
+| `.github/workflows/fast-poll.yml` | `12 * * * *` (every hour at :12) | Crawls fast-tier sources only (GitHub trending, MCP registries, HN, Reddit, Anthropic blog) — `scout crawl --quick --tier fast` | `chore(data): hourly fast-poll <ISO timestamp>` |
+| `.github/workflows/daily-crawl.yml` | `0 3 * * *` (daily 03:00 UTC) | Full crawl across heavy sources too (npm, PyPI, awesome-lists) — `scout crawl --quick` | `chore(data): nightly crawl <YYYY-MM-DD>` |
+
+Both run heuristics-only in CI (no Ollama — classifier defers, doesn't block). Both share a `crawl` concurrency group so they can't collide. Both write to `web/public/data/*.json`: `tools.json`, `meta.json`, `recommendations.json`, `grades_index.json`. The deploy-pages workflow rebuilds the live site from main.
+
+**Net effect: origin/main typically advances by 3–30 commits per day.** Local clones go stale fast.
+
+### The "must git pull first" rule
+
+Before ANY of these actions in this repo, run `git pull --ff-only origin main`:
+
+- `npm run build` (in `web/`) — building from stale data ships a stale site
+- creating a commit — risks merging onto an old base and creating a fork
+- trusting `meta.json` fields (especially `live_tools` count) — they change every hour
+- diagnosing a "missing tools" or "count mismatch" complaint — first hypothesis is always "local is behind"
+
+A SessionStart hook at `.claude/hooks/check-git-staleness.ps1` auto-checks this at session start and prints the commits-behind count via `systemMessage` + `additionalContext`. If you don't see a warning, you're up to date.
+
 ## Authoritative documents
 
 When something's unclear, consult in this order:
