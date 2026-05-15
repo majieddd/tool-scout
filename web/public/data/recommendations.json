@@ -431,21 +431,21 @@
   },
   {
     "rank": 44,
-    "tool_id": "42e5c7487dc53a84",
-    "name": "PiaoyangGuohai1/cli-anything-zotero",
-    "url": "https://github.com/PiaoyangGuohai1/cli-anything-zotero",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.857,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 45,
     "tool_id": "537f944d2eaf6974",
     "name": "kuberstar/qartez-mcp",
     "url": "https://github.com/kuberstar/qartez-mcp",
     "category": "mcp_server",
     "letter": "B",
+    "score": 0.857,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 45,
+    "tool_id": "42e5c7487dc53a84",
+    "name": "PiaoyangGuohai1/cli-anything-zotero",
+    "url": "https://github.com/PiaoyangGuohai1/cli-anything-zotero",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.857,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
