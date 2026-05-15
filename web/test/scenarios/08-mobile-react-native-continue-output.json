@@ -3,7 +3,7 @@
   "title": "Mobile React Native app with Continue on macOS targeting iOS",
   "prompt": "React Native mobile app for iOS and Android. Using Continue.dev as the AI coding assistant. macOS development. Backend hits a Firebase API. Need accessibility testing and crash reporting.",
   "expected_notes": "Target 'continue', language 'typescript', platform 'macos'. Most MCP server layers should be irrelevant. Web-API may apply (Firebase). Should NOT over-pick — mobile apps don't need most MCP tooling. Tight stack is fine.",
-  "catalog_size": 4392,
+  "catalog_size": 5589,
   "profile": {
     "targetAgent": "continue",
     "primaryLanguage": "typescript",
@@ -41,7 +41,7 @@
   },
   "composed": {
     "totalPrimaryCount": 4,
-    "generatedAt": "2026-05-04T05:50:55.397Z",
+    "generatedAt": "2026-05-15T17:01:46.279Z",
     "skipped": [
       "sdk-runtime (n/a)",
       "context-fs (n/a)",
@@ -70,8 +70,8 @@
             "description": "Listed in punkpeye/awesome-mcp-servers",
             "compatibility": "mcp_ready",
             "grade_letter": "C",
-            "grade_total": 13.5,
-            "score": 3.7,
+            "grade_total": 12.5,
+            "score": 3.5,
             "reason": "grade C · MCP-ready"
           }
         ],
@@ -92,10 +92,10 @@
             "stars": 0,
             "description": "MCP (Model Context Protocol) Instrumentation",
             "compatibility": "mcp_ready",
-            "grade_letter": "B",
-            "grade_total": 14.75,
-            "score": 5.95,
-            "reason": "grade B · JavaScript match · MCP-ready"
+            "grade_letter": "C",
+            "grade_total": 13.75,
+            "score": 5.75,
+            "reason": "grade C · JavaScript match · MCP-ready"
           }
         ],
         "alternatives": [
@@ -106,12 +106,12 @@
             "category": "mcp_server",
             "subcategory": "general",
             "language": "Python",
-            "stars": 429,
+            "stars": 437,
             "description": "A Model Context Protocol (MCP) server that enables AI agents and LLMs to query and analyze Prometheus metrics through standardized interfaces.",
             "compatibility": "mcp_ready",
             "grade_letter": "B",
-            "grade_total": 17.49,
-            "score": 3.81,
+            "grade_total": 16.49,
+            "score": 3.62,
             "reason": "grade B · MCP-ready"
           },
           {
@@ -125,8 +125,8 @@
             "description": "BitDive Model Context Protocol (MCP) server. The Autonomous Quality Loop for AI agents. Provides real runtime context, before/after trace comparison, and integration testing workflows.",
             "compatibility": "mcp_ready",
             "grade_letter": "B",
-            "grade_total": 15.98,
-            "score": 3.67,
+            "grade_total": 14.98,
+            "score": 3.47,
             "reason": "grade B · MCP-ready"
           }
         ]
@@ -143,12 +143,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 4887,
+            "stars": 5334,
             "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.88,
-            "score": 5.42,
+            "grade_total": 17.9,
+            "score": 5.44,
             "reason": "grade B · TypeScript match · Claude-native"
           }
         ],
@@ -160,28 +160,13 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 2056,
+            "stars": 2113,
             "description": "Automated TDD enforcement for Claude Code",
             "compatibility": "native_claude_code",
-            "grade_letter": "A",
-            "grade_total": 18.24,
-            "score": 5.3,
-            "reason": "grade A · TypeScript match · Claude-native"
-          },
-          {
-            "tool_id": "fc31db0c8484f4cd",
-            "name": "josstei/maestro-orchestrate",
-            "url": "https://github.com/josstei/maestro-orchestrate",
-            "category": "claude_plugin",
-            "subcategory": "general",
-            "language": "JavaScript",
-            "stars": 395,
-            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
-            "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.64,
-            "score": 5.23,
-            "reason": "grade B · JavaScript match · Claude-native"
+            "grade_total": 17.25,
+            "score": 5.11,
+            "reason": "grade B · TypeScript match · Claude-native"
           },
           {
             "tool_id": "8f222bb37f6ca0a9",
@@ -190,13 +175,28 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 219,
+            "stars": 335,
             "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 15.88,
-            "score": 4.75,
+            "grade_total": 14.95,
+            "score": 4.65,
             "reason": "grade B · JavaScript match · Claude-native"
+          },
+          {
+            "tool_id": "30e7e23c568b7351",
+            "name": "yzhao062/anywhere-agents",
+            "url": "https://github.com/yzhao062/anywhere-agents",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "Python",
+            "stars": 171,
+            "description": "One config to rule all your AI agents: portable (every project, every session), effective (curated writing, routing, skills), and safer (destructive-command guard).",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 16.34,
+            "score": 4.39,
+            "reason": "grade B · Claude-native"
           }
         ]
       },
@@ -212,7 +212,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 21608,
+            "stars": 22859,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
@@ -223,18 +223,33 @@
         ],
         "alternatives": [
           {
+            "tool_id": "fc31db0c8484f4cd",
+            "name": "josstei/maestro-orchestrate",
+            "url": "https://github.com/josstei/maestro-orchestrate",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 414,
+            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 16.15,
+            "score": 5.44,
+            "reason": "grade B · JavaScript match · Claude-native"
+          },
+          {
             "tool_id": "706970c2b711facc",
             "name": "abhisekjha/pith",
             "url": "https://github.com/abhisekjha/pith",
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "Python",
-            "stars": 95,
+            "stars": 96,
             "description": "Pith is the hook that makes Claude Code sessions last 3x longer.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.24,
-            "score": 4.94,
+            "grade_total": 16.25,
+            "score": 4.74,
             "reason": "grade B · Claude-native"
           },
           {
@@ -244,27 +259,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": null,
-            "stars": 24,
+            "stars": 25,
             "description": "Multi-model consensus code review and plan review plugin for Claude Code",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 15.52,
-            "score": 4.8,
-            "reason": "grade B · Claude-native"
-          },
-          {
-            "tool_id": "06391080705d6a03",
-            "name": "dementev-dev/adversarial-review",
-            "url": "https://github.com/dementev-dev/adversarial-review",
-            "category": "claude_plugin",
-            "subcategory": "general",
-            "language": null,
-            "stars": 7,
-            "description": "Claude Code skill for adversarial AI code & plan review. One AI writes, another tears it apart. Iterative fix loop until approved.",
-            "compatibility": "native_claude_code",
-            "grade_letter": "B",
-            "grade_total": 15.34,
-            "score": 4.52,
+            "grade_total": 14.53,
+            "score": 4.61,
             "reason": "grade B · Claude-native"
           }
         ]

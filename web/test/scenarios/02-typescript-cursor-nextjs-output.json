@@ -3,7 +3,7 @@
   "title": "TypeScript + Next.js + Cursor extension on macOS",
   "prompt": "I'm building a Cursor extension in TypeScript with .cursorrules for a Next.js codebase that ships to Vercel. Running on macOS Sequoia. I want fast iteration and code review.",
   "expected_notes": "Target should be 'cursor', language 'typescript', platform 'macos'. SDK should be TS-flavored (NOT Python fastmcp). Method skill should pick a code-review tool. Should NOT pick Python-only tools as primary anywhere.",
-  "catalog_size": 4392,
+  "catalog_size": 5589,
   "profile": {
     "targetAgent": "cursor",
     "primaryLanguage": "typescript",
@@ -31,7 +31,7 @@
   },
   "composed": {
     "totalPrimaryCount": 3,
-    "generatedAt": "2026-05-04T05:50:55.242Z",
+    "generatedAt": "2026-05-15T17:01:46.106Z",
     "skipped": [
       "context-fs (n/a)",
       "context-git (not for goal=build_extension)",
@@ -60,10 +60,10 @@
             "stars": 0,
             "description": "Model Context Protocol implementation for TypeScript - Server package",
             "compatibility": "mcp_ready",
-            "grade_letter": "B",
-            "grade_total": 14.91,
-            "score": 8.48,
-            "reason": "grade B · JavaScript match · MCP-ready"
+            "grade_letter": "C",
+            "grade_total": 13.87,
+            "score": 8.27,
+            "reason": "grade C · JavaScript match · MCP-ready"
           }
         ],
         "alternatives": [
@@ -77,10 +77,10 @@
             "stars": 0,
             "description": "Model Context Protocol implementation for TypeScript",
             "compatibility": "mcp_ready",
-            "grade_letter": "B",
-            "grade_total": 14.73,
-            "score": 8.45,
-            "reason": "grade B · JavaScript match · MCP-ready"
+            "grade_letter": "C",
+            "grade_total": 13.69,
+            "score": 8.24,
+            "reason": "grade C · JavaScript match · MCP-ready"
           },
           {
             "tool_id": "2de8f366f1cc7e08",
@@ -89,7 +89,7 @@
             "category": "mcp_server",
             "subcategory": "general",
             "language": "C#",
-            "stars": 4235,
+            "stars": 4263,
             "description": "The official C# SDK for Model Context Protocol servers and clients. Maintained in collaboration with Microsoft.",
             "compatibility": "mcp_ready",
             "grade_letter": "B",
@@ -111,31 +111,16 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 4887,
+            "stars": 5334,
             "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.88,
-            "score": 7.92,
+            "grade_total": 17.9,
+            "score": 7.94,
             "reason": "grade B · TypeScript match · Claude-native"
           }
         ],
         "alternatives": [
-          {
-            "tool_id": "fc31db0c8484f4cd",
-            "name": "josstei/maestro-orchestrate",
-            "url": "https://github.com/josstei/maestro-orchestrate",
-            "category": "claude_plugin",
-            "subcategory": "general",
-            "language": "JavaScript",
-            "stars": 395,
-            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
-            "compatibility": "native_claude_code",
-            "grade_letter": "B",
-            "grade_total": 17.64,
-            "score": 7.33,
-            "reason": "grade B · JavaScript match · Claude-native"
-          },
           {
             "tool_id": "8f222bb37f6ca0a9",
             "name": "waybarrios/opencode-power-pack",
@@ -143,12 +128,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 219,
+            "stars": 335,
             "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 15.88,
-            "score": 7.25,
+            "grade_total": 14.95,
+            "score": 7.15,
             "reason": "grade B · JavaScript match · Claude-native"
           },
           {
@@ -158,13 +143,28 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "Python",
-            "stars": 166,
+            "stars": 171,
             "description": "One config to rule all your AI agents: portable (every project, every session), effective (curated writing, routing, skills), and safer (destructive-command guard).",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.33,
-            "score": 7.08,
+            "grade_total": 16.34,
+            "score": 6.89,
             "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "242c97f76c5d30a6",
+            "name": "NYCU-Chung/my-claude-devteam",
+            "url": "https://github.com/NYCU-Chung/my-claude-devteam",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 265,
+            "description": "An engineering team in a box for Claude Code — 12 specialized agents, 15 automation hooks, and the P7/P9/P10 methodology.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 15.41,
+            "score": 6.79,
+            "reason": "grade B · JavaScript match · Claude-native"
           }
         ]
       },
@@ -180,12 +180,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": null,
-            "stars": 24,
+            "stars": 25,
             "description": "Multi-model consensus code review and plan review plugin for Claude Code",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 15.52,
-            "score": 8.2,
+            "grade_total": 14.53,
+            "score": 8.01,
             "reason": "grade B · Claude-native"
           }
         ],
@@ -201,8 +201,8 @@
             "description": "Claude Code skill for adversarial AI code & plan review. One AI writes, another tears it apart. Iterative fix loop until approved.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 15.34,
-            "score": 7.92,
+            "grade_total": 14.34,
+            "score": 7.72,
             "reason": "grade B · Claude-native"
           },
           {
@@ -212,12 +212,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "BibTeX Style",
-            "stars": 12,
+            "stars": 16,
             "description": "Cursor, Codex, and Claude Code workflows, prompts, and a LaTeX starter template for reviewing Tianjin University undergraduate theses.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 15.41,
-            "score": 7.04,
+            "grade_total": 14.46,
+            "score": 7.41,
             "reason": "grade B · Claude-native"
           },
           {
@@ -227,7 +227,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 21608,
+            "stars": 22859,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",

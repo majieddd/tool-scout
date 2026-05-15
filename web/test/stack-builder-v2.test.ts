@@ -357,6 +357,67 @@ describe.skipIf(!haveCatalog)("stack-builder-v2: framework→language inference"
   });
 });
 
+describe.skipIf(!haveCatalog)("stack-builder-v2: archetype essentialLibraries", () => {
+  it("market-trader exposes off-catalog essentials (ccxt, pandas, etc.) so the user has actionable installs", () => {
+    // The catalog is curated for agent-tooling MCPs; it doesn't mirror pip.
+    // Without essentialLibraries, a crypto-trading prompt produces a 9-item
+    // technical-parts checklist and 2 catalog picks — leaving the user with
+    // no actionable bridge. essentialLibraries fills that gap.
+    const { stack } = compose(
+      "i want to make an app that trades cryptocurrency for me with the sole purpose of earning $1,000,000 USD agentically"
+    );
+    expect(stack.archetype?.id).toBe("market-trader");
+    expect(stack.archetype?.essentialLibraries.length).toBeGreaterThanOrEqual(4);
+    const allInstalls = (stack.archetype?.essentialLibraries || [])
+      .map((l) => `${l.name} ${l.install}`)
+      .join(" ")
+      .toLowerCase();
+    // Crypto-specific essentials must be there
+    expect(allInstalls).toMatch(/ccxt|coinbase|binance/);
+    // Time-series math
+    expect(allInstalls).toMatch(/pandas|numpy/);
+    // Backtesting harness
+    expect(allInstalls).toMatch(/backtest|vectorbt|backtrader/);
+    // Each essential has a copy-pasteable install command
+    for (const lib of stack.archetype?.essentialLibraries || []) {
+      expect(lib.install.length).toBeGreaterThan(5);
+      expect(lib.why.length).toBeGreaterThan(10);
+    }
+  });
+
+  it("rag-chatbot exposes off-catalog essentials (langchain/llamaindex, pgvector, etc.)", () => {
+    const { stack } = compose("I want a chatbot for our company documents in PDF");
+    expect(stack.archetype?.id).toBe("rag-chatbot");
+    const allInstalls = (stack.archetype?.essentialLibraries || [])
+      .map((l) => `${l.name} ${l.install}`)
+      .join(" ")
+      .toLowerCase();
+    expect(allInstalls).toMatch(/langchain|llama-?index/);
+    expect(allInstalls).toMatch(/pgvector|fastapi|tiktoken/);
+  });
+
+  it("ai-agent-app exposes off-catalog essentials (langgraph, anthropic SDK)", () => {
+    const { stack } = compose("I want to build an autonomous agent that does research");
+    expect(stack.archetype?.id).toBe("ai-agent-app");
+    const allInstalls = (stack.archetype?.essentialLibraries || [])
+      .map((l) => `${l.name} ${l.install}`)
+      .join(" ")
+      .toLowerCase();
+    expect(allInstalls).toMatch(/langgraph|anthropic|openai|smolagents/);
+  });
+
+  it("archetypes without explicit essentials default to empty array (not undefined)", () => {
+    // Defensive: any archetype that doesn't define essentialLibraries should
+    // get the empty-array default at the export step, so consumers can
+    // unconditionally `.length` / `.map` without null-checks.
+    const { stack } = compose("Building a Cursor extension in TypeScript with .cursorrules");
+    if (stack.archetype) {
+      expect(stack.archetype.essentialLibraries).toBeDefined();
+      expect(Array.isArray(stack.archetype.essentialLibraries)).toBe(true);
+    }
+  });
+});
+
 describe.skipIf(!haveCatalog)("stack-builder-v2: hard-cap and quality preservation", () => {
   it("never exceeds 15 picks across all scenarios", () => {
     const prompts = [

@@ -3,7 +3,7 @@
   "title": "Go + gRPC microservice with observability + Docker on WSL",
   "prompt": "I'm building a Go gRPC microservice for Claude Code, with Datadog observability, structured logs, distributed tracing, deployed via Docker Compose. Running on WSL2 Ubuntu.",
   "expected_notes": "Language 'go', platform 'wsl', target 'claude-code'. Domains should include observability + docker. Observability layer should populate (Datadog/Grafana/Prometheus tools). Code-exec layer may apply (Docker). Should NOT pick generic chat-clone apps.",
-  "catalog_size": 4392,
+  "catalog_size": 5589,
   "profile": {
     "targetAgent": "claude-code",
     "primaryLanguage": "go",
@@ -33,7 +33,7 @@
   },
   "composed": {
     "totalPrimaryCount": 3,
-    "generatedAt": "2026-05-04T05:50:55.289Z",
+    "generatedAt": "2026-05-15T17:01:46.154Z",
     "skipped": [
       "sdk-runtime (n/a)",
       "context-fs (n/a)",
@@ -59,12 +59,12 @@
             "category": "mcp_server",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 198,
+            "stars": 201,
             "description": "A fully-featured, GUI-powered local LLM Agent sandbox with complete MCP protocol support.   Features both CLI and full desktop environment, enabling AI agents to operate browsers, terminal, and other desktop applications just like humans. B",
             "compatibility": "mcp_ready",
             "grade_letter": "B",
-            "grade_total": 17.86,
-            "score": 4.62,
+            "grade_total": 16.86,
+            "score": 4.42,
             "reason": "grade B · MCP-ready"
           }
         ],
@@ -80,8 +80,8 @@
             "description": "Listed in punkpeye/awesome-mcp-servers",
             "compatibility": "mcp_ready",
             "grade_letter": "C",
-            "grade_total": 13.5,
-            "score": 1.6,
+            "grade_total": 12.5,
+            "score": 1.4,
             "reason": "grade C · MCP-ready"
           },
           {
@@ -95,8 +95,8 @@
             "description": "Listed in punkpeye/awesome-mcp-servers",
             "compatibility": "mcp_ready",
             "grade_letter": "C",
-            "grade_total": 13.5,
-            "score": 1.2,
+            "grade_total": 12.5,
+            "score": 1,
             "reason": "grade C · MCP-ready"
           }
         ]
@@ -114,11 +114,11 @@
             "subcategory": "general",
             "language": "Go",
             "stars": 1677,
-            "description": "Make RSS 📰 great again with AI 🧠✨!! [gpt-5.5 -> https://pay.ldxp.cn/shop/8465P8HU 0.2 倍率, 0.2元当1刀花，比官方便宜35倍]",
+            "description": "Make RSS 📰 great again with AI 🧠✨!! [作者新开的Gpt模型中转站 - 0.2 倍率, 0.2元当1刀花，比官方便宜35倍  https://token.glidea.app]",
             "compatibility": "mcp_ready",
             "grade_letter": "B",
-            "grade_total": 16.2,
-            "score": 7.35,
+            "grade_total": 15.16,
+            "score": 7.14,
             "reason": "grade B · Go match · MCP-ready"
           }
         ],
@@ -130,12 +130,12 @@
             "category": "mcp_server",
             "subcategory": "general",
             "language": "Python",
-            "stars": 429,
+            "stars": 437,
             "description": "A Model Context Protocol (MCP) server that enables AI agents and LLMs to query and analyze Prometheus metrics through standardized interfaces.",
             "compatibility": "mcp_ready",
             "grade_letter": "B",
-            "grade_total": 17.49,
-            "score": 5.21,
+            "grade_total": 16.49,
+            "score": 5.02,
             "reason": "grade B · MCP-ready"
           },
           {
@@ -149,8 +149,8 @@
             "description": "BitDive Model Context Protocol (MCP) server. The Autonomous Quality Loop for AI agents. Provides real runtime context, before/after trace comparison, and integration testing workflows.",
             "compatibility": "mcp_ready",
             "grade_letter": "B",
-            "grade_total": 15.98,
-            "score": 4.17,
+            "grade_total": 14.98,
+            "score": 3.97,
             "reason": "grade B · MCP-ready"
           }
         ]
@@ -167,31 +167,16 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 2056,
+            "stars": 2113,
             "description": "Automated TDD enforcement for Claude Code",
             "compatibility": "native_claude_code",
-            "grade_letter": "A",
-            "grade_total": 18.24,
-            "score": 8.7,
-            "reason": "grade A · Claude-native"
+            "grade_letter": "B",
+            "grade_total": 17.25,
+            "score": 8.51,
+            "reason": "grade B · Claude-native"
           }
         ],
         "alternatives": [
-          {
-            "tool_id": "40f11453f8dd4f11",
-            "name": "AltimateAI/claude-consensus",
-            "url": "https://github.com/AltimateAI/claude-consensus",
-            "category": "claude_plugin",
-            "subcategory": "general",
-            "language": null,
-            "stars": 24,
-            "description": "Multi-model consensus code review and plan review plugin for Claude Code",
-            "compatibility": "native_claude_code",
-            "grade_letter": "B",
-            "grade_total": 15.52,
-            "score": 8.1,
-            "reason": "grade B · Claude-native"
-          },
           {
             "tool_id": "e12a7937646ae751",
             "name": "jarrodwatts/claude-hud",
@@ -199,12 +184,27 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 21608,
+            "stars": 22859,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
             "grade_total": 17.83,
             "score": 7.97,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "40f11453f8dd4f11",
+            "name": "AltimateAI/claude-consensus",
+            "url": "https://github.com/AltimateAI/claude-consensus",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": null,
+            "stars": 25,
+            "description": "Multi-model consensus code review and plan review plugin for Claude Code",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 14.53,
+            "score": 7.91,
             "reason": "grade B · Claude-native"
           },
           {
@@ -214,12 +214,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 395,
+            "stars": 414,
             "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.64,
-            "score": 7.73,
+            "grade_total": 16.15,
+            "score": 7.44,
             "reason": "grade B · Claude-native"
           }
         ]

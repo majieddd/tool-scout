@@ -102,6 +102,39 @@ export function StackComposition({
             </p>
             <p className="text-sm text-ink-muted font-mono">{stack.archetype.exampleStack}</p>
           </div>
+
+          {/* Essential off-catalog libraries -------------------------------
+            The catalog is curated for agent-tooling MCPs / plugins / skills,
+            so domain apps (trading, voice, scraping, RAG, agents) need
+            standard pip / npm libraries the catalog doesn't try to mirror.
+            Surfacing them here is the actionable bridge between the
+            technical-parts checklist and the (often slim) catalog picks
+            below — instead of a 9-item breakdown ending in 2 random MCPs. */}
+          {stack.archetype.essentialLibraries.length > 0 && (
+            <div className="mt-4 pt-3 border-t border-white/5">
+              <p className="text-xs font-mono uppercase text-ink-subtle mb-1">
+                Essential libraries to install yourself
+              </p>
+              <p className="text-xs text-ink-subtle mb-2.5">
+                These aren&apos;t in the catalog (it&apos;s curated for agent-tooling MCPs / plugins / skills).
+                They&apos;re standard domain libraries — install commands are copy-pasteable.
+              </p>
+              <ul className="space-y-2.5">
+                {stack.archetype.essentialLibraries.map((lib, i) => (
+                  <li key={i} className="space-y-1">
+                    <div className="flex items-baseline gap-3 flex-wrap">
+                      <span className="font-mono text-sm text-ink">{lib.name}</span>
+                      <span className="text-xs text-ink-muted">— {lib.why}</span>
+                    </div>
+                    <pre className="px-2 py-1 bg-bg/60 border border-white/5 rounded text-[11px] text-ink-muted font-mono overflow-x-auto">
+                      {lib.install}
+                    </pre>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <p className="text-xs text-ink-subtle mt-3 italic">
             The recommendations below are filtered by the inferred technical needs above.
             Refine your description to override these guesses.

@@ -100,7 +100,11 @@ describe("llm-refine: validateRefinement", () => {
     expect(result?.suggestedTools.length).toBeLessThanOrEqual(8);
   });
 
-  it("returns null when EVERYTHING is empty/missing (no signal at all)", () => {
+  it("returns an empty (but non-null) refinement when JSON parsed but every field is empty", () => {
+    // Distinguishes "JSON parse failed" (real error → null) from "model
+    // returned valid JSON with nothing useful" (graceful empty → object).
+    // The latter lets the UI render a neutral "no additions" state instead
+    // of a scary error banner. See validateRefinement comment.
     const result = validateRefinement(
       {
         refined_archetype_id: null,
@@ -110,7 +114,11 @@ describe("llm-refine: validateRefinement", () => {
       },
       validIds,
     );
-    expect(result).toBeNull();
+    expect(result).not.toBeNull();
+    expect(result?.refinedArchetypeId).toBeNull();
+    expect(result?.additionalTechnicalParts).toEqual([]);
+    expect(result?.suggestedTools).toEqual([]);
+    expect(result?.rationale).toBe("");
   });
 
   it("returns null on non-object input", () => {
@@ -145,6 +153,110 @@ describe("llm-refine: validateRefinement", () => {
       validIds,
     );
     expect(result?.additionalTechnicalParts).toEqual(["valid"]);
+  });
+
+  // ── Hallucination filter (suggestedTools relevance) ───────────────────
+  // Real-world failure mode: Qwen 0.5B suggested "N8n.io/N8n" for a
+  // crypto-trading-bot prompt because n8n was in the catalog sample. With
+  // the new ctx-aware filter, irrelevant catalog names get dropped.
+  it("drops suggested tools with no token overlap with the project description/domains", () => {
+    const result = validateRefinement(
+      {
+        refined_archetype_id: null,
+        additional_technical_parts: [],
+        // n8n is a workflow-automation tool — irrelevant to crypto-trading
+        suggested_tools: ["n8n.io/n8n"],
+        rationale: "",
+      },
+      validIds,
+      {
+        description: "i want to make an app that trades cryptocurrency for me",
+        domains: ["financial", "backend", "automation", "observability", "database"],
+        catalogSampleNames: ["n8n.io/n8n", "fastmcp", "playwright-mcp"],
+      },
+    );
+    // n8n stays in the sample (proves it's not a name-validity reject) but
+    // domain "automation" overlaps the suggestion's "n8n" token via... wait,
+    // it doesn't. tokens of "n8n.io/n8n" → ["n8n", "io"]. Neither in haystack.
+    expect(result?.suggestedTools).toEqual([]);
+  });
+
+  it("keeps suggested tools that DO share a token with the project", () => {
+    // Token overlap is checked at >= 3 chars per token. "timescale/pg-aiguide"
+    // tokenizes to [timescale, pg, aiguide] (pg dropped as 2 chars). The
+    // description must contain one of those tokens — e.g. "timescale" itself
+    // when the user explicitly named it.
+    const result = validateRefinement(
+      {
+        refined_archetype_id: null,
+        additional_technical_parts: [],
+        suggested_tools: ["timescale/pg-aiguide"],
+        rationale: "",
+      },
+      validIds,
+      {
+        description: "An automated crypto trader using Postgres with Timescale for time-series",
+        domains: ["financial", "database"],
+        catalogSampleNames: ["timescale/pg-aiguide", "fastmcp"],
+      },
+    );
+    expect(result?.suggestedTools).toEqual(["timescale/pg-aiguide"]);
+  });
+
+  it("drops suggested tools that aren't even in the catalog sample (pure hallucinations)", () => {
+    const result = validateRefinement(
+      {
+        refined_archetype_id: null,
+        additional_technical_parts: [],
+        suggested_tools: ["totally-made-up/never-existed"],
+        rationale: "",
+      },
+      validIds,
+      {
+        description: "An automated crypto trader",
+        domains: ["financial"],
+        catalogSampleNames: ["fastmcp", "playwright-mcp"],
+      },
+    );
+    expect(result?.suggestedTools).toEqual([]);
+  });
+
+  // ── Rationale filler detection ────────────────────────────────────────
+  // Qwen 0.5B's most common failure mode is reflexive meta-commentary
+  // about the regex matcher itself: "The deterministic detection did not
+  // mention any specific architecture..." — text that adds zero info.
+  it("drops rationale that's just meta-commentary about the regex detection", () => {
+    const fillerRationale =
+      "The deterministic detection did not mention any specific architecture or framework, " +
+      "which could indicate a lack of focus on certain technologies such as n8n.";
+    const result = validateRefinement(
+      {
+        refined_archetype_id: null,
+        additional_technical_parts: ["valid part"],
+        suggested_tools: [],
+        rationale: fillerRationale,
+      },
+      validIds,
+    );
+    expect(result?.rationale).toBe("");
+    // Other fields preserved
+    expect(result?.additionalTechnicalParts).toEqual(["valid part"]);
+  });
+
+  it("keeps rationale that's actually about the project", () => {
+    const goodRationale =
+      "For a crypto trading bot, you'll need exchange API integration and risk management. " +
+      "Backtesting against historical data is essential before live capital.";
+    const result = validateRefinement(
+      {
+        refined_archetype_id: null,
+        additional_technical_parts: [],
+        suggested_tools: [],
+        rationale: goodRationale,
+      },
+      validIds,
+    );
+    expect(result?.rationale).toBe(goodRationale);
   });
 });
 

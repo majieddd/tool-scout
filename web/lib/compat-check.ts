@@ -19,17 +19,47 @@ function isClaudeAgent(target: string): boolean {
   return target === "claude-code" || target === "claude-desktop";
 }
 
+/**
+ * Mirrors the SDK lane's `applies()` predicate in stack-builder.ts.
+ * The SDK lane is only relevant when the project is BUILDING something
+ * MCP-shaped (server, plugin, harness, library) OR when the detected
+ * archetype natively depends on MCP infrastructure (`usesMcpDirectly`).
+ *
+ * For domain apps (trading bots, social platforms, scrapers, etc.) the
+ * lane is correctly skipped — the user installs ccxt / discord.js / etc.
+ * themselves, not the MCP SDK. The "no SDK" warning is misleading there.
+ */
+function projectNeedsMcpSdk(profile: ExtendedProfile): boolean {
+  if (profile.hasMcp) return true;
+  if ([
+    "build_mcp_server",
+    "build_plugin",
+    "build_extension",
+    "build_skill",
+    "build_harness",
+    "library",
+  ].includes(profile.goal)) return true;
+  if (profile.archetype?.usesMcpDirectly) return true;
+  return false;
+}
+
 export function checkCompat(stack: ComposedStack, profile: ExtendedProfile): Warning[] {
   const warnings: Warning[] = [];
 
-  // 1. Check that at least one SDK / runtime layer was picked
-  const sdk = stack.layers.find((l) => l.id === "sdk-runtime");
-  if (!sdk || sdk.primary.length === 0) {
-    warnings.push({
-      severity: "warn",
-      layerId: "sdk-runtime",
-      message: "No SDK / runtime tool found in the catalog matching your target agent. You may need to install the official SDK manually (e.g. `pip install mcp[cli]` for Python).",
-    });
+  // 1. SDK / runtime layer — only flag when the project ACTUALLY needs an MCP SDK
+  //    AND the lane came back empty. Previously this fired for every project
+  //    where the SDK lane was skipped (correctly) for goal=data_pipeline /
+  //    web_app / automation, telling crypto-trading users to `pip install
+  //    mcp[cli]` — which is not what they need.
+  if (projectNeedsMcpSdk(profile)) {
+    const sdk = stack.layers.find((l) => l.id === "sdk-runtime");
+    if (!sdk || sdk.primary.length === 0) {
+      warnings.push({
+        severity: "warn",
+        layerId: "sdk-runtime",
+        message: "No SDK / runtime tool found in the catalog matching your target agent. You may need to install the official SDK manually (e.g. `pip install mcp[cli]` for Python).",
+      });
+    }
   }
 
   // 2. Per-pick: warn on non-matching agent compatibility
@@ -109,13 +139,27 @@ export function checkCompat(stack: ComposedStack, profile: ExtendedProfile): War
     });
   }
 
-  // 6. If we ended up with very few picks (under 3), flag low signal
+  // 6. If we ended up with very few picks (under 3), explain *why*. There
+  //    are two distinct cases:
+  //    a) Archetype detected with rich technical parts but few catalog matches
+  //       → catalog gap, NOT a vague description. Most of the work will be
+  //       domain-library installs (ccxt, discord.js, etc.), which the
+  //       archetype's example stack already calls out.
+  //    b) No archetype + few matches → genuinely under-specified.
   if (stack.totalPrimaryCount < 3) {
-    warnings.push({
-      severity: "info",
-      layerId: null,
-      message: `Only ${stack.totalPrimaryCount} primary picks. Your description was light — try adding more detail (target agent, primary language, key domains) for a richer stack.`,
-    });
+    if (stack.archetype && stack.archetype.technicalParts.length >= 4) {
+      warnings.push({
+        severity: "info",
+        layerId: null,
+        message: `Only ${stack.totalPrimaryCount} primary picks — most of this archetype's stack is regular domain libraries that you install yourself (see the typical stack above). The catalog is curated for agent-tooling MCPs, plugins, and skills; it doesn't try to mirror every npm/pip ecosystem.`,
+      });
+    } else {
+      warnings.push({
+        severity: "info",
+        layerId: null,
+        message: `Only ${stack.totalPrimaryCount} primary picks. Your description was light — try adding more detail (target agent, primary language, key domains) for a richer stack.`,
+      });
+    }
   }
 
   return warnings;

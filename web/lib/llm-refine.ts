@@ -242,11 +242,72 @@ function extractJson(raw: string): unknown {
   return null;
 }
 
+/**
+ * Decide whether a "rationale" string from the model is real signal or filler.
+ *
+ * Small browser models (Qwen 0.5B) frequently emit reflexive padding like
+ * "The deterministic detection did not mention any specific architecture or
+ * framework, which could indicate a lack of focus on certain technologies
+ * such as N8n.io/N8n." — text that adds no information, just restates that
+ * the model couldn't find anything specific to say.
+ *
+ * If the rationale looks like meta-commentary about the detection itself
+ * (rather than commentary about the project), drop it.
+ */
+function rationaleLooksMeaningful(rationale: string): boolean {
+  if (!rationale || rationale.length < 20) return false;
+  const lower = rationale.toLowerCase();
+  // Reflexive meta-commentary patterns the small model loves
+  const fillerPatterns = [
+    /\bdeterministic\s+detection\b/,
+    /\bdid not mention\b/,
+    /\bcould indicate a lack of focus\b/,
+    /\bregex\s+(matcher|detection)\b/,
+    /\bnone\s+of\s+(the\s+)?archetypes?\b/,
+    /\bno\s+(specific|particular)\s+(tool|framework|architecture)\b/,
+  ];
+  return !fillerPatterns.some((rx) => rx.test(lower));
+}
+
+/**
+ * Decide whether a suggested tool name is plausibly relevant to the project.
+ *
+ * The 0.5B model tends to grab random-but-popular catalog entries (n8n,
+ * playwright, etc.) and stick them on any project regardless of fit. We
+ * cross-check the suggestion against the catalog sample we sent (the model
+ * shouldn't be inventing names) AND require at least a token overlap with
+ * the description or the detected domains.
+ */
+function suggestionIsRelevant(
+  suggestion: string,
+  description: string,
+  domains: string[],
+  catalogSampleNames: string[],
+): boolean {
+  const sLower = suggestion.toLowerCase().trim();
+  if (sLower.length < 2) return false;
+  // Must look like it came from the catalog sample, not fully invented
+  const inSample = catalogSampleNames.some((n) =>
+    n.toLowerCase().includes(sLower) || sLower.includes(n.toLowerCase()),
+  );
+  if (!inSample) return false;
+  // Must share at least one substantive token with the description or domains
+  const sTokens = sLower.split(/[\s/_\-@:.]+/).filter((t) => t.length >= 3);
+  if (sTokens.length === 0) return false;
+  const haystack = (description + " " + domains.join(" ")).toLowerCase();
+  return sTokens.some((tok) => haystack.includes(tok));
+}
+
 function validateRefinement(
   parsed: unknown,
   validArchetypeIds: Set<string>,
+  ctx?: {
+    description: string;
+    domains: string[];
+    catalogSampleNames: string[];
+  },
 ): Pick<LlmRefinement, "refinedArchetypeId" | "additionalTechnicalParts" | "suggestedTools" | "rationale"> | null {
-  if (!parsed || typeof parsed !== "object") return null;
+  if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return null;
   const obj = parsed as Record<string, unknown>;
   const refinedRaw = obj.refined_archetype_id;
   const refined =
@@ -257,13 +318,29 @@ function validateRefinement(
       ? partsRaw.filter((x) => typeof x === "string" && x.length > 0 && x.length < 240).slice(0, 6)
       : [];
   const toolsRaw = obj.suggested_tools;
-  const tools =
+  let tools =
     Array.isArray(toolsRaw)
-      ? toolsRaw.filter((x) => typeof x === "string" && x.length > 0 && x.length < 200).slice(0, 8)
+      ? toolsRaw.filter((x): x is string => typeof x === "string" && x.length > 0 && x.length < 200).slice(0, 8)
       : [];
+  // Hallucination filter — drop tool names that the model couldn't have known
+  // about (not in the catalog sample) OR that share zero tokens with the
+  // project description / domains. Without this, Qwen 0.5B will recommend
+  // "n8n.io/n8n" for a crypto-trading bot because n8n was in the sample.
+  if (ctx) {
+    tools = tools.filter((t) =>
+      suggestionIsRelevant(t, ctx.description, ctx.domains, ctx.catalogSampleNames),
+    );
+  }
   const rationaleRaw = obj.rationale;
-  const rationale = typeof rationaleRaw === "string" ? rationaleRaw.slice(0, 600) : "";
-  if (parts.length === 0 && tools.length === 0 && !refined && !rationale) return null;
+  const rationaleStr = typeof rationaleRaw === "string" ? rationaleRaw.slice(0, 600) : "";
+  // Drop filler rationales that just restate what the regex couldn't find.
+  const rationale = rationaleLooksMeaningful(rationaleStr) ? rationaleStr : "";
+  // Note: we deliberately DON'T early-return null when everything is empty
+  // after filtering. JSON parsed cleanly = the model didn't fail; it just
+  // had nothing useful to add (or everything it suggested was hallucinated
+  // noise). Returning a valid-but-empty refinement lets the UI render a
+  // graceful "deterministic detection was sufficient" state instead of
+  // a scary "unparseable response" error banner.
   return {
     refinedArchetypeId: refined,
     refinedArchetypeLabel: null, // filled by caller from the archetype catalog
@@ -292,7 +369,11 @@ export async function refineWithOllama(
   const prompt = buildRefinementPrompt(description, profile, archetypeIds, catalogSampleNames);
   const raw = await callOllama(ollama.baseUrl, ollama.model, prompt);
   const parsed = extractJson(raw);
-  const validated = validateRefinement(parsed, validIds);
+  const validated = validateRefinement(parsed, validIds, {
+    description,
+    domains: profile.domains,
+    catalogSampleNames,
+  });
   if (!validated) {
     throw new Error(
       "LLM returned an unparseable response. Try a different model or a more specific prompt.",
@@ -432,7 +513,11 @@ export async function refineWithBrowserLLM(
   }
 
   const parsed = extractJson(text);
-  const validated = validateRefinement(parsed, validIds);
+  const validated = validateRefinement(parsed, validIds, {
+    description,
+    domains: profile.domains,
+    catalogSampleNames,
+  });
   if (!validated) {
     throw new Error(
       "Browser model returned an unparseable response. The local model is small (0.5B params); try refining your prompt with more specifics.",

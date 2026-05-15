@@ -3,7 +3,7 @@
   "title": "Skill author building a SKILL.md skill for Claude Desktop",
   "prompt": "I'm authoring a Claude Code skill (SKILL.md) that codifies my code-review workflow. No external dependencies, just the skill markdown. Will install into ~/.claude/skills.",
   "expected_notes": "Goal 'build_skill', target 'claude-code' or 'claude-desktop'. Most server-y layers (FS, Git, Data, Code-exec) should be skipped. Method-skill layer might surface code-review skills. Should NOT pick MCP servers as primary anywhere.",
-  "catalog_size": 4392,
+  "catalog_size": 5589,
   "profile": {
     "targetAgent": "claude-code",
     "primaryLanguage": null,
@@ -28,7 +28,7 @@
   },
   "composed": {
     "totalPrimaryCount": 2,
-    "generatedAt": "2026-05-04T05:50:55.330Z",
+    "generatedAt": "2026-05-15T17:01:46.197Z",
     "skipped": [
       "sdk-runtime (not for goal=build_skill)",
       "context-fs (not for goal=build_skill)",
@@ -55,12 +55,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 4887,
+            "stars": 5334,
             "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.88,
-            "score": 9.92,
+            "grade_total": 17.9,
+            "score": 9.94,
             "reason": "grade B · Claude-native"
           }
         ],
@@ -72,42 +72,42 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 262,
+            "stars": 265,
             "description": "An engineering team in a box for Claude Code — 12 specialized agents, 15 automation hooks, and the P7/P9/P10 methodology.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 16.41,
-            "score": 9.89,
+            "grade_total": 15.41,
+            "score": 9.69,
             "reason": "grade B · Claude-native"
           },
           {
-            "tool_id": "a69f1ccde20fbc75",
-            "name": "agynio/gh-pr-review",
-            "url": "https://github.com/agynio/gh-pr-review",
-            "category": "skill",
+            "tool_id": "30e7e23c568b7351",
+            "name": "yzhao062/anywhere-agents",
+            "url": "https://github.com/yzhao062/anywhere-agents",
+            "category": "claude_plugin",
             "subcategory": "general",
-            "language": "Go",
-            "stars": 144,
-            "description": "GitHub CLI extension that adds full inline PR review comment support — view, navigate, reply to, and resolve review threads directly from the terminal. LLM-ready and ideal for automated PR review agents.",
+            "language": "Python",
+            "stars": 171,
+            "description": "One config to rule all your AI agents: portable (every project, every session), effective (curated writing, routing, skills), and safer (destructive-command guard).",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 16.81,
-            "score": 9.34,
-            "reason": "grade B · fits automation + llm · Claude-native"
+            "grade_total": 16.34,
+            "score": 8.89,
+            "reason": "grade B · Claude-native"
           },
           {
-            "tool_id": "fc31db0c8484f4cd",
-            "name": "josstei/maestro-orchestrate",
-            "url": "https://github.com/josstei/maestro-orchestrate",
+            "tool_id": "8f222bb37f6ca0a9",
+            "name": "waybarrios/opencode-power-pack",
+            "url": "https://github.com/waybarrios/opencode-power-pack",
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 395,
-            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
+            "stars": 335,
+            "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.64,
-            "score": 9.33,
+            "grade_total": 14.95,
+            "score": 8.75,
             "reason": "grade B · Claude-native"
           }
         ]
@@ -124,12 +124,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": null,
-            "stars": 24,
+            "stars": 25,
             "description": "Multi-model consensus code review and plan review plugin for Claude Code",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 15.52,
-            "score": 11.5,
+            "grade_total": 14.53,
+            "score": 11.31,
             "reason": "grade B · Claude-native"
           }
         ],
@@ -145,8 +145,8 @@
             "description": "Claude Code skill for adversarial AI code & plan review. One AI writes, another tears it apart. Iterative fix loop until approved.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 15.34,
-            "score": 10.32,
+            "grade_total": 14.34,
+            "score": 10.12,
             "reason": "grade B · Claude-native"
           },
           {
@@ -156,13 +156,13 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 2056,
+            "stars": 2113,
             "description": "Automated TDD enforcement for Claude Code",
             "compatibility": "native_claude_code",
-            "grade_letter": "A",
-            "grade_total": 18.24,
-            "score": 9.6,
-            "reason": "grade A · Claude-native"
+            "grade_letter": "B",
+            "grade_total": 17.25,
+            "score": 9.41,
+            "reason": "grade B · Claude-native"
           },
           {
             "tool_id": "17620ba4fe8a0815",
@@ -171,12 +171,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "BibTeX Style",
-            "stars": 12,
+            "stars": 16,
             "description": "Cursor, Codex, and Claude Code workflows, prompts, and a LaTeX starter template for reviewing Tianjin University undergraduate theses.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 15.41,
-            "score": 8.54,
+            "grade_total": 14.46,
+            "score": 8.91,
             "reason": "grade B · Claude-native"
           }
         ]

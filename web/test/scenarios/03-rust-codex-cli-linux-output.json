@@ -3,7 +3,7 @@
   "title": "Rust system utility wrapping ripgrep for Codex CLI on Linux",
   "prompt": "I'm building an OpenAI Codex extension in Rust that wraps the ripgrep CLI for fast project-wide search. Running on Linux Ubuntu 24.04.",
   "expected_notes": "Target should be 'codex-cli', language 'rust', platform 'linux'. SDK layer might be skipped if no Rust MCP SDK exists. Goal should be wrap_cli. Should NOT pick TS or Python tools as primary SDK without language-mismatch warning.",
-  "catalog_size": 4392,
+  "catalog_size": 5589,
   "profile": {
     "targetAgent": "codex-cli",
     "primaryLanguage": "rust",
@@ -28,7 +28,7 @@
   },
   "composed": {
     "totalPrimaryCount": 1,
-    "generatedAt": "2026-05-04T05:50:55.251Z",
+    "generatedAt": "2026-05-15T17:01:46.118Z",
     "skipped": [
       "sdk-runtime (n/a)",
       "context-fs (not for goal=wrap_cli)",
@@ -56,13 +56,13 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 2056,
+            "stars": 2113,
             "description": "Automated TDD enforcement for Claude Code",
             "compatibility": "native_claude_code",
-            "grade_letter": "A",
-            "grade_total": 18.24,
-            "score": 6.3,
-            "reason": "grade A · Claude-native"
+            "grade_letter": "B",
+            "grade_total": 17.25,
+            "score": 6.11,
+            "reason": "grade B · Claude-native"
           }
         ],
         "alternatives": [
@@ -73,7 +73,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 21608,
+            "stars": 22859,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
@@ -88,12 +88,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 395,
+            "stars": 414,
             "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.64,
-            "score": 5.33,
+            "grade_total": 16.15,
+            "score": 5.04,
             "reason": "grade B · Claude-native"
           },
           {
@@ -103,12 +103,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "Python",
-            "stars": 95,
+            "stars": 96,
             "description": "Pith is the hook that makes Claude Code sessions last 3x longer.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.24,
-            "score": 4.94,
+            "grade_total": 16.25,
+            "score": 4.74,
             "reason": "grade B · Claude-native"
           }
         ]

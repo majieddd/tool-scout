@@ -264,22 +264,40 @@ function RefinementDisplay({
   result: LlmRefinement;
   profileArchetypeId: string | null;
 }) {
+  // Determine if the model produced anything substantive after filtering.
+  // A "different archetype" suggestion only counts if it actually differs
+  // from the deterministic detection.
+  const hasArchetypeSuggestion =
+    !!result.refinedArchetypeId && result.refinedArchetypeId !== profileArchetypeId;
+  const hasContent =
+    hasArchetypeSuggestion ||
+    result.additionalTechnicalParts.length > 0 ||
+    result.suggestedTools.length > 0 ||
+    !!result.rationale;
+
+  if (!hasContent) {
+    return (
+      <p className="text-sm text-ink-muted">
+        Nothing additional to flag — the deterministic breakdown above looks complete for this project.
+      </p>
+    );
+  }
+
   return (
     <div className="space-y-3">
-      {result.refinedArchetypeId &&
-        result.refinedArchetypeId !== profileArchetypeId && (
-          <div className="bg-grade-s/10 border border-grade-s/30 rounded p-3">
-            <p className="text-xs font-mono uppercase text-grade-s mb-1">
-              Suggested archetype refinement
-            </p>
-            <p className="text-sm text-ink">
-              The AI thinks this might be a closer fit:{" "}
-              <span className="font-mono text-grade-s">
-                {result.refinedArchetypeLabel ?? result.refinedArchetypeId}
-              </span>
-            </p>
-          </div>
-        )}
+      {hasArchetypeSuggestion && (
+        <div className="bg-grade-s/10 border border-grade-s/30 rounded p-3">
+          <p className="text-xs font-mono uppercase text-grade-s mb-1">
+            Suggested archetype refinement
+          </p>
+          <p className="text-sm text-ink">
+            The AI thinks this might be a closer fit:{" "}
+            <span className="font-mono text-grade-s">
+              {result.refinedArchetypeLabel ?? result.refinedArchetypeId}
+            </span>
+          </p>
+        </div>
+      )}
 
       {result.additionalTechnicalParts.length > 0 && (
         <div>

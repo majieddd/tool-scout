@@ -91,6 +91,22 @@ export type ProjectArchetype = {
    * `null` means "no preference, fall through to generic matching."
    */
   preferredDataStore: "postgres" | "mysql" | "sqlite" | "mongo" | "redis" | "firebase" | "supabase" | null;
+  /**
+   * Off-catalog domain libraries the user MUST install themselves regardless
+   * of what's in the catalog. The catalog is curated for agent-tooling MCPs,
+   * plugins, and skills — it deliberately doesn't try to mirror every
+   * pip/npm package. For domain apps (trading, voice, scraping, RAG),
+   * the bulk of the work is wiring up these standard libraries. Surfacing
+   * them here gives the user an actionable "things to install" list
+   * alongside the catalog picks, instead of a stack with 2 items and a
+   * confusing 9-item technical-parts checklist.
+   *
+   * Format: `{ name, install, why }` — `install` is a copy-pasteable command,
+   * `why` is a one-liner explaining what part of the stack it covers.
+   * Empty array (default) for archetypes where catalog coverage is good
+   * (build_mcp_server, build_skill, etc.) and there's no off-catalog gap.
+   */
+  essentialLibraries: Array<{ name: string; install: string; why: string }>;
 };
 
 export type ExtendedProfile = ProjectProfile & {
@@ -292,7 +308,7 @@ const GOAL_PATTERNS: Array<[GoalType, RegExp[]]> = [
 // Internal definition. The new fields (usesMcpDirectly, preferredDataStore)
 // are OPTIONAL here so we don't have to set them on every archetype — defaults
 // apply at the public-export step (ARCHETYPE_CATALOG below).
-type ArchetypeDef = Omit<ProjectArchetype, "usesMcpDirectly" | "preferredDataStore"> & {
+type ArchetypeDef = Omit<ProjectArchetype, "usesMcpDirectly" | "preferredDataStore" | "essentialLibraries"> & {
   patterns: RegExp[];
   inferDomains: string[];
   inferFrameworks: string[];
@@ -300,6 +316,7 @@ type ArchetypeDef = Omit<ProjectArchetype, "usesMcpDirectly" | "preferredDataSto
   inferGoal: GoalType | null;
   usesMcpDirectly?: boolean;
   preferredDataStore?: ProjectArchetype["preferredDataStore"];
+  essentialLibraries?: ProjectArchetype["essentialLibraries"];
 };
 
 const ARCHETYPES: ArchetypeDef[] = [
@@ -346,6 +363,16 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferLanguage: "python",
     inferGoal: "data_pipeline",
     preferredDataStore: "postgres", // example_stack: PostgreSQL + Timescale typical
+    essentialLibraries: [
+      { name: "ccxt", install: "pip install ccxt", why: "Unified API across 100+ crypto exchanges (Coinbase, Binance, Kraken)" },
+      { name: "coinbase-advanced-py", install: "pip install coinbase-advanced-py", why: "Official Coinbase Advanced Trade SDK if you're Coinbase-only" },
+      { name: "alpaca-py", install: "pip install alpaca-py", why: "Stock + crypto trading API (paper-trading sandbox included)" },
+      { name: "pandas + numpy", install: "pip install pandas numpy", why: "Time-series math, indicators, P&L calculation" },
+      { name: "vectorbt or backtrader", install: "pip install vectorbt", why: "Backtesting harness against historical data — required before live capital" },
+      { name: "APScheduler", install: "pip install apscheduler", why: "Always-on scheduler for tick / cron-driven strategies" },
+      { name: "psycopg[binary] + sqlalchemy", install: "pip install \"psycopg[binary]\" sqlalchemy", why: "Postgres driver + ORM for orders / fills / equity-curve persistence" },
+      { name: "sentry-sdk", install: "pip install sentry-sdk", why: "Crash + slippage alerting (catalog also has prometheus-mcp for metrics)" },
+    ],
   },
   {
     id: "rag-chatbot",
@@ -374,6 +401,13 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferLanguage: "python",
     inferGoal: null,
     preferredDataStore: "postgres", // pgvector is standard
+    essentialLibraries: [
+      { name: "langchain or llamaindex", install: "pip install langchain llama-index", why: "Document loaders, chunking, retriever interfaces" },
+      { name: "openai or anthropic SDK", install: "pip install anthropic openai", why: "LLM completion + embeddings provider" },
+      { name: "pgvector + psycopg[binary]", install: "pip install pgvector \"psycopg[binary]\"", why: "Vector store on Postgres — most boring/reliable choice" },
+      { name: "fastapi + uvicorn", install: "pip install fastapi uvicorn", why: "HTTP layer for the chat endpoint" },
+      { name: "tiktoken", install: "pip install tiktoken", why: "Accurate token counting for chunking + cost tracking" },
+    ],
   },
   {
     id: "social-app",
@@ -434,6 +468,12 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferLanguage: "python",
     inferGoal: "data_pipeline",
     preferredDataStore: "sqlite", // Small local stores typical for personal scrapers
+    essentialLibraries: [
+      { name: "playwright", install: "pip install playwright && playwright install chromium", why: "Browser-rendered scraping (handles JS-heavy sites, anti-bot easier)" },
+      { name: "beautifulsoup4 + httpx", install: "pip install beautifulsoup4 httpx", why: "Static HTML scraping when sites don't require a browser" },
+      { name: "APScheduler", install: "pip install apscheduler", why: "Cron / interval polling without standing up a separate service" },
+      { name: "ntfy or pushover client", install: "pip install requests", why: "Cheap-and-cheerful push notifications via ntfy.sh / Pushover HTTP" },
+    ],
   },
   {
     id: "ai-agent-app",
@@ -463,6 +503,11 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferLanguage: "python", // Most agent frameworks (LangGraph, smolagents, autogen) are Python-first
     inferGoal: "build_harness",
     usesMcpDirectly: true, // MCP IS the dominant agent-tool protocol now — agents legitimately benefit from MCP SDK + servers
+    essentialLibraries: [
+      { name: "langgraph", install: "pip install langgraph", why: "Stateful agent loops with checkpointing — best default for non-trivial agents" },
+      { name: "anthropic + openai SDKs", install: "pip install anthropic openai", why: "LLM provider integration (start with one, abstract later if needed)" },
+      { name: "smolagents (HF)", install: "pip install smolagents", why: "Lightweight alternative to LangGraph if you want code-first tool calling" },
+    ],
   },
   {
     id: "personal-assistant",
@@ -548,6 +593,13 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferLanguage: "python",
     inferGoal: "automation",
     preferredDataStore: "postgres",
+    essentialLibraries: [
+      { name: "twilio or vapi-python", install: "pip install twilio", why: "Telephony provider — Twilio is the standard, Vapi is voice-first" },
+      { name: "deepgram-sdk or openai-whisper", install: "pip install deepgram-sdk", why: "Real-time speech-to-text (Deepgram is lowest-latency)" },
+      { name: "elevenlabs", install: "pip install elevenlabs", why: "Natural-prosody text-to-speech — crucial for not sounding like a robot" },
+      { name: "anthropic or openai SDK", install: "pip install anthropic", why: "LLM dialogue manager + tool use" },
+      { name: "google-api-python-client", install: "pip install google-api-python-client", why: "Calendar booking integration" },
+    ],
   },
   {
     id: "voice-assistant",
@@ -573,6 +625,12 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferFrameworks: [],
     inferLanguage: "python",
     inferGoal: null,
+    essentialLibraries: [
+      { name: "openai-whisper or deepgram-sdk", install: "pip install openai-whisper", why: "Speech-to-text — Whisper for local, Deepgram for streaming" },
+      { name: "elevenlabs", install: "pip install elevenlabs", why: "Text-to-speech with natural prosody" },
+      { name: "sounddevice or pyaudio", install: "pip install sounddevice", why: "Audio I/O for mic input + speaker output" },
+      { name: "anthropic or openai SDK", install: "pip install anthropic", why: "LLM dialogue management" },
+    ],
   },
   {
     id: "chat-platform-bot",
@@ -603,6 +661,12 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferLanguage: "typescript",
     inferGoal: "automation",
     preferredDataStore: "postgres",
+    essentialLibraries: [
+      { name: "discord.js (or @slack/bolt, telegraf)", install: "npm install discord.js", why: "Platform SDK — pick the one matching your target chat platform" },
+      { name: "@anthropic-ai/sdk", install: "npm install @anthropic-ai/sdk", why: "LLM integration if it's an AI bot" },
+      { name: "node-cron", install: "npm install node-cron", why: "Scheduling for daily-post / reminder bots" },
+      { name: "drizzle-orm + pg", install: "npm install drizzle-orm pg", why: "Postgres ORM for per-server config + memory" },
+    ],
   },
   {
     id: "social-listener",
@@ -632,6 +696,12 @@ const ARCHETYPES: ArchetypeDef[] = [
     inferLanguage: "python",
     inferGoal: "automation",
     preferredDataStore: "sqlite",
+    essentialLibraries: [
+      { name: "tweepy / praw", install: "pip install tweepy praw", why: "Twitter/X + Reddit API clients (most listeners watch one or both)" },
+      { name: "feedparser", install: "pip install feedparser", why: "RSS / Atom for HN, blogs, news sources" },
+      { name: "APScheduler", install: "pip install apscheduler", why: "Polling on an interval without a separate service" },
+      { name: "anthropic or openai SDK", install: "pip install anthropic", why: "LLM relevance filter — drops 90% of noise before alerting" },
+    ],
   },
   {
     id: "content-generator",
@@ -1277,6 +1347,7 @@ export const ARCHETYPE_CATALOG: ProjectArchetype[] = ARCHETYPES.map((a) => ({
   exampleStack: a.exampleStack,
   usesMcpDirectly: a.usesMcpDirectly ?? false,
   preferredDataStore: a.preferredDataStore ?? null,
+  essentialLibraries: a.essentialLibraries ?? [],
 }));
 
 function detectFirstMatch<T>(text: string, patterns: Array<[T, RegExp[]]>, fallback: T): T {
@@ -1431,6 +1502,7 @@ export function extractFromDescription(description: string, base?: ProjectProfil
         exampleStack: archetypeMatch.exampleStack,
         usesMcpDirectly: archetypeMatch.usesMcpDirectly ?? false,
         preferredDataStore: archetypeMatch.preferredDataStore ?? null,
+        essentialLibraries: archetypeMatch.essentialLibraries ?? [],
       }
     : null;
 

@@ -3,7 +3,7 @@
   "title": "Solidity + Hardhat + Cursor for DeFi smart contracts on Linux",
   "prompt": "Building a DeFi lending protocol in Solidity with Hardhat and Foundry for testing. Using Cursor IDE on Linux. Need security audit tooling, formal verification, and gas optimization.",
   "expected_notes": "Language 'solidity' (or fall through). Target 'cursor'. Frameworks: hardhat, foundry. Most generic MCP server layers may be skipped. Method-skill might pick security-audit/review tooling. Should NOT pick unrelated tools just because they're popular.",
-  "catalog_size": 4392,
+  "catalog_size": 5589,
   "profile": {
     "targetAgent": "cursor",
     "primaryLanguage": "solidity",
@@ -33,7 +33,7 @@
   },
   "composed": {
     "totalPrimaryCount": 2,
-    "generatedAt": "2026-05-04T05:50:55.427Z",
+    "generatedAt": "2026-05-15T17:01:46.309Z",
     "skipped": [
       "sdk-runtime (n/a)",
       "context-fs (n/a)",
@@ -54,35 +54,35 @@
         "description": "Codified workflows — TDD, debugging, code review.",
         "primary": [
           {
-            "tool_id": "c645146ebd63f034",
-            "name": "quillai-network/quillshield_skills",
-            "url": "https://github.com/quillai-network/quillshield_skills",
-            "category": "claude_plugin",
-            "subcategory": "general",
-            "language": "Shell",
-            "stars": 100,
-            "description": "Structured skills for smart contract security audits. Infers state invariants, detects semantic guard gaps, models flash loan + oracle attack chains, simulates adversarial exploits, and scores findings.",
-            "compatibility": "native_claude_code",
-            "grade_letter": "B",
-            "grade_total": 15.74,
-            "score": 7.05,
-            "reason": "grade B · Claude-native"
-          }
-        ],
-        "alternatives": [
-          {
             "tool_id": "8412fedc3c0ab655",
             "name": "PurpleAILAB/Vigilo",
             "url": "https://github.com/PurpleAILAB/Vigilo",
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 31,
+            "stars": 35,
             "description": "An AI hacker for Web3 Smart Contract. for bug bounties, Audit contest, offensive security research, and real-world exploit thinking.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 16.92,
-            "score": 7.04,
+            "grade_total": 15.89,
+            "score": 6.86,
+            "reason": "grade B · Claude-native"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "c645146ebd63f034",
+            "name": "quillai-network/quillshield_skills",
+            "url": "https://github.com/quillai-network/quillshield_skills",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "Shell",
+            "stars": 101,
+            "description": "Structured skills for smart contract security audits. Infers state invariants, detects semantic guard gaps, models flash loan + oracle attack chains, simulates adversarial exploits, and scores findings.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 14.69,
+            "score": 6.84,
             "reason": "grade B · Claude-native"
           },
           {
@@ -92,12 +92,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 4887,
+            "stars": 5334,
             "description": "Annotate and review coding agent plans and code diffs visually, share with your team, send feedback to agents with one click.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.88,
-            "score": 5.42,
+            "grade_total": 17.9,
+            "score": 5.44,
             "reason": "grade B · Claude-native"
           },
           {
@@ -107,13 +107,13 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 2056,
+            "stars": 2113,
             "description": "Automated TDD enforcement for Claude Code",
             "compatibility": "native_claude_code",
-            "grade_letter": "A",
-            "grade_total": 18.24,
-            "score": 5.3,
-            "reason": "grade A · Claude-native"
+            "grade_letter": "B",
+            "grade_total": 17.25,
+            "score": 5.11,
+            "reason": "grade B · Claude-native"
           }
         ]
       },
@@ -123,35 +123,50 @@
         "description": "Slash commands, hooks, output styles.",
         "primary": [
           {
-            "tool_id": "fc31db0c8484f4cd",
-            "name": "josstei/maestro-orchestrate",
-            "url": "https://github.com/josstei/maestro-orchestrate",
-            "category": "claude_plugin",
-            "subcategory": "general",
-            "language": "JavaScript",
-            "stars": 395,
-            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
-            "compatibility": "native_claude_code",
-            "grade_letter": "B",
-            "grade_total": 17.64,
-            "score": 5.73,
-            "reason": "grade B · Claude-native"
-          }
-        ],
-        "alternatives": [
-          {
             "tool_id": "e12a7937646ae751",
             "name": "jarrodwatts/claude-hud",
             "url": "https://github.com/jarrodwatts/claude-hud",
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 21608,
+            "stars": 22859,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
             "grade_total": 17.83,
             "score": 5.57,
+            "reason": "grade B · Claude-native"
+          }
+        ],
+        "alternatives": [
+          {
+            "tool_id": "fc31db0c8484f4cd",
+            "name": "josstei/maestro-orchestrate",
+            "url": "https://github.com/josstei/maestro-orchestrate",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "JavaScript",
+            "stars": 414,
+            "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 16.15,
+            "score": 5.44,
+            "reason": "grade B · Claude-native"
+          },
+          {
+            "tool_id": "17620ba4fe8a0815",
+            "name": "ChenXi-hub/tju-thesis-review-kit",
+            "url": "https://github.com/ChenXi-hub/tju-thesis-review-kit",
+            "category": "claude_plugin",
+            "subcategory": "general",
+            "language": "BibTeX Style",
+            "stars": 16,
+            "description": "Cursor, Codex, and Claude Code workflows, prompts, and a LaTeX starter template for reviewing Tianjin University undergraduate theses.",
+            "compatibility": "native_claude_code",
+            "grade_letter": "B",
+            "grade_total": 14.46,
+            "score": 4.91,
             "reason": "grade B · Claude-native"
           },
           {
@@ -161,27 +176,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "Python",
-            "stars": 95,
+            "stars": 96,
             "description": "Pith is the hook that makes Claude Code sessions last 3x longer.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.24,
-            "score": 4.94,
-            "reason": "grade B · Claude-native"
-          },
-          {
-            "tool_id": "40f11453f8dd4f11",
-            "name": "AltimateAI/claude-consensus",
-            "url": "https://github.com/AltimateAI/claude-consensus",
-            "category": "claude_plugin",
-            "subcategory": "general",
-            "language": null,
-            "stars": 24,
-            "description": "Multi-model consensus code review and plan review plugin for Claude Code",
-            "compatibility": "native_claude_code",
-            "grade_letter": "B",
-            "grade_total": 15.52,
-            "score": 4.8,
+            "grade_total": 16.25,
+            "score": 4.74,
             "reason": "grade B · Claude-native"
           }
         ]

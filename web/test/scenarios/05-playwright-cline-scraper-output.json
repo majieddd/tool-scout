@@ -3,7 +3,7 @@
   "title": "Browser automation + Playwright + Cline on macOS",
   "prompt": "Cline-based scraper using Playwright in TypeScript. Scrapes news sites for sentiment analysis. Stores results in SQLite. macOS Sonoma.",
   "expected_notes": "Target 'cline', language 'typescript', platform 'macos'. Domains: scraping + browser-automation + database. Web-API layer should populate with Playwright/browser MCP. Data layer should pick SQLite tool.",
-  "catalog_size": 4392,
+  "catalog_size": 5589,
   "profile": {
     "targetAgent": "cline",
     "primaryLanguage": "typescript",
@@ -33,7 +33,7 @@
   },
   "composed": {
     "totalPrimaryCount": 3,
-    "generatedAt": "2026-05-04T05:50:55.315Z",
+    "generatedAt": "2026-05-15T17:01:46.181Z",
     "skipped": [
       "sdk-runtime (n/a)",
       "context-fs (not for goal=data_pipeline)",
@@ -63,8 +63,8 @@
             "description": "An MCP server that provides safe, read-only access to SQLite databases through Model Context Protocol (MCP). This server is built with the FastMCP framework, which enables LLMs to explore and query SQLite databases with built-in safety feat",
             "compatibility": "mcp_ready",
             "grade_letter": "B",
-            "grade_total": 17.21,
-            "score": 7.35,
+            "grade_total": 16.16,
+            "score": 7.14,
             "reason": "grade B · sqlite-specific · MCP-ready"
           }
         ],
@@ -76,12 +76,12 @@
             "category": "mcp_server",
             "subcategory": "search",
             "language": "Python",
-            "stars": 43,
+            "stars": 47,
             "description": "Long-term memory for LLMs. MCP server backed by hybrid search in a single SQLite file.",
             "compatibility": "mcp_ready",
             "grade_letter": "A",
-            "grade_total": 18.28,
-            "score": 5.98,
+            "grade_total": 18.3,
+            "score": 6,
             "reason": "grade A · MCP-ready"
           },
           {
@@ -95,8 +95,8 @@
             "description": "Listed in punkpeye/awesome-mcp-servers",
             "compatibility": "mcp_ready",
             "grade_letter": "C",
-            "grade_total": 13.5,
-            "score": 5.7,
+            "grade_total": 12.5,
+            "score": 5.5,
             "reason": "grade C · sqlite-specific · MCP-ready"
           },
           {
@@ -110,8 +110,8 @@
             "description": "Listed in punkpeye/awesome-mcp-servers",
             "compatibility": "mcp_ready",
             "grade_letter": "C",
-            "grade_total": 13.5,
-            "score": 5.7,
+            "grade_total": 12.5,
+            "score": 5.5,
             "reason": "grade C · sqlite-specific · MCP-ready"
           },
           {
@@ -125,8 +125,8 @@
             "description": "Listed in wong2/awesome-mcp-servers",
             "compatibility": "mcp_ready",
             "grade_letter": "C",
-            "grade_total": 13.5,
-            "score": 5.7,
+            "grade_total": 12.5,
+            "score": 5.5,
             "reason": "grade C · sqlite-specific · MCP-ready"
           }
         ]
@@ -143,7 +143,7 @@
             "category": "mcp_server",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 31957,
+            "stars": 32546,
             "description": "Playwright MCP server",
             "compatibility": "mcp_ready",
             "grade_letter": "A",
@@ -160,7 +160,7 @@
             "category": "mcp_server",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 38026,
+            "stars": 39687,
             "description": "Chrome DevTools for coding agents",
             "compatibility": "mcp_ready",
             "grade_letter": "A",
@@ -169,19 +169,19 @@
             "reason": "grade A · TypeScript match · MCP-ready"
           },
           {
-            "tool_id": "e072973a5b0eb0d1",
-            "name": "AgentDeskAI/browser-tools-mcp",
-            "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
+            "tool_id": "bcc4d9e7b18e6524",
+            "name": "etairl/parallel-browser-mcp",
+            "url": "https://github.com/etairl/parallel-browser-mcp",
             "category": "mcp_server",
             "subcategory": "general",
-            "language": "JavaScript",
-            "stars": 7211,
-            "description": "Monitor browser logs directly from Cursor and other MCP compatible IDEs.",
+            "language": "TypeScript",
+            "stars": 99,
+            "description": "An MCP server for parallel browser automation by AI agents with multiple cloud providers",
             "compatibility": "mcp_ready",
             "grade_letter": "B",
-            "grade_total": 16.39,
-            "score": 7.71,
-            "reason": "grade B · JavaScript match · MCP-ready"
+            "grade_total": 16.25,
+            "score": 7.75,
+            "reason": "grade B · TypeScript match · MCP-ready"
           }
         ]
       },
@@ -197,7 +197,7 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 21608,
+            "stars": 22859,
             "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
@@ -214,13 +214,13 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "TypeScript",
-            "stars": 2056,
+            "stars": 2113,
             "description": "Automated TDD enforcement for Claude Code",
             "compatibility": "native_claude_code",
-            "grade_letter": "A",
-            "grade_total": 18.24,
-            "score": 6.3,
-            "reason": "grade A · TypeScript match · Claude-native"
+            "grade_letter": "B",
+            "grade_total": 17.25,
+            "score": 6.11,
+            "reason": "grade B · TypeScript match · Claude-native"
           },
           {
             "tool_id": "fc31db0c8484f4cd",
@@ -229,12 +229,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "JavaScript",
-            "stars": 395,
+            "stars": 414,
             "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.64,
-            "score": 5.33,
+            "grade_total": 16.15,
+            "score": 5.04,
             "reason": "grade B · JavaScript match · Claude-native"
           },
           {
@@ -244,12 +244,12 @@
             "category": "claude_plugin",
             "subcategory": "general",
             "language": "Python",
-            "stars": 95,
+            "stars": 96,
             "description": "Pith is the hook that makes Claude Code sessions last 3x longer.",
             "compatibility": "native_claude_code",
             "grade_letter": "B",
-            "grade_total": 17.24,
-            "score": 4.94,
+            "grade_total": 16.25,
+            "score": 4.74,
             "reason": "grade B · Claude-native"
           }
         ]
