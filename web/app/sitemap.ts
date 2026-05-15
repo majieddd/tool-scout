@@ -14,6 +14,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE}/today/`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE}/stack/`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${SITE}/architect/`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    // Database: full table of every tool, AI-crawl-optimized. Updated daily.
+    { url: `${SITE}/database/`, lastModified: now, changeFrequency: "daily", priority: 0.95 },
     { url: `${SITE}/about/`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE}/terms/`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },
     { url: `${SITE}/privacy/`, lastModified: now, changeFrequency: "yearly", priority: 0.2 },

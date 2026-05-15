@@ -36,6 +36,13 @@ export function Header() {
             Architect
           </Link>
           <Link
+            href="/database"
+            className="px-3 py-1.5 rounded hover:text-ink hover:bg-white/5 transition"
+            title="Full catalog table — optimized for AI crawl"
+          >
+            Database
+          </Link>
+          <Link
             href="/about"
             className="px-3 py-1.5 rounded hover:text-ink hover:bg-white/5 transition"
           >
