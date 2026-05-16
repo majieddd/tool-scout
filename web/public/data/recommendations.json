@@ -411,6 +411,16 @@
   },
   {
     "rank": 42,
+    "tool_id": "6f3786480ce9b049",
+    "name": "2508965-ship-it/harmonist-orchestral",
+    "url": "https://github.com/2508965-ship-it/harmonist-orchestral",
+    "category": "claude_plugin",
+    "letter": "B",
+    "score": 0.862,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 43,
     "tool_id": "fbd1b812fbc71b2c",
     "name": "golutra/golutra",
     "url": "https://github.com/golutra/golutra",
@@ -420,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "tool_id": "c3e1903477c43929",
     "name": "olo-dot-io/Uni-CLI",
     "url": "https://github.com/olo-dot-io/Uni-CLI",
@@ -430,42 +440,32 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
-    "tool_id": "6f3786480ce9b049",
-    "name": "2508965-ship-it/harmonist-orchestral",
-    "url": "https://github.com/2508965-ship-it/harmonist-orchestral",
-    "category": "claude_plugin",
-    "letter": "B",
-    "score": 0.859,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
     "rank": 45,
     "tool_id": "acd218b48ad60eef",
     "name": "sverklo/sverklo",
     "url": "https://github.com/sverklo/sverklo",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.857,
+    "score": 0.858,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 46,
-    "tool_id": "537f944d2eaf6974",
-    "name": "kuberstar/qartez-mcp",
-    "url": "https://github.com/kuberstar/qartez-mcp",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.857,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 47,
     "tool_id": "42e5c7487dc53a84",
     "name": "PiaoyangGuohai1/cli-anything-zotero",
     "url": "https://github.com/PiaoyangGuohai1/cli-anything-zotero",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.857,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 47,
+    "tool_id": "537f944d2eaf6974",
+    "name": "kuberstar/qartez-mcp",
+    "url": "https://github.com/kuberstar/qartez-mcp",
+    "category": "mcp_server",
+    "letter": "B",
     "score": 0.857,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
