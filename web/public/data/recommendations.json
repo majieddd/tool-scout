@@ -471,16 +471,6 @@
   },
   {
     "rank": 48,
-    "tool_id": "bf4616ff2f105e30",
-    "name": "janbjorge/rekal",
-    "url": "https://github.com/janbjorge/rekal",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.857,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 49,
     "tool_id": "5cc80a4dbdcb6c6d",
     "name": "chrisryugj/korean-law-mcp",
     "url": "https://github.com/chrisryugj/korean-law-mcp",
@@ -490,7 +480,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "fee42a9cc126c16f",
     "name": "GammaLabTechnologies/harmonist",
     "url": "https://github.com/GammaLabTechnologies/harmonist",
@@ -498,5 +488,15 @@
     "letter": "A",
     "score": 0.856,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "aa16dbbb677d4a7f",
+    "name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.855,
+    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   }
 ]
