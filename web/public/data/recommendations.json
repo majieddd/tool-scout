@@ -451,16 +451,6 @@
   },
   {
     "rank": 46,
-    "tool_id": "646f8862af8bede4",
-    "name": "achiya-automation/safari-mcp",
-    "url": "https://github.com/achiya-automation/safari-mcp",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.859,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 47,
     "tool_id": "acd218b48ad60eef",
     "name": "sverklo/sverklo",
     "url": "https://github.com/sverklo/sverklo",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "42e5c7487dc53a84",
     "name": "PiaoyangGuohai1/cli-anything-zotero",
     "url": "https://github.com/PiaoyangGuohai1/cli-anything-zotero",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "537f944d2eaf6974",
     "name": "kuberstar/qartez-mcp",
     "url": "https://github.com/kuberstar/qartez-mcp",
@@ -490,11 +480,21 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "5cc80a4dbdcb6c6d",
     "name": "chrisryugj/korean-law-mcp",
     "url": "https://github.com/chrisryugj/korean-law-mcp",
     "category": "mcp_server",
+    "letter": "A",
+    "score": 0.856,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "fee42a9cc126c16f",
+    "name": "GammaLabTechnologies/harmonist",
+    "url": "https://github.com/GammaLabTechnologies/harmonist",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.856,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
