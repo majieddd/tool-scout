@@ -341,16 +341,6 @@
   },
   {
     "rank": 35,
-    "tool_id": "7e3477dae5e8c6ee",
-    "name": "bvisible/mcp-ssh-manager",
-    "url": "https://github.com/bvisible/mcp-ssh-manager",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.869,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 36,
     "tool_id": "ce9a10103852ca54",
     "name": "mnemon-dev/mnemon",
     "url": "https://github.com/mnemon-dev/mnemon",
@@ -358,6 +348,16 @@
     "letter": "B",
     "score": 0.869,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 36,
+    "tool_id": "7e3477dae5e8c6ee",
+    "name": "bvisible/mcp-ssh-manager",
+    "url": "https://github.com/bvisible/mcp-ssh-manager",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.869,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 37,
