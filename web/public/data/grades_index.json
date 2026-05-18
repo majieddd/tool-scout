@@ -1682,7 +1682,7 @@
   "f4f8d1dc2fe0d6ec": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 15.13
+    "total": 14.13
   },
   "50f2c4d3c354856b": {
     "letter": "B",
@@ -3427,7 +3427,7 @@
   "f5233dc0476c43a1": {
     "letter": "C",
     "color": "#F59E0B",
-    "total": 13.49
+    "total": 13.48
   },
   "dc72bf0c2379a9f7": {
     "letter": "C",
@@ -16512,7 +16512,7 @@
   "a8ab2a298bb200fe": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 14.11
+    "total": 14.1
   },
   "232e17ea8676cdb5": {
     "letter": "C",
@@ -17127,7 +17127,7 @@
   "13d5b915903cdc2e": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 17.63
+    "total": 17.64
   },
   "22f7617eaef98c78": {
     "letter": "A",
@@ -17912,7 +17912,7 @@
   "489d910aa091bfff": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 14.81
+    "total": 14.82
   },
   "b0ee991e74f80056": {
     "letter": "B",
@@ -18402,7 +18402,7 @@
   "ab31968d035f7589": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 16.83
+    "total": 16.82
   },
   "b6224b51dfecd08b": {
     "letter": "D",
@@ -19527,7 +19527,7 @@
   "d00fd767c76dcd8c": {
     "letter": "C",
     "color": "#F59E0B",
-    "total": 11.36
+    "total": 10.36
   },
   "108630f1c9283dc4": {
     "letter": "D",
@@ -19812,7 +19812,7 @@
   "3c60c61025ce450d": {
     "letter": "D",
     "color": "#F97316",
-    "total": 8.73
+    "total": 9.73
   },
   "8cabaabe439b8086": {
     "letter": "B",
@@ -20242,7 +20242,7 @@
   "2666a121db7f511e": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 16.66
+    "total": 16.65
   },
   "66ad23623fc53d7e": {
     "letter": "B",
@@ -20512,12 +20512,12 @@
   "432f792a7b8ebfc2": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 16.57
+    "total": 14.74
   },
   "0133539dbf5a3b35": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 14.48
+    "total": 15.65
   },
   "62bc1857b2fb8bb4": {
     "letter": "B",
@@ -20732,7 +20732,7 @@
   "032b00ac93077afc": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 16.57
+    "total": 17.57
   },
   "2acf8bce75e750a7": {
     "letter": "B",
@@ -21217,7 +21217,7 @@
   "32768d90be400fbe": {
     "letter": "D",
     "color": "#F97316",
-    "total": 8.67
+    "total": 8.66
   },
   "7344c075709d09fb": {
     "letter": "C",
@@ -21667,7 +21667,7 @@
   "11cd0413b4c5643e": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 14.35
+    "total": 14.34
   },
   "9900b7eb9b71081e": {
     "letter": "C",
@@ -27947,7 +27947,7 @@
   "a8727fad791069a1": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 17.4
+    "total": 17.41
   },
   "639eb6c9ef3bf269": {
     "letter": "D",
@@ -28107,7 +28107,7 @@
   "f705a866e70ab038": {
     "letter": "C",
     "color": "#F59E0B",
-    "total": 12.0
+    "total": 12.01
   },
   "af25b669bf6ce8a5": {
     "letter": "C",
@@ -28207,7 +28207,7 @@
   "9aac31990da35313": {
     "letter": "B",
     "color": "#3B82F6",
-    "total": 17.39
+    "total": 17.4
   },
   "5d38f5e66504ece9": {
     "letter": "C",
@@ -28505,6 +28505,16 @@
     "total": 13.5
   },
   "98637c42849d6219": {
+    "letter": "C",
+    "color": "#F59E0B",
+    "total": 13.5
+  },
+  "c8be0ef2693af812": {
+    "letter": "C",
+    "color": "#F59E0B",
+    "total": 13.5
+  },
+  "2b13b67de0c9a4dd": {
     "letter": "C",
     "color": "#F59E0B",
     "total": 13.5
