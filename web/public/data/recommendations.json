@@ -161,21 +161,21 @@
   },
   {
     "rank": 17,
-    "tool_id": "918dda28e9b98040",
-    "name": "evalstate/fast-agent",
-    "url": "https://github.com/evalstate/fast-agent",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.892,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 18,
     "tool_id": "9da21edc519e6070",
     "name": "esengine/DeepSeek-Reasonix",
     "url": "https://github.com/esengine/DeepSeek-Reasonix",
     "category": "harness",
     "letter": "B",
+    "score": 0.892,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 18,
+    "tool_id": "918dda28e9b98040",
+    "name": "evalstate/fast-agent",
+    "url": "https://github.com/evalstate/fast-agent",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.892,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
@@ -266,7 +266,7 @@
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.877,
+    "score": 0.878,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
