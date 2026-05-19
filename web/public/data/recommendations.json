@@ -466,7 +466,7 @@
     "url": "https://github.com/achiya-automation/safari-mcp",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.859,
+    "score": 0.86,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -481,16 +481,6 @@
   },
   {
     "rank": 49,
-    "tool_id": "42e5c7487dc53a84",
-    "name": "PiaoyangGuohai1/cli-anything-zotero",
-    "url": "https://github.com/PiaoyangGuohai1/cli-anything-zotero",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.857,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
     "tool_id": "e4817616c26cc3e0",
     "name": "drhalto/agentmako",
     "url": "https://github.com/drhalto/agentmako",
@@ -498,5 +488,15 @@
     "letter": "A",
     "score": 0.855,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 50,
+    "tool_id": "aa16dbbb677d4a7f",
+    "name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.855,
+    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   }
 ]
