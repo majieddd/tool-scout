@@ -401,6 +401,16 @@
   },
   {
     "rank": 41,
+    "tool_id": "c3e1903477c43929",
+    "name": "olo-dot-io/Uni-CLI",
+    "url": "https://github.com/olo-dot-io/Uni-CLI",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.865,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 42,
     "tool_id": "b902a4c51fc3f956",
     "name": "zhensherlock/sp500-mcp-server",
     "url": "https://github.com/zhensherlock/sp500-mcp-server",
@@ -410,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "tool_id": "68d407d5afdf41c9",
     "name": "radimsem/remindb",
     "url": "https://github.com/radimsem/remindb",
@@ -418,16 +428,6 @@
     "letter": "B",
     "score": 0.862,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 43,
-    "tool_id": "c3e1903477c43929",
-    "name": "olo-dot-io/Uni-CLI",
-    "url": "https://github.com/olo-dot-io/Uni-CLI",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.862,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 44,
@@ -491,9 +491,9 @@
   },
   {
     "rank": 50,
-    "tool_id": "8bfd0b9e5a37f816",
-    "name": "mksglu/context-mode",
-    "url": "https://github.com/mksglu/context-mode",
+    "tool_id": "afa0f60ece791bce",
+    "name": "sansan0/TrendRadar",
+    "url": "https://github.com/sansan0/TrendRadar",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.855,
