@@ -271,9 +271,9 @@
   },
   {
     "rank": 28,
-    "tool_id": "f0ca44cd13ca6284",
-    "name": "ArcadeAI/arcade-mcp",
-    "url": "https://github.com/ArcadeAI/arcade-mcp",
+    "tool_id": "c871da3c7d25e2ee",
+    "name": "alvinunreal/openpets",
+    "url": "https://github.com/alvinunreal/openpets",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.88,
@@ -281,9 +281,9 @@
   },
   {
     "rank": 29,
-    "tool_id": "c871da3c7d25e2ee",
-    "name": "alvinunreal/openpets",
-    "url": "https://github.com/alvinunreal/openpets",
+    "tool_id": "f0ca44cd13ca6284",
+    "name": "ArcadeAI/arcade-mcp",
+    "url": "https://github.com/ArcadeAI/arcade-mcp",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.88,
@@ -436,7 +436,7 @@
     "url": "https://github.com/radimsem/remindb",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.862,
+    "score": 0.863,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
@@ -491,12 +491,12 @@
   },
   {
     "rank": 50,
-    "tool_id": "aa16dbbb677d4a7f",
-    "name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
-    "category": "mcp_server",
-    "letter": "A",
+    "tool_id": "639665d799f5f6d0",
+    "name": "lanes-sh/app",
+    "url": "https://github.com/lanes-sh/app",
+    "category": "claude_plugin",
+    "letter": "B",
     "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
