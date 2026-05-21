@@ -421,16 +421,6 @@
   },
   {
     "rank": 43,
-    "tool_id": "b902a4c51fc3f956",
-    "name": "zhensherlock/sp500-mcp-server",
-    "url": "https://github.com/zhensherlock/sp500-mcp-server",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.863,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 44,
     "tool_id": "68d407d5afdf41c9",
     "name": "radimsem/remindb",
     "url": "https://github.com/radimsem/remindb",
@@ -438,6 +428,16 @@
     "letter": "B",
     "score": 0.863,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 44,
+    "tool_id": "b902a4c51fc3f956",
+    "name": "zhensherlock/sp500-mcp-server",
+    "url": "https://github.com/zhensherlock/sp500-mcp-server",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.863,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 45,
