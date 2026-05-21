@@ -311,9 +311,9 @@
   },
   {
     "rank": 32,
-    "tool_id": "4c77b72c5229d285",
-    "name": "Storybloq/storybloq",
-    "url": "https://github.com/Storybloq/storybloq",
+    "tool_id": "09b3c3d0bc34ccfc",
+    "name": "sbhooley/ainativelang",
+    "url": "https://github.com/sbhooley/ainativelang",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.876,
@@ -321,9 +321,9 @@
   },
   {
     "rank": 33,
-    "tool_id": "09b3c3d0bc34ccfc",
-    "name": "sbhooley/ainativelang",
-    "url": "https://github.com/sbhooley/ainativelang",
+    "tool_id": "4c77b72c5229d285",
+    "name": "Storybloq/storybloq",
+    "url": "https://github.com/Storybloq/storybloq",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.876,
@@ -391,16 +391,6 @@
   },
   {
     "rank": 40,
-    "tool_id": "c4e7485cfd8131e8",
-    "name": "syncable-dev/memtrace-public",
-    "url": "https://github.com/syncable-dev/memtrace-public",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.867,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 41,
     "tool_id": "c3e1903477c43929",
     "name": "olo-dot-io/Uni-CLI",
     "url": "https://github.com/olo-dot-io/Uni-CLI",
@@ -410,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 41,
     "tool_id": "02dc7fbcc1b0b0c1",
     "name": "yantrikos/yantrikdb-server",
     "url": "https://github.com/yantrikos/yantrikdb-server",
@@ -420,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
+    "rank": 42,
     "tool_id": "b902a4c51fc3f956",
     "name": "zhensherlock/sp500-mcp-server",
     "url": "https://github.com/zhensherlock/sp500-mcp-server",
@@ -430,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 43,
     "tool_id": "68d407d5afdf41c9",
     "name": "radimsem/remindb",
     "url": "https://github.com/radimsem/remindb",
@@ -440,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "tool_id": "fbd1b812fbc71b2c",
     "name": "golutra/golutra",
     "url": "https://github.com/golutra/golutra",
@@ -450,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "tool_id": "646f8862af8bede4",
     "name": "achiya-automation/safari-mcp",
     "url": "https://github.com/achiya-automation/safari-mcp",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "acd218b48ad60eef",
     "name": "sverklo/sverklo",
     "url": "https://github.com/sverklo/sverklo",
@@ -470,27 +460,17 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "1ca3c2965ca39bce",
     "name": "Patdolitse/engram",
     "url": "https://github.com/Patdolitse/engram",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.856,
+    "score": 0.857,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
-    "tool_id": "e4817616c26cc3e0",
-    "name": "drhalto/agentmako",
-    "url": "https://github.com/drhalto/agentmako",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.855,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 50,
+    "rank": 48,
     "tool_id": "639665d799f5f6d0",
     "name": "lanes-sh/app",
     "url": "https://github.com/lanes-sh/app",
@@ -498,5 +478,25 @@
     "letter": "B",
     "score": 0.855,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 49,
+    "tool_id": "aa16dbbb677d4a7f",
+    "name": "google-gemini/gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.855,
+    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "afa0f60ece791bce",
+    "name": "sansan0/TrendRadar",
+    "url": "https://github.com/sansan0/TrendRadar",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.855,
+    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
   }
 ]
