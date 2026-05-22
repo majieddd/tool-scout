@@ -126,7 +126,7 @@
     "url": "https://github.com/HKUDS/Vibe-Trading",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.898,
+    "score": 0.899,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -421,6 +421,16 @@
   },
   {
     "rank": 43,
+    "tool_id": "b5a17cc55802a807",
+    "name": "TheRealSeanDonahoe/ijfw",
+    "url": "https://github.com/TheRealSeanDonahoe/ijfw",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.866,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 44,
     "tool_id": "02dc7fbcc1b0b0c1",
     "name": "yantrikos/yantrikdb-server",
     "url": "https://github.com/yantrikos/yantrikdb-server",
@@ -430,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "tool_id": "68d407d5afdf41c9",
     "name": "radimsem/remindb",
     "url": "https://github.com/radimsem/remindb",
@@ -440,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "tool_id": "b902a4c51fc3f956",
     "name": "zhensherlock/sp500-mcp-server",
     "url": "https://github.com/zhensherlock/sp500-mcp-server",
@@ -450,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "tool_id": "fbd1b812fbc71b2c",
     "name": "golutra/golutra",
     "url": "https://github.com/golutra/golutra",
@@ -460,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "063c37d70c9404fe",
     "name": "huangjunsen0406/py-xiaozhi",
     "url": "https://github.com/huangjunsen0406/py-xiaozhi",
@@ -470,23 +480,13 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "tool_id": "646f8862af8bede4",
     "name": "achiya-automation/safari-mcp",
     "url": "https://github.com/achiya-automation/safari-mcp",
     "category": "mcp_server",
     "letter": "B",
     "score": 0.86,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 49,
-    "tool_id": "acd218b48ad60eef",
-    "name": "sverklo/sverklo",
-    "url": "https://github.com/sverklo/sverklo",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.859,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
