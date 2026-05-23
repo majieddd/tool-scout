@@ -151,21 +151,21 @@
   },
   {
     "rank": 16,
-    "tool_id": "d55a08b521e4f15d",
-    "name": "holaboss-ai/holaOS",
-    "url": "https://github.com/holaboss-ai/holaOS",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.895,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 17,
     "tool_id": "9da21edc519e6070",
     "name": "esengine/DeepSeek-Reasonix",
     "url": "https://github.com/esengine/DeepSeek-Reasonix",
     "category": "harness",
     "letter": "B",
+    "score": 0.895,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 17,
+    "tool_id": "d55a08b521e4f15d",
+    "name": "holaboss-ai/holaOS",
+    "url": "https://github.com/holaboss-ai/holaOS",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.895,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
@@ -256,7 +256,7 @@
     "url": "https://github.com/alvinunreal/openpets",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.88,
+    "score": 0.881,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
