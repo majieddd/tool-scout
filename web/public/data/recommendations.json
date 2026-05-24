@@ -156,7 +156,7 @@
     "url": "https://github.com/esengine/DeepSeek-Reasonix",
     "category": "harness",
     "letter": "B",
-    "score": 0.896,
+    "score": 0.897,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -471,21 +471,21 @@
   },
   {
     "rank": 48,
-    "tool_id": "063c37d70c9404fe",
-    "name": "huangjunsen0406/py-xiaozhi",
-    "url": "https://github.com/huangjunsen0406/py-xiaozhi",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.861,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 49,
     "tool_id": "646f8862af8bede4",
     "name": "achiya-automation/safari-mcp",
     "url": "https://github.com/achiya-automation/safari-mcp",
     "category": "mcp_server",
     "letter": "B",
+    "score": 0.861,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 49,
+    "tool_id": "063c37d70c9404fe",
+    "name": "huangjunsen0406/py-xiaozhi",
+    "url": "https://github.com/huangjunsen0406/py-xiaozhi",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.861,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
