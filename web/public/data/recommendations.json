@@ -461,21 +461,21 @@
   },
   {
     "rank": 47,
-    "tool_id": "fbd1b812fbc71b2c",
-    "name": "golutra/golutra",
-    "url": "https://github.com/golutra/golutra",
-    "category": "claude_plugin",
-    "letter": "B",
-    "score": 0.862,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 48,
     "tool_id": "023f202006e23c38",
     "name": "Patdolitse/piia-engram",
     "url": "https://github.com/Patdolitse/piia-engram",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.862,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 48,
+    "tool_id": "fbd1b812fbc71b2c",
+    "name": "golutra/golutra",
+    "url": "https://github.com/golutra/golutra",
+    "category": "claude_plugin",
+    "letter": "B",
     "score": 0.862,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
