@@ -371,16 +371,6 @@
   },
   {
     "rank": 38,
-    "tool_id": "4c77b72c5229d285",
-    "name": "Storybloq/storybloq",
-    "url": "https://github.com/Storybloq/storybloq",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.877,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 39,
     "tool_id": "ce9a10103852ca54",
     "name": "mnemon-dev/mnemon",
     "url": "https://github.com/mnemon-dev/mnemon",
@@ -390,7 +380,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 40,
+    "rank": 39,
     "tool_id": "54da31e633a5f858",
     "name": "mathomhaus/guild",
     "url": "https://github.com/mathomhaus/guild",
@@ -400,7 +390,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 41,
+    "rank": 40,
     "tool_id": "232aff6399f8119f",
     "name": "scheidydude/codeindex",
     "url": "https://github.com/scheidydude/codeindex",
@@ -410,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 41,
     "tool_id": "eab69d436ac6f5d2",
     "name": "Panniantong/Agent-Reach",
     "url": "https://github.com/Panniantong/Agent-Reach",
@@ -420,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
+    "rank": 42,
     "tool_id": "7e3477dae5e8c6ee",
     "name": "bvisible/mcp-ssh-manager",
     "url": "https://github.com/bvisible/mcp-ssh-manager",
@@ -430,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 43,
     "tool_id": "c3e1903477c43929",
     "name": "olo-dot-io/Uni-CLI",
     "url": "https://github.com/olo-dot-io/Uni-CLI",
@@ -440,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "tool_id": "8fd5223610c34b22",
     "name": "ComposioHQ/agent-orchestrator",
     "url": "https://github.com/ComposioHQ/agent-orchestrator",
@@ -450,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "tool_id": "5d5f571565af6de5",
     "name": "yonatangross/orchestkit",
     "url": "https://github.com/yonatangross/orchestkit",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "6dcd3e7d589474e8",
     "name": "FerroxLabs/ijfw",
     "url": "https://github.com/FerroxLabs/ijfw",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "63052ae397509cd6",
     "name": "dadbodgeoff/drift",
     "url": "https://github.com/dadbodgeoff/drift",
@@ -490,7 +480,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "023f202006e23c38",
     "name": "Patdolitse/piia-engram",
     "url": "https://github.com/Patdolitse/piia-engram",
@@ -498,5 +488,15 @@
     "letter": "A",
     "score": 0.866,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "68d407d5afdf41c9",
+    "name": "radimsem/remindb",
+    "url": "https://github.com/radimsem/remindb",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.863,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   }
 ]
