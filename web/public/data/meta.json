@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-02T11:44:27.266842Z",
-  "live_tools": 6675,
+  "generated_at": "2026-06-02T16:57:00.606912Z",
+  "live_tools": 6685,
   "last_crawl": {
-    "started_at": "2026-06-02T11:41:10",
-    "ended_at": "2026-06-02T11:44:18.842343",
-    "new_tools": 5,
+    "started_at": "2026-06-02T16:53:28",
+    "ended_at": "2026-06-02T16:56:52.377196",
+    "new_tools": 11,
     "errors": "[]"
   },
   "last_llm_call_at": null

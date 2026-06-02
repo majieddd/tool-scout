@@ -151,6 +151,16 @@
   },
   {
     "rank": 16,
+    "tool_id": "0f3a59a6c8630964",
+    "name": "iflytek/astron-agent",
+    "url": "https://github.com/iflytek/astron-agent",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.899,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 17,
     "tool_id": "8fd5223610c34b22",
     "name": "ComposioHQ/agent-orchestrator",
     "url": "https://github.com/ComposioHQ/agent-orchestrator",
@@ -160,7 +170,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "tool_id": "d55a08b521e4f15d",
     "name": "holaboss-ai/holaOS",
     "url": "https://github.com/holaboss-ai/holaOS",
@@ -170,7 +180,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 18,
+    "rank": 19,
     "tool_id": "918dda28e9b98040",
     "name": "evalstate/fast-agent",
     "url": "https://github.com/evalstate/fast-agent",
@@ -180,7 +190,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 19,
+    "rank": 20,
     "tool_id": "fbd1b812fbc71b2c",
     "name": "golutra/golutra",
     "url": "https://github.com/golutra/golutra",
@@ -190,7 +200,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 20,
+    "rank": 21,
     "tool_id": "063c37d70c9404fe",
     "name": "huangjunsen0406/py-xiaozhi",
     "url": "https://github.com/huangjunsen0406/py-xiaozhi",
@@ -200,7 +210,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 21,
+    "rank": 22,
     "tool_id": "4b88c907cbb197eb",
     "name": "IvanMurzak/Unity-MCP",
     "url": "https://github.com/IvanMurzak/Unity-MCP",
@@ -210,7 +220,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 22,
+    "rank": 23,
     "tool_id": "2696e75fee93bc6e",
     "name": "DeusData/codebase-memory-mcp",
     "url": "https://github.com/DeusData/codebase-memory-mcp",
@@ -220,7 +230,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 23,
+    "rank": 24,
     "tool_id": "d741b62e2cbac805",
     "name": "asheshgoplani/agent-deck",
     "url": "https://github.com/asheshgoplani/agent-deck",
@@ -230,7 +240,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 24,
+    "rank": 25,
     "tool_id": "94346b228662cd9b",
     "name": "yvgude/lean-ctx",
     "url": "https://github.com/yvgude/lean-ctx",
@@ -238,16 +248,6 @@
     "letter": "B",
     "score": 0.888,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 25,
-    "tool_id": "5720873393b5d31a",
-    "name": "TabularisDB/tabularis",
-    "url": "https://github.com/TabularisDB/tabularis",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.888,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 26,
@@ -356,7 +356,7 @@
     "url": "https://github.com/freestylefly/wesight",
     "category": "claude_plugin",
     "letter": "A",
-    "score": 0.873,
+    "score": 0.874,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -381,6 +381,16 @@
   },
   {
     "rank": 39,
+    "tool_id": "c884b95657ebf9f9",
+    "name": "code-yeongyu/lazycodex",
+    "url": "https://github.com/code-yeongyu/lazycodex",
+    "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.872,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 40,
     "tool_id": "17c877f3c7f176fd",
     "name": "assafelovic/gpt-researcher",
     "url": "https://github.com/assafelovic/gpt-researcher",
@@ -390,22 +400,12 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "tool_id": "ce9450c3e068e59c",
     "name": "microsoft/mcp-for-beginners",
     "url": "https://github.com/microsoft/mcp-for-beginners",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.87,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 41,
-    "tool_id": "eab69d436ac6f5d2",
-    "name": "Panniantong/Agent-Reach",
-    "url": "https://github.com/Panniantong/Agent-Reach",
-    "category": "mcp_server",
-    "letter": "A",
     "score": 0.87,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
@@ -491,12 +491,12 @@
   },
   {
     "rank": 50,
-    "tool_id": "acd218b48ad60eef",
-    "name": "sverklo/sverklo",
-    "url": "https://github.com/sverklo/sverklo",
+    "tool_id": "646f8862af8bede4",
+    "name": "achiya-automation/safari-mcp",
+    "url": "https://github.com/achiya-automation/safari-mcp",
     "category": "mcp_server",
-    "letter": "A",
-    "score": 0.86,
+    "letter": "B",
+    "score": 0.863,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
