@@ -121,6 +121,16 @@
   },
   {
     "rank": 13,
+    "tool_id": "717ba51b47520225",
+    "name": "HKUDS/Vibe-Trading",
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 14,
     "tool_id": "1ebd4cb431c81c4f",
     "name": "can1357/oh-my-pi",
     "url": "https://github.com/can1357/oh-my-pi",
@@ -130,22 +140,12 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "tool_id": "9da21edc519e6070",
     "name": "esengine/DeepSeek-Reasonix",
     "url": "https://github.com/esengine/DeepSeek-Reasonix",
     "category": "harness",
     "letter": "B",
-    "score": 0.9,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 15,
-    "tool_id": "717ba51b47520225",
-    "name": "HKUDS/Vibe-Trading",
-    "url": "https://github.com/HKUDS/Vibe-Trading",
-    "category": "mcp_server",
-    "letter": "A",
     "score": 0.9,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
@@ -191,16 +191,6 @@
   },
   {
     "rank": 20,
-    "tool_id": "fbd1b812fbc71b2c",
-    "name": "golutra/golutra",
-    "url": "https://github.com/golutra/golutra",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.892,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 21,
     "tool_id": "063c37d70c9404fe",
     "name": "huangjunsen0406/py-xiaozhi",
     "url": "https://github.com/huangjunsen0406/py-xiaozhi",
@@ -210,7 +200,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 22,
+    "rank": 21,
     "tool_id": "4b88c907cbb197eb",
     "name": "IvanMurzak/Unity-MCP",
     "url": "https://github.com/IvanMurzak/Unity-MCP",
@@ -220,7 +210,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 23,
+    "rank": 22,
     "tool_id": "2696e75fee93bc6e",
     "name": "DeusData/codebase-memory-mcp",
     "url": "https://github.com/DeusData/codebase-memory-mcp",
@@ -230,7 +220,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 24,
+    "rank": 23,
     "tool_id": "d741b62e2cbac805",
     "name": "asheshgoplani/agent-deck",
     "url": "https://github.com/asheshgoplani/agent-deck",
@@ -240,7 +230,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 25,
+    "rank": 24,
     "tool_id": "94346b228662cd9b",
     "name": "yvgude/lean-ctx",
     "url": "https://github.com/yvgude/lean-ctx",
@@ -250,7 +240,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 26,
+    "rank": 25,
     "tool_id": "5720873393b5d31a",
     "name": "TabularisDB/tabularis",
     "url": "https://github.com/TabularisDB/tabularis",
@@ -260,7 +250,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 27,
+    "rank": 26,
     "tool_id": "22ad3907e6ec0a44",
     "name": "jamubc/gemini-mcp-tool",
     "url": "https://github.com/jamubc/gemini-mcp-tool",
@@ -270,7 +260,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 28,
+    "rank": 27,
     "tool_id": "fdd10a9cf3bab09b",
     "name": "stickerdaniel/linkedin-mcp-server",
     "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
@@ -280,13 +270,23 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 29,
+    "rank": 28,
     "tool_id": "5cc80a4dbdcb6c6d",
     "name": "chrisryugj/korean-law-mcp",
     "url": "https://github.com/chrisryugj/korean-law-mcp",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.887,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 29,
+    "tool_id": "c153d9612a862025",
+    "name": "study8677/antigravity-workspace-template",
+    "url": "https://github.com/study8677/antigravity-workspace-template",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.883,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
