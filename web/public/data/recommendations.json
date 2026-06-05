@@ -491,12 +491,12 @@
   },
   {
     "rank": 50,
-    "tool_id": "4f52e0e54c83a333",
-    "name": "tathagat22/plumb-mcp",
-    "url": "https://github.com/tathagat22/plumb-mcp",
+    "tool_id": "fe8839892a95aa95",
+    "name": "antonbabenko/deliberation",
+    "url": "https://github.com/antonbabenko/deliberation",
     "category": "mcp_server",
-    "letter": "A",
-    "score": 0.858,
+    "letter": "B",
+    "score": 0.859,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
