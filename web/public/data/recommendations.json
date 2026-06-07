@@ -481,22 +481,22 @@
   },
   {
     "rank": 49,
+    "tool_id": "21304ae14ee452ef",
+    "name": "zhu1090093659/deepseek-pp",
+    "url": "https://github.com/zhu1090093659/deepseek-pp",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.863,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
     "tool_id": "fbd1b812fbc71b2c",
     "name": "golutra/golutra",
     "url": "https://github.com/golutra/golutra",
     "category": "claude_plugin",
     "letter": "B",
     "score": 0.862,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "acd218b48ad60eef",
-    "name": "sverklo/sverklo",
-    "url": "https://github.com/sverklo/sverklo",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.86,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
