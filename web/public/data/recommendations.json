@@ -336,7 +336,7 @@
     "url": "https://github.com/code-yeongyu/lazycodex",
     "category": "claude_plugin",
     "letter": "A",
-    "score": 0.877,
+    "score": 0.878,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -351,6 +351,16 @@
   },
   {
     "rank": 36,
+    "tool_id": "fc31db0c8484f4cd",
+    "name": "josstei/maestro-orchestrate",
+    "url": "https://github.com/josstei/maestro-orchestrate",
+    "category": "claude_plugin",
+    "letter": "B",
+    "score": 0.874,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 37,
     "tool_id": "8c6c34009e9ff201",
     "name": "Beever-AI/beever-atlas",
     "url": "https://github.com/Beever-AI/beever-atlas",
@@ -360,20 +370,10 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 37,
+    "rank": 38,
     "tool_id": "ce9a10103852ca54",
     "name": "mnemon-dev/mnemon",
     "url": "https://github.com/mnemon-dev/mnemon",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.872,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 38,
-    "tool_id": "54da31e633a5f858",
-    "name": "mathomhaus/guild",
-    "url": "https://github.com/mathomhaus/guild",
     "category": "mcp_server",
     "letter": "B",
     "score": 0.872,
