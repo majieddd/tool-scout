@@ -371,6 +371,16 @@
   },
   {
     "rank": 38,
+    "tool_id": "54da31e633a5f858",
+    "name": "mathomhaus/guild",
+    "url": "https://github.com/mathomhaus/guild",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.872,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 39,
     "tool_id": "232aff6399f8119f",
     "name": "scheidydude/codeindex",
     "url": "https://github.com/scheidydude/codeindex",
@@ -380,7 +390,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 39,
+    "rank": 40,
     "tool_id": "17c877f3c7f176fd",
     "name": "assafelovic/gpt-researcher",
     "url": "https://github.com/assafelovic/gpt-researcher",
@@ -390,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "tool_id": "c3e1903477c43929",
     "name": "olo-dot-io/Uni-CLI",
     "url": "https://github.com/olo-dot-io/Uni-CLI",
@@ -400,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "tool_id": "8fd5223610c34b22",
     "name": "ComposioHQ/agent-orchestrator",
     "url": "https://github.com/ComposioHQ/agent-orchestrator",
@@ -410,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "tool_id": "5d5f571565af6de5",
     "name": "yonatangross/orchestkit",
     "url": "https://github.com/yonatangross/orchestkit",
@@ -420,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
@@ -430,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "tool_id": "6dcd3e7d589474e8",
     "name": "FerroxLabs/ijfw",
     "url": "https://github.com/FerroxLabs/ijfw",
@@ -440,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "tool_id": "023f202006e23c38",
     "name": "Patdolitse/piia-engram",
     "url": "https://github.com/Patdolitse/piia-engram",
@@ -450,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "tool_id": "d55a08b521e4f15d",
     "name": "holaboss-ai/holaOS",
     "url": "https://github.com/holaboss-ai/holaOS",
@@ -460,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "4d80c7fa56353ddf",
     "name": "CodeAbra/iai-personal-memory-engine",
     "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
@@ -468,16 +478,6 @@
     "letter": "A",
     "score": 0.865,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 48,
-    "tool_id": "68d407d5afdf41c9",
-    "name": "radimsem/remindb",
-    "url": "https://github.com/radimsem/remindb",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.864,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 49,
@@ -491,12 +491,12 @@
   },
   {
     "rank": 50,
-    "tool_id": "646f8862af8bede4",
-    "name": "achiya-automation/safari-mcp",
-    "url": "https://github.com/achiya-automation/safari-mcp",
+    "tool_id": "68d407d5afdf41c9",
+    "name": "radimsem/remindb",
+    "url": "https://github.com/radimsem/remindb",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.863,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+    "score": 0.864,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   }
 ]
