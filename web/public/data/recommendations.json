@@ -191,16 +191,6 @@
   },
   {
     "rank": 20,
-    "tool_id": "063c37d70c9404fe",
-    "name": "huangjunsen0406/py-xiaozhi",
-    "url": "https://github.com/huangjunsen0406/py-xiaozhi",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.891,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 21,
     "tool_id": "2696e75fee93bc6e",
     "name": "DeusData/codebase-memory-mcp",
     "url": "https://github.com/DeusData/codebase-memory-mcp",
@@ -208,6 +198,16 @@
     "letter": "B",
     "score": 0.891,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 21,
+    "tool_id": "063c37d70c9404fe",
+    "name": "huangjunsen0406/py-xiaozhi",
+    "url": "https://github.com/huangjunsen0406/py-xiaozhi",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.891,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 22,
