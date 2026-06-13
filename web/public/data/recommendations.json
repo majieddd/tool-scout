@@ -481,21 +481,21 @@
   },
   {
     "rank": 49,
-    "tool_id": "8fd5223610c34b22",
-    "name": "ComposioHQ/agent-orchestrator",
-    "url": "https://github.com/ComposioHQ/agent-orchestrator",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.868,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
     "tool_id": "6dcd3e7d589474e8",
     "name": "FerroxLabs/ijfw",
     "url": "https://github.com/FerroxLabs/ijfw",
     "category": "mcp_server",
     "letter": "B",
+    "score": 0.868,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "8fd5223610c34b22",
+    "name": "ComposioHQ/agent-orchestrator",
+    "url": "https://github.com/ComposioHQ/agent-orchestrator",
+    "category": "claude_plugin",
+    "letter": "A",
     "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
