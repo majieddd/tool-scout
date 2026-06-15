@@ -445,27 +445,27 @@
     "name": "zhu1090093659/deepseek-pp",
     "url": "https://github.com/zhu1090093659/deepseek-pp",
     "category": "mcp_server",
-    "letter": "B",
+    "letter": "A",
     "score": 0.867,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 46,
-    "tool_id": "ae0c87d3427b27f7",
-    "name": "tanaikech/ggsrun",
-    "url": "https://github.com/tanaikech/ggsrun",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.867,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 47,
     "tool_id": "023f202006e23c38",
     "name": "Patdolitse/piia-engram",
     "url": "https://github.com/Patdolitse/piia-engram",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.867,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 47,
+    "tool_id": "ae0c87d3427b27f7",
+    "name": "tanaikech/ggsrun",
+    "url": "https://github.com/tanaikech/ggsrun",
+    "category": "mcp_server",
+    "letter": "B",
     "score": 0.867,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
