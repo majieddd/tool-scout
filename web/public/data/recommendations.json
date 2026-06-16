@@ -241,9 +241,9 @@
   },
   {
     "rank": 25,
-    "tool_id": "9bd1cc8f39fe60cb",
-    "name": "thClaws/thClaws",
-    "url": "https://github.com/thClaws/thClaws",
+    "tool_id": "c884b95657ebf9f9",
+    "name": "code-yeongyu/lazycodex",
+    "url": "https://github.com/code-yeongyu/lazycodex",
     "category": "claude_plugin",
     "letter": "A",
     "score": 0.882,
@@ -251,9 +251,9 @@
   },
   {
     "rank": 26,
-    "tool_id": "c884b95657ebf9f9",
-    "name": "code-yeongyu/lazycodex",
-    "url": "https://github.com/code-yeongyu/lazycodex",
+    "tool_id": "9bd1cc8f39fe60cb",
+    "name": "thClaws/thClaws",
+    "url": "https://github.com/thClaws/thClaws",
     "category": "claude_plugin",
     "letter": "A",
     "score": 0.882,
@@ -306,7 +306,7 @@
     "url": "https://github.com/fujibee/agmsg",
     "category": "claude_plugin",
     "letter": "A",
-    "score": 0.876,
+    "score": 0.877,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
@@ -391,16 +391,6 @@
   },
   {
     "rank": 40,
-    "tool_id": "6dcd3e7d589474e8",
-    "name": "FerroxLabs/ijfw",
-    "url": "https://github.com/FerroxLabs/ijfw",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.868,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 41,
     "tool_id": "cbe8707c045bbd86",
     "name": "AgentWrapper/agent-orchestrator",
     "url": "https://github.com/AgentWrapper/agent-orchestrator",
@@ -410,21 +400,31 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
-    "tool_id": "8fd5223610c34b22",
-    "name": "ComposioHQ/agent-orchestrator",
-    "url": "https://github.com/ComposioHQ/agent-orchestrator",
-    "category": "claude_plugin",
+    "rank": 41,
+    "tool_id": "c4e7485cfd8131e8",
+    "name": "syncable-dev/memtrace-public",
+    "url": "https://github.com/syncable-dev/memtrace-public",
+    "category": "mcp_server",
     "letter": "A",
     "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
-    "tool_id": "c4e7485cfd8131e8",
-    "name": "syncable-dev/memtrace-public",
-    "url": "https://github.com/syncable-dev/memtrace-public",
+    "rank": 42,
+    "tool_id": "6dcd3e7d589474e8",
+    "name": "FerroxLabs/ijfw",
+    "url": "https://github.com/FerroxLabs/ijfw",
     "category": "mcp_server",
+    "letter": "B",
+    "score": 0.868,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 43,
+    "tool_id": "8fd5223610c34b22",
+    "name": "ComposioHQ/agent-orchestrator",
+    "url": "https://github.com/ComposioHQ/agent-orchestrator",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
@@ -466,7 +466,7 @@
     "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.866,
+    "score": 0.867,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
