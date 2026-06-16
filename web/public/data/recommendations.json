@@ -356,7 +356,7 @@
     "url": "https://github.com/fujibee/agmsg",
     "category": "claude_plugin",
     "letter": "A",
-    "score": 0.877,
+    "score": 0.878,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
@@ -451,13 +451,13 @@
   },
   {
     "rank": 46,
-    "tool_id": "8fd5223610c34b22",
-    "name": "ComposioHQ/agent-orchestrator",
-    "url": "https://github.com/ComposioHQ/agent-orchestrator",
-    "category": "claude_plugin",
+    "tool_id": "4d80c7fa56353ddf",
+    "name": "CodeAbra/iai-personal-memory-engine",
+    "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
+    "category": "mcp_server",
     "letter": "A",
-    "score": 0.868,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+    "score": 0.867,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 47,
@@ -481,22 +481,22 @@
   },
   {
     "rank": 49,
-    "tool_id": "4d80c7fa56353ddf",
-    "name": "CodeAbra/iai-personal-memory-engine",
-    "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.867,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 50,
     "tool_id": "ae0c87d3427b27f7",
     "name": "tanaikech/ggsrun",
     "url": "https://github.com/tanaikech/ggsrun",
     "category": "mcp_server",
     "letter": "B",
     "score": 0.867,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "135d05766ff2c73c",
+    "name": "artokun/comfyui-mcp",
+    "url": "https://github.com/artokun/comfyui-mcp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.866,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
