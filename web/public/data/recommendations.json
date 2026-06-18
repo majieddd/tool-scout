@@ -491,9 +491,9 @@
   },
   {
     "rank": 50,
-    "tool_id": "135d05766ff2c73c",
-    "name": "artokun/comfyui-mcp",
-    "url": "https://github.com/artokun/comfyui-mcp",
+    "tool_id": "d7f80c7abbd00b7c",
+    "name": "ruvnet/agent-harness-generator",
+    "url": "https://github.com/ruvnet/agent-harness-generator",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.867,
