@@ -291,6 +291,16 @@
   },
   {
     "rank": 30,
+    "tool_id": "5cc80a4dbdcb6c6d",
+    "name": "chrisryugj/korean-law-mcp",
+    "url": "https://github.com/chrisryugj/korean-law-mcp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.887,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 31,
     "tool_id": "1c45c4e037952195",
     "name": "can4hou6joeng4/boss-agent-cli",
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
@@ -300,7 +310,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 31,
+    "rank": 32,
     "tool_id": "c884b95657ebf9f9",
     "name": "code-yeongyu/lazycodex",
     "url": "https://github.com/code-yeongyu/lazycodex",
@@ -310,7 +320,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 32,
+    "rank": 33,
     "tool_id": "9bd1cc8f39fe60cb",
     "name": "thClaws/thClaws",
     "url": "https://github.com/thClaws/thClaws",
@@ -320,7 +330,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 33,
+    "rank": 34,
     "tool_id": "c871da3c7d25e2ee",
     "name": "alvinunreal/openpets",
     "url": "https://github.com/alvinunreal/openpets",
@@ -330,7 +340,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 34,
+    "rank": 35,
     "tool_id": "f0ca44cd13ca6284",
     "name": "ArcadeAI/arcade-mcp",
     "url": "https://github.com/ArcadeAI/arcade-mcp",
@@ -340,23 +350,13 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 35,
+    "rank": 36,
     "tool_id": "b8928f4757dbdcaf",
     "name": "jonigl/mcp-client-for-ollama",
     "url": "https://github.com/jonigl/mcp-client-for-ollama",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.879,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 36,
-    "tool_id": "ae7704f2ba795f6c",
-    "name": "freestylefly/wesight",
-    "url": "https://github.com/freestylefly/wesight",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.878,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -371,6 +371,16 @@
   },
   {
     "rank": 38,
+    "tool_id": "ae7704f2ba795f6c",
+    "name": "freestylefly/wesight",
+    "url": "https://github.com/freestylefly/wesight",
+    "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.878,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 39,
     "tool_id": "8c6c34009e9ff201",
     "name": "Beever-AI/beever-atlas",
     "url": "https://github.com/Beever-AI/beever-atlas",
@@ -380,7 +390,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 39,
+    "rank": 40,
     "tool_id": "ce9a10103852ca54",
     "name": "mnemon-dev/mnemon",
     "url": "https://github.com/mnemon-dev/mnemon",
@@ -390,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "tool_id": "54da31e633a5f858",
     "name": "mathomhaus/guild",
     "url": "https://github.com/mathomhaus/guild",
@@ -400,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "tool_id": "f18865b0fe7c5990",
     "name": "Pratiyush/llm-wiki",
     "url": "https://github.com/Pratiyush/llm-wiki",
@@ -410,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "tool_id": "4d80c7fa56353ddf",
     "name": "CodeAbra/iai-personal-memory-engine",
     "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
@@ -420,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
@@ -430,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "tool_id": "5d5f571565af6de5",
     "name": "yonatangross/orchestkit",
     "url": "https://github.com/yonatangross/orchestkit",
@@ -440,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "tool_id": "c3e1903477c43929",
     "name": "olo-dot-io/Uni-CLI",
     "url": "https://github.com/olo-dot-io/Uni-CLI",
@@ -450,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "tool_id": "6dcd3e7d589474e8",
     "name": "FerroxLabs/ijfw",
     "url": "https://github.com/FerroxLabs/ijfw",
@@ -460,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "21304ae14ee452ef",
     "name": "zhu1090093659/deepseek-pp",
     "url": "https://github.com/zhu1090093659/deepseek-pp",
@@ -470,30 +480,20 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
-    "tool_id": "023f202006e23c38",
-    "name": "Patdolitse/piia-engram",
-    "url": "https://github.com/Patdolitse/piia-engram",
+    "rank": 49,
+    "tool_id": "d7f80c7abbd00b7c",
+    "name": "ruvnet/agent-harness-generator",
+    "url": "https://github.com/ruvnet/agent-harness-generator",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.867,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
-    "tool_id": "ae0c87d3427b27f7",
-    "name": "tanaikech/ggsrun",
-    "url": "https://github.com/tanaikech/ggsrun",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.867,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
     "rank": 50,
-    "tool_id": "d7f80c7abbd00b7c",
-    "name": "ruvnet/agent-harness-generator",
-    "url": "https://github.com/ruvnet/agent-harness-generator",
+    "tool_id": "023f202006e23c38",
+    "name": "Patdolitse/piia-engram",
+    "url": "https://github.com/Patdolitse/piia-engram",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.867,
