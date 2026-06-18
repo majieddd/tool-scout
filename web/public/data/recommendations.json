@@ -471,6 +471,16 @@
   },
   {
     "rank": 48,
+    "tool_id": "d7f80c7abbd00b7c",
+    "name": "ruvnet/agent-harness-generator",
+    "url": "https://github.com/ruvnet/agent-harness-generator",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.868,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 49,
     "tool_id": "5d5f571565af6de5",
     "name": "yonatangross/orchestkit",
     "url": "https://github.com/yonatangross/orchestkit",
@@ -480,22 +490,12 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "c3e1903477c43929",
     "name": "olo-dot-io/Uni-CLI",
     "url": "https://github.com/olo-dot-io/Uni-CLI",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.868,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "6dcd3e7d589474e8",
-    "name": "FerroxLabs/ijfw",
-    "url": "https://github.com/FerroxLabs/ijfw",
-    "category": "mcp_server",
-    "letter": "B",
     "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
