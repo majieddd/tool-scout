@@ -251,6 +251,16 @@
   },
   {
     "rank": 26,
+    "tool_id": "5720873393b5d31a",
+    "name": "TabularisDB/tabularis",
+    "url": "https://github.com/TabularisDB/tabularis",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.89,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 27,
     "tool_id": "94346b228662cd9b",
     "name": "yvgude/lean-ctx",
     "url": "https://github.com/yvgude/lean-ctx",
@@ -258,16 +268,6 @@
     "letter": "B",
     "score": 0.89,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 27,
-    "tool_id": "5720873393b5d31a",
-    "name": "TabularisDB/tabularis",
-    "url": "https://github.com/TabularisDB/tabularis",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.889,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 28,
@@ -461,9 +461,9 @@
   },
   {
     "rank": 47,
-    "tool_id": "c4e7485cfd8131e8",
-    "name": "syncable-dev/memtrace-public",
-    "url": "https://github.com/syncable-dev/memtrace-public",
+    "tool_id": "d7f80c7abbd00b7c",
+    "name": "ruvnet/agent-harness-generator",
+    "url": "https://github.com/ruvnet/agent-harness-generator",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.868,
@@ -471,9 +471,9 @@
   },
   {
     "rank": 48,
-    "tool_id": "d7f80c7abbd00b7c",
-    "name": "ruvnet/agent-harness-generator",
-    "url": "https://github.com/ruvnet/agent-harness-generator",
+    "tool_id": "c4e7485cfd8131e8",
+    "name": "syncable-dev/memtrace-public",
+    "url": "https://github.com/syncable-dev/memtrace-public",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.868,
