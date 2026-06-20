@@ -186,7 +186,7 @@
     "url": "https://github.com/DeusData/codebase-memory-mcp",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.898,
+    "score": 0.899,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
@@ -316,7 +316,7 @@
     "url": "https://github.com/code-yeongyu/lazycodex",
     "category": "claude_plugin",
     "letter": "A",
-    "score": 0.884,
+    "score": 0.885,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -371,16 +371,6 @@
   },
   {
     "rank": 38,
-    "tool_id": "b8928f4757dbdcaf",
-    "name": "jonigl/mcp-client-for-ollama",
-    "url": "https://github.com/jonigl/mcp-client-for-ollama",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.879,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 39,
     "tool_id": "692584b98a342218",
     "name": "fujibee/agmsg",
     "url": "https://github.com/fujibee/agmsg",
@@ -388,6 +378,16 @@
     "letter": "A",
     "score": 0.879,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 39,
+    "tool_id": "b8928f4757dbdcaf",
+    "name": "jonigl/mcp-client-for-ollama",
+    "url": "https://github.com/jonigl/mcp-client-for-ollama",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.879,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 40,
@@ -451,16 +451,6 @@
   },
   {
     "rank": 46,
-    "tool_id": "232aff6399f8119f",
-    "name": "scheidydude/codeindex",
-    "url": "https://github.com/scheidydude/codeindex",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.87,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 47,
     "tool_id": "4d80c7fa56353ddf",
     "name": "CodeAbra/iai-personal-memory-engine",
     "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
@@ -468,6 +458,16 @@
     "letter": "A",
     "score": 0.87,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 47,
+    "tool_id": "232aff6399f8119f",
+    "name": "scheidydude/codeindex",
+    "url": "https://github.com/scheidydude/codeindex",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.87,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 48,
