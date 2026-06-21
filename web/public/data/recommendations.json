@@ -51,6 +51,16 @@
   },
   {
     "rank": 6,
+    "tool_id": "2696e75fee93bc6e",
+    "name": "DeusData/codebase-memory-mcp",
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 7,
     "tool_id": "7574c5db3db84bea",
     "name": "farion1231/cc-switch",
     "url": "https://github.com/farion1231/cc-switch",
@@ -60,7 +70,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 7,
+    "rank": 8,
     "tool_id": "68310ed34aa5e9f6",
     "name": "wshobson/agents",
     "url": "https://github.com/wshobson/agents",
@@ -70,7 +80,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 8,
+    "rank": 9,
     "tool_id": "07017ec54bcbb005",
     "name": "superset-sh/superset",
     "url": "https://github.com/superset-sh/superset",
@@ -80,7 +90,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 9,
+    "rank": 10,
     "tool_id": "4c8de4cf9aa27170",
     "name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
@@ -90,7 +100,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 10,
+    "rank": 11,
     "tool_id": "354cca612204791a",
     "name": "ComposioHQ/composio",
     "url": "https://github.com/ComposioHQ/composio",
@@ -100,7 +110,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 11,
+    "rank": 12,
     "tool_id": "7034b7c1cc85f5c6",
     "name": "udecode/plate",
     "url": "https://github.com/udecode/plate",
@@ -110,7 +120,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 12,
+    "rank": 13,
     "tool_id": "717ba51b47520225",
     "name": "HKUDS/Vibe-Trading",
     "url": "https://github.com/HKUDS/Vibe-Trading",
@@ -120,7 +130,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 13,
+    "rank": 14,
     "tool_id": "1ebd4cb431c81c4f",
     "name": "can1357/oh-my-pi",
     "url": "https://github.com/can1357/oh-my-pi",
@@ -130,7 +140,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "tool_id": "9da21edc519e6070",
     "name": "esengine/DeepSeek-Reasonix",
     "url": "https://github.com/esengine/DeepSeek-Reasonix",
@@ -140,7 +150,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 15,
+    "rank": 16,
     "tool_id": "d257637d1ce746e0",
     "name": "chopratejas/headroom",
     "url": "https://github.com/chopratejas/headroom",
@@ -148,16 +158,6 @@
     "letter": "A",
     "score": 0.9,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 16,
-    "tool_id": "2696e75fee93bc6e",
-    "name": "DeusData/codebase-memory-mcp",
-    "url": "https://github.com/DeusData/codebase-memory-mcp",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.9,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 17,
@@ -201,16 +201,6 @@
   },
   {
     "rank": 21,
-    "tool_id": "5720873393b5d31a",
-    "name": "TabularisDB/tabularis",
-    "url": "https://github.com/TabularisDB/tabularis",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.891,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 22,
     "tool_id": "4b88c907cbb197eb",
     "name": "IvanMurzak/Unity-MCP",
     "url": "https://github.com/IvanMurzak/Unity-MCP",
@@ -218,6 +208,16 @@
     "letter": "B",
     "score": 0.891,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 22,
+    "tool_id": "5720873393b5d31a",
+    "name": "TabularisDB/tabularis",
+    "url": "https://github.com/TabularisDB/tabularis",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.891,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 23,
@@ -266,7 +266,7 @@
     "url": "https://github.com/code-yeongyu/lazycodex",
     "category": "claude_plugin",
     "letter": "A",
-    "score": 0.885,
+    "score": 0.886,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -416,7 +416,7 @@
     "url": "https://github.com/ruvnet/agent-harness-generator",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.87,
+    "score": 0.871,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
