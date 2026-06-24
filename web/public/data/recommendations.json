@@ -291,16 +291,6 @@
   },
   {
     "rank": 30,
-    "tool_id": "c153d9612a862025",
-    "name": "study8677/antigravity-workspace-template",
-    "url": "https://github.com/study8677/antigravity-workspace-template",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.883,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 31,
     "tool_id": "1c45c4e037952195",
     "name": "can4hou6joeng4/boss-agent-cli",
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
@@ -310,7 +300,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 32,
+    "rank": 31,
     "tool_id": "9bd1cc8f39fe60cb",
     "name": "thClaws/thClaws",
     "url": "https://github.com/thClaws/thClaws",
@@ -320,7 +310,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 33,
+    "rank": 32,
     "tool_id": "c871da3c7d25e2ee",
     "name": "alvinunreal/openpets",
     "url": "https://github.com/alvinunreal/openpets",
@@ -330,13 +320,23 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 34,
+    "rank": 33,
     "tool_id": "f0ca44cd13ca6284",
     "name": "ArcadeAI/arcade-mcp",
     "url": "https://github.com/ArcadeAI/arcade-mcp",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.881,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 34,
+    "tool_id": "09b3c3d0bc34ccfc",
+    "name": "sbhooley/ainativelang",
+    "url": "https://github.com/sbhooley/ainativelang",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.88,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -416,7 +416,7 @@
     "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.871,
+    "score": 0.872,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
