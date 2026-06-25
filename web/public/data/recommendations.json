@@ -421,16 +421,6 @@
   },
   {
     "rank": 43,
-    "tool_id": "54da31e633a5f858",
-    "name": "mathomhaus/guild",
-    "url": "https://github.com/mathomhaus/guild",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.872,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 44,
     "tool_id": "d7f80c7abbd00b7c",
     "name": "ruvnet/agent-harness-generator",
     "url": "https://github.com/ruvnet/agent-harness-generator",
@@ -438,6 +428,16 @@
     "letter": "A",
     "score": 0.872,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 44,
+    "tool_id": "54da31e633a5f858",
+    "name": "mathomhaus/guild",
+    "url": "https://github.com/mathomhaus/guild",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.872,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 45,
