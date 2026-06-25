@@ -421,21 +421,21 @@
   },
   {
     "rank": 43,
-    "tool_id": "4b1fe02ca53041a1",
-    "name": "kaanozhan/Frame",
-    "url": "https://github.com/kaanozhan/Frame",
-    "category": "claude_plugin",
-    "letter": "B",
-    "score": 0.872,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 44,
     "tool_id": "d7f80c7abbd00b7c",
     "name": "ruvnet/agent-harness-generator",
     "url": "https://github.com/ruvnet/agent-harness-generator",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.872,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 44,
+    "tool_id": "4b1fe02ca53041a1",
+    "name": "kaanozhan/Frame",
+    "url": "https://github.com/kaanozhan/Frame",
+    "category": "claude_plugin",
+    "letter": "B",
     "score": 0.872,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
