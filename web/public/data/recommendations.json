@@ -481,22 +481,22 @@
   },
   {
     "rank": 49,
-    "tool_id": "6dcd3e7d589474e8",
-    "name": "FerroxLabs/ijfw",
-    "url": "https://github.com/FerroxLabs/ijfw",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.868,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
     "tool_id": "135d05766ff2c73c",
     "name": "artokun/comfyui-mcp",
     "url": "https://github.com/artokun/comfyui-mcp",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.868,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "1df402384e96f685",
+    "name": "shirenchuang/agentbro",
+    "url": "https://github.com/shirenchuang/agentbro",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.867,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
