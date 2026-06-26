@@ -411,16 +411,6 @@
   },
   {
     "rank": 42,
-    "tool_id": "54da31e633a5f858",
-    "name": "mathomhaus/guild",
-    "url": "https://github.com/mathomhaus/guild",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.872,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 43,
     "tool_id": "4b1fe02ca53041a1",
     "name": "kaanozhan/Frame",
     "url": "https://github.com/kaanozhan/Frame",
@@ -430,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 43,
     "tool_id": "4d80c7fa56353ddf",
     "name": "CodeAbra/iai-personal-memory-engine",
     "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
@@ -440,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "tool_id": "88a4bd0fbc51dfc1",
     "name": "nukeop/nuclear",
     "url": "https://github.com/nukeop/nuclear",
@@ -450,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "tool_id": "ebcf72ba8deff69d",
     "name": "yusufkaraaslan/Skill_Seekers",
     "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "21304ae14ee452ef",
     "name": "zhu1090093659/deepseek-pp",
     "url": "https://github.com/zhu1090093659/deepseek-pp",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "5d5f571565af6de5",
     "name": "yonatangross/orchestkit",
     "url": "https://github.com/yonatangross/orchestkit",
@@ -490,12 +480,22 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "6dcd3e7d589474e8",
     "name": "FerroxLabs/ijfw",
     "url": "https://github.com/FerroxLabs/ijfw",
     "category": "mcp_server",
     "letter": "B",
+    "score": 0.868,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "135d05766ff2c73c",
+    "name": "artokun/comfyui-mcp",
+    "url": "https://github.com/artokun/comfyui-mcp",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
