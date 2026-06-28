@@ -441,21 +441,21 @@
   },
   {
     "rank": 45,
-    "tool_id": "1df402384e96f685",
-    "name": "shirenchuang/agentbro",
-    "url": "https://github.com/shirenchuang/agentbro",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.868,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 46,
     "tool_id": "135d05766ff2c73c",
     "name": "artokun/comfyui-mcp",
     "url": "https://github.com/artokun/comfyui-mcp",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.868,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 46,
+    "tool_id": "1df402384e96f685",
+    "name": "shirenchuang/agentbro",
+    "url": "https://github.com/shirenchuang/agentbro",
+    "category": "mcp_server",
+    "letter": "B",
     "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
