@@ -411,16 +411,6 @@
   },
   {
     "rank": 42,
-    "tool_id": "4b1fe02ca53041a1",
-    "name": "kaanozhan/Frame",
-    "url": "https://github.com/kaanozhan/Frame",
-    "category": "claude_plugin",
-    "letter": "B",
-    "score": 0.872,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 43,
     "tool_id": "4d80c7fa56353ddf",
     "name": "CodeAbra/iai-personal-memory-engine",
     "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
@@ -428,6 +418,16 @@
     "letter": "A",
     "score": 0.872,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 43,
+    "tool_id": "4b1fe02ca53041a1",
+    "name": "kaanozhan/Frame",
+    "url": "https://github.com/kaanozhan/Frame",
+    "category": "claude_plugin",
+    "letter": "B",
+    "score": 0.872,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 44,
