@@ -121,16 +121,6 @@
   },
   {
     "rank": 13,
-    "tool_id": "6bb25462214ed79a",
-    "name": "alibaba/page-agent",
-    "url": "https://github.com/alibaba/page-agent",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.9,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 14,
     "tool_id": "7034b7c1cc85f5c6",
     "name": "udecode/plate",
     "url": "https://github.com/udecode/plate",
@@ -140,7 +130,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 15,
+    "rank": 14,
     "tool_id": "717ba51b47520225",
     "name": "HKUDS/Vibe-Trading",
     "url": "https://github.com/HKUDS/Vibe-Trading",
@@ -150,7 +140,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 16,
+    "rank": 15,
     "tool_id": "1ebd4cb431c81c4f",
     "name": "can1357/oh-my-pi",
     "url": "https://github.com/can1357/oh-my-pi",
@@ -160,7 +150,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 17,
+    "rank": 16,
     "tool_id": "9da21edc519e6070",
     "name": "esengine/DeepSeek-Reasonix",
     "url": "https://github.com/esengine/DeepSeek-Reasonix",
@@ -170,7 +160,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 18,
+    "rank": 17,
     "tool_id": "0417ecbbab9ba4a8",
     "name": "headroomlabs-ai/headroom",
     "url": "https://github.com/headroomlabs-ai/headroom",
@@ -180,7 +170,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 19,
+    "rank": 18,
     "tool_id": "faa30639e929042c",
     "name": "stablyai/orca",
     "url": "https://github.com/stablyai/orca",
@@ -190,7 +180,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 20,
+    "rank": 19,
     "tool_id": "cbe8707c045bbd86",
     "name": "AgentWrapper/agent-orchestrator",
     "url": "https://github.com/AgentWrapper/agent-orchestrator",
@@ -200,7 +190,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "tool_id": "0034d907fd694f2a",
     "name": "strands-agents/harness-sdk",
     "url": "https://github.com/strands-agents/harness-sdk",
@@ -210,7 +200,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 22,
+    "rank": 21,
     "tool_id": "54d5d00880b8a3cf",
     "name": "netease-youdao/LobsterAI",
     "url": "https://github.com/netease-youdao/LobsterAI",
@@ -220,7 +210,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 23,
+    "rank": 22,
     "tool_id": "918dda28e9b98040",
     "name": "evalstate/fast-agent",
     "url": "https://github.com/evalstate/fast-agent",
@@ -230,7 +220,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 24,
+    "rank": 23,
     "tool_id": "fbd1b812fbc71b2c",
     "name": "golutra/golutra",
     "url": "https://github.com/golutra/golutra",
@@ -240,7 +230,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 25,
+    "rank": 24,
     "tool_id": "5720873393b5d31a",
     "name": "TabularisDB/tabularis",
     "url": "https://github.com/TabularisDB/tabularis",
@@ -250,7 +240,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 26,
+    "rank": 25,
     "tool_id": "4b88c907cbb197eb",
     "name": "IvanMurzak/Unity-MCP",
     "url": "https://github.com/IvanMurzak/Unity-MCP",
@@ -260,7 +250,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 27,
+    "rank": 26,
     "tool_id": "94346b228662cd9b",
     "name": "yvgude/lean-ctx",
     "url": "https://github.com/yvgude/lean-ctx",
@@ -270,7 +260,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 28,
+    "rank": 27,
     "tool_id": "fdd10a9cf3bab09b",
     "name": "stickerdaniel/linkedin-mcp-server",
     "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
@@ -280,7 +270,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 29,
+    "rank": 28,
     "tool_id": "cc1dd61aa26f6e76",
     "name": "vitali87/code-graph-rag",
     "url": "https://github.com/vitali87/code-graph-rag",
@@ -290,11 +280,21 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 30,
+    "rank": 29,
     "tool_id": "22ad3907e6ec0a44",
     "name": "jamubc/gemini-mcp-tool",
     "url": "https://github.com/jamubc/gemini-mcp-tool",
     "category": "mcp_server",
+    "letter": "A",
+    "score": 0.888,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 30,
+    "tool_id": "c884b95657ebf9f9",
+    "name": "code-yeongyu/lazycodex",
+    "url": "https://github.com/code-yeongyu/lazycodex",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.888,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
@@ -421,9 +421,9 @@
   },
   {
     "rank": 43,
-    "tool_id": "d7f80c7abbd00b7c",
-    "name": "ruvnet/agent-harness-generator",
-    "url": "https://github.com/ruvnet/agent-harness-generator",
+    "tool_id": "0342507e15665c9d",
+    "name": "ruvnet/metaharness",
+    "url": "https://github.com/ruvnet/metaharness",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.873,
@@ -471,6 +471,16 @@
   },
   {
     "rank": 48,
+    "tool_id": "6bb25462214ed79a",
+    "name": "alibaba/page-agent",
+    "url": "https://github.com/alibaba/page-agent",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.87,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 49,
     "tool_id": "135d05766ff2c73c",
     "name": "artokun/comfyui-mcp",
     "url": "https://github.com/artokun/comfyui-mcp",
@@ -480,20 +490,10 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "1df402384e96f685",
     "name": "shirenchuang/agentbro",
     "url": "https://github.com/shirenchuang/agentbro",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.868,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "6dcd3e7d589474e8",
-    "name": "FerroxLabs/ijfw",
-    "url": "https://github.com/FerroxLabs/ijfw",
     "category": "mcp_server",
     "letter": "B",
     "score": 0.868,
