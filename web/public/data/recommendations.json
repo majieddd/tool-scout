@@ -301,6 +301,16 @@
   },
   {
     "rank": 31,
+    "tool_id": "5cc80a4dbdcb6c6d",
+    "name": "chrisryugj/korean-law-mcp",
+    "url": "https://github.com/chrisryugj/korean-law-mcp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.887,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 32,
     "tool_id": "1c45c4e037952195",
     "name": "can4hou6joeng4/boss-agent-cli",
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
@@ -310,7 +320,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 32,
+    "rank": 33,
     "tool_id": "9bd1cc8f39fe60cb",
     "name": "thClaws/thClaws",
     "url": "https://github.com/thClaws/thClaws",
@@ -320,7 +330,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 33,
+    "rank": 34,
     "tool_id": "21304ae14ee452ef",
     "name": "zhu1090093659/deepseek-pp",
     "url": "https://github.com/zhu1090093659/deepseek-pp",
@@ -330,7 +340,17 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 34,
+    "rank": 35,
+    "tool_id": "c871da3c7d25e2ee",
+    "name": "alvinunreal/openpets",
+    "url": "https://github.com/alvinunreal/openpets",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.881,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 36,
     "tool_id": "f0ca44cd13ca6284",
     "name": "ArcadeAI/arcade-mcp",
     "url": "https://github.com/ArcadeAI/arcade-mcp",
@@ -340,7 +360,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 35,
+    "rank": 37,
     "tool_id": "692584b98a342218",
     "name": "fujibee/agmsg",
     "url": "https://github.com/fujibee/agmsg",
@@ -350,7 +370,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 36,
+    "rank": 38,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
@@ -360,7 +380,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 37,
+    "rank": 39,
     "tool_id": "b8928f4757dbdcaf",
     "name": "jonigl/mcp-client-for-ollama",
     "url": "https://github.com/jonigl/mcp-client-for-ollama",
@@ -370,7 +390,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 38,
+    "rank": 40,
     "tool_id": "ae7704f2ba795f6c",
     "name": "freestylefly/wesight",
     "url": "https://github.com/freestylefly/wesight",
@@ -380,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 39,
+    "rank": 41,
     "tool_id": "8c6c34009e9ff201",
     "name": "Beever-AI/beever-atlas",
     "url": "https://github.com/Beever-AI/beever-atlas",
@@ -390,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 42,
     "tool_id": "ce9a10103852ca54",
     "name": "mnemon-dev/mnemon",
     "url": "https://github.com/mnemon-dev/mnemon",
@@ -400,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 41,
+    "rank": 43,
     "tool_id": "d7f80c7abbd00b7c",
     "name": "ruvnet/agent-harness-generator",
     "url": "https://github.com/ruvnet/agent-harness-generator",
@@ -410,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 44,
     "tool_id": "4d80c7fa56353ddf",
     "name": "CodeAbra/iai-personal-memory-engine",
     "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
@@ -420,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 43,
+    "rank": 45,
     "tool_id": "4b1fe02ca53041a1",
     "name": "kaanozhan/Frame",
     "url": "https://github.com/kaanozhan/Frame",
@@ -430,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 46,
     "tool_id": "ce9450c3e068e59c",
     "name": "microsoft/mcp-for-beginners",
     "url": "https://github.com/microsoft/mcp-for-beginners",
@@ -440,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 47,
     "tool_id": "ebcf72ba8deff69d",
     "name": "yusufkaraaslan/Skill_Seekers",
     "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
@@ -450,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 48,
     "tool_id": "135d05766ff2c73c",
     "name": "artokun/comfyui-mcp",
     "url": "https://github.com/artokun/comfyui-mcp",
@@ -460,7 +480,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 49,
     "tool_id": "1df402384e96f685",
     "name": "shirenchuang/agentbro",
     "url": "https://github.com/shirenchuang/agentbro",
@@ -470,33 +490,13 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
-    "tool_id": "5d5f571565af6de5",
-    "name": "yonatangross/orchestkit",
-    "url": "https://github.com/yonatangross/orchestkit",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.868,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 49,
-    "tool_id": "c3e1903477c43929",
-    "name": "olo-dot-io/Uni-CLI",
-    "url": "https://github.com/olo-dot-io/Uni-CLI",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.868,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
     "rank": 50,
-    "tool_id": "ae0c87d3427b27f7",
-    "name": "tanaikech/ggsrun",
-    "url": "https://github.com/tanaikech/ggsrun",
+    "tool_id": "6dcd3e7d589474e8",
+    "name": "FerroxLabs/ijfw",
+    "url": "https://github.com/FerroxLabs/ijfw",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.867,
+    "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
