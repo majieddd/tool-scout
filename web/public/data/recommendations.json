@@ -471,16 +471,6 @@
   },
   {
     "rank": 48,
-    "tool_id": "4b1fe02ca53041a1",
-    "name": "kaanozhan/Frame",
-    "url": "https://github.com/kaanozhan/Frame",
-    "category": "claude_plugin",
-    "letter": "B",
-    "score": 0.872,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 49,
     "tool_id": "135d05766ff2c73c",
     "name": "artokun/comfyui-mcp",
     "url": "https://github.com/artokun/comfyui-mcp",
@@ -490,12 +480,22 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "1df402384e96f685",
     "name": "shirenchuang/agentbro",
     "url": "https://github.com/shirenchuang/agentbro",
     "category": "mcp_server",
     "letter": "B",
+    "score": 0.868,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "5d5f571565af6de5",
+    "name": "yonatangross/orchestkit",
+    "url": "https://github.com/yonatangross/orchestkit",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
