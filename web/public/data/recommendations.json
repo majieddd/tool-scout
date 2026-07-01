@@ -311,20 +311,20 @@
   },
   {
     "rank": 32,
-    "tool_id": "cc1dd61aa26f6e76",
-    "name": "vitali87/code-graph-rag",
-    "url": "https://github.com/vitali87/code-graph-rag",
-    "category": "mcp_server",
+    "tool_id": "c884b95657ebf9f9",
+    "name": "code-yeongyu/lazycodex",
+    "url": "https://github.com/code-yeongyu/lazycodex",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.888,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 33,
-    "tool_id": "c884b95657ebf9f9",
-    "name": "code-yeongyu/lazycodex",
-    "url": "https://github.com/code-yeongyu/lazycodex",
-    "category": "claude_plugin",
+    "tool_id": "cc1dd61aa26f6e76",
+    "name": "vitali87/code-graph-rag",
+    "url": "https://github.com/vitali87/code-graph-rag",
+    "category": "mcp_server",
     "letter": "A",
     "score": 0.888,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
