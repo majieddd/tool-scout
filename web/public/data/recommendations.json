@@ -421,16 +421,6 @@
   },
   {
     "rank": 43,
-    "tool_id": "ce9a10103852ca54",
-    "name": "mnemon-dev/mnemon",
-    "url": "https://github.com/mnemon-dev/mnemon",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.873,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 44,
     "tool_id": "0342507e15665c9d",
     "name": "ruvnet/metaharness",
     "url": "https://github.com/ruvnet/metaharness",
@@ -438,6 +428,16 @@
     "letter": "A",
     "score": 0.873,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 44,
+    "tool_id": "ce9a10103852ca54",
+    "name": "mnemon-dev/mnemon",
+    "url": "https://github.com/mnemon-dev/mnemon",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.873,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 45,
