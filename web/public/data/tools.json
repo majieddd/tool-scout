@@ -9,9 +9,9 @@
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 195417,
+    "stars": 195424,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T16:28:28",
+    "last_updated": "2026-07-06T19:01:37",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -47,9 +47,9 @@
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 105803,
+    "stars": 105807,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T01:31:22",
+    "last_updated": "2026-07-06T18:10:58",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -85,7 +85,7 @@
     "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 60303,
+    "stars": 60304,
     "license": "GPL-3.0",
     "last_updated": "2026-07-04T12:24:35",
     "first_seen": "2026-05-02T20:26:38",
@@ -123,7 +123,7 @@
     "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 58664,
+    "stars": 58666,
     "license": "MIT",
     "last_updated": "2026-07-06T12:34:10",
     "first_seen": "2026-05-02T20:26:38",
@@ -159,7 +159,7 @@
     "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 68383,
+    "stars": 68397,
     "license": "BSD-3-Clause",
     "last_updated": "2026-07-06T10:00:22",
     "first_seen": "2026-05-02T20:26:38",
@@ -197,7 +197,7 @@
     "description": "Chrome DevTools for coding agents",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 46040,
+    "stars": 46056,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T15:02:41",
     "first_seen": "2026-05-02T20:26:38",
@@ -235,7 +235,7 @@
     "description": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 63262,
+    "stars": 63282,
     "license": "MIT",
     "last_updated": "2026-07-06T09:19:10",
     "first_seen": "2026-05-02T20:26:38",
@@ -273,7 +273,7 @@
     "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 37731,
+    "stars": 37732,
     "license": "Apache-2.0",
     "last_updated": "2026-07-01T03:03:19",
     "first_seen": "2026-05-02T20:26:38",
@@ -311,9 +311,9 @@
     "description": "GitHub's official MCP Server",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 31244,
+    "stars": 31248,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:25:01",
+    "last_updated": "2026-07-06T18:24:31",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -346,7 +346,7 @@
     "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 28112,
+    "stars": 28113,
     "license": "Apache-2.0",
     "last_updated": "2026-07-05T14:51:31",
     "first_seen": "2026-05-02T20:26:38",
@@ -422,9 +422,9 @@
     "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 23145,
+    "stars": 23147,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T16:16:16",
+    "last_updated": "2026-07-06T17:49:05",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -460,7 +460,7 @@
     "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 21924,
+    "stars": 21929,
     "license": "GPL-3.0",
     "last_updated": "2026-07-06T09:56:47",
     "first_seen": "2026-05-02T20:26:38",
@@ -498,7 +498,7 @@
     "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 22168,
+    "stars": 22170,
     "license": "MIT",
     "last_updated": "2026-07-06T10:49:35",
     "first_seen": "2026-05-02T20:26:38",
@@ -570,7 +570,7 @@
     "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
     "readme_excerpt": null,
     "language": "Jupyter Notebook",
-    "stars": 16690,
+    "stars": 16694,
     "license": "MIT",
     "last_updated": "2026-07-03T13:21:30",
     "first_seen": "2026-05-02T20:26:38",
@@ -608,9 +608,9 @@
     "description": "Trigger.dev – build and deploy fully‑managed AI agents and workflows",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 15588,
+    "stars": 15589,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T15:50:05",
+    "last_updated": "2026-07-06T18:34:34",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -646,9 +646,9 @@
     "description": "The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context and business semantics for humans, AI assistants, and agents.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 14406,
+    "stars": 14410,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T16:25:25",
+    "last_updated": "2026-07-06T19:02:22",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -684,7 +684,7 @@
     "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 14378,
+    "stars": 14380,
     "license": "MIT",
     "last_updated": "2026-07-02T21:50:59",
     "first_seen": "2026-05-02T20:26:38",
@@ -722,7 +722,7 @@
     "description": "MCP for xiaohongshu.com",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 14546,
+    "stars": 14547,
     "license": null,
     "last_updated": "2026-07-06T03:04:08",
     "first_seen": "2026-05-02T20:26:38",
@@ -755,7 +755,7 @@
     "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 18642,
+    "stars": 18643,
     "license": "NOASSERTION",
     "last_updated": "2026-07-06T07:28:01",
     "first_seen": "2026-05-02T20:26:38",
@@ -869,7 +869,7 @@
     "description": "小红书（XiaoHongShu、RedNote）链接提取/作品采集工具：提取账号发布、收藏、点赞、专辑作品链接；提取搜索结果作品、用户链接；采集小红书作品信息；提取小红书作品下载地址；下载小红书作品文件",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 11843,
+    "stars": 11845,
     "license": "GPL-3.0",
     "last_updated": "2026-06-29T00:55:57",
     "first_seen": "2026-05-02T20:26:38",
@@ -907,9 +907,9 @@
     "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 10258,
+    "stars": 10260,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:22:43",
+    "last_updated": "2026-07-06T18:54:54",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -1059,7 +1059,7 @@
     "description": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 9924,
+    "stars": 9928,
     "license": "MIT",
     "last_updated": "2026-06-22T12:50:18",
     "first_seen": "2026-05-02T20:26:38",
@@ -1097,7 +1097,7 @@
     "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 13058,
+    "stars": 13060,
     "license": "MIT",
     "last_updated": "2026-07-06T15:19:30",
     "first_seen": "2026-05-02T20:26:38",
@@ -1246,7 +1246,7 @@
     "description": "Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 6773,
+    "stars": 6774,
     "license": "Apache-2.0",
     "last_updated": "2025-04-24T21:49:44",
     "first_seen": "2026-05-02T20:26:38",
@@ -1358,7 +1358,7 @@
     "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 6036,
+    "stars": 6037,
     "license": "MIT",
     "last_updated": "2026-07-06T07:35:38",
     "first_seen": "2026-05-02T20:26:38",
@@ -1395,9 +1395,9 @@
     "description": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.",
     "readme_excerpt": null,
     "language": "Swift",
-    "stars": 6810,
+    "stars": 6820,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:06:26",
+    "last_updated": "2026-07-06T18:56:02",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -1509,9 +1509,9 @@
     "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 6292,
+    "stars": 6293,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T16:22:22",
+    "last_updated": "2026-07-06T18:56:18",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -1547,7 +1547,7 @@
     "description": "Exa MCP for web search and web crawling!",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 4672,
+    "stars": 4673,
     "license": "MIT",
     "last_updated": "2026-07-02T21:56:17",
     "first_seen": "2026-05-02T20:26:38",
@@ -1641,10 +1641,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.71,
+      "total": 12.7,
       "axes": {
         "R": 1.5,
-        "Q": 2.21,
+        "Q": 2.2,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -1808,9 +1808,9 @@
     "description": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk",
     "readme_excerpt": null,
     "language": "C++",
-    "stars": 4772,
+    "stars": 4780,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T15:30:19",
+    "last_updated": "2026-07-06T18:21:57",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -1922,9 +1922,9 @@
     "description": "Enterprise AI Platform with guardrails, MCP registry, gateway & orchestrator",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 3933,
+    "stars": 3934,
     "license": "AGPL-3.0",
-    "last_updated": "2026-07-06T16:11:05",
+    "last_updated": "2026-07-06T18:47:54",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -2033,7 +2033,7 @@
     "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 3148,
+    "stars": 3149,
     "license": "MIT",
     "last_updated": "2026-07-06T08:24:55",
     "first_seen": "2026-05-02T20:26:39",
@@ -2147,7 +2147,7 @@
     "description": "A Model Context Protocol server for searching and analyzing arXiv papers",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 2937,
+    "stars": 2938,
     "license": "Apache-2.0",
     "last_updated": "2026-05-18T18:00:11",
     "first_seen": "2026-05-02T20:26:39",
@@ -2299,7 +2299,7 @@
     "description": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
     "readme_excerpt": null,
     "language": "C#",
-    "stars": 3454,
+    "stars": 3455,
     "license": "Apache-2.0",
     "last_updated": "2026-07-04T22:06:04",
     "first_seen": "2026-05-02T20:26:39",
@@ -2337,7 +2337,7 @@
     "description": "A bridge between Streamable HTTP and stdio MCP transports",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 2649,
+    "stars": 2650,
     "license": "MIT",
     "last_updated": "2026-06-08T21:06:12",
     "first_seen": "2026-05-02T20:26:39",
@@ -2448,7 +2448,7 @@
     "description": "TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 3411,
+    "stars": 3413,
     "license": "MIT",
     "last_updated": "2026-06-28T23:19:58",
     "first_seen": "2026-05-02T20:26:39",
@@ -2486,7 +2486,7 @@
     "description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 2794,
+    "stars": 2795,
     "license": "MIT",
     "last_updated": "2026-06-22T00:45:14",
     "first_seen": "2026-05-02T20:26:39",
@@ -2524,7 +2524,7 @@
     "description": "Google Flights MCP, CLI and Python Library",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 2983,
+    "stars": 2985,
     "license": "MIT",
     "last_updated": "2026-06-29T19:23:57",
     "first_seen": "2026-05-02T20:26:39",
@@ -2675,7 +2675,7 @@
     "language": "TypeScript",
     "stars": 2245,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T15:55:47",
+    "last_updated": "2026-07-06T18:55:49",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -2746,7 +2746,7 @@
     "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
     "readme_excerpt": null,
     "language": "C",
-    "stars": 27225,
+    "stars": 27280,
     "license": "MIT",
     "last_updated": "2026-07-06T09:25:19",
     "first_seen": "2026-05-02T20:26:39",
@@ -2840,10 +2840,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.96,
+      "total": 12.95,
       "axes": {
         "R": 1.5,
-        "Q": 2.46,
+        "Q": 2.45,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -3192,7 +3192,7 @@
     "description": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 1781,
+    "stars": 1782,
     "license": "Apache-2.0",
     "last_updated": "2026-06-26T19:47:09",
     "first_seen": "2026-05-02T20:26:39",
@@ -3324,10 +3324,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.07,
+      "total": 13.06,
       "axes": {
         "R": 1.5,
-        "Q": 2.57,
+        "Q": 2.56,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -3415,9 +3415,9 @@
     "description": "The agent that grows with you",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 210210,
+    "stars": 210269,
     "license": "MIT",
-    "last_updated": "2026-07-06T13:03:51",
+    "last_updated": "2026-07-06T18:52:20",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -3453,7 +3453,7 @@
     "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 101581,
+    "stars": 101627,
     "license": "MIT",
     "last_updated": "2026-07-06T15:33:37",
     "first_seen": "2026-05-02T20:26:39",
@@ -3491,7 +3491,7 @@
     "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 86133,
+    "stars": 86144,
     "license": "NOASSERTION",
     "last_updated": "2026-07-05T22:47:21",
     "first_seen": "2026-05-02T20:26:39",
@@ -3529,7 +3529,7 @@
     "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 64683,
+    "stars": 64686,
     "license": "MIT",
     "last_updated": "2026-05-31T17:46:54",
     "first_seen": "2026-05-02T20:26:39",
@@ -3564,7 +3564,7 @@
     "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 70057,
+    "stars": 70066,
     "license": "MIT",
     "last_updated": "2026-06-26T19:36:35",
     "first_seen": "2026-05-02T20:26:39",
@@ -3602,7 +3602,7 @@
     "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 113903,
+    "stars": 113916,
     "license": "MIT",
     "last_updated": "2026-07-06T01:11:56",
     "first_seen": "2026-05-02T20:26:39",
@@ -3640,7 +3640,7 @@
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 66978,
+    "stars": 66989,
     "license": null,
     "last_updated": "2026-05-22T03:17:49",
     "first_seen": "2026-05-02T20:26:39",
@@ -3716,7 +3716,7 @@
     "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 85555,
+    "stars": 85614,
     "license": "MIT",
     "last_updated": "2026-07-03T11:10:42",
     "first_seen": "2026-05-02T20:26:39",
@@ -3754,9 +3754,9 @@
     "description": "from vibe coding to agentic engineering - practice makes claude perfect",
     "readme_excerpt": null,
     "language": "HTML",
-    "stars": 62097,
+    "stars": 62103,
     "license": "MIT",
-    "last_updated": "2026-07-06T06:37:38",
+    "last_updated": "2026-07-06T18:28:56",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -3830,9 +3830,9 @@
     "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 48225,
+    "stars": 48227,
     "license": "AGPL-3.0",
-    "last_updated": "2026-07-06T16:24:01",
+    "last_updated": "2026-07-06T18:34:45",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -3868,9 +3868,9 @@
     "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 48690,
+    "stars": 48703,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T16:08:53",
+    "last_updated": "2026-07-06T18:40:20",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -3903,24 +3903,24 @@
     "source": "github",
     "category": "claude_plugin",
     "subcategory": "general",
-    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 58810,
+    "stars": 58824,
     "license": "MIT",
-    "last_updated": "2026-07-06T12:56:15",
+    "last_updated": "2026-07-06T18:34:46",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
     "tags": [
+      "ai",
       "ai-agent",
       "anthropic",
+      "ats",
       "automation",
       "awesome",
       "awesome-ai-agents",
-      "beginner-friendly",
-      "career",
-      "careerops"
+      "beginner-friendly"
     ],
     "grade": {
       "letter": "B",
@@ -3944,9 +3944,9 @@
     "description": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 45069,
+    "stars": 45073,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:16:17",
+    "last_updated": "2026-07-06T16:41:13",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -4020,9 +4020,9 @@
     "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 68903,
+    "stars": 68927,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T15:52:28",
+    "last_updated": "2026-07-06T19:02:37",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -4058,7 +4058,7 @@
     "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 51039,
+    "stars": 51215,
     "license": "MIT",
     "last_updated": "2026-07-06T07:18:17",
     "first_seen": "2026-05-02T20:26:39",
@@ -4096,7 +4096,7 @@
     "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 42453,
+    "stars": 42469,
     "license": "MIT",
     "last_updated": "2026-07-06T08:34:09",
     "first_seen": "2026-05-02T20:26:39",
@@ -4134,7 +4134,7 @@
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 37582,
+    "stars": 37585,
     "license": "MIT",
     "last_updated": "2026-07-06T01:08:16",
     "first_seen": "2026-05-02T20:26:39",
@@ -4172,7 +4172,7 @@
     "description": "Teams-first Multi-agent orchestration for Claude Code",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 37470,
+    "stars": 37473,
     "license": "MIT",
     "last_updated": "2026-07-06T09:29:43",
     "first_seen": "2026-05-02T20:26:39",
@@ -4210,7 +4210,7 @@
     "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 39327,
+    "stars": 39330,
     "license": "MIT",
     "last_updated": "2026-07-01T05:59:06",
     "first_seen": "2026-05-02T20:26:39",
@@ -4246,9 +4246,9 @@
     "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.5, Grok 4.3, Claude model through API",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 39354,
+    "stars": 39363,
     "license": "MIT",
-    "last_updated": "2026-07-06T08:18:41",
+    "last_updated": "2026-07-06T18:40:46",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -4319,9 +4319,9 @@
     "description": "Production-grade engineering skills for AI coding agents.",
     "readme_excerpt": null,
     "language": "Shell",
-    "stars": 70499,
+    "stars": 70595,
     "license": "MIT",
-    "last_updated": "2026-07-04T06:57:31",
+    "last_updated": "2026-07-06T18:36:30",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -4356,7 +4356,7 @@
     "description": "CLI tool for configuring and monitoring Claude Code",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 28476,
+    "stars": 28477,
     "license": "MIT",
     "last_updated": "2026-07-06T14:11:54",
     "first_seen": "2026-05-02T20:26:39",
@@ -4391,9 +4391,9 @@
     "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 49593,
+    "stars": 49643,
     "license": "MIT",
-    "last_updated": "2026-07-05T22:13:17",
+    "last_updated": "2026-07-06T17:44:04",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -4429,7 +4429,7 @@
     "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 29351,
+    "stars": 29359,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T12:42:47",
     "first_seen": "2026-05-02T20:26:39",
@@ -4467,9 +4467,9 @@
     "description": "Beads - A memory upgrade for your coding agent",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 25113,
+    "stars": 25118,
     "license": "MIT",
-    "last_updated": "2026-07-06T08:30:51",
+    "last_updated": "2026-07-06T18:20:51",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -4539,7 +4539,7 @@
     "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 26190,
+    "stars": 26191,
     "license": "MIT",
     "last_updated": "2026-07-04T21:32:33",
     "first_seen": "2026-05-02T20:26:39",
@@ -4577,7 +4577,7 @@
     "description": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Works with Claude Code, Codex CLI, Cursor, Kiro, OpenCode and 60+ agents via the SKILL.md standard.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 24902,
+    "stars": 24911,
     "license": "MIT",
     "last_updated": "2026-07-06T05:19:57",
     "first_seen": "2026-05-02T20:26:39",
@@ -4615,7 +4615,7 @@
     "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
     "readme_excerpt": null,
     "language": null,
-    "stars": 27448,
+    "stars": 27452,
     "license": "MIT",
     "last_updated": "2026-06-30T10:58:35",
     "first_seen": "2026-05-02T20:26:39",
@@ -4690,7 +4690,7 @@
     "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 51886,
+    "stars": 51947,
     "license": "MIT",
     "last_updated": "2026-07-03T06:57:59",
     "first_seen": "2026-05-02T20:26:39",
@@ -4728,9 +4728,9 @@
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 31657,
+    "stars": 31664,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T16:12:24",
+    "last_updated": "2026-07-06T18:16:48",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -4764,9 +4764,9 @@
     "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 30486,
+    "stars": 30495,
     "license": "LGPL-3.0",
-    "last_updated": "2026-07-06T12:47:33",
+    "last_updated": "2026-07-06T17:24:29",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -4802,7 +4802,7 @@
     "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
     "readme_excerpt": null,
     "language": "Shell",
-    "stars": 22663,
+    "stars": 22666,
     "license": "MIT",
     "last_updated": "2026-05-21T23:33:07",
     "first_seen": "2026-05-02T20:26:39",
@@ -4840,7 +4840,7 @@
     "description": "Create beautiful slides on the web using a coding agent's frontend skills",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 24710,
+    "stars": 24714,
     "license": "MIT",
     "last_updated": "2026-06-23T20:08:19",
     "first_seen": "2026-05-02T20:26:39",
@@ -4878,9 +4878,9 @@
     "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
     "readme_excerpt": null,
     "language": "Swift",
-    "stars": 23734,
+    "stars": 23752,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T15:11:19",
+    "last_updated": "2026-07-06T19:00:59",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -4916,7 +4916,7 @@
     "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 19233,
+    "stars": 19236,
     "license": "MIT",
     "last_updated": "2026-06-14T17:20:41",
     "first_seen": "2026-05-02T20:26:39",
@@ -4954,7 +4954,7 @@
     "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 58600,
+    "stars": 58720,
     "license": "MIT",
     "last_updated": "2026-07-04T22:02:55",
     "first_seen": "2026-05-02T20:26:39",
@@ -4992,7 +4992,7 @@
     "description": "Clone any website with one command using AI coding agents",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 26138,
+    "stars": 26172,
     "license": "MIT",
     "last_updated": "2026-07-04T06:49:18",
     "first_seen": "2026-05-02T20:26:39",
@@ -5027,12 +5027,12 @@
     "source": "github",
     "category": "skill",
     "subcategory": "general",
-    "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+    "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 21017,
+    "stars": 21058,
     "license": "MIT",
-    "last_updated": "2026-07-06T07:10:24",
+    "last_updated": "2026-07-06T19:02:05",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -5070,7 +5070,7 @@
     "language": "TypeScript",
     "stars": 15124,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T15:44:10",
+    "last_updated": "2026-07-06T17:40:04",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -5106,7 +5106,7 @@
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
     "readme_excerpt": null,
     "language": null,
-    "stars": 13981,
+    "stars": 13984,
     "license": null,
     "last_updated": "2026-04-28T19:30:24",
     "first_seen": "2026-05-02T20:26:39",
@@ -5144,9 +5144,9 @@
     "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
     "readme_excerpt": null,
     "language": "Swift",
-    "stars": 16640,
+    "stars": 16666,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:18:58",
+    "last_updated": "2026-07-06T18:29:45",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -5179,7 +5179,7 @@
     "description": "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 12298,
+    "stars": 12299,
     "license": "MIT",
     "last_updated": "2026-07-06T09:12:39",
     "first_seen": "2026-05-02T20:26:39",
@@ -5369,9 +5369,9 @@
     "description": "Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 12430,
+    "stars": 12432,
     "license": "AGPL-3.0",
-    "last_updated": "2026-07-06T14:03:33",
+    "last_updated": "2026-07-06T18:37:41",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -5409,7 +5409,7 @@
     "language": "TypeScript",
     "stars": 12283,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T10:40:06",
+    "last_updated": "2026-07-06T18:57:03",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -5445,7 +5445,7 @@
     "description": "An Obsidian plugin that embeds Claude Code/Codex as an AI collaborator in your vault",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 13692,
+    "stars": 13696,
     "license": "MIT",
     "last_updated": "2026-07-06T01:09:56",
     "first_seen": "2026-05-02T20:26:39",
@@ -5482,7 +5482,7 @@
     "description": "All parts of Claude Code's system prompt, 27 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 11619,
+    "stars": 11620,
     "license": "MIT",
     "last_updated": "2026-07-03T20:53:35",
     "first_seen": "2026-05-02T20:26:39",
@@ -5516,7 +5516,7 @@
     "description": "🎭 266 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 50 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。",
     "readme_excerpt": null,
     "language": "Shell",
-    "stars": 16720,
+    "stars": 16728,
     "license": "MIT",
     "last_updated": "2026-07-06T07:40:10",
     "first_seen": "2026-05-02T20:26:39",
@@ -5554,7 +5554,7 @@
     "description": "🐚 Python-powered shell. Full-featured, cross-platform and AI-friendly.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 9541,
+    "stars": 9542,
     "license": "NOASSERTION",
     "last_updated": "2026-07-06T10:06:08",
     "first_seen": "2026-05-02T20:26:39",
@@ -5630,7 +5630,7 @@
     "description": "66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 10436,
+    "stars": 10437,
     "license": "MIT",
     "last_updated": "2026-05-20T13:35:05",
     "first_seen": "2026-05-02T20:26:39",
@@ -5666,7 +5666,7 @@
     "description": "🚀 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 11505,
+    "stars": 11508,
     "license": "MIT",
     "last_updated": "2026-07-06T08:45:21",
     "first_seen": "2026-05-02T20:26:39",
@@ -5741,7 +5741,7 @@
     "description": "40+ tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script and Claude Code running itself in a container. Also includes the dx plugin: skills for everyday dev workflows.",
     "readme_excerpt": null,
     "language": "HTML",
-    "stars": 9022,
+    "stars": 9026,
     "license": "NOASSERTION",
     "last_updated": "2026-07-06T03:03:59",
     "first_seen": "2026-05-02T20:26:39",
@@ -5779,7 +5779,7 @@
     "description": "Real-time Claude Code usage monitor with predictions and warnings",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 8383,
+    "stars": 8384,
     "license": "MIT",
     "last_updated": "2026-07-05T04:52:21",
     "first_seen": "2026-05-02T20:26:39",
@@ -5817,7 +5817,7 @@
     "description": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
     "readme_excerpt": null,
     "language": "TeX",
-    "stars": 10427,
+    "stars": 10430,
     "license": "MIT",
     "last_updated": "2026-06-16T01:36:46",
     "first_seen": "2026-05-02T20:26:39",
@@ -5983,11 +5983,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.92,
+      "total": 14.92,
       "axes": {
         "R": 1.0,
         "Q": 2.92,
-        "N": 3.0,
+        "N": 2.0,
         "I": 5.0,
         "F": 4.0
       }
@@ -6041,7 +6041,7 @@
     "description": "HN story (points=5)",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 24739,
+    "stars": 24758,
     "license": "Apache-2.0",
     "last_updated": "2026-06-24T04:07:19",
     "first_seen": "2026-05-02T20:26:39",
@@ -6079,7 +6079,7 @@
     "description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 10614,
+    "stars": 10623,
     "license": "MIT",
     "last_updated": "2026-06-22T06:08:48",
     "first_seen": "2026-05-02T20:26:39",
@@ -6155,9 +6155,9 @@
     "description": "Orchestrate multiple coding agents from desktop and mobile",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 9832,
+    "stars": 9834,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T16:24:24",
+    "last_updated": "2026-07-06T17:04:06",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -6193,7 +6193,7 @@
     "description": "Free, local tool to track AI coding token usage and cost across 31 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 8477,
+    "stars": 8480,
     "license": "MIT",
     "last_updated": "2026-07-06T01:25:38",
     "first_seen": "2026-05-02T20:26:39",
@@ -6762,7 +6762,7 @@
     "description": "Find the ghost tokens. Fix them. Survive compaction. Avoid context quality decay. ",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 1557,
+    "stars": 1558,
     "license": "NOASSERTION",
     "last_updated": "2026-07-05T21:33:41",
     "first_seen": "2026-05-02T20:26:39",
@@ -7058,7 +7058,7 @@
     "description": "197 bioinformatics & life science skills for Claude Code and AI agents — BixBench 92.0% accuracy. RNA-seq, single-cell, drug discovery, proteomics, and more. Powers OmicsHorizon.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 225,
+    "stars": 226,
     "license": "NOASSERTION",
     "last_updated": "2026-06-15T12:06:16",
     "first_seen": "2026-05-02T20:26:39",
@@ -7263,10 +7263,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.54,
+      "total": 12.53,
       "axes": {
         "R": 1.0,
-        "Q": 2.04,
+        "Q": 2.03,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -7735,7 +7735,7 @@
     "description": "An AI hacker for Web3 Smart Contract. for bug bounties, Audit contest, offensive security research, and real-world exploit thinking.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 51,
+    "stars": 52,
     "license": "NOASSERTION",
     "last_updated": "2026-02-23T05:08:52",
     "first_seen": "2026-05-02T20:26:39",
@@ -8147,7 +8147,7 @@
     "description": "AI-powered job application assistant for Claude Code - fills LinkedIn, Greenhouse, Ashby, and Workday applications",
     "readme_excerpt": null,
     "language": "HTML",
-    "stars": 49,
+    "stars": 50,
     "license": "MIT",
     "last_updated": "2026-05-03T23:38:48",
     "first_seen": "2026-05-02T20:26:39",
@@ -8163,10 +8163,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.51,
+      "total": 12.52,
       "axes": {
         "R": 1.0,
-        "Q": 2.01,
+        "Q": 2.02,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -8185,7 +8185,7 @@
     "language": "Rust",
     "stars": 25,
     "license": "MIT",
-    "last_updated": "2026-06-29T18:10:37",
+    "last_updated": "2026-07-06T18:09:59",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -8201,11 +8201,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.36,
+      "total": 17.36,
       "axes": {
         "R": 2.83,
         "Q": 2.03,
-        "N": 4.0,
+        "N": 5.0,
         "I": 4.5,
         "F": 3.0
       }
@@ -8312,7 +8312,7 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.65,
+      "total": 13.64,
       "axes": {
         "R": 1.0,
         "Q": 1.65,
@@ -8946,10 +8946,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.6,
+      "total": 12.59,
       "axes": {
         "R": 1.5,
-        "Q": 1.6,
+        "Q": 1.59,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -9729,10 +9729,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.16,
+      "total": 12.15,
       "axes": {
         "R": 1.0,
-        "Q": 1.66,
+        "Q": 1.65,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -9986,10 +9986,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.13,
+      "total": 14.12,
       "axes": {
         "R": 1.5,
-        "Q": 1.63,
+        "Q": 1.62,
         "N": 2.0,
         "I": 5.0,
         "F": 4.0
@@ -10214,10 +10214,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.96,
+      "total": 13.95,
       "axes": {
         "R": 0.5,
-        "Q": 2.46,
+        "Q": 2.45,
         "N": 2.0,
         "I": 4.5,
         "F": 4.5
@@ -10234,7 +10234,7 @@
     "description": "Shell and coding agent on mcp clients",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 665,
+    "stars": 666,
     "license": "Apache-2.0",
     "last_updated": "2026-04-29T06:34:32",
     "first_seen": "2026-05-02T20:26:40",
@@ -10403,10 +10403,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.57,
+      "total": 13.56,
       "axes": {
         "R": 1.0,
-        "Q": 2.07,
+        "Q": 2.06,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -11389,10 +11389,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.18,
+      "total": 10.17,
       "axes": {
         "R": 0.0,
-        "Q": 1.18,
+        "Q": 1.17,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -12365,7 +12365,7 @@
       "total": 14.01,
       "axes": {
         "R": 1.5,
-        "Q": 2.01,
+        "Q": 2.0,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -25007,10 +25007,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.86,
+      "total": 10.85,
       "axes": {
         "R": 1.5,
-        "Q": 0.36,
+        "Q": 0.35,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -25045,7 +25045,7 @@
       "total": 11.57,
       "axes": {
         "R": 1.67,
-        "Q": 0.91,
+        "Q": 0.9,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -25625,7 +25625,7 @@
       "total": 11.67,
       "axes": {
         "R": 1.67,
-        "Q": 1.01,
+        "Q": 1.0,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -25806,10 +25806,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.59,
+      "total": 11.58,
       "axes": {
         "R": 1.5,
-        "Q": 1.09,
+        "Q": 1.08,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -27075,10 +27075,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.36,
+      "total": 5.35,
       "axes": {
         "R": 0.0,
-        "Q": 0.86,
+        "Q": 0.85,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -28089,10 +28089,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.61,
+      "total": 11.6,
       "axes": {
         "R": 1.5,
-        "Q": 1.11,
+        "Q": 1.1,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -30757,7 +30757,7 @@
     "language": "Go",
     "stars": 276,
     "license": "MIT",
-    "last_updated": "2026-07-03T19:40:33",
+    "last_updated": "2026-07-06T18:13:54",
     "first_seen": "2026-05-03T05:49:53",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -34941,7 +34941,7 @@
     "description": "Playwright MCP server",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 34772,
+    "stars": 34778,
     "license": "Apache-2.0",
     "last_updated": "2026-06-29T23:06:50",
     "first_seen": "2026-05-03T05:49:53",
@@ -38838,9 +38838,9 @@
     "description": "Audit-grade multi-agent orchestration for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more). HMAC-chained audit log, signed agent cards, per-artefact lineage, air-gap deploy. The orchestrator your compliance team will sign off on. https://bernstein.run",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 639,
+    "stars": 640,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T16:15:03",
+    "last_updated": "2026-07-06T19:04:06",
     "first_seen": "2026-05-03T05:49:53",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -52182,7 +52182,7 @@
     "description": "MCP server that orchestrates language servers into agent-native workflows. 65 tools, 30 CI-verified languages.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 71,
+    "stars": 72,
     "license": "MIT",
     "last_updated": "2026-06-30T02:45:40",
     "first_seen": "2026-05-03T05:49:54",
@@ -53579,10 +53579,10 @@
       "cursor"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.6,
+      "letter": "C",
+      "total": 13.1,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.1,
         "N": 2.0,
         "I": 4.5,
@@ -80988,9 +80988,9 @@
     "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 79512,
+    "stars": 79515,
     "license": "GPL-3.0",
-    "last_updated": "2026-07-06T12:58:14",
+    "last_updated": "2026-07-06T18:00:14",
     "first_seen": "2026-05-03T05:49:55",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -85094,11 +85094,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.6,
+      "total": 14.6,
       "axes": {
         "R": 1.5,
         "Q": 2.6,
-        "N": 3.0,
+        "N": 2.0,
         "I": 4.5,
         "F": 4.0
       }
@@ -100869,10 +100869,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.76,
+      "total": 12.75,
       "axes": {
         "R": 0.0,
-        "Q": 2.26,
+        "Q": 2.25,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -103583,7 +103583,7 @@
     "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
     "readme_excerpt": null,
     "language": "HTML",
-    "stars": 19408,
+    "stars": 19410,
     "license": "MIT",
     "last_updated": "2026-07-06T15:58:32",
     "first_seen": "2026-05-03T05:49:56",
@@ -105169,7 +105169,7 @@
     "description": "HN story (points=442)",
     "readme_excerpt": "Hi HN, we’re Sam, Shane, and Abhi, and we’re building Mastra (<a href=\"https:&#x2F;&#x2F;mastra.ai\">https:&#x2F;&#x2F;mastra.ai</a>), an open-source JavaScript SDK for building agents on top of Vercel’s AI SDK.<p>You can start a Mastra project with `npm create mastra` and create workflow graphs that can suspend&#x2F;resume, build a RAG pipeline and write evals, give agents memory, create multi-agent workflows, and view it all in a local playground.<p>Previously, we built Gatsby, the open-source React web framework. Later, we worked on an AI-powered CRM but it felt like we were having to roll all the AI bits (agentic workflows, evals, RAG) ourselves. We also noticed our friends building AI applications suffering from long iteration cycles: they were getting stuck debugging prompts, figuring…",
     "language": "TypeScript",
-    "stars": 25866,
+    "stars": 25870,
     "license": "NOASSERTION",
     "last_updated": "2025-02-19T15:25:08",
     "first_seen": "2026-05-03T05:49:56",
@@ -112972,10 +112972,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.14,
+      "total": 5.13,
       "axes": {
         "R": 0.0,
-        "Q": 0.64,
+        "Q": 0.63,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -113135,10 +113135,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.17,
+      "total": 6.16,
       "axes": {
         "R": 0.0,
-        "Q": 1.67,
+        "Q": 1.66,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -113231,10 +113231,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.07,
+      "total": 5.06,
       "axes": {
         "R": 0.0,
-        "Q": 0.57,
+        "Q": 0.56,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -113683,7 +113683,7 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.33,
+      "total": 5.32,
       "axes": {
         "R": 0.0,
         "Q": 0.82,
@@ -114003,10 +114003,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.56,
+      "total": 5.55,
       "axes": {
         "R": 0.0,
-        "Q": 1.06,
+        "Q": 1.05,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -114087,7 +114087,7 @@
     "description": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 7144,
+    "stars": 7146,
     "license": "MIT",
     "last_updated": "2026-06-28T22:04:03",
     "first_seen": "2026-05-03T16:53:10",
@@ -114616,7 +114616,7 @@
     "language": null,
     "stars": 5,
     "license": "MIT",
-    "last_updated": "2026-07-06T15:49:41",
+    "last_updated": "2026-07-06T19:02:49",
     "first_seen": "2026-05-03T16:53:11",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -114821,7 +114821,7 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.87,
+      "total": 11.86,
       "axes": {
         "R": 1.5,
         "Q": 1.36,
@@ -115447,7 +115447,7 @@
     "language": "TypeScript",
     "stars": 0,
     "license": "AGPL-3.0",
-    "last_updated": "2026-07-06T15:14:49",
+    "last_updated": "2026-07-06T18:29:26",
     "first_seen": "2026-05-03T16:53:11",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -115558,9 +115558,9 @@
     "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 25994,
+    "stars": 25999,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T16:06:46",
+    "last_updated": "2026-07-06T18:55:27",
     "first_seen": "2026-05-03T16:53:11",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -115596,7 +115596,7 @@
     "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
     "readme_excerpt": null,
     "language": "C#",
-    "stars": 12149,
+    "stars": 12152,
     "license": "MIT",
     "last_updated": "2026-07-06T05:24:31",
     "first_seen": "2026-05-03T16:53:11",
@@ -115634,7 +115634,7 @@
     "description": "Build effective agents using Model Context Protocol and simple workflow patterns",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 8407,
+    "stars": 8408,
     "license": "Apache-2.0",
     "last_updated": "2026-01-25T16:35:16",
     "first_seen": "2026-05-03T16:53:11",
@@ -115710,7 +115710,7 @@
     "description": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 6875,
+    "stars": 6877,
     "license": "MIT",
     "last_updated": "2026-04-29T11:05:19",
     "first_seen": "2026-05-03T16:53:11",
@@ -115898,7 +115898,7 @@
     "description": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool calling, and supports plugins.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 4038,
+    "stars": 4040,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T16:15:27",
     "first_seen": "2026-05-03T16:53:11",
@@ -116014,7 +116014,7 @@
     "language": "Go",
     "stars": 1928,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T15:02:10",
+    "last_updated": "2026-07-06T18:48:35",
     "first_seen": "2026-05-03T16:53:11",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -116050,9 +116050,9 @@
     "description": "How real engineers run Claude Code and Codex: spec-driven planning, enforced TDD, persistent memory, and quality enforcement on all levels. Make your agents production-ready.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 1777,
+    "stars": 1778,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-03T09:36:48",
+    "last_updated": "2026-07-06T16:44:08",
     "first_seen": "2026-05-03T16:53:11",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -116353,7 +116353,7 @@
     "description": "A Model Context Protocol (MCP) server implementation for remote memory bank management, inspired by Cline Memory Bank.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 912,
+    "stars": 913,
     "license": "MIT",
     "last_updated": "2025-08-20T10:23:06",
     "first_seen": "2026-05-03T16:53:11",
@@ -116915,7 +116915,7 @@
     "description": "The only browser automation that bypasses anti-bot systems. AI writes network hooks, clones UIs pixel-perfect via simple chat.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 1468,
+    "stars": 1469,
     "license": "MIT",
     "last_updated": "2026-05-24T18:19:22",
     "first_seen": "2026-05-03T16:53:11",
@@ -116971,10 +116971,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.8,
+      "total": 13.79,
       "axes": {
         "R": 1.0,
-        "Q": 2.3,
+        "Q": 2.29,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -117102,7 +117102,7 @@
     "description": "Fast and Accurate Code Search for Agents. Uses ~98% fewer tokens than grep+read",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 5525,
+    "stars": 5527,
     "license": "MIT",
     "last_updated": "2026-07-06T14:35:19",
     "first_seen": "2026-05-03T16:53:11",
@@ -117557,7 +117557,7 @@
     "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 156834,
+    "stars": 156835,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T14:54:42",
     "first_seen": "2026-05-03T16:53:11",
@@ -117595,9 +117595,9 @@
     "description": "Production-ready platform for agentic workflow development.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 147905,
+    "stars": 147911,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T15:09:51",
+    "last_updated": "2026-07-06T18:38:17",
     "first_seen": "2026-05-03T16:53:11",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -117633,7 +117633,7 @@
     "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 144429,
+    "stars": 144444,
     "license": "NOASSERTION",
     "last_updated": "2026-07-02T17:38:23",
     "first_seen": "2026-05-03T16:53:11",
@@ -117650,12 +117650,12 @@
       "ollama"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.33,
+      "letter": "B",
+      "total": 17.33,
       "axes": {
         "R": 1.83,
         "Q": 3.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 4.5,
         "F": 4.0
       }
@@ -117671,7 +117671,7 @@
     "description": "A collection of MCP servers.",
     "readme_excerpt": null,
     "language": null,
-    "stars": 90376,
+    "stars": 90378,
     "license": "MIT",
     "last_updated": "2026-07-04T12:53:14",
     "first_seen": "2026-05-03T16:53:11",
@@ -117704,9 +117704,9 @@
     "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 79541,
+    "stars": 79543,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T16:26:03",
+    "last_updated": "2026-07-06T18:40:30",
     "first_seen": "2026-05-03T16:53:11",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -117780,7 +117780,7 @@
     "description": "The best-benchmarked open-source AI memory system. And it's free.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 57017,
+    "stars": 57021,
     "license": "MIT",
     "last_updated": "2026-07-06T12:26:50",
     "first_seen": "2026-05-03T16:53:11",
@@ -117817,9 +117817,9 @@
     "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 47365,
+    "stars": 47367,
     "license": "MIT",
-    "last_updated": "2026-07-06T10:57:02",
+    "last_updated": "2026-07-06T18:34:42",
     "first_seen": "2026-05-03T16:53:11",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -117855,7 +117855,7 @@
     "description": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 45826,
+    "stars": 45829,
     "license": "MIT",
     "last_updated": "2026-07-06T12:16:32",
     "first_seen": "2026-05-03T16:53:11",
@@ -117893,9 +117893,9 @@
     "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 50723,
+    "stars": 50727,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T16:00:08",
+    "last_updated": "2026-07-06T18:25:06",
     "first_seen": "2026-05-03T16:53:11",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -117928,7 +117928,7 @@
     "description": "🦍 The API and AI Gateway",
     "readme_excerpt": null,
     "language": "Lua",
-    "stars": 43743,
+    "stars": 43744,
     "license": "Apache-2.0",
     "last_updated": "2026-07-01T07:16:53",
     "first_seen": "2026-05-03T16:53:11",
@@ -117966,9 +117966,9 @@
     "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 40355,
+    "stars": 40362,
     "license": "MIT",
-    "last_updated": "2026-07-06T14:20:32",
+    "last_updated": "2026-07-06T18:58:46",
     "first_seen": "2026-05-03T16:53:11",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -118004,7 +118004,7 @@
     "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
     "readme_excerpt": null,
     "language": "Jupyter Notebook",
-    "stars": 36365,
+    "stars": 36368,
     "license": "MIT",
     "last_updated": "2026-06-08T11:18:11",
     "first_seen": "2026-05-03T16:53:11",
@@ -118079,7 +118079,7 @@
     "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
     "readme_excerpt": null,
     "language": "Java",
-    "stars": 33126,
+    "stars": 33127,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T12:28:32",
     "first_seen": "2026-05-03T16:53:11",
@@ -118117,7 +118117,7 @@
     "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 35910,
+    "stars": 35916,
     "license": "AGPL-3.0",
     "last_updated": "2026-07-06T16:26:10",
     "first_seen": "2026-05-03T16:53:11",
@@ -118155,9 +118155,9 @@
     "description": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 29109,
+    "stars": 29111,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:10:16",
+    "last_updated": "2026-07-06T18:47:35",
     "first_seen": "2026-05-03T16:53:11",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -118231,7 +118231,7 @@
     "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
     "readme_excerpt": null,
     "language": "C++",
-    "stars": 27917,
+    "stars": 27918,
     "license": "MIT",
     "last_updated": "2026-07-05T00:00:47",
     "first_seen": "2026-05-03T16:53:11",
@@ -118341,7 +118341,7 @@
     "description": "Build and run agents you can see, understand and trust.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 27506,
+    "stars": 27510,
     "license": "Apache-2.0",
     "last_updated": "2026-07-03T01:53:54",
     "first_seen": "2026-05-03T16:53:11",
@@ -118379,7 +118379,7 @@
     "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 26903,
+    "stars": 26907,
     "license": "MIT",
     "last_updated": "2026-07-05T16:09:38",
     "first_seen": "2026-05-03T16:53:11",
@@ -118455,7 +118455,7 @@
     "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 24521,
+    "stars": 24554,
     "license": "MIT",
     "last_updated": "2026-07-06T09:35:26",
     "first_seen": "2026-05-03T16:53:12",
@@ -118493,7 +118493,7 @@
     "description": "Open-source Agent Operating System",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 17976,
+    "stars": 17978,
     "license": "Apache-2.0",
     "last_updated": "2026-07-02T08:13:12",
     "first_seen": "2026-05-03T16:53:12",
@@ -118571,7 +118571,7 @@
     "language": "Go",
     "stars": 15871,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T13:59:03",
+    "last_updated": "2026-07-06T19:04:11",
     "first_seen": "2026-05-03T16:53:12",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -118607,9 +118607,9 @@
     "description": "Write HTML. Render video. Built for agents.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 33445,
+    "stars": 33464,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T13:54:01",
+    "last_updated": "2026-07-06T18:37:28",
     "first_seen": "2026-05-03T16:53:12",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -118759,7 +118759,7 @@
     "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档 aiguide，已升级为鱼皮 AI 导航网站",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 16930,
+    "stars": 16933,
     "license": null,
     "last_updated": "2026-07-01T14:44:50",
     "first_seen": "2026-05-03T16:53:12",
@@ -118873,7 +118873,7 @@
     "description": "A blazing fast AI Gateway with integrated guardrails. Route to 1,600+ LLMs, 50+ AI Guardrails with 1 fast & friendly API.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 12334,
+    "stars": 12335,
     "license": "MIT",
     "last_updated": "2026-05-25T13:54:51",
     "first_seen": "2026-05-03T16:53:12",
@@ -118987,7 +118987,7 @@
     "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 13029,
+    "stars": 13030,
     "license": "MIT",
     "last_updated": "2026-06-28T17:35:57",
     "first_seen": "2026-05-03T16:53:12",
@@ -119175,7 +119175,7 @@
     "description": "💻 vibe coding 2026 | Your First Modern Coding course beginners to master step by step.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 17852,
+    "stars": 17856,
     "license": null,
     "last_updated": "2026-07-06T14:19:33",
     "first_seen": "2026-05-03T16:53:12",
@@ -119213,7 +119213,7 @@
     "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 14636,
+    "stars": 14638,
     "license": null,
     "last_updated": "2026-05-15T06:24:47",
     "first_seen": "2026-05-03T16:53:12",
@@ -119327,7 +119327,7 @@
     "description": "Autonomous game development for Godot, Bevy, and Babylon.js with Claude Code and Codex",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 4361,
+    "stars": 4367,
     "license": "MIT",
     "last_updated": "2026-07-02T19:23:33",
     "first_seen": "2026-05-03T16:53:12",
@@ -119365,7 +119365,7 @@
     "description": "A unified interface for AI in your terminal.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 3286,
+    "stars": 3287,
     "license": "AGPL-3.0",
     "last_updated": "2026-05-26T08:43:50",
     "first_seen": "2026-05-03T16:53:12",
@@ -119554,9 +119554,9 @@
     "description": "Agent Package Manager",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 3127,
+    "stars": 3129,
     "license": "MIT",
-    "last_updated": "2026-07-05T23:54:23",
+    "last_updated": "2026-07-06T17:51:28",
     "first_seen": "2026-05-03T16:53:12",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -119668,7 +119668,7 @@
     "description": "Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 1887,
+    "stars": 1888,
     "license": "MIT",
     "last_updated": "2026-06-30T23:50:16",
     "first_seen": "2026-05-03T16:53:12",
@@ -119800,11 +119800,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.17,
+      "total": 14.17,
       "axes": {
         "R": 1.0,
         "Q": 2.67,
-        "N": 4.0,
+        "N": 3.0,
         "I": 5.0,
         "F": 2.5
       }
@@ -119896,7 +119896,7 @@
     "description": "A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 1374,
+    "stars": 1375,
     "license": null,
     "last_updated": "2026-06-23T07:39:26",
     "first_seen": "2026-05-03T16:53:12",
@@ -120062,10 +120062,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.61,
+      "total": 8.6,
       "axes": {
         "R": 0.0,
-        "Q": 2.61,
+        "Q": 2.6,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -120195,7 +120195,7 @@
     "description": "Run Claude Code, Codex, and Gemini side by side — each in      its own git worktree",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 818,
+    "stars": 819,
     "license": "MIT",
     "last_updated": "2026-07-06T15:22:14",
     "first_seen": "2026-05-03T16:53:12",
@@ -120534,7 +120534,7 @@
     "description": "Track token usage across 25 AI coding tools — Claude Code, Codex, Cursor, Gemini, Kiro, OpenCode, Antigravity, Copilot, Kimi, CodeBuddy, WorkBuddy, Grok, Kilo, Roo, Zed, Goose, Mimo, ZCode & more — local-first, zero-config, with a dashboard, macOS menu bar app, and desktop widgets.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 905,
+    "stars": 907,
     "license": "MIT",
     "last_updated": "2026-07-06T14:23:38",
     "first_seen": "2026-05-03T16:53:12",
@@ -121810,7 +121810,7 @@
     "description": "Telegram ↔ tmux/herdr bridge for Claude Code, Codex CLI, and Gemini CLI. Monitor output, respond to prompts, manage parallel sessions.  Control AI coding agents from your phone.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 193,
+    "stars": 194,
     "license": "MIT",
     "last_updated": "2026-07-06T08:19:34",
     "first_seen": "2026-05-03T16:53:12",
@@ -122050,10 +122050,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.62,
+      "total": 14.61,
       "axes": {
         "R": 1.0,
-        "Q": 2.12,
+        "Q": 2.11,
         "N": 2.0,
         "I": 5.0,
         "F": 4.5
@@ -122441,7 +122441,7 @@
     "description": "Continuously sync your AI setups with one command. Codebase tailor suited agent skills, MCPs and config files for Claude Code, Cursor, and Codex.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 1172,
+    "stars": 1176,
     "license": "MIT",
     "last_updated": "2026-05-20T12:24:52",
     "first_seen": "2026-05-03T16:53:12",
@@ -124633,10 +124633,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.37,
+      "total": 8.36,
       "axes": {
         "R": 0.0,
-        "Q": 1.87,
+        "Q": 1.86,
         "N": 2.0,
         "I": 0.0,
         "F": 4.5
@@ -124973,7 +124973,7 @@
       "total": 8.13,
       "axes": {
         "R": 0.0,
-        "Q": 1.64,
+        "Q": 1.63,
         "N": 2.0,
         "I": 0.0,
         "F": 4.5
@@ -125749,10 +125749,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.25,
+      "total": 11.24,
       "axes": {
         "R": 0.0,
-        "Q": 2.25,
+        "Q": 2.24,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -126013,7 +126013,7 @@
       "total": 12.11,
       "axes": {
         "R": 1.0,
-        "Q": 1.61,
+        "Q": 1.6,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -126556,7 +126556,7 @@
     "description": "Make AI output sound human. Strips AI-isms (sycophancy, stock vocab, hedging stacks, em-dash pileups), preserves code/URLs/headings. Plugin for Claude Code, Cursor, Windsurf, Codex, Cline, Copilot, Gemini.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 73,
+    "stars": 74,
     "license": "MIT",
     "last_updated": "2026-06-29T06:09:56",
     "first_seen": "2026-05-03T16:53:13",
@@ -126574,7 +126574,7 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.53,
+      "total": 16.54,
       "axes": {
         "R": 1.33,
         "Q": 2.2,
@@ -126974,7 +126974,7 @@
     "language": null,
     "stars": 22,
     "license": "CC0-1.0",
-    "last_updated": "2026-07-06T10:11:13",
+    "last_updated": "2026-07-06T18:11:24",
     "first_seen": "2026-05-03T16:53:13",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -127137,10 +127137,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.58,
+      "total": 14.57,
       "axes": {
         "R": 1.5,
-        "Q": 1.58,
+        "Q": 1.57,
         "N": 2.0,
         "I": 5.0,
         "F": 4.5
@@ -128219,10 +128219,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.46,
+      "total": 12.45,
       "axes": {
         "R": 1.5,
-        "Q": 1.46,
+        "Q": 1.45,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -131444,7 +131444,7 @@
     "description": "A programming framework for agentic AI",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 59530,
+    "stars": 59534,
     "license": "CC-BY-4.0",
     "last_updated": "2026-04-15T11:59:09",
     "first_seen": "2026-05-03T16:53:13",
@@ -131554,7 +131554,7 @@
     "description": "\"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)\"",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 15916,
+    "stars": 15918,
     "license": "MIT",
     "last_updated": "2026-07-05T03:15:13",
     "first_seen": "2026-05-03T16:53:13",
@@ -131642,10 +131642,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.74,
+      "total": 8.73,
       "axes": {
         "R": 0.0,
-        "Q": 2.74,
+        "Q": 2.73,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -131662,7 +131662,7 @@
     "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 13309,
+    "stars": 13310,
     "license": "MIT",
     "last_updated": "2026-07-02T12:26:28",
     "first_seen": "2026-05-03T16:53:13",
@@ -131848,9 +131848,9 @@
     "description": "MaiSaka, an LLM-based intelligent agent, is a digital lifeform devoted to understanding you and interacting in the style of a real human. She does not pursue perfection, nor does she seek efficiency; instead, she values warmth, authenticity, and genuine connection.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 5424,
+    "stars": 5427,
     "license": "GPL-3.0",
-    "last_updated": "2026-07-06T15:00:04",
+    "last_updated": "2026-07-06T17:00:34",
     "first_seen": "2026-05-03T16:53:13",
     "compatibility": null,
     "install_hint": "",
@@ -131888,7 +131888,7 @@
     "language": "Python",
     "stars": 4352,
     "license": "MIT",
-    "last_updated": "2026-07-06T15:31:24",
+    "last_updated": "2026-07-06T17:52:57",
     "first_seen": "2026-05-03T16:53:13",
     "compatibility": "needs_wrapper",
     "install_hint": "",
@@ -132133,7 +132133,7 @@
       "total": 8.39,
       "axes": {
         "R": 0.0,
-        "Q": 2.4,
+        "Q": 2.39,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -132631,7 +132631,7 @@
     "language": "Go",
     "stars": 788,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T16:07:31",
+    "last_updated": "2026-07-06T18:58:59",
     "first_seen": "2026-05-03T16:53:13",
     "compatibility": null,
     "install_hint": "",
@@ -132930,7 +132930,7 @@
     "description": "Structured deep research skill for Claude Code/Open Code/Codex with human-in-the-loop control",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 1533,
+    "stars": 1536,
     "license": "MIT",
     "last_updated": "2026-05-07T16:08:07",
     "first_seen": "2026-05-03T16:53:13",
@@ -133343,7 +133343,7 @@
     "description": "EVA is an AI-assisted penetration testing agent that enhances offensive security workflows by providing structured attack guidance, contextual analysis, and multi-backend AI integration.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 424,
+    "stars": 426,
     "license": null,
     "last_updated": "2026-06-16T02:45:14",
     "first_seen": "2026-05-03T16:53:13",
@@ -133762,11 +133762,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.44,
+      "total": 8.43,
       "axes": {
         "R": 0.0,
-        "Q": 2.44,
-        "N": 3.0,
+        "Q": 2.43,
+        "N": 2.0,
         "I": 0.0,
         "F": 4.0
       }
@@ -133985,10 +133985,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.5,
+      "total": 6.49,
       "axes": {
         "R": 0.0,
-        "Q": 2.0,
+        "Q": 1.99,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -134547,7 +134547,7 @@
     "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 20909,
+    "stars": 20926,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T10:42:45",
     "first_seen": "2026-05-03T16:53:13",
@@ -134587,7 +134587,7 @@
     "language": "TypeScript",
     "stars": 4269,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T16:16:46",
+    "last_updated": "2026-07-06T18:22:39",
     "first_seen": "2026-05-03T16:53:13",
     "compatibility": null,
     "install_hint": "",
@@ -134623,9 +134623,9 @@
     "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 12398,
+    "stars": 12468,
     "license": "MIT",
-    "last_updated": "2026-07-06T14:14:55",
+    "last_updated": "2026-07-06T19:04:10",
     "first_seen": "2026-05-03T16:53:13",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -134737,7 +134737,7 @@
     "description": "Automated TDD enforcement for Claude Code",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 2243,
+    "stars": 2244,
     "license": "MIT",
     "last_updated": "2026-07-06T08:27:24",
     "first_seen": "2026-05-03T16:53:13",
@@ -134775,7 +134775,7 @@
     "description": "Semantic version control => entity-level diffs, blame, and impact analysis on top of git. 28 languages via tree-sitter. Built for coding agents.",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 3063,
+    "stars": 3064,
     "license": "Apache-2.0",
     "last_updated": "2026-07-05T21:30:05",
     "first_seen": "2026-05-03T16:53:13",
@@ -134851,7 +134851,7 @@
     "description": "Full computer-use for AI agents. Self-learning workflows. Native macOS. No screenshots required.",
     "readme_excerpt": null,
     "language": "Swift",
-    "stars": 1572,
+    "stars": 1573,
     "license": "MIT",
     "last_updated": "2026-03-23T22:41:44",
     "first_seen": "2026-05-03T16:53:13",
@@ -134927,7 +134927,7 @@
     "description": "Entity-level git merge driver. Resolves false conflicts git invents when independent agents edit the same file. ~95% reduction vs. line-based merge.",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 1202,
+    "stars": 1203,
     "license": "Apache-2.0",
     "last_updated": "2026-07-04T07:53:31",
     "first_seen": "2026-05-03T16:53:13",
@@ -135154,7 +135154,7 @@
     "description": "Open‑WebUI Tools is a modular toolkit designed to extend and enrich your Open WebUI instance, turning it into a powerful AI workstation. With a suite of over 15 specialized tools, function pipelines, and filters, this project supports academic research, agentic autonomy, multimodal creativity, workflows, and more",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 758,
+    "stars": 759,
     "license": "MIT",
     "last_updated": "2026-06-30T23:09:34",
     "first_seen": "2026-05-03T16:53:13",
@@ -135192,7 +135192,7 @@
     "description": "Cross-CLI skill for Obsidian: turn your vault into a living AI-first second brain across Claude Code, Codex, Gemini, OpenCode, Hermes, and Pi. 44 commands - self-rewriting notes, local+hybrid semantic search, key-less web research, /obsidian-architect codebase docs, and scheduled agents that maintain the vault while you sleep.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 2986,
+    "stars": 2989,
     "license": "MIT",
     "last_updated": "2026-07-05T21:55:06",
     "first_seen": "2026-05-03T16:53:13",
@@ -135266,7 +135266,7 @@
     "language": "Python",
     "stars": 581,
     "license": "MIT",
-    "last_updated": "2026-07-06T15:07:11",
+    "last_updated": "2026-07-06T18:54:28",
     "first_seen": "2026-05-03T16:53:13",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -135833,7 +135833,7 @@
     "language": "TypeScript",
     "stars": 180,
     "license": "AGPL-3.0",
-    "last_updated": "2026-07-06T09:42:46",
+    "last_updated": "2026-07-06T18:32:14",
     "first_seen": "2026-05-03T16:53:14",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -136038,10 +136038,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.24,
+      "total": 14.23,
       "axes": {
         "R": 1.5,
-        "Q": 2.24,
+        "Q": 2.23,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -136112,10 +136112,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.51,
+      "total": 7.5,
       "axes": {
         "R": 0.0,
-        "Q": 1.51,
+        "Q": 1.5,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -136304,7 +136304,7 @@
       "total": 8.38,
       "axes": {
         "R": 0.33,
-        "Q": 2.05,
+        "Q": 2.04,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -136399,7 +136399,7 @@
     "language": "C++",
     "stars": 121,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-03T12:32:48",
+    "last_updated": "2026-07-06T18:21:39",
     "first_seen": "2026-05-03T16:53:14",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -137131,10 +137131,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.74,
+      "total": 12.73,
       "axes": {
         "R": 2.0,
-        "Q": 1.74,
+        "Q": 1.73,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -137379,9 +137379,9 @@
     "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 35805,
+    "stars": 35806,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:26:40",
+    "last_updated": "2026-07-06T18:51:58",
     "first_seen": "2026-05-03T16:53:14",
     "compatibility": null,
     "install_hint": "",
@@ -137417,7 +137417,7 @@
     "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 29457,
+    "stars": 29462,
     "license": "Apache-2.0",
     "last_updated": "2026-07-01T03:10:20",
     "first_seen": "2026-05-03T16:53:14",
@@ -137455,7 +137455,7 @@
     "description": "runs anywhere. uses anything",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 29814,
+    "stars": 29817,
     "license": "NOASSERTION",
     "last_updated": "2026-07-06T15:56:43",
     "first_seen": "2026-05-03T16:53:14",
@@ -137490,7 +137490,7 @@
     "description": "NocoBase is an open-source AI + no-code platform for building business systems fast. Instead of generating everything from scratch, AI works on top of production-proven infrastructure and a WYSIWYG no-code interface, so you get both speed and reliability.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 23247,
+    "stars": 23249,
     "license": "NOASSERTION",
     "last_updated": "2026-07-06T15:41:53",
     "first_seen": "2026-05-03T16:53:14",
@@ -137528,7 +137528,7 @@
     "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 26143,
+    "stars": 26148,
     "license": "Apache-2.0",
     "last_updated": "2026-07-04T17:35:15",
     "first_seen": "2026-05-03T16:53:14",
@@ -137603,7 +137603,7 @@
     "description": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 12863,
+    "stars": 12864,
     "license": "Apache-2.0",
     "last_updated": "2026-07-03T23:54:24",
     "first_seen": "2026-05-03T16:53:14",
@@ -137679,7 +137679,7 @@
     "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, editable charts & tables you can change the data on, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 37131,
+    "stars": 37139,
     "license": "MIT",
     "last_updated": "2026-07-05T12:37:48",
     "first_seen": "2026-05-03T16:53:14",
@@ -137866,7 +137866,7 @@
     "description": "Bindu: The identity, communication, and payments layer for AI agents.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 7268,
+    "stars": 7273,
     "license": "NOASSERTION",
     "last_updated": "2026-07-06T11:55:22",
     "first_seen": "2026-05-03T16:53:14",
@@ -137903,7 +137903,7 @@
     "description": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alternative)",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 8950,
+    "stars": 8954,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T12:58:29",
     "first_seen": "2026-05-03T16:53:14",
@@ -137941,7 +137941,7 @@
     "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 18145,
+    "stars": 18160,
     "license": "MIT",
     "last_updated": "2026-07-06T09:33:16",
     "first_seen": "2026-05-03T16:53:14",
@@ -138017,7 +138017,7 @@
     "description": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成",
     "readme_excerpt": null,
     "language": "HTML",
-    "stars": 6657,
+    "stars": 6658,
     "license": null,
     "last_updated": "2026-06-09T07:55:15",
     "first_seen": "2026-05-03T16:53:14",
@@ -138055,7 +138055,7 @@
     "description": "The 100 line AI agent that solves GitHub issues or helps you in your command line. Radically simple, no huge configs, no giant monorepo—but scores >74% on SWE-bench verified!",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 5599,
+    "stars": 5600,
     "license": "MIT",
     "last_updated": "2026-07-06T16:12:43",
     "first_seen": "2026-05-03T16:53:14",
@@ -138167,7 +138167,7 @@
     "description": "🇨🇳 OpenClaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·AI助理·知识管理 | 新手友好 ",
     "readme_excerpt": null,
     "language": null,
-    "stars": 4373,
+    "stars": 4374,
     "license": "MIT",
     "last_updated": "2026-06-09T10:29:28",
     "first_seen": "2026-05-03T16:53:14",
@@ -138318,9 +138318,9 @@
     "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 16346,
+    "stars": 16357,
     "license": "MIT",
-    "last_updated": "2026-07-06T15:48:57",
+    "last_updated": "2026-07-06T18:01:32",
     "first_seen": "2026-05-03T16:53:14",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -138396,7 +138396,7 @@
     "language": "JavaScript",
     "stars": 3804,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T14:53:42",
+    "last_updated": "2026-07-06T18:09:00",
     "first_seen": "2026-05-03T16:53:14",
     "compatibility": null,
     "install_hint": "",
@@ -138470,9 +138470,9 @@
     "description": "【三年面试五年模拟】AIGC/LLM/AI Agent算法工程师面试秘籍。涵盖AIGC、LLM大模型、AI Agent、传统深度学习、自动驾驶、机器学习、计算机视觉、自然语言处理、强化学习、大数据挖掘、具身智能、元宇宙、AGI等AI行业面试笔试干货经验与核心知识。",
     "readme_excerpt": null,
     "language": null,
-    "stars": 4041,
+    "stars": 4042,
     "license": "GPL-3.0",
-    "last_updated": "2026-07-05T12:09:24",
+    "last_updated": "2026-07-06T16:40:13",
     "first_seen": "2026-05-03T16:53:14",
     "compatibility": null,
     "install_hint": "",
@@ -138775,7 +138775,7 @@
     "language": "Python",
     "stars": 4818,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:25:05",
+    "last_updated": "2026-07-06T18:59:57",
     "first_seen": "2026-05-03T16:53:14",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -138881,9 +138881,9 @@
     "description": "GoClaw - GoClaw is OpenClaw rebuilt in Go — with multi-tenant isolation, 5-layer security, and native concurrency. Deploy AI agent teams at scale without compromising on safety.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 3393,
+    "stars": 3395,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T04:58:50",
+    "last_updated": "2026-07-06T18:29:14",
     "first_seen": "2026-05-03T16:53:14",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -138995,7 +138995,7 @@
     "description": "🔬 Harness Vibe Research with Self-evolving AI Scientists",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 4075,
+    "stars": 4078,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T07:59:26",
     "first_seen": "2026-05-03T16:53:14",
@@ -139408,7 +139408,7 @@
     "description": "Deep dive into Claude Code internals — architecture, agent loop, context engineering, and more. / 深入解析 Claude Code 源码：架构、Agent 循环、上下文工程、工具系统等",
     "readme_excerpt": null,
     "language": null,
-    "stars": 3047,
+    "stars": 3048,
     "license": "MIT",
     "last_updated": "2026-07-06T14:00:50",
     "first_seen": "2026-05-03T16:53:14",
@@ -139446,7 +139446,7 @@
     "description": "AI Agent 驱动的开源视频生成工作台 — 小说→角色/场景/道具设计→剧本→分镜图→视频，跨镜头角色与场景一致 | Open-source AI video workspace powered by AI Agents, Nano Banana 2 & Veo 3.1 / Grok / Seedance / OpenAI",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 3155,
+    "stars": 3156,
     "license": "AGPL-3.0",
     "last_updated": "2026-07-06T11:40:29",
     "first_seen": "2026-05-03T16:53:14",
@@ -139932,7 +139932,7 @@
     "description": "Open-source desktop SQL workspace for PostgreSQL, MySQL/MariaDB, SQLite and 13+ more databases like DuckDB, ClickHouse, Redis and Firestore. Built-in MCP server for Claude, Cursor and Devin, SQL notebooks and visual EXPLAIN.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 3568,
+    "stars": 3569,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T15:57:06",
     "first_seen": "2026-05-03T16:53:14",
@@ -140462,7 +140462,7 @@
     "description": "Cross-session context for Claude Code. CLI + MCP server + /story skill that tracks tickets, issues, handovers, and roadmap in a .story/ directory.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 654,
+    "stars": 655,
     "license": "NOASSERTION",
     "last_updated": "2026-07-06T15:38:10",
     "first_seen": "2026-05-03T16:53:14",
@@ -141478,9 +141478,9 @@
     "description": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, based on graph, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local. Discord: https://discord.gg/ysC2prTGD",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 820,
+    "stars": 821,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T16:10:25",
+    "last_updated": "2026-07-06T17:42:10",
     "first_seen": "2026-05-03T16:53:14",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -142175,7 +142175,7 @@
       "total": 13.48,
       "axes": {
         "R": 1.5,
-        "Q": 1.49,
+        "Q": 1.48,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -142192,7 +142192,7 @@
     "description": "Save 94% on AI coding tokens. Index your codebase, agents search instead of reading files. Works with Claude Code, Codex, Copilot, Cursor, Gemini CLI. Local MCP server, free, open source.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 318,
+    "stars": 321,
     "license": "MIT",
     "last_updated": "2026-07-06T08:21:57",
     "first_seen": "2026-05-03T16:53:14",
@@ -142362,10 +142362,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.42,
+      "total": 12.41,
       "axes": {
         "R": 0.0,
-        "Q": 1.92,
+        "Q": 1.91,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -142662,10 +142662,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.8,
+      "total": 14.79,
       "axes": {
         "R": 2.5,
-        "Q": 1.8,
+        "Q": 1.79,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -142926,10 +142926,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.25,
+      "total": 15.24,
       "axes": {
         "R": 2.5,
-        "Q": 1.75,
+        "Q": 1.74,
         "N": 2.0,
         "I": 4.5,
         "F": 4.5
@@ -143040,10 +143040,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.74,
+      "total": 12.73,
       "axes": {
         "R": 0.5,
-        "Q": 1.74,
+        "Q": 1.73,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -143076,10 +143076,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.76,
+      "total": 13.75,
       "axes": {
         "R": 1.5,
-        "Q": 1.76,
+        "Q": 1.75,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -143096,7 +143096,7 @@
     "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 8865,
+    "stars": 8875,
     "license": "MIT",
     "last_updated": "2026-05-28T00:42:43",
     "first_seen": "2026-05-03T16:53:15",
@@ -143312,7 +143312,7 @@
     "description": "A Systematic Analysis and Discussion of Claude Code for Designing Today's and Future AI Agent Systems",
     "readme_excerpt": null,
     "language": null,
-    "stars": 1822,
+    "stars": 1823,
     "license": "NOASSERTION",
     "last_updated": "2026-06-27T18:42:57",
     "first_seen": "2026-05-03T16:53:15",
@@ -143385,7 +143385,7 @@
     "description": "Open-source AI agent harness in native Rust — GUI, CLI, headless, and webapp from one binary. Multi-provider, MCP, skills, plugins, agent teams.",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 1143,
+    "stars": 1144,
     "license": "Apache-2.0",
     "last_updated": "2026-07-05T14:31:21",
     "first_seen": "2026-05-03T16:53:15",
@@ -143423,7 +143423,7 @@
     "description": "网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 3752,
+    "stars": 3757,
     "license": "MIT",
     "last_updated": "2026-07-06T09:52:01",
     "first_seen": "2026-05-03T16:53:15",
@@ -143461,7 +143461,7 @@
     "description": "Agent Skills-compatible LLM wiki for Claude Code, Cursor, and Codex. Build a Karpathy-style knowledge base from raw sources, citations, and linting.",
     "readme_excerpt": null,
     "language": null,
-    "stars": 1416,
+    "stars": 1418,
     "license": "MIT",
     "last_updated": "2026-04-13T01:39:31",
     "first_seen": "2026-05-03T16:53:15",
@@ -143499,7 +143499,7 @@
     "description": "Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational deep dives.",
     "readme_excerpt": null,
     "language": "Shell",
-    "stars": 652,
+    "stars": 653,
     "license": "MIT",
     "last_updated": "2026-06-06T12:59:50",
     "first_seen": "2026-05-03T16:53:15",
@@ -143537,7 +143537,7 @@
     "description": "turns your codebase into an autoresearch loop — discovers what to measure, instruments the benchmark, then runs tree search with parallel subagents.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 1283,
+    "stars": 1284,
     "license": "Apache-2.0",
     "last_updated": "2026-07-01T14:59:37",
     "first_seen": "2026-05-03T16:53:15",
@@ -143685,7 +143685,7 @@
     "description": "Claude Design DESIGN.md prompts by aesthetic family, remix recipes, skills, video teardowns, X signal, honest community takes.",
     "readme_excerpt": null,
     "language": null,
-    "stars": 827,
+    "stars": 829,
     "license": "MIT",
     "last_updated": "2026-04-23T13:37:55",
     "first_seen": "2026-05-03T16:53:15",
@@ -143779,10 +143779,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.84,
+      "total": 14.83,
       "axes": {
         "R": 1.5,
-        "Q": 2.34,
+        "Q": 2.33,
         "N": 2.0,
         "I": 5.0,
         "F": 4.0
@@ -143855,7 +143855,7 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.58,
+      "total": 14.57,
       "axes": {
         "R": 1.0,
         "Q": 2.58,
@@ -144061,7 +144061,7 @@
     "description": "LLM-compiled knowledge bases for any AI agent. Parallel multi-agent research, thesis-driven investigation, source ingestion, wiki compilation, querying, and artifact generation. ",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 800,
+    "stars": 801,
     "license": "MIT",
     "last_updated": "2026-07-06T15:36:27",
     "first_seen": "2026-05-03T16:53:15",
@@ -144268,11 +144268,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.97,
+      "total": 12.96,
       "axes": {
         "R": 1.0,
-        "Q": 2.47,
-        "N": 3.0,
+        "Q": 2.46,
+        "N": 2.0,
         "I": 5.0,
         "F": 2.5
       }
@@ -145023,11 +145023,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.08,
+      "total": 15.08,
       "axes": {
         "R": 1.0,
         "Q": 2.58,
-        "N": 5.0,
+        "N": 4.0,
         "I": 5.0,
         "F": 2.5
       }
@@ -145175,10 +145175,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.22,
+      "total": 14.21,
       "axes": {
         "R": 1.0,
-        "Q": 2.22,
+        "Q": 2.21,
         "N": 2.0,
         "I": 5.0,
         "F": 4.0
@@ -145440,10 +145440,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.7,
+      "total": 13.69,
       "axes": {
         "R": 1.5,
-        "Q": 2.2,
+        "Q": 2.19,
         "N": 2.0,
         "I": 5.0,
         "F": 3.0
@@ -145610,7 +145610,7 @@
     "language": "Python",
     "stars": 677,
     "license": "MIT",
-    "last_updated": "2026-07-05T05:53:27",
+    "last_updated": "2026-07-06T19:00:09",
     "first_seen": "2026-05-03T16:53:15",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -145848,10 +145848,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.76,
+      "total": 7.75,
       "axes": {
         "R": 0.0,
-        "Q": 1.76,
+        "Q": 1.75,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -145886,11 +145886,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.6,
+      "total": 14.6,
       "axes": {
         "R": 1.0,
         "Q": 2.1,
-        "N": 5.0,
+        "N": 4.0,
         "I": 5.0,
         "F": 2.5
       }
@@ -145997,11 +145997,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.8,
+      "total": 10.8,
       "axes": {
         "R": 0.83,
         "Q": 1.97,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 4.0
       }
@@ -146070,10 +146070,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.97,
+      "total": 5.96,
       "axes": {
         "R": 0.0,
-        "Q": 1.47,
+        "Q": 1.46,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -152020,7 +152020,7 @@
     "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 36554,
+    "stars": 36566,
     "license": "NOASSERTION",
     "last_updated": "2026-07-06T13:50:47",
     "first_seen": "2026-05-04T04:07:29",
@@ -152359,7 +152359,7 @@
     "description": "An agentic memory database that cuts session tokens by 82–99%. One portable SQLite file — your agent's memory, anywhere.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 119,
+    "stars": 120,
     "license": "MIT",
     "last_updated": "2026-06-22T15:25:05",
     "first_seen": "2026-05-04T06:54:48",
@@ -152397,7 +152397,7 @@
     "description": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 8380,
+    "stars": 8381,
     "license": "MIT",
     "last_updated": "2026-07-05T10:56:34",
     "first_seen": "2026-05-04T09:33:54",
@@ -152779,7 +152779,7 @@
       "total": 7.46,
       "axes": {
         "R": 0.33,
-        "Q": 1.13,
+        "Q": 1.12,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -152983,7 +152983,7 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.91,
+      "total": 7.9,
       "axes": {
         "R": 0.83,
         "Q": 1.07,
@@ -153135,10 +153135,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.1,
+      "total": 13.09,
       "axes": {
         "R": 1.0,
-        "Q": 1.1,
+        "Q": 1.09,
         "N": 2.0,
         "I": 5.0,
         "F": 4.0
@@ -153157,7 +153157,7 @@
     "language": "Go",
     "stars": 2534,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T16:17:12",
+    "last_updated": "2026-07-06T19:02:30",
     "first_seen": "2026-05-04T17:02:00",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -153287,10 +153287,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.02,
+      "total": 11.01,
       "axes": {
         "R": 0.5,
-        "Q": 1.52,
+        "Q": 1.51,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -153401,10 +153401,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.6,
+      "total": 7.59,
       "axes": {
         "R": 0.33,
-        "Q": 1.27,
+        "Q": 1.26,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -154547,7 +154547,7 @@
     "description": "The benchmark tasks and evaluation harness for \"PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments\".",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 44,
+    "stars": 45,
     "license": "Apache-2.0",
     "last_updated": "2026-06-25T16:35:04",
     "first_seen": "2026-05-05T06:30:21",
@@ -155452,7 +155452,7 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.63,
+      "total": 12.62,
       "axes": {
         "R": 1.67,
         "Q": 1.96,
@@ -155855,7 +155855,7 @@
     "description": "ISO 27001 ISMS template designed to be instantiated and maintained by an LLM Agent",
     "readme_excerpt": null,
     "language": null,
-    "stars": 14,
+    "stars": 15,
     "license": null,
     "last_updated": "2026-07-05T22:01:19",
     "first_seen": "2026-05-05T20:19:15",
@@ -155873,10 +155873,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.19,
+      "total": 9.2,
       "axes": {
         "R": 0.0,
-        "Q": 1.69,
+        "Q": 1.7,
         "N": 5.0,
         "I": 0.0,
         "F": 2.5
@@ -156837,7 +156837,7 @@
     "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 13121,
+    "stars": 13130,
     "license": "NOASSERTION",
     "last_updated": "2026-07-06T08:08:08",
     "first_seen": "2026-05-06T06:45:31",
@@ -156974,7 +156974,7 @@
     "description": "Codex-first SEO skill suite. 26 workflows, 24 TOML agents, DataForSEO/Gemini/Google/Firecrawl integrations, GEO/AEO, CWV, schema, backlinks, local/maps, and deterministic reports.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 370,
+    "stars": 372,
     "license": "NOASSERTION",
     "last_updated": "2026-06-22T14:35:00",
     "first_seen": "2026-05-06T09:38:52",
@@ -160262,7 +160262,7 @@
     "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 20215,
+    "stars": 20266,
     "license": "MIT",
     "last_updated": "2026-07-03T08:38:05",
     "first_seen": "2026-05-08T03:53:57",
@@ -160410,7 +160410,7 @@
     "description": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 4188,
+    "stars": 4190,
     "license": "MIT",
     "last_updated": "2026-07-06T08:19:39",
     "first_seen": "2026-05-08T03:54:00",
@@ -160845,7 +160845,7 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.82,
+      "total": 14.81,
       "axes": {
         "R": 0.83,
         "Q": 2.48,
@@ -161762,10 +161762,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.51,
+      "total": 7.5,
       "axes": {
         "R": 0.0,
-        "Q": 1.51,
+        "Q": 1.5,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -163459,7 +163459,7 @@
     "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 30138,
+    "stars": 30139,
     "license": "MIT",
     "last_updated": "2026-07-06T12:34:10",
     "first_seen": "2026-05-09T19:22:09",
@@ -178501,7 +178501,7 @@
     "description": "👾 Open Computer Use – Open-Source Alternative to Codex Computer Use",
     "readme_excerpt": null,
     "language": "Swift",
-    "stars": 1271,
+    "stars": 1273,
     "license": "MIT",
     "last_updated": "2026-07-01T12:29:49",
     "first_seen": "2026-05-10T06:46:29",
@@ -180216,9 +180216,9 @@
     "description": "Agentic Coding for Builders who Ship",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 9975,
+    "stars": 9976,
     "license": "GPL-3.0",
-    "last_updated": "2026-06-29T11:28:52",
+    "last_updated": "2026-07-06T19:03:11",
     "first_seen": "2026-05-10T16:10:25",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -180234,11 +180234,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.67,
+      "total": 17.67,
       "axes": {
         "R": 1.67,
         "Q": 3.0,
-        "N": 4.0,
+        "N": 5.0,
         "I": 5.0,
         "F": 3.0
       }
@@ -181698,7 +181698,7 @@
     "description": "The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 5494,
+    "stars": 5495,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T09:53:55",
     "first_seen": "2026-05-11T04:23:49",
@@ -181916,7 +181916,7 @@
     "description": "Local-first chat history analyzer with AI. | 本地优先的 AI 聊天记录分析工具",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 6874,
+    "stars": 6875,
     "license": "AGPL-3.0",
     "last_updated": "2026-07-06T10:45:34",
     "first_seen": "2026-05-11T08:36:49",
@@ -182635,7 +182635,7 @@
       "total": 10.96,
       "axes": {
         "R": 0.5,
-        "Q": 1.47,
+        "Q": 1.46,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -183037,10 +183037,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.68,
+      "total": 6.67,
       "axes": {
         "R": 0.0,
-        "Q": 2.18,
+        "Q": 2.17,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -183090,7 +183090,7 @@
     "description": "Codex-native Academic Research Skills suite for human-in-the-loop academic research workflows",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 5586,
+    "stars": 5593,
     "license": "NOASSERTION",
     "last_updated": "2026-07-04T13:00:38",
     "first_seen": "2026-05-12T04:05:56",
@@ -183128,7 +183128,7 @@
     "description": "AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code, Refactoring, DDD, Clean Architecture and DDIA programming books.",
     "readme_excerpt": null,
     "language": null,
-    "stars": 2113,
+    "stars": 2116,
     "license": "MIT",
     "last_updated": "2026-05-22T11:00:37",
     "first_seen": "2026-05-12T04:05:56",
@@ -183401,10 +183401,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.08,
+      "total": 14.07,
       "axes": {
         "R": 1.5,
-        "Q": 2.08,
+        "Q": 2.07,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -183850,7 +183850,7 @@
     "description": "Local desktop gateway that translates OpenAI Codex CLI's Responses API into Chat Completions for Kimi / DeepSeek / Zhipu GLM / Bailian and other OpenAI-compatible providers.",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 278,
+    "stars": 279,
     "license": "MIT",
     "last_updated": "2026-07-06T01:12:39",
     "first_seen": "2026-05-12T09:51:17",
@@ -184308,7 +184308,7 @@
     "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 55067,
+    "stars": 55090,
     "license": "MIT",
     "last_updated": "2026-07-06T14:44:01",
     "first_seen": "2026-05-12T14:55:50",
@@ -184467,10 +184467,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.71,
+      "total": 11.7,
       "axes": {
         "R": 1.0,
-        "Q": 1.71,
+        "Q": 1.7,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -187098,9 +187098,9 @@
     "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 26170,
+    "stars": 26179,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:20:11",
+    "last_updated": "2026-07-06T18:57:19",
     "first_seen": "2026-05-13T07:28:24",
     "compatibility": "needs_wrapper",
     "install_hint": "",
@@ -188808,7 +188808,7 @@
     "language": "Kotlin",
     "stars": 188,
     "license": "AGPL-3.0",
-    "last_updated": "2026-07-06T06:33:56",
+    "last_updated": "2026-07-06T17:52:27",
     "first_seen": "2026-05-14T04:59:49",
     "compatibility": null,
     "install_hint": "",
@@ -188955,10 +188955,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.92,
+      "total": 13.91,
       "axes": {
         "R": 0.5,
-        "Q": 2.42,
+        "Q": 2.41,
         "N": 2.0,
         "I": 5.0,
         "F": 4.0
@@ -189490,7 +189490,7 @@
     "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
     "readme_excerpt": null,
     "language": "HTML",
-    "stars": 7567,
+    "stars": 7568,
     "license": "Apache-2.0",
     "last_updated": "2026-07-05T14:36:16",
     "first_seen": "2026-05-14T13:06:07",
@@ -190667,7 +190667,7 @@
     "description": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 15764,
+    "stars": 15768,
     "license": "MIT",
     "last_updated": "2026-07-01T13:24:53",
     "first_seen": "2026-05-15T04:18:43",
@@ -190837,7 +190837,7 @@
     "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
     "readme_excerpt": null,
     "language": "HTML",
-    "stars": 20336,
+    "stars": 20337,
     "license": "MIT",
     "last_updated": "2026-06-02T09:53:57",
     "first_seen": "2026-05-15T08:17:57",
@@ -190944,7 +190944,7 @@
     "description": "🖥️ Run AI Agent in your browser.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 16166,
+    "stars": 16167,
     "license": "MIT",
     "last_updated": "2026-05-15T07:26:24",
     "first_seen": "2026-05-15T08:18:00",
@@ -191820,7 +191820,7 @@
     "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 9294,
+    "stars": 9297,
     "license": "Apache-2.0",
     "last_updated": "2026-07-03T08:56:11",
     "first_seen": "2026-05-15T17:03:00",
@@ -193004,7 +193004,7 @@
     "description": "Learn it. Build it. Ship it for others.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 37485,
+    "stars": 37498,
     "license": "MIT",
     "last_updated": "2026-06-25T19:43:11",
     "first_seen": "2026-05-16T13:58:52",
@@ -194707,7 +194707,7 @@
     "language": "TypeScript",
     "stars": 32,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T15:17:46",
+    "last_updated": "2026-07-06T18:35:47",
     "first_seen": "2026-05-17T10:01:46",
     "compatibility": null,
     "install_hint": "",
@@ -194906,7 +194906,7 @@
     "description": "Fast way to switch between Claude Code configuration profiles",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 134,
+    "stars": 135,
     "license": "MIT",
     "last_updated": "2026-06-29T18:53:55",
     "first_seen": "2026-05-17T11:26:09",
@@ -195271,9 +195271,9 @@
     "description": "Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, remembers what they learn, guards what they touch, and proves what they save. 60–90% fewer tokens as the receipt. 76 MCP tools, 30+ agents, local-first.",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 3110,
+    "stars": 3112,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T15:39:43",
+    "last_updated": "2026-07-06T18:59:48",
     "first_seen": "2026-05-17T17:14:22",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -196006,7 +196006,7 @@
     "description": "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 1290,
+    "stars": 1291,
     "license": "MIT",
     "last_updated": "2026-07-03T04:23:49",
     "first_seen": "2026-05-18T12:50:03",
@@ -197116,7 +197116,7 @@
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 226580,
+    "stars": 226624,
     "license": "MIT",
     "last_updated": "2026-07-06T04:55:16",
     "first_seen": "2026-05-19T04:25:11",
@@ -197685,12 +197685,12 @@
       "knowledge-graph"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.06,
+      "letter": "C",
+      "total": 13.05,
       "axes": {
         "R": 1.83,
         "Q": 2.22,
-        "N": 3.0,
+        "N": 2.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -202129,10 +202129,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.05,
+      "total": 9.04,
       "axes": {
         "R": 0.0,
-        "Q": 2.05,
+        "Q": 2.04,
         "N": 2.0,
         "I": 0.0,
         "F": 5.0
@@ -205942,7 +205942,7 @@
     "description": "Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.",
     "readme_excerpt": null,
     "language": "Java",
-    "stars": 2703,
+    "stars": 2704,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T01:33:21",
     "first_seen": "2026-05-22T00:16:46",
@@ -207003,7 +207003,7 @@
     "description": "GPT-Image-2 PPT Generator Skill for Creating Image-Based PowerPoint Presentations in Codex and Other Skill-Compatible Agents",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 3148,
+    "stars": 3150,
     "license": "MIT",
     "last_updated": "2026-06-20T15:56:57",
     "first_seen": "2026-05-22T12:36:40",
@@ -207384,11 +207384,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.46,
+      "total": 12.46,
       "axes": {
         "R": 1.0,
         "Q": 1.96,
-        "N": 3.0,
+        "N": 2.0,
         "I": 5.0,
         "F": 2.5
       }
@@ -207466,7 +207466,7 @@
     "description": "Harness engineering beginner tutorial, from 0 to 1",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 9902,
+    "stars": 9906,
     "license": "MIT",
     "last_updated": "2026-06-30T01:33:03",
     "first_seen": "2026-05-22T18:05:05",
@@ -207823,7 +207823,7 @@
     "language": "Python",
     "stars": 45,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:28:49",
+    "last_updated": "2026-07-06T18:56:51",
     "first_seen": "2026-05-22T21:24:41",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -208162,7 +208162,7 @@
     "language": "HTML",
     "stars": 0,
     "license": "MIT",
-    "last_updated": "2026-07-06T14:00:04",
+    "last_updated": "2026-07-06T16:33:12",
     "first_seen": "2026-05-23T06:45:48",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -208637,10 +208637,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.19,
+      "total": 13.18,
       "axes": {
         "R": 1.0,
-        "Q": 2.69,
+        "Q": 2.68,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -209807,7 +209807,7 @@
     "description": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 18964,
+    "stars": 18966,
     "license": "MIT",
     "last_updated": "2026-06-30T12:03:32",
     "first_seen": "2026-05-24T13:59:45",
@@ -210279,7 +210279,7 @@
     "language": "HTML",
     "stars": 0,
     "license": null,
-    "last_updated": "2026-07-06T16:13:31",
+    "last_updated": "2026-07-06T18:51:16",
     "first_seen": "2026-05-24T21:12:36",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -210459,7 +210459,7 @@
     "language": "HTML",
     "stars": 0,
     "license": null,
-    "last_updated": "2026-07-06T14:20:37",
+    "last_updated": "2026-07-06T17:37:40",
     "first_seen": "2026-05-24T22:11:43",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -211022,7 +211022,7 @@
     "description": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 3799,
+    "stars": 3805,
     "license": "MIT",
     "last_updated": "2026-06-26T12:34:30",
     "first_seen": "2026-05-25T14:19:48",
@@ -211740,10 +211740,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.87,
+      "total": 13.86,
       "axes": {
         "R": 1.0,
-        "Q": 1.87,
+        "Q": 1.86,
         "N": 2.0,
         "I": 5.0,
         "F": 4.0
@@ -213244,10 +213244,10 @@
       "local-first"
     ],
     "grade": {
-      "letter": "C",
-      "total": 13.67,
+      "letter": "B",
+      "total": 15.17,
       "axes": {
-        "R": 0.5,
+        "R": 2.0,
         "Q": 2.17,
         "N": 4.0,
         "I": 4.5,
@@ -213648,7 +213648,7 @@
     "language": "Go",
     "stars": 70,
     "license": "MIT",
-    "last_updated": "2026-07-03T18:32:17",
+    "last_updated": "2026-07-06T18:23:51",
     "first_seen": "2026-05-27T16:48:48",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -214444,7 +214444,7 @@
     "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
     "readme_excerpt": null,
     "language": "HTML",
-    "stars": 4677,
+    "stars": 4679,
     "license": "AGPL-3.0",
     "last_updated": "2026-07-01T16:39:11",
     "first_seen": "2026-05-28T04:39:36",
@@ -215011,7 +215011,7 @@
     "description": "Latitude is the open-source ai monitoring platform.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 4385,
+    "stars": 4387,
     "license": "MIT",
     "last_updated": "2026-07-06T16:12:23",
     "first_seen": "2026-05-28T17:04:44",
@@ -216639,9 +216639,9 @@
     "description": "Git. Ship. Done - Core",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 6006,
+    "stars": 6017,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:26:11",
+    "last_updated": "2026-07-06T18:50:56",
     "first_seen": "2026-05-29T19:42:30",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -225861,7 +225861,7 @@
     "language": "Rust",
     "stars": 1414,
     "license": "GPL-3.0",
-    "last_updated": "2026-07-06T16:29:22",
+    "last_updated": "2026-07-06T16:58:08",
     "first_seen": "2026-05-31T11:08:34",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -226031,7 +226031,7 @@
     "language": "JavaScript",
     "stars": 3228,
     "license": "MIT",
-    "last_updated": "2026-07-06T15:59:32",
+    "last_updated": "2026-07-06T18:35:11",
     "first_seen": "2026-05-31T12:21:33",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -226813,7 +226813,7 @@
     "description": "LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 6690,
+    "stars": 6691,
     "license": "AGPL-3.0",
     "last_updated": "2026-07-06T12:32:50",
     "first_seen": "2026-06-01T10:34:45",
@@ -226851,7 +226851,7 @@
     "description": "Powerful AI Client",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 40892,
+    "stars": 40893,
     "license": "GPL-3.0",
     "last_updated": "2026-06-12T08:17:17",
     "first_seen": "2026-06-01T10:34:46",
@@ -227303,10 +227303,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.5,
+      "total": 6.49,
       "axes": {
         "R": 0.0,
-        "Q": 2.0,
+        "Q": 1.99,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -227858,7 +227858,7 @@
     "description": "The IM for agents. Shared Agent Context & Memory, supervised execution, and cross-agent audit across AI providers.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 749,
+    "stars": 750,
     "license": "MIT",
     "last_updated": "2026-07-06T05:24:28",
     "first_seen": "2026-06-02T16:56:44",
@@ -227996,7 +227996,7 @@
     "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 6528,
+    "stars": 6610,
     "license": "NOASSERTION",
     "last_updated": "2026-06-26T03:31:09",
     "first_seen": "2026-06-02T16:56:45",
@@ -228034,7 +228034,7 @@
     "description": "The one and only agent harness for complex codebases. Project memory, planning, execution, and verified completion inside Codex.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 2480,
+    "stars": 2484,
     "license": "MIT",
     "last_updated": "2026-07-03T12:15:12",
     "first_seen": "2026-06-02T16:56:46",
@@ -228247,7 +228247,7 @@
     "description": "Collaborator is a place to create with agents.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 2776,
+    "stars": 2777,
     "license": "NOASSERTION",
     "last_updated": "2026-06-25T21:31:25",
     "first_seen": "2026-06-02T20:19:24",
@@ -228317,7 +228317,7 @@
     "language": "Python",
     "stars": 194,
     "license": "MIT",
-    "last_updated": "2026-07-02T04:07:29",
+    "last_updated": "2026-07-06T17:52:51",
     "first_seen": "2026-06-02T20:19:26",
     "compatibility": null,
     "install_hint": "",
@@ -228333,11 +228333,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.69,
+      "total": 12.69,
       "axes": {
         "R": 1.33,
         "Q": 2.36,
-        "N": 4.0,
+        "N": 5.0,
         "I": 0.0,
         "F": 4.0
       }
@@ -229602,7 +229602,7 @@
       "total": 9.06,
       "axes": {
         "R": 1.17,
-        "Q": 1.9,
+        "Q": 1.89,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -230200,7 +230200,7 @@
     "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 11845,
+    "stars": 11846,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T10:37:56",
     "first_seen": "2026-06-04T09:01:44",
@@ -230235,7 +230235,7 @@
     "description": "The collaboration layer for your AI workforce. Run a team of AI agents that coordinate over email, share memory, and get better with every task.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 727,
+    "stars": 739,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T15:05:06",
     "first_seen": "2026-06-04T09:01:45",
@@ -230256,7 +230256,7 @@
       "total": 17.41,
       "axes": {
         "R": 0.83,
-        "Q": 2.57,
+        "Q": 2.58,
         "N": 5.0,
         "I": 5.0,
         "F": 4.0
@@ -232759,11 +232759,11 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.5,
+      "total": 4.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 3.0,
+        "N": 2.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -232790,11 +232790,11 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.5,
+      "total": 4.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 3.0,
+        "N": 2.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -232821,11 +232821,11 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.5,
+      "total": 4.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 3.0,
+        "N": 2.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -232852,11 +232852,11 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.5,
+      "total": 4.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 3.0,
+        "N": 2.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -232883,11 +232883,11 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.5,
+      "total": 4.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 3.0,
+        "N": 2.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -232916,11 +232916,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.5,
+      "total": 10.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 3.0,
+        "N": 2.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -233099,7 +233099,7 @@
     "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
     "readme_excerpt": null,
     "language": null,
-    "stars": 7117,
+    "stars": 7121,
     "license": "MIT",
     "last_updated": "2026-06-03T11:35:43",
     "first_seen": "2026-06-05T21:45:25",
@@ -233496,7 +233496,7 @@
     "description": "Serenity-inspired Agent Skill for supply-chain bottleneck stock research",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 3275,
+    "stars": 3276,
     "license": "MIT",
     "last_updated": "2026-05-05T03:23:53",
     "first_seen": "2026-06-06T04:20:11",
@@ -234161,9 +234161,9 @@
     "description": " Agentic orchestrator for parallel coding agents — plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 8091,
+    "stars": 8093,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:28:52",
+    "last_updated": "2026-07-06T18:46:12",
     "first_seen": "2026-06-06T20:22:22",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -239137,10 +239137,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.8,
+      "total": 13.79,
       "axes": {
         "R": 1.5,
-        "Q": 2.3,
+        "Q": 2.29,
         "N": 3.0,
         "I": 4.5,
         "F": 2.5
@@ -239358,7 +239358,7 @@
     "description": "Cookiy AI Skill for AI agents (Claude, Codex, Cursor, OpenClaw) — end-to-end user research: AI interviews, synthetic users, quant surveys, participant recruitment.",
     "readme_excerpt": null,
     "language": "Shell",
-    "stars": 1009,
+    "stars": 1012,
     "license": "MIT",
     "last_updated": "2026-07-06T11:20:14",
     "first_seen": "2026-06-07T18:20:41",
@@ -239436,7 +239436,7 @@
     "language": "Python",
     "stars": 267,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-03T23:36:34",
+    "last_updated": "2026-07-06T16:45:16",
     "first_seen": "2026-06-07T20:25:22",
     "compatibility": null,
     "install_hint": "",
@@ -239670,7 +239670,7 @@
     "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 2438,
+    "stars": 2439,
     "license": "MIT",
     "last_updated": "2026-07-02T23:57:57",
     "first_seen": "2026-06-08T06:09:00",
@@ -239743,7 +239743,7 @@
     "language": "TypeScript",
     "stars": 44952,
     "license": "AGPL-3.0",
-    "last_updated": "2026-07-06T16:27:22",
+    "last_updated": "2026-07-06T16:32:33",
     "first_seen": "2026-06-08T11:22:15",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -239917,7 +239917,7 @@
     "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 71337,
+    "stars": 71357,
     "license": "MIT",
     "last_updated": "2026-07-06T07:09:10",
     "first_seen": "2026-06-08T16:19:14",
@@ -241856,7 +241856,7 @@
     "description": "🏆 Curated, ranked list of AI agent harnesses (100+) — plus an MCP server, llms.txt & JSON so agents can recommend them too. Rescored weekly.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 248,
+    "stars": 249,
     "license": "CC-BY-SA-4.0",
     "last_updated": "2026-07-06T14:17:00",
     "first_seen": "2026-06-09T18:23:54",
@@ -242024,7 +242024,7 @@
     "description": "Transparent and Efficient Financial Analysis",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 5081,
+    "stars": 5082,
     "license": "MIT",
     "last_updated": "2026-06-28T13:06:19",
     "first_seen": "2026-06-09T21:09:32",
@@ -242355,7 +242355,7 @@
     "description": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
     "readme_excerpt": null,
     "language": "HTML",
-    "stars": 3844,
+    "stars": 3846,
     "license": "Apache-2.0",
     "last_updated": "2026-06-21T16:18:31",
     "first_seen": "2026-06-10T05:50:10",
@@ -244023,7 +244023,7 @@
     "language": "Python",
     "stars": 270,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T15:23:25",
+    "last_updated": "2026-07-06T17:52:29",
     "first_seen": "2026-06-11T11:48:48",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -244841,7 +244841,7 @@
     "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 75724,
+    "stars": 75813,
     "license": "MIT",
     "last_updated": "2026-07-01T23:34:52",
     "first_seen": "2026-06-12T05:02:14",
@@ -245109,7 +245109,7 @@
     "language": "Shell",
     "stars": 5,
     "license": "MIT",
-    "last_updated": "2026-07-06T15:44:16",
+    "last_updated": "2026-07-06T16:48:32",
     "first_seen": "2026-06-12T09:12:40",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -245634,9 +245634,9 @@
     "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 6438,
+    "stars": 6440,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T15:51:18",
+    "last_updated": "2026-07-06T18:49:15",
     "first_seen": "2026-06-12T19:24:08",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -245705,7 +245705,7 @@
     "description": "The local-first, agent-native control plane for ComfyUI — MCP server + Claude Code plugin. 108 tools, 29 AI skills (Flux · WAN · LT2.3 · Qwen · Ideogram4 · Krea2). Author & run workflows, edit your live graph in natural language, manage models & custom nodes. Local, LAN, VPS, or Comfy Cloud.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 290,
+    "stars": 291,
     "license": "MIT",
     "last_updated": "2026-07-06T14:52:20",
     "first_seen": "2026-06-12T22:02:21",
@@ -245723,7 +245723,7 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.42,
+      "total": 18.43,
       "axes": {
         "R": 2.5,
         "Q": 2.42,
@@ -246427,7 +246427,7 @@
     "language": "JavaScript",
     "stars": 2874,
     "license": "MIT",
-    "last_updated": "2026-07-06T12:18:30",
+    "last_updated": "2026-07-06T18:22:15",
     "first_seen": "2026-06-13T08:33:36",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -246958,7 +246958,7 @@
     "description": "1 place to call all your agents - OpenCode, Hermes, Claude Managed Agents, Cursor Agents API, DeepAgents.",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 1085,
+    "stars": 1086,
     "license": "MIT",
     "last_updated": "2026-06-20T20:58:35",
     "first_seen": "2026-06-13T18:25:00",
@@ -250965,7 +250965,7 @@
     "description": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics ",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 8872,
+    "stars": 8876,
     "license": "NOASSERTION",
     "last_updated": "2026-07-06T11:59:31",
     "first_seen": "2026-06-14T09:57:10",
@@ -252871,7 +252871,7 @@
     "language": "TypeScript",
     "stars": 14,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-02T23:31:30",
+    "last_updated": "2026-07-06T18:58:53",
     "first_seen": "2026-06-16T11:34:59",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -253401,9 +253401,9 @@
     "description": "YC (S26) | AI that knows what you've seen, said, or heard. Records everything you do, say, hear 24/7, local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 19670,
+    "stars": 19672,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T16:24:06",
+    "last_updated": "2026-07-06T18:47:14",
     "first_seen": "2026-06-16T23:49:06",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -253977,7 +253977,7 @@
     "description": "Agent-driven automated CVE discovery platform for source code auditing, vulnerability verification, and report generation.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 1033,
+    "stars": 1035,
     "license": "AGPL-3.0",
     "last_updated": "2026-07-04T18:04:18",
     "first_seen": "2026-06-17T10:04:19",
@@ -254308,7 +254308,7 @@
     "language": "TypeScript",
     "stars": 5468,
     "license": "MIT",
-    "last_updated": "2026-07-06T13:13:02",
+    "last_updated": "2026-07-06T17:17:01",
     "first_seen": "2026-06-17T14:00:07",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -254548,7 +254548,7 @@
     "description": "In Anthropic's official Claude plugin directory · 400 professional Agent Skills (PRDs, launches, compliance, CVs & more) for Claude, ChatGPT, Gemini, Cursor & Codex. Try free in-browser, or 'npx pm-claude-skills add'.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 1154,
+    "stars": 1155,
     "license": "MIT",
     "last_updated": "2026-07-06T12:37:26",
     "first_seen": "2026-06-17T17:22:51",
@@ -254586,7 +254586,7 @@
     "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 6382,
+    "stars": 6407,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T15:35:46",
     "first_seen": "2026-06-17T17:22:52",
@@ -255555,7 +255555,7 @@
     "language": "Go",
     "stars": 22936,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-06T15:58:26",
+    "last_updated": "2026-07-06T18:51:18",
     "first_seen": "2026-06-18T11:19:14",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -256681,7 +256681,7 @@
     "description": "AI-powered OSINT agent with interactive REPL, MCP server, and CLI. 16 tools. Works with Claude, GPT-4, or local models. For authorized security research only.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 917,
+    "stars": 918,
     "license": "MIT",
     "last_updated": "2026-07-05T07:23:18",
     "first_seen": "2026-06-19T14:21:53",
@@ -257773,7 +257773,7 @@
     "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 6161,
+    "stars": 6173,
     "license": "MIT",
     "last_updated": "2026-07-06T15:05:21",
     "first_seen": "2026-06-20T12:10:27",
@@ -261374,7 +261374,7 @@
     "description": "Local-first memory layer for AI coding agents. Captures issues, attempts, decisions, and cross-project library gotchas — your AI starts experienced, not amnesiac. Native MCP server verified across Claude Desktop, Cursor, Antigravity, and Codex. 100% local · no cloud · no telemetry · MIT.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 134,
+    "stars": 136,
     "license": "MIT",
     "last_updated": "2026-07-02T00:48:10",
     "first_seen": "2026-06-21T07:31:55",
@@ -262410,7 +262410,7 @@
     "description": "Taisly Agent Kit: MCP server, CLI, SDK, and agent docs for publishing videos to TikTok, Reels, Shorts, X, and Facebook.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 307,
+    "stars": 314,
     "license": "MIT",
     "last_updated": "2026-07-06T08:18:09",
     "first_seen": "2026-06-21T07:31:56",
@@ -262428,10 +262428,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.43,
+      "total": 16.44,
       "axes": {
         "R": 2.0,
-        "Q": 2.43,
+        "Q": 2.44,
         "N": 5.0,
         "I": 4.5,
         "F": 2.5
@@ -263109,9 +263109,9 @@
     "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
     "readme_excerpt": null,
     "language": "C#",
-    "stars": 8403,
+    "stars": 8478,
     "license": "Apache-2.0",
-    "last_updated": "2026-07-05T13:34:25",
+    "last_updated": "2026-07-06T17:52:48",
     "first_seen": "2026-06-21T13:19:42",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -263234,11 +263234,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.0,
+      "total": 12.0,
       "axes": {
         "R": 1.0,
         "Q": 2.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 2.5,
         "F": 2.5
       }
@@ -263254,9 +263254,9 @@
     "description": "72 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo developers",
     "readme_excerpt": null,
     "language": "Shell",
-    "stars": 25,
+    "stars": 26,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:14:38",
+    "last_updated": "2026-07-06T16:44:41",
     "first_seen": "2026-06-21T16:10:27",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -263272,10 +263272,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.03,
+      "total": 16.04,
       "axes": {
         "R": 1.5,
-        "Q": 2.03,
+        "Q": 2.04,
         "N": 5.0,
         "I": 5.0,
         "F": 2.5
@@ -263507,12 +263507,12 @@
       "code-match"
     ],
     "grade": {
-      "letter": "D",
-      "total": 6.5,
+      "letter": "F",
+      "total": 5.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 4.0,
+        "N": 3.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -263541,11 +263541,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.5,
+      "total": 11.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 4.0,
+        "N": 3.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -263574,11 +263574,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.5,
+      "total": 11.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 4.0,
+        "N": 3.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -263607,11 +263607,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.5,
+      "total": 11.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 4.0,
+        "N": 3.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -263693,7 +263693,7 @@
     "description": "The Unofficial and Awesome Home Assistant MCP Server",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 3844,
+    "stars": 3846,
     "license": "MIT",
     "last_updated": "2026-07-06T15:26:40",
     "first_seen": "2026-06-21T21:42:44",
@@ -263866,7 +263866,7 @@
     "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 57071,
+    "stars": 57106,
     "license": "Apache-2.0",
     "last_updated": "2026-07-06T16:07:55",
     "first_seen": "2026-06-22T12:27:03",
@@ -264976,9 +264976,9 @@
     "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 11046,
+    "stars": 11078,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:27:31",
+    "last_updated": "2026-07-06T16:55:49",
     "first_seen": "2026-06-23T10:03:26",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -267586,9 +267586,9 @@
     "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 12762,
+    "stars": 12792,
     "license": "MIT",
-    "last_updated": "2026-07-06T13:32:46",
+    "last_updated": "2026-07-06T18:31:00",
     "first_seen": "2026-06-25T14:55:55",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -267950,7 +267950,7 @@
     "description": "Journal-specific Claude Code/Codex skill packs covering mainstream journals — AER, QJE, Nature, Cell, 管理世界, 经济研究 & 200+ more — your fast track to getting published. ｜ 覆盖主流期刊的 Claude Code/Codex 期刊技能包，从选题、识别策略到表格规范与审稿回复全流程，助你快速发论文。",
     "readme_excerpt": null,
     "language": "Stata",
-    "stars": 653,
+    "stars": 654,
     "license": "MIT",
     "last_updated": "2026-07-04T13:47:53",
     "first_seen": "2026-06-26T05:23:43",
@@ -268059,7 +268059,7 @@
     "language": "C++",
     "stars": 191,
     "license": "MIT",
-    "last_updated": "2026-07-06T13:19:12",
+    "last_updated": "2026-07-06T17:35:31",
     "first_seen": "2026-06-26T09:52:13",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -268168,7 +268168,7 @@
     "language": "Python",
     "stars": 2296,
     "license": "MIT",
-    "last_updated": "2026-07-06T15:26:48",
+    "last_updated": "2026-07-06T18:14:32",
     "first_seen": "2026-06-26T12:27:45",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -269815,9 +269815,9 @@
     "description": "agent multiplexer that lives in your terminal.",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 12667,
+    "stars": 12735,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T16:26:12",
+    "last_updated": "2026-07-06T16:51:28",
     "first_seen": "2026-06-27T18:19:10",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -271723,7 +271723,7 @@
     "description": "Open-source reverse engineering lab: 197-article knowledge base + MCP tools + CTF/APK/PE automation toolchain. Agent-native.  Note:由于场景原因，目前有让几乎所有AI都会越狱的bug,静等官方修复,但是请在合法授权下进行安全测试😉",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 402,
+    "stars": 406,
     "license": "GPL-3.0",
     "last_updated": "2026-07-06T07:03:16",
     "first_seen": "2026-06-28T09:32:41",
@@ -271794,7 +271794,7 @@
     "language": "Go",
     "stars": 760,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T08:16:15",
+    "last_updated": "2026-07-06T19:04:23",
     "first_seen": "2026-06-28T12:00:52",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -272328,7 +272328,7 @@
     "description": "Run multiple agents in parallel sandboxed VMs, with a single command, on your PC or in the cloud",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 213,
+    "stars": 214,
     "license": "MIT",
     "last_updated": "2026-07-05T21:55:37",
     "first_seen": "2026-06-29T09:59:48",
@@ -272346,10 +272346,10 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.37,
+      "total": 18.38,
       "axes": {
         "R": 1.5,
-        "Q": 2.37,
+        "Q": 2.38,
         "N": 5.0,
         "I": 5.0,
         "F": 4.5
@@ -272404,7 +272404,7 @@
     "description": "Self-hosted AI gateway monitoring — track requests, cost, failures, quota, and account health for CPA / CLIProxyAPI and OpenAI-compatible gateways.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 1298,
+    "stars": 1303,
     "license": "MIT",
     "last_updated": "2026-07-06T03:05:06",
     "first_seen": "2026-06-29T09:59:50",
@@ -272614,9 +272614,9 @@
     "description": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 422,
+    "stars": 424,
     "license": "MIT",
-    "last_updated": "2026-07-06T15:01:12",
+    "last_updated": "2026-07-06T18:12:03",
     "first_seen": "2026-06-29T17:49:57",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -272635,7 +272635,7 @@
       "total": 18.32,
       "axes": {
         "R": 2.33,
-        "Q": 2.48,
+        "Q": 2.49,
         "N": 5.0,
         "I": 4.5,
         "F": 4.0
@@ -272869,7 +272869,7 @@
     "language": "Rust",
     "stars": 226,
     "license": "MIT",
-    "last_updated": "2026-07-06T13:53:14",
+    "last_updated": "2026-07-06T16:52:12",
     "first_seen": "2026-06-29T20:14:36",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -273334,7 +273334,7 @@
     "language": "HTML",
     "stars": 152,
     "license": null,
-    "last_updated": "2026-07-06T14:54:41",
+    "last_updated": "2026-07-06T17:33:34",
     "first_seen": "2026-06-30T11:52:38",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -273372,7 +273372,7 @@
     "language": "HTML",
     "stars": 152,
     "license": null,
-    "last_updated": "2026-07-06T16:17:38",
+    "last_updated": "2026-07-06T18:52:57",
     "first_seen": "2026-06-30T11:52:38",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -273410,7 +273410,7 @@
     "language": "HTML",
     "stars": 152,
     "license": null,
-    "last_updated": "2026-07-06T14:49:33",
+    "last_updated": "2026-07-06T17:32:08",
     "first_seen": "2026-06-30T11:52:39",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -273446,7 +273446,7 @@
     "description": "帮你在 AI 时代找到一份高薪 × 你学得动 × 不会被 AI 吃掉的工作，并给出个性化学习陪跑计划。能力匹配 + 可学性闸门 + BOSS 直聘真实招聘数据 + 反诈。",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 116,
+    "stars": 117,
     "license": "MIT",
     "last_updated": "2026-06-27T03:23:06",
     "first_seen": "2026-06-30T11:52:40",
@@ -273633,7 +273633,7 @@
     "language": "HTML",
     "stars": 152,
     "license": null,
-    "last_updated": "2026-07-06T16:16:38",
+    "last_updated": "2026-07-06T18:50:45",
     "first_seen": "2026-06-30T14:43:51",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -273700,7 +273700,7 @@
     "description": "Universal provider proxy for OpenAI Codex — use any LLM with Codex CLI, App, and SDK",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 250,
+    "stars": 251,
     "license": "MIT",
     "last_updated": "2026-07-05T12:04:53",
     "first_seen": "2026-06-30T17:15:29",
@@ -273771,7 +273771,7 @@
     "language": "HTML",
     "stars": 153,
     "license": null,
-    "last_updated": "2026-07-06T16:18:42",
+    "last_updated": "2026-07-06T18:53:30",
     "first_seen": "2026-06-30T17:15:30",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -273809,7 +273809,7 @@
     "language": "HTML",
     "stars": 152,
     "license": null,
-    "last_updated": "2026-07-06T14:47:40",
+    "last_updated": "2026-07-06T17:34:40",
     "first_seen": "2026-06-30T17:15:30",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -275060,11 +275060,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275091,11 +275091,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275122,11 +275122,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275153,11 +275153,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275184,11 +275184,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275215,11 +275215,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275248,11 +275248,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.5,
+      "total": 12.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -275279,11 +275279,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275310,11 +275310,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275341,11 +275341,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275372,11 +275372,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275405,11 +275405,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.5,
+      "total": 12.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -275436,11 +275436,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275467,11 +275467,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275498,11 +275498,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275529,11 +275529,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275560,11 +275560,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275591,11 +275591,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275622,11 +275622,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275653,11 +275653,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275684,11 +275684,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275715,11 +275715,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275746,11 +275746,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275777,11 +275777,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275808,11 +275808,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275839,11 +275839,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275870,11 +275870,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275901,11 +275901,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275932,11 +275932,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -275964,11 +275964,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.0,
+      "total": 12.0,
       "axes": {
         "R": 0.5,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 5.0,
         "F": 2.5
       }
@@ -275995,11 +275995,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276026,11 +276026,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276057,11 +276057,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276088,11 +276088,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276119,11 +276119,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276150,11 +276150,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276181,11 +276181,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276212,11 +276212,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276245,11 +276245,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.5,
+      "total": 12.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -276276,11 +276276,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276307,11 +276307,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276338,11 +276338,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276371,11 +276371,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.5,
+      "total": 12.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -276402,11 +276402,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276433,11 +276433,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276464,11 +276464,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276495,11 +276495,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276526,11 +276526,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276557,11 +276557,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276588,11 +276588,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276619,11 +276619,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276650,11 +276650,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276681,11 +276681,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276712,11 +276712,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276743,11 +276743,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276774,11 +276774,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276805,11 +276805,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276836,11 +276836,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276867,11 +276867,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.5,
+      "total": 6.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -276900,11 +276900,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.5,
+      "total": 12.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -277682,7 +277682,7 @@
     "description": "Unofficial, agent-friendly Mercadona shopping CLI (Go) — search products, read prices, build a cart and prepare checkout from the terminal. BYO credentials.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 298,
+    "stars": 299,
     "license": null,
     "last_updated": "2026-06-27T13:35:09",
     "first_seen": "2026-07-03T14:32:27",
@@ -277819,9 +277819,9 @@
     "description": "Coding Agent Harness",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 8187,
+    "stars": 8188,
     "license": "MIT",
-    "last_updated": "2026-07-06T06:21:43",
+    "last_updated": "2026-07-06T17:10:10",
     "first_seen": "2026-07-03T16:46:32",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -278401,7 +278401,7 @@
     "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 15540,
+    "stars": 15541,
     "license": "NOASSERTION",
     "last_updated": "2026-06-15T23:18:56",
     "first_seen": "2026-07-04T00:18:45",
@@ -278536,9 +278536,9 @@
     "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 78555,
+    "stars": 78603,
     "license": "MIT",
-    "last_updated": "2026-07-06T16:07:04",
+    "last_updated": "2026-07-06T16:38:04",
     "first_seen": "2026-07-04T04:51:19",
     "compatibility": "native_claude_code",
     "install_hint": "",
@@ -278574,7 +278574,7 @@
     "description": "Mouse-first fullscreen scrolling for Codex CLI, tuned for tmux workflows",
     "readme_excerpt": null,
     "language": "Shell",
-    "stars": 205,
+    "stars": 207,
     "license": "Apache-2.0",
     "last_updated": "2026-06-10T11:32:07",
     "first_seen": "2026-07-04T04:51:21",
@@ -278708,7 +278708,7 @@
     "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Structured multi-round deliberation, confidence-weighted verdicts, genuine model diversity. Install as a Claude Code plugin — one command: /council",
     "readme_excerpt": null,
     "language": "Shell",
-    "stars": 3367,
+    "stars": 3375,
     "license": "MIT",
     "last_updated": "2026-07-04T08:53:40",
     "first_seen": "2026-07-04T08:06:06",
@@ -283828,7 +283828,7 @@
     "description": "Design visual, review-gated agent loops for Claude Code before you run them.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 607,
+    "stars": 610,
     "license": "MIT",
     "last_updated": "2026-07-06T05:12:32",
     "first_seen": "2026-07-05T08:15:11",
@@ -283845,7 +283845,7 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.54,
+      "total": 17.55,
       "axes": {
         "R": 1.0,
         "Q": 2.54,
@@ -284095,9 +284095,9 @@
     "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 61452,
+    "stars": 61463,
     "license": "NOASSERTION",
-    "last_updated": "2026-07-06T16:05:10",
+    "last_updated": "2026-07-06T19:00:56",
     "first_seen": "2026-07-05T14:54:26",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -284534,7 +284534,7 @@
     "description": "An open-source, PyTorch-like runtime for dynamic multi-agent and multi-session workflows.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 1069,
+    "stars": 1070,
     "license": "BSD-3-Clause",
     "last_updated": "2026-07-06T14:41:53",
     "first_seen": "2026-07-06T09:11:45",
@@ -284925,6 +284925,243 @@
     "license": null,
     "last_updated": null,
     "first_seen": "2026-07-06T16:31:23",
+    "compatibility": "mcp_ready",
+    "install_hint": "",
+    "tags": [
+      "https://glama.ai/mcp/servers",
+      "mcp",
+      "mcp-server"
+    ],
+    "grade": {
+      "letter": "C",
+      "total": 13.5,
+      "axes": {
+        "R": 1.5,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 4.5,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "e2f5d5aaca088ff2",
+    "name": "raiyanyahya/justsaydone",
+    "url": "https://github.com/raiyanyahya/justsaydone",
+    "source": "github",
+    "category": "claude_plugin",
+    "subcategory": "general",
+    "description": "Shorter replies with Claude Code. Save output token spend.",
+    "readme_excerpt": null,
+    "language": "Python",
+    "stars": 19,
+    "license": "MIT",
+    "last_updated": "2026-07-06T15:58:13",
+    "first_seen": "2026-07-06T19:06:14",
+    "compatibility": "native_claude_code",
+    "install_hint": "",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-plugin",
+      "cli",
+      "developer-experience"
+    ],
+    "grade": {
+      "letter": "B",
+      "total": 17.99,
+      "axes": {
+        "R": 1.5,
+        "Q": 1.99,
+        "N": 5.0,
+        "I": 5.0,
+        "F": 4.5
+      }
+    }
+  },
+  {
+    "id": "e1e49a5de5cc4e49",
+    "name": "TroniePh/SmartMacroAI/.cursorrules.txt",
+    "url": "https://github.com/TroniePh/SmartMacroAI/blob/a645093b79117227a833c12f1b6896bd64bd120f/.cursorrules.txt",
+    "source": "github",
+    "category": null,
+    "subcategory": null,
+    "description": "file match: .cursorrules.txt",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-06T19:06:15",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "code-match"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "775e4465b8d8dd16",
+    "name": "vyper-japan/mailhub/.cursorrules.txt",
+    "url": "https://github.com/vyper-japan/mailhub/blob/3c23a96daa67f288d1e9bbce17cf1de49be47d05/.cursorrules.txt",
+    "source": "github",
+    "category": null,
+    "subcategory": null,
+    "description": "file match: .cursorrules.txt",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-06T19:06:16",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "code-match"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "9fc944cec8061c73",
+    "name": "CodeBendKit/codeseek",
+    "url": "https://github.com/CodeBendKit/codeseek",
+    "source": "github",
+    "category": "mcp_server",
+    "subcategory": "search",
+    "description": "Rust-powered code intelligence CLI for AI coding agents. Builds call graphs and hybrid semantic search indexes (Dense + Sparse + RRF + Reranker) across 7 languages. Ships as native MCP tools for Claude Code and Codex CLI.",
+    "readme_excerpt": null,
+    "language": "Rust",
+    "stars": 553,
+    "license": "MIT",
+    "last_updated": "2026-07-04T09:48:06",
+    "first_seen": "2026-07-06T19:06:17",
+    "compatibility": "mcp_ready",
+    "install_hint": "",
+    "tags": [
+      "bm25",
+      "c-li",
+      "call-graph",
+      "claude-code",
+      "cli",
+      "code-analysis",
+      "code-intelligence",
+      "cross-encoder"
+    ],
+    "grade": {
+      "letter": "B",
+      "total": 17.2,
+      "axes": {
+        "R": 2.17,
+        "Q": 2.53,
+        "N": 5.0,
+        "I": 4.5,
+        "F": 3.0
+      }
+    }
+  },
+  {
+    "id": "3eb9c02f82cc769d",
+    "name": "export_run_evidence",
+    "url": "https://glama.ai/mcp/servers/CoinRithm/coinrithm-agent-trading/tools/export_run_evidence",
+    "source": "https://glama.ai/mcp/servers",
+    "category": "mcp_server",
+    "subcategory": "general",
+    "description": "Listed on https://glama.ai/mcp/servers",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-06T19:06:17",
+    "compatibility": "mcp_ready",
+    "install_hint": "",
+    "tags": [
+      "https://glama.ai/mcp/servers",
+      "mcp",
+      "mcp-server"
+    ],
+    "grade": {
+      "letter": "C",
+      "total": 13.5,
+      "axes": {
+        "R": 1.5,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 4.5,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "f0162c873e20dab4",
+    "name": "futures_quote",
+    "url": "https://glama.ai/mcp/servers/CoinRithm/coinrithm-agent-trading/tools/futures_quote",
+    "source": "https://glama.ai/mcp/servers",
+    "category": "mcp_server",
+    "subcategory": "general",
+    "description": "Listed on https://glama.ai/mcp/servers",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-06T19:06:17",
+    "compatibility": "mcp_ready",
+    "install_hint": "",
+    "tags": [
+      "https://glama.ai/mcp/servers",
+      "mcp",
+      "mcp-server"
+    ],
+    "grade": {
+      "letter": "C",
+      "total": 13.5,
+      "axes": {
+        "R": 1.5,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 4.5,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "b9dd9fe3bdf23c4d",
+    "name": "get_cert_auto_certificate",
+    "url": "https://glama.ai/mcp/servers/ionos-cloud/ionoscloud-mcp/tools/get_cert_auto_certificate",
+    "source": "https://glama.ai/mcp/servers",
+    "category": "mcp_server",
+    "subcategory": "general",
+    "description": "Listed on https://glama.ai/mcp/servers",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-06T19:06:17",
     "compatibility": "mcp_ready",
     "install_hint": "",
     "tags": [
