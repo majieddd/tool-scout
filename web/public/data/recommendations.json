@@ -326,7 +326,7 @@
     "url": "https://github.com/chrisryugj/korean-law-mcp",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.887,
+    "score": 0.888,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -406,7 +406,7 @@
     "url": "https://github.com/oomol-lab/open-connector",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.878,
+    "score": 0.879,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -436,7 +436,7 @@
     "url": "https://github.com/ruvnet/metaharness",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.874,
+    "score": 0.875,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -451,6 +451,16 @@
   },
   {
     "rank": 46,
+    "tool_id": "60ae4b41f392eb27",
+    "name": "KeyValueSoftwareSystems/agent-opfor",
+    "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.874,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 47,
     "tool_id": "ce9a10103852ca54",
     "name": "mnemon-dev/mnemon",
     "url": "https://github.com/mnemon-dev/mnemon",
@@ -460,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "4b1fe02ca53041a1",
     "name": "kaanozhan/Frame",
     "url": "https://github.com/kaanozhan/Frame",
@@ -470,7 +480,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "tool_id": "135d05766ff2c73c",
     "name": "artokun/comfyui-mcp",
     "url": "https://github.com/artokun/comfyui-mcp",
@@ -480,20 +490,10 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "ebcf72ba8deff69d",
     "name": "yusufkaraaslan/Skill_Seekers",
     "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.87,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "eab69d436ac6f5d2",
-    "name": "Panniantong/Agent-Reach",
-    "url": "https://github.com/Panniantong/Agent-Reach",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.87,
