@@ -461,21 +461,21 @@
   },
   {
     "rank": 47,
-    "tool_id": "4b1fe02ca53041a1",
-    "name": "kaanozhan/Frame",
-    "url": "https://github.com/kaanozhan/Frame",
-    "category": "claude_plugin",
-    "letter": "B",
-    "score": 0.872,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 48,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.872,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 48,
+    "tool_id": "4b1fe02ca53041a1",
+    "name": "kaanozhan/Frame",
+    "url": "https://github.com/kaanozhan/Frame",
+    "category": "claude_plugin",
+    "letter": "B",
     "score": 0.872,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
