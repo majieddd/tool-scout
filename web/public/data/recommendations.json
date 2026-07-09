@@ -451,16 +451,6 @@
   },
   {
     "rank": 46,
-    "tool_id": "ce9a10103852ca54",
-    "name": "mnemon-dev/mnemon",
-    "url": "https://github.com/mnemon-dev/mnemon",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.873,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 47,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
@@ -468,6 +458,16 @@
     "letter": "A",
     "score": 0.873,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 47,
+    "tool_id": "ce9a10103852ca54",
+    "name": "mnemon-dev/mnemon",
+    "url": "https://github.com/mnemon-dev/mnemon",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.873,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 48,
