@@ -481,21 +481,21 @@
   },
   {
     "rank": 49,
-    "tool_id": "1df402384e96f685",
-    "name": "shirenchuang/agentbro",
-    "url": "https://github.com/shirenchuang/agentbro",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.868,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
     "tool_id": "5d5f571565af6de5",
     "name": "yonatangross/orchestkit",
     "url": "https://github.com/yonatangross/orchestkit",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.868,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "1df402384e96f685",
+    "name": "shirenchuang/agentbro",
+    "url": "https://github.com/shirenchuang/agentbro",
+    "category": "mcp_server",
+    "letter": "B",
     "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
