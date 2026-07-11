@@ -471,6 +471,16 @@
   },
   {
     "rank": 48,
+    "tool_id": "4d80c7fa56353ddf",
+    "name": "CodeAbra/iai-personal-memory-engine",
+    "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.872,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 49,
     "tool_id": "17c877f3c7f176fd",
     "name": "assafelovic/gpt-researcher",
     "url": "https://github.com/assafelovic/gpt-researcher",
@@ -480,23 +490,13 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "ebcf72ba8deff69d",
     "name": "yusufkaraaslan/Skill_Seekers",
     "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.87,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "5d5f571565af6de5",
-    "name": "yonatangross/orchestkit",
-    "url": "https://github.com/yonatangross/orchestkit",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.868,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
