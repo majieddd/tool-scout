@@ -266,7 +266,7 @@
     "url": "https://github.com/IvanMurzak/Unity-MCP",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.891,
+    "score": 0.892,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -381,9 +381,9 @@
   },
   {
     "rank": 39,
-    "tool_id": "f0ca44cd13ca6284",
-    "name": "ArcadeAI/arcade-mcp",
-    "url": "https://github.com/ArcadeAI/arcade-mcp",
+    "tool_id": "4e5b26fed127bd1c",
+    "name": "OpenOSINT/OpenOSINT",
+    "url": "https://github.com/OpenOSINT/OpenOSINT",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.881,
@@ -391,9 +391,9 @@
   },
   {
     "rank": 40,
-    "tool_id": "4e5b26fed127bd1c",
-    "name": "OpenOSINT/OpenOSINT",
-    "url": "https://github.com/OpenOSINT/OpenOSINT",
+    "tool_id": "f0ca44cd13ca6284",
+    "name": "ArcadeAI/arcade-mcp",
+    "url": "https://github.com/ArcadeAI/arcade-mcp",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.881,
