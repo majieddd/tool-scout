@@ -27,9 +27,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.83,
+      "total": 18.0,
       "axes": {
-        "R": 2.83,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -102,10 +102,10 @@
       "mcp"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.5,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -120,7 +120,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 58945,
@@ -176,10 +176,10 @@
       "data-extraction"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.33,
+      "letter": "B",
+      "total": 17.33,
       "axes": {
-        "R": 2.83,
+        "R": 0.83,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -252,10 +252,10 @@
       "ai-agents"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.17,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 1.67,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -270,7 +270,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 37920,
@@ -291,9 +291,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.0,
+      "total": 15.5,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -308,7 +308,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "GitHub's official MCP Server",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 31372,
@@ -343,7 +343,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "search",
-    "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
+    "description": "Listed in e2b-dev/awesome-ai-agents",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 28262,
@@ -363,10 +363,10 @@
       "mcp"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 2.5,
+        "R": 1.5,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -381,7 +381,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 26342,
@@ -402,9 +402,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 17.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -478,9 +478,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.33,
+      "total": 16.5,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -550,13 +550,13 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 20.33,
+      "total": 18.0,
       "axes": {
-        "R": 2.83,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -588,9 +588,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.83,
+      "total": 16.83,
       "axes": {
-        "R": 2.83,
+        "R": 1.83,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -626,9 +626,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.83,
+      "total": 18.5,
       "axes": {
-        "R": 2.33,
+        "R": 2.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -663,10 +663,10 @@
       "data-lineage"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -681,7 +681,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 14434,
@@ -701,10 +701,10 @@
       "code-analysis"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 16.0,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -772,10 +772,10 @@
       "codex-cli"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.5,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -810,10 +810,10 @@
       "mcp"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.26,
+      "letter": "C",
+      "total": 13.76,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.26,
         "N": 2.0,
         "I": 4.5,
@@ -848,14 +848,14 @@
       "letsencrypt"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 15.0,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -886,14 +886,14 @@
       "json"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.17,
+      "letter": "B",
+      "total": 15.83,
       "axes": {
-        "R": 2.67,
+        "R": 0.33,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -925,9 +925,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.5,
+      "total": 18.0,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -980,7 +980,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Open source MCP Servers for AWS",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 9424,
@@ -1038,10 +1038,10 @@
       "artificial-intelligence"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.83,
+      "letter": "C",
+      "total": 13.33,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.83,
         "N": 2.0,
         "I": 4.5,
@@ -1056,7 +1056,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 10039,
@@ -1077,9 +1077,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.5,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 3.0,
         "N": 3.0,
         "I": 4.5,
@@ -1114,10 +1114,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.5,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -1153,9 +1153,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.46,
+      "total": 15.96,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.96,
         "N": 4.0,
         "I": 4.5,
@@ -1300,9 +1300,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.44,
+      "total": 14.94,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.94,
         "N": 5.0,
         "I": 4.5,
@@ -1317,7 +1317,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Klavis AI:  MCP integration platforms that let AI agents use tools reliably at any scale",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 5766,
@@ -1337,10 +1337,10 @@
       "discord"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.87,
+      "letter": "C",
+      "total": 13.37,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.87,
         "N": 2.0,
         "I": 4.5,
@@ -1488,10 +1488,10 @@
       "mcp"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.71,
+      "letter": "C",
+      "total": 13.88,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.88,
         "N": 3.0,
         "I": 4.5,
@@ -1506,7 +1506,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+    "description": "Listed in kyrolabs/awesome-langchain",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 6447,
@@ -1527,9 +1527,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.93,
+      "total": 14.93,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.93,
         "N": 5.0,
         "I": 4.5,
@@ -1544,7 +1544,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "search",
-    "description": "Exa MCP for web search and web crawling!",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 4696,
@@ -1729,7 +1729,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Bulk port forwarding Kubernetes services for local development.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 4138,
@@ -1750,9 +1750,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.36,
+      "total": 14.86,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.86,
         "N": 5.0,
         "I": 4.5,
@@ -1767,7 +1767,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "🤖 A visualization mcp & skills contains 25+ visual charts using @antvis. Using for chart generation and data analysis.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 4227,
@@ -1826,9 +1826,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.38,
+      "total": 14.88,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.88,
         "N": 5.0,
         "I": 4.5,
@@ -1843,7 +1843,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "A Model Context Protocol server for Excel file manipulation",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 4012,
@@ -1902,9 +1902,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.34,
+      "total": 18.34,
       "axes": {
-        "R": 2.5,
+        "R": 1.5,
         "Q": 2.85,
         "N": 5.0,
         "I": 4.5,
@@ -1940,9 +1940,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.85,
+      "total": 16.35,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.85,
         "N": 5.0,
         "I": 4.5,
@@ -2012,10 +2012,10 @@
       "mcp-client"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.49,
+      "letter": "B",
+      "total": 17.49,
       "axes": {
-        "R": 2.17,
+        "R": 1.17,
         "Q": 2.82,
         "N": 4.0,
         "I": 4.5,
@@ -2106,7 +2106,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "database",
-    "description": "Zero-dependency, token-efficient database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite.",
+    "description": "Listed in wong2/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 3142,
@@ -2126,10 +2126,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.48,
+      "letter": "B",
+      "total": 16.31,
       "axes": {
-        "R": 2.17,
+        "R": 0.0,
         "Q": 2.81,
         "N": 5.0,
         "I": 4.5,
@@ -2144,7 +2144,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "search",
-    "description": "A Model Context Protocol server for searching and analyzing arXiv papers",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 2950,
@@ -2165,9 +2165,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.21,
+      "total": 14.21,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.71,
         "N": 2.0,
         "I": 4.5,
@@ -2241,9 +2241,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.29,
+      "total": 15.79,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.79,
         "N": 5.0,
         "I": 4.5,
@@ -2296,7 +2296,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "C#",
     "stars": 3511,
@@ -2317,13 +2317,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.83,
+      "total": 15.33,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.83,
         "N": 5.0,
         "I": 4.5,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -2369,7 +2369,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "A powerful Model Context Protocol (MCP) server that provides an all-in-one solution for public web access.",
+    "description": "Listed in wong2/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "JavaScript",
     "stars": 2495,
@@ -2389,10 +2389,10 @@
       "data-extraction"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.27,
+      "letter": "C",
+      "total": 12.77,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.77,
         "N": 3.0,
         "I": 4.5,
@@ -2483,7 +2483,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "search",
-    "description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 2830,
@@ -2504,13 +2504,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.29,
+      "total": 15.29,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.79,
         "N": 4.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -2594,7 +2594,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Shrimp Task Manager is a task tool built for AI Agents, emphasizing chain-of-thought, reflection, and style consistency. It converts natural language into structured dev tasks with dependency tracking and iterative refinement, enabling agent-like developer behavior in reasoning AI systems.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "JavaScript",
     "stars": 2127,
@@ -2690,10 +2690,10 @@
       "mcp"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.09,
+      "letter": "B",
+      "total": 17.26,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.76,
         "N": 5.0,
         "I": 4.5,
@@ -2743,7 +2743,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "C",
     "stars": 30202,
@@ -2764,9 +2764,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.67,
+      "total": 15.5,
       "axes": {
-        "R": 2.67,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -2802,11 +2802,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.24,
+      "total": 15.24,
       "axes": {
         "R": 1.0,
         "Q": 2.74,
-        "N": 4.0,
+        "N": 3.0,
         "I": 4.5,
         "F": 4.0
       }
@@ -2857,7 +2857,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Plugin for JADX to integrate MCP server",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Java",
     "stars": 2466,
@@ -3113,7 +3113,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "An MCP client for Neovim that seamlessly integrates MCP servers into your editing workflow with an intuitive interface for managing, testing, and using MCP servers with your favorite chat plugins.",
+    "description": "Listed in wong2/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Lua",
     "stars": 1782,
@@ -3134,9 +3134,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.68,
+      "total": 11.18,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.18,
         "N": 2.0,
         "I": 4.5,
@@ -3171,10 +3171,10 @@
       "claude-desktop"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.79,
+      "letter": "B",
+      "total": 16.79,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.79,
         "N": 5.0,
         "I": 4.5,
@@ -3210,9 +3210,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.22,
+      "total": 14.72,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.72,
         "N": 3.0,
         "I": 4.5,
@@ -3285,10 +3285,10 @@
       "korea"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.09,
+      "letter": "B",
+      "total": 17.25,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.75,
         "N": 5.0,
         "I": 4.5,
@@ -3471,9 +3471,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.33,
+      "total": 18.0,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -3509,9 +3509,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.67,
+      "total": 15.5,
       "axes": {
-        "R": 1.17,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -3582,9 +3582,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.5,
+      "total": 16.0,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 3.0,
         "N": 3.0,
         "I": 5.0,
@@ -3619,10 +3619,10 @@
       "mcp-server"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 2.5,
+        "R": 2.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -3658,9 +3658,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.17,
+      "total": 14.17,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.67,
         "N": 2.0,
         "I": 4.5,
@@ -3772,9 +3772,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.5,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -3810,9 +3810,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.5,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -3886,9 +3886,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 17.0,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -3903,7 +3903,7 @@
     "source": "github",
     "category": "claude_plugin",
     "subcategory": "general",
-    "description": "Open-source AI job search: scan job portals, score listings A-F, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Gemini, Codex, OpenCode…)",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "JavaScript",
     "stars": 59665,
@@ -3924,13 +3924,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.0,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -4038,9 +4038,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.67,
+      "total": 17.5,
       "axes": {
-        "R": 1.67,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -4076,9 +4076,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.5,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -4152,9 +4152,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 20.17,
+      "total": 18.0,
       "axes": {
-        "R": 2.67,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -4207,7 +4207,7 @@
     "source": "github",
     "category": "claude_plugin",
     "subcategory": "general",
-    "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+    "description": "Listed in hesreallyhim/awesome-claude-code",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 39666,
@@ -4427,7 +4427,7 @@
     "source": "github",
     "category": "claude_plugin",
     "subcategory": "general",
-    "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 29852,
@@ -4441,20 +4441,20 @@
       "agent-team",
       "ai",
       "ai-agent",
+      "awesome",
+      "awesome-ai-agents",
       "chat",
-      "chatbot",
-      "claude-code",
-      "claude-plugin"
+      "chatbot"
     ],
     "grade": {
       "letter": "A",
-      "total": 18.5,
+      "total": 18.0,
       "axes": {
         "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -4520,9 +4520,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.78,
+      "total": 13.61,
       "axes": {
-        "R": 0.67,
+        "R": 0.5,
         "Q": 2.11,
         "N": 2.0,
         "I": 5.0,
@@ -4596,9 +4596,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 17.0,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -4709,9 +4709,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 20.0,
+      "total": 18.5,
       "axes": {
-        "R": 3.0,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -4726,7 +4726,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "description": "Listed in hesreallyhim/awesome-claude-code",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 31993,
@@ -4896,10 +4896,10 @@
       "ghostty"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -4935,9 +4935,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.5,
+      "total": 15.0,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 3.0,
         "N": 3.0,
         "I": 4.5,
@@ -5010,10 +5010,10 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.17,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 3.0,
         "N": 4.0,
         "I": 5.0,
@@ -5086,10 +5086,10 @@
       "claude-cowork"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.33,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -5125,9 +5125,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.09,
+      "total": 12.59,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.59,
         "N": 2.0,
         "I": 5.0,
@@ -5312,9 +5312,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.33,
+      "total": 15.0,
       "axes": {
-        "R": 1.83,
+        "R": 0.5,
         "Q": 3.0,
         "N": 3.0,
         "I": 4.5,
@@ -5367,7 +5367,7 @@
     "source": "github",
     "category": "claude_plugin",
     "subcategory": "general",
-    "description": "Use Claude Code, OpenCode, Cursor CLI, and Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely.",
+    "description": "Listed in hesreallyhim/awesome-claude-code",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 12576,
@@ -5388,9 +5388,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.83,
+      "total": 17.5,
       "axes": {
-        "R": 0.83,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -5426,13 +5426,13 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 20.67,
+      "total": 18.0,
       "axes": {
-        "R": 3.17,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.5
       }
     }
   },
@@ -5535,9 +5535,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.83,
+      "total": 16.5,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -5685,9 +5685,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.5,
+      "total": 19.0,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -5760,13 +5760,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.99,
+      "total": 15.99,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.99,
         "N": 4.0,
         "I": 5.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -6021,14 +6021,14 @@
       "claude-ai"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.75,
+      "letter": "B",
+      "total": 16.92,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.92,
         "N": 5.0,
         "I": 5.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -6060,9 +6060,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 3.0,
         "N": 3.0,
         "I": 4.5,
@@ -6174,13 +6174,13 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 20.33,
+      "total": 18.0,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -6590,10 +6590,10 @@
       "cursor-rules"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.52,
+      "letter": "C",
+      "total": 13.02,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 1.51,
         "N": 2.0,
         "I": 4.5,
@@ -6667,9 +6667,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.61,
+      "total": 16.11,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 1.61,
         "N": 5.0,
         "I": 4.5,
@@ -6705,9 +6705,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.75,
+      "total": 12.25,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 1.25,
         "N": 3.0,
         "I": 4.5,
@@ -6852,10 +6852,10 @@
       "bedrock-agentcore"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.95,
+      "letter": "C",
+      "total": 13.95,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 2.44,
         "N": 3.0,
         "I": 4.5,
@@ -7000,10 +7000,10 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.53,
+      "letter": "B",
+      "total": 16.86,
       "axes": {
-        "R": 2.67,
+        "R": 1.0,
         "Q": 2.36,
         "N": 5.0,
         "I": 4.5,
@@ -7115,9 +7115,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.15,
+      "total": 14.31,
       "axes": {
-        "R": 2.33,
+        "R": 1.5,
         "Q": 2.31,
         "N": 3.0,
         "I": 5.0,
@@ -7226,9 +7226,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.93,
+      "total": 14.1,
       "axes": {
-        "R": 2.33,
+        "R": 1.5,
         "Q": 2.1,
         "N": 2.0,
         "I": 4.5,
@@ -7340,9 +7340,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.88,
+      "total": 15.88,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.38,
         "N": 5.0,
         "I": 4.5,
@@ -7378,9 +7378,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.44,
+      "total": 12.94,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 1.94,
         "N": 3.0,
         "I": 4.5,
@@ -7565,9 +7565,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.63,
+      "total": 13.13,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.13,
         "N": 3.0,
         "I": 5.0,
@@ -7641,10 +7641,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.26,
+      "total": 13.25,
       "axes": {
         "R": 2.0,
-        "Q": 1.76,
+        "Q": 1.75,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -7830,9 +7830,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.65,
+      "total": 13.31,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 1.31,
         "N": 2.0,
         "I": 5.0,
@@ -7867,14 +7867,14 @@
       "macos"
     ],
     "grade": {
-      "letter": "B",
-      "total": 16.2,
+      "letter": "C",
+      "total": 13.2,
       "axes": {
-        "R": 3.0,
+        "R": 1.0,
         "Q": 1.7,
         "N": 2.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -8202,9 +8202,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.36,
+      "total": 14.53,
       "axes": {
-        "R": 2.83,
+        "R": 1.0,
         "Q": 2.03,
         "N": 4.0,
         "I": 4.5,
@@ -8240,9 +8240,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.29,
+      "total": 14.79,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 1.79,
         "N": 3.0,
         "I": 5.0,
@@ -8351,9 +8351,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.21,
+      "total": 11.71,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 1.71,
         "N": 2.0,
         "I": 5.0,
@@ -8465,13 +8465,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.0,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.0,
         "N": 4.0,
         "I": 5.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -8558,7 +8558,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "search",
-    "description": "📸🧹🗺️ MCP server for intelligent photo management with Immich — search, curate geographic albums, clean up libraries, and publish galleries",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "HTML",
     "stars": 25,
@@ -8579,9 +8579,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.45,
+      "total": 11.45,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 1.95,
         "N": 2.0,
         "I": 4.5,
@@ -9172,13 +9172,13 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.26,
+      "total": 12.26,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 1.76,
         "N": 2.0,
         "I": 5.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -9450,7 +9450,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Claude Code WhatsApp channel plugin — run AI directly from WhatsApp, voice transcription, remote tool approval, access control. No API keys, no Docker, just a linked device.",
+    "description": "Listed in hesreallyhim/awesome-claude-code",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 37,
@@ -9470,10 +9470,10 @@
       "chatbot"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.09,
+      "letter": "B",
+      "total": 15.59,
       "axes": {
-        "R": 2.5,
+        "R": 0.0,
         "Q": 2.09,
         "N": 5.0,
         "I": 4.5,
@@ -10042,7 +10042,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Claude Code Guide - Setup, Commands, workflows, agents, skills & tips-n-tricks go from beginner to power user!",
+    "description": "Listed in hesreallyhim/awesome-claude-code",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 4389,
@@ -10063,9 +10063,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.87,
+      "total": 16.37,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.87,
         "N": 5.0,
         "I": 4.5,
@@ -10232,7 +10232,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Shell and coding agent on mcp clients",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 666,
@@ -10252,14 +10252,14 @@
       "claude"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.4,
+      "letter": "C",
+      "total": 12.9,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 2.4,
         "N": 2.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -10825,7 +10825,7 @@
       "total": 12.72,
       "axes": {
         "R": 1.5,
-        "Q": 2.23,
+        "Q": 2.22,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -12266,7 +12266,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "MCP server for Claude Code and Codex. One tool call replaces ~42 minutes of agent exploration",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 92,
@@ -12287,9 +12287,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.74,
+      "total": 15.24,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.24,
         "N": 4.0,
         "I": 4.5,
@@ -12921,10 +12921,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.82,
+      "total": 13.81,
       "axes": {
         "R": 1.5,
-        "Q": 1.32,
+        "Q": 1.31,
         "N": 2.0,
         "I": 4.5,
         "F": 4.5
@@ -25291,10 +25291,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.41,
+      "total": 11.4,
       "axes": {
         "R": 1.5,
-        "Q": 0.91,
+        "Q": 0.9,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -25439,10 +25439,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.58,
+      "total": 11.57,
       "axes": {
         "R": 1.5,
-        "Q": 1.08,
+        "Q": 1.07,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -27976,10 +27976,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.59,
+      "total": 11.58,
       "axes": {
         "R": 1.0,
-        "Q": 1.09,
+        "Q": 1.08,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -28535,10 +28535,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.36,
+      "total": 5.35,
       "axes": {
         "R": 0.0,
-        "Q": 0.86,
+        "Q": 0.85,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -29425,7 +29425,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Zero-configuration MCP server that unifies multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) through intelligent auto-discovery and standardized interface",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 119,
@@ -30753,7 +30753,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Supercharge AI Agents, Safely",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 285,
@@ -30774,9 +30774,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.92,
+      "total": 15.42,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.42,
         "N": 5.0,
         "I": 4.5,
@@ -32263,7 +32263,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Supports GPT Image 2, Seedance & ComfyUI, with a 1,400+ prompt library, carefully crafted hooks and a multi-task orchestration system",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 1562,
@@ -32284,9 +32284,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.2,
+      "total": 15.7,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.7,
         "N": 3.0,
         "I": 4.5,
@@ -33177,7 +33177,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "search",
-    "description": "MCP server and Claude Plugin for a full ENCODE Project genomic data and analysis toolkit — search, download, track, and analyze functional genomics experiments",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 37,
@@ -33197,10 +33197,10 @@
       "claude"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.09,
+      "letter": "C",
+      "total": 13.59,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.09,
         "N": 3.0,
         "I": 4.5,
@@ -33961,7 +33961,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Native Safari browser automation for AI agents. 80 tools via AppleScript — zero overhead, keeps logins, runs silently in background. Drop-in alternative to Chrome DevTools MCP with 40-60% less CPU/heat on Apple Silicon.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "JavaScript",
     "stars": 150,
@@ -33982,9 +33982,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.82,
+      "total": 14.82,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.32,
         "N": 5.0,
         "I": 4.5,
@@ -34939,7 +34939,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Playwright MCP server",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 34964,
@@ -38836,7 +38836,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Audit-grade multi-agent orchestration for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more). HMAC-chained audit log, signed agent cards, per-artefact lineage, air-gap deploy. The orchestrator your compliance team will sign off on. https://bernstein.run",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 658,
@@ -38856,14 +38856,14 @@
       "ai-coding"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.39,
+      "letter": "B",
+      "total": 16.06,
       "axes": {
-        "R": 1.83,
+        "R": 0.0,
         "Q": 2.56,
         "N": 5.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -43524,7 +43524,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Query MCP enables end-to-end management of Supabase via chat interface: read & write query executions, management API support, automatic migration versioning, access to logs and much more.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 829,
@@ -44232,7 +44232,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "database",
-    "description": "A Model Context Protocol (MCP) server that enables secure interaction with MySQL databases",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 1331,
@@ -44253,9 +44253,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.17,
+      "total": 15.67,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.67,
         "N": 3.0,
         "I": 4.5,
@@ -47969,10 +47969,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.07,
+      "total": 13.06,
       "axes": {
         "R": 0.5,
-        "Q": 2.07,
+        "Q": 2.06,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -51165,7 +51165,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "MCP server to provide Figma layout information to AI coding agents like Cursor",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 15368,
@@ -52143,7 +52143,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "mcp-language-server gives MCP enabled clients access semantic tools like get definition, references, rename, and diagnostics.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 1567,
@@ -52180,7 +52180,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "MCP server that orchestrates language servers into agent-native workflows. 65 tools, 30 CI-verified languages.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 74,
@@ -52201,9 +52201,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.2,
+      "total": 14.7,
       "axes": {
-        "R": 3.0,
+        "R": 0.5,
         "Q": 2.2,
         "N": 5.0,
         "I": 4.5,
@@ -53560,7 +53560,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "MCP server that connects AI agents to your running Neovim instance via msgpack-RPC — no plugins required.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 59,
@@ -57304,7 +57304,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "MCP-NixOS - Model Context Protocol Server for NixOS resources",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 746,
@@ -57325,9 +57325,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.58,
+      "total": 16.08,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.58,
         "N": 5.0,
         "I": 4.5,
@@ -59914,7 +59914,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "A Model Context Protocol server for converting almost anything to Markdown",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 2781,
@@ -70866,7 +70866,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Model Context Protocol (MCP) plugin to connect with Unity Editor — designed for Cursor, Claude Code, Codex, Windsurf and other IDEs",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "C#",
     "stars": 1825,
@@ -70886,10 +70886,10 @@
       "game-development"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.72,
+      "letter": "C",
+      "total": 13.72,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.72,
         "N": 4.0,
         "I": 4.5,
@@ -74086,7 +74086,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Model Context Protocol (MCP) Server for Graphlit Platform",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 376,
@@ -74107,9 +74107,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.91,
+      "total": 13.41,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 1.91,
         "N": 2.0,
         "I": 4.5,
@@ -79534,7 +79534,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Meta Ads (Facebook/Instagram) MCP server for Claude, ChatGPT, Perplexity & Cursor — the Meta node of Pipeboard’s 5-platform family (+ Google, TikTok, Snap, Reddit). Hosted remote MCP, badged Meta Business Partner, free plan — no self-hosting required.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 1065,
@@ -79555,9 +79555,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.14,
+      "total": 16.14,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.63,
         "N": 5.0,
         "I": 4.5,
@@ -80990,7 +80990,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 79602,
@@ -81011,9 +81011,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -87398,7 +87398,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Model Context Protocol server that integrates AgentQL's data extraction capabilities.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "JavaScript",
     "stars": 175,
@@ -87419,9 +87419,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.84,
+      "total": 14.34,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.34,
         "N": 5.0,
         "I": 4.5,
@@ -92331,7 +92331,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Clean, LLM-optimized Reddit MCP server. Browse posts, search content, analyze users. No fluff, just Reddit data.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 751,
@@ -92352,9 +92352,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.91,
+      "total": 16.58,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.58,
         "N": 4.0,
         "I": 4.5,
@@ -95541,7 +95541,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "🤖 Local-assist BOSS Zhipin CLI for AI agents — search, welfare filtering, shortlist, JSON-envelope output; low-risk & compliant by default.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 1364,
@@ -95562,13 +95562,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.18,
+      "total": 14.68,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.68,
         "N": 3.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -100209,7 +100209,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "MCP server that reduces LLM context usage when AI coding agents work with Go — structured documentation instead of source-file dumps.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 126,
@@ -100230,9 +100230,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.93,
+      "total": 10.93,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 1.93,
         "N": 2.0,
         "I": 4.5,
@@ -101435,7 +101435,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "A Model Context Protocol server for connecting Notion to MCP-compatible clients",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 913,
@@ -101456,9 +101456,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.94,
+      "total": 16.61,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.61,
         "N": 4.0,
         "I": 4.5,
@@ -103585,7 +103585,7 @@
     "source": "awesome",
     "category": null,
     "subcategory": null,
-    "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+    "description": "Listed in wong2/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "HTML",
     "stars": 19580,
@@ -103606,13 +103606,13 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.0,
+      "total": 10.5,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 0.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -105191,10 +105191,10 @@
       "javascript"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.67,
+      "letter": "C",
+      "total": 13.33,
       "axes": {
-        "R": 1.67,
+        "R": 0.33,
         "Q": 2.5,
         "N": 2.0,
         "I": 4.5,
@@ -109221,7 +109221,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "One place to manage & connect to all your MCP servers",
+    "description": "Listed in wong2/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 1148,
@@ -109427,7 +109427,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "On-premises conversational RAG with configurable containers",
+    "description": "Listed in wong2/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 1051,
@@ -109448,9 +109448,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.94,
+      "total": 12.61,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.11,
         "N": 2.0,
         "I": 4.5,
@@ -111545,7 +111545,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "A middleware to provide an openAI compatible endpoint that can call MCP tools",
+    "description": "Listed in wong2/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 931,
@@ -111813,7 +111813,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "The Simple Agent Development Kit.",
+    "description": "Listed in wong2/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 1321,
@@ -111834,9 +111834,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.08,
+      "total": 12.08,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 1.58,
         "N": 2.0,
         "I": 4.5,
@@ -113720,10 +113720,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.31,
+      "total": 5.3,
       "axes": {
         "R": 0.0,
-        "Q": 0.81,
+        "Q": 0.8,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -114109,14 +114109,14 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.95,
+      "letter": "B",
+      "total": 16.95,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.95,
         "N": 4.0,
         "I": 5.0,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -114409,9 +114409,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.77,
+      "total": 11.27,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 1.77,
         "N": 2.0,
         "I": 4.5,
@@ -114485,9 +114485,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.46,
+      "total": 8.13,
       "axes": {
-        "R": 0.83,
+        "R": 0.5,
         "Q": 1.63,
         "N": 2.0,
         "I": 0.0,
@@ -114637,9 +114637,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.12,
+      "total": 15.79,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 1.79,
         "N": 5.0,
         "I": 5.0,
@@ -114713,9 +114713,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.31,
+      "total": 10.81,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 1.31,
         "N": 2.0,
         "I": 4.5,
@@ -114826,9 +114826,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.84,
+      "total": 10.84,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 1.34,
         "N": 2.0,
         "I": 4.5,
@@ -114864,9 +114864,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.93,
+      "total": 12.26,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 1.76,
         "N": 2.0,
         "I": 4.5,
@@ -115242,9 +115242,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.93,
+      "total": 10.93,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 1.43,
         "N": 2.0,
         "I": 4.5,
@@ -115430,10 +115430,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.65,
+      "total": 5.64,
       "axes": {
         "R": 0.0,
-        "Q": 1.15,
+        "Q": 1.14,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -115505,9 +115505,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.87,
+      "total": 11.04,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 1.04,
         "N": 2.0,
         "I": 5.0,
@@ -115581,9 +115581,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.5,
+      "total": 18.0,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -115619,9 +115619,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -115636,7 +115636,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Build effective agents using Model Context Protocol and simple workflow patterns",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 8421,
@@ -115656,10 +115656,10 @@
       "mcp"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.46,
+      "letter": "C",
+      "total": 13.96,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.46,
         "N": 2.0,
         "I": 4.5,
@@ -115732,10 +115732,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.28,
+      "letter": "C",
+      "total": 13.78,
       "axes": {
-        "R": 2.5,
+        "R": 2.0,
         "Q": 2.78,
         "N": 2.0,
         "I": 4.5,
@@ -115824,7 +115824,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 5385,
@@ -115845,9 +115845,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.73,
+      "total": 14.9,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.9,
         "N": 4.0,
         "I": 4.5,
@@ -115883,13 +115883,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.57,
+      "total": 15.41,
       "axes": {
-        "R": 2.17,
+        "R": 1.0,
         "Q": 2.91,
         "N": 3.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -115921,9 +115921,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.85,
+      "total": 16.35,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.85,
         "N": 5.0,
         "I": 4.5,
@@ -115959,9 +115959,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.62,
+      "total": 11.62,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.62,
         "N": 2.0,
         "I": 4.5,
@@ -115996,10 +115996,10 @@
       "mcp-server"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.09,
+      "letter": "B",
+      "total": 17.76,
       "axes": {
-        "R": 2.33,
+        "R": 2.0,
         "Q": 2.76,
         "N": 4.0,
         "I": 4.5,
@@ -116073,9 +116073,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.72,
+      "total": 15.22,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.72,
         "N": 5.0,
         "I": 5.0,
@@ -116147,10 +116147,10 @@
       "claude"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.35,
+      "letter": "C",
+      "total": 12.85,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.35,
         "N": 2.0,
         "I": 4.5,
@@ -116186,9 +116186,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.33,
+      "total": 15.16,
       "axes": {
-        "R": 1.67,
+        "R": 1.5,
         "Q": 2.66,
         "N": 4.0,
         "I": 4.5,
@@ -116223,10 +116223,10 @@
       "dxt"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.04,
+      "letter": "C",
+      "total": 13.04,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.54,
         "N": 2.0,
         "I": 4.5,
@@ -116300,9 +116300,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.47,
+      "total": 10.64,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.64,
         "N": 3.0,
         "I": 0.0,
@@ -116337,10 +116337,10 @@
       "clawdbot"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.12,
+      "letter": "C",
+      "total": 12.62,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.62,
         "N": 3.0,
         "I": 4.5,
@@ -116413,10 +116413,10 @@
       "mcp-framework"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.62,
+      "letter": "B",
+      "total": 17.62,
       "axes": {
-        "R": 2.5,
+        "R": 1.5,
         "Q": 2.62,
         "N": 5.0,
         "I": 4.5,
@@ -116490,9 +116490,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.56,
+      "total": 11.73,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 1.73,
         "N": 2.0,
         "I": 4.5,
@@ -116599,9 +116599,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.13,
+      "total": 15.29,
       "axes": {
-        "R": 2.83,
+        "R": 2.0,
         "Q": 2.29,
         "N": 2.0,
         "I": 4.5,
@@ -116636,14 +116636,14 @@
       "local-llm"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.92,
+      "letter": "B",
+      "total": 17.08,
       "axes": {
-        "R": 2.83,
+        "R": 1.0,
         "Q": 2.58,
         "N": 5.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -116675,9 +116675,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.43,
+      "total": 16.09,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.59,
         "N": 5.0,
         "I": 4.5,
@@ -116824,9 +116824,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.88,
+      "total": 11.38,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.38,
         "N": 2.0,
         "I": 4.5,
@@ -116937,10 +116937,10 @@
       "claude-mcp"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.12,
+      "letter": "C",
+      "total": 13.12,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.62,
         "N": 2.0,
         "I": 4.5,
@@ -117086,10 +117086,10 @@
       "cpp"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.85,
+      "letter": "C",
+      "total": 13.35,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.35,
         "N": 3.0,
         "I": 4.5,
@@ -117200,9 +117200,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.64,
+      "total": 15.14,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.64,
         "N": 3.0,
         "I": 4.5,
@@ -117542,9 +117542,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.01,
+      "total": 14.51,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.51,
         "N": 2.0,
         "I": 4.5,
@@ -117597,7 +117597,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Production-ready platform for agentic workflow development.",
+    "description": "Listed in kyrolabs/awesome-langchain",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 148530,
@@ -117617,10 +117617,10 @@
       "awesome-langchain"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.83,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -117727,9 +117727,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.5,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -117765,10 +117765,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.97,
+      "total": 11.96,
       "axes": {
         "R": 0.0,
-        "Q": 2.97,
+        "Q": 2.96,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -117840,9 +117840,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -117877,10 +117877,10 @@
       "cowagent"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.33,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 1.83,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -117951,9 +117951,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.0,
+      "total": 14.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -117989,9 +117989,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.5,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118063,10 +118063,10 @@
       "math"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.94,
+      "letter": "C",
+      "total": 13.44,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.94,
         "N": 2.0,
         "I": 4.5,
@@ -118102,9 +118102,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118139,10 +118139,10 @@
       "gemini"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118157,7 +118157,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "search",
-    "description": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 29188,
@@ -118177,10 +118177,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.67,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 2.17,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118288,9 +118288,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.0,
+      "total": 14.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -118326,9 +118326,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118401,10 +118401,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.17,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 1.67,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118440,9 +118440,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.0,
+      "total": 14.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -118516,9 +118516,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.67,
+      "total": 15.5,
       "axes": {
-        "R": 1.67,
+        "R": 1.5,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -118592,9 +118592,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.17,
+      "total": 15.0,
       "axes": {
-        "R": 1.17,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118630,9 +118630,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.33,
+      "total": 18.0,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118667,14 +118667,14 @@
       "mcp"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.33,
+      "letter": "B",
+      "total": 17.33,
       "axes": {
-        "R": 1.83,
+        "R": 1.33,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
-        "F": 4.0
+        "F": 3.5
       }
     }
   },
@@ -118706,9 +118706,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118781,10 +118781,10 @@
       "deep-learning"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.25,
+      "letter": "C",
+      "total": 13.75,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.75,
         "N": 4.0,
         "I": 4.5,
@@ -118820,9 +118820,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.0,
+      "total": 14.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -118875,7 +118875,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "A blazing fast AI Gateway with integrated guardrails. Route to 1,600+ LLMs, 50+ AI Guardrails with 1 fast & friendly API.",
+    "description": "Listed in kyrolabs/awesome-langchain",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 12397,
@@ -118895,10 +118895,10 @@
       "llm"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.44,
+      "letter": "C",
+      "total": 13.44,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.94,
         "N": 2.0,
         "I": 4.5,
@@ -118934,9 +118934,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.98,
+      "total": 12.98,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 1.99,
         "N": 2.0,
         "I": 4.5,
@@ -119197,10 +119197,10 @@
       "gpt"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.75,
+      "letter": "C",
+      "total": 13.75,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.75,
         "N": 4.0,
         "I": 4.5,
@@ -119312,9 +119312,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.01,
+      "total": 15.84,
       "axes": {
-        "R": 2.67,
+        "R": 1.5,
         "Q": 2.84,
         "N": 4.0,
         "I": 5.0,
@@ -119426,13 +119426,13 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.8,
+      "total": 11.8,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.81,
         "N": 5.0,
         "I": 0.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -119615,9 +119615,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.59,
+      "total": 15.26,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.76,
         "N": 4.0,
         "I": 5.0,
@@ -120029,9 +120029,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.96,
+      "total": 17.63,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.63,
         "N": 5.0,
         "I": 5.0,
@@ -120179,10 +120179,10 @@
       "codex-cli"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.43,
+      "letter": "B",
+      "total": 17.09,
       "axes": {
-        "R": 1.83,
+        "R": 0.5,
         "Q": 2.59,
         "N": 5.0,
         "I": 4.5,
@@ -120217,14 +120217,14 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.6,
+      "letter": "B",
+      "total": 17.6,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.6,
         "N": 5.0,
         "I": 5.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -120498,7 +120498,7 @@
     "source": "github",
     "category": "claude_plugin",
     "subcategory": "general",
-    "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, Codex, and Qwen Code — 39 specialists, parallel subagents, persistent sessions, and built-in code review, debugging, security, SEO, accessibility, and compliance tools",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "JavaScript",
     "stars": 445,
@@ -120519,9 +120519,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.16,
+      "total": 16.49,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 2.49,
         "N": 5.0,
         "I": 5.0,
@@ -120594,10 +120594,10 @@
       "codex-cli"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.29,
+      "letter": "B",
+      "total": 17.45,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.45,
         "N": 4.0,
         "I": 5.0,
@@ -120780,9 +120780,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.27,
+      "total": 15.94,
       "axes": {
-        "R": 2.33,
+        "R": 2.0,
         "Q": 2.44,
         "N": 4.0,
         "I": 5.0,
@@ -120818,9 +120818,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.44,
+      "total": 11.94,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.44,
         "N": 2.0,
         "I": 4.5,
@@ -120856,9 +120856,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.18,
+      "total": 12.84,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.34,
         "N": 2.0,
         "I": 5.0,
@@ -120894,7 +120894,7 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.65,
+      "total": 14.64,
       "axes": {
         "R": 1.0,
         "Q": 2.15,
@@ -121008,9 +121008,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.4,
+      "total": 14.9,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.4,
         "N": 5.0,
         "I": 4.5,
@@ -121046,9 +121046,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.95,
+      "total": 15.45,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.45,
         "N": 3.0,
         "I": 4.5,
@@ -121083,14 +121083,14 @@
       "codex-limit-reset-notifier"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.41,
+      "letter": "C",
+      "total": 13.91,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.41,
         "N": 3.0,
         "I": 5.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -121122,9 +121122,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.89,
+      "total": 16.39,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.39,
         "N": 5.0,
         "I": 5.0,
@@ -121304,10 +121304,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.25,
+      "letter": "C",
+      "total": 12.74,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.25,
         "N": 2.0,
         "I": 4.5,
@@ -121643,9 +121643,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.3,
+      "total": 11.97,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.47,
         "N": 5.0,
         "I": 0.0,
@@ -121833,9 +121833,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.87,
+      "total": 18.37,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.37,
         "N": 5.0,
         "I": 5.0,
@@ -121871,9 +121871,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.33,
       "axes": {
-        "R": 1.17,
+        "R": 0.5,
         "Q": 2.33,
         "N": 5.0,
         "I": 4.5,
@@ -122426,9 +122426,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.14,
+      "total": 15.64,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.64,
         "N": 4.0,
         "I": 5.0,
@@ -122464,9 +122464,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.57,
+      "total": 14.57,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.57,
         "N": 2.0,
         "I": 4.5,
@@ -122502,9 +122502,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.46,
+      "total": 10.13,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.63,
         "N": 5.0,
         "I": 0.0,
@@ -122539,14 +122539,14 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.56,
+      "letter": "B",
+      "total": 17.56,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.56,
         "N": 5.0,
         "I": 5.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -122578,9 +122578,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.05,
+      "total": 15.55,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.55,
         "N": 5.0,
         "I": 5.0,
@@ -122813,7 +122813,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "database",
-    "description": "MCP SSH Server: 37 tools for remote SSH management | Claude Code & OpenAI Codex | DevOps automation, backups, database operations, health monitoring",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "JavaScript",
     "stars": 355,
@@ -122834,9 +122834,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.96,
+      "total": 15.46,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.46,
         "N": 5.0,
         "I": 4.5,
@@ -122985,14 +122985,14 @@
       "openai"
     ],
     "grade": {
-      "letter": "D",
-      "total": 6.86,
+      "letter": "F",
+      "total": 5.86,
       "axes": {
-        "R": 0.83,
+        "R": 0.33,
         "Q": 1.02,
         "N": 2.0,
         "I": 0.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -123138,9 +123138,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.17,
+      "total": 11.17,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.17,
         "N": 2.0,
         "I": 4.5,
@@ -123176,9 +123176,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.32,
+      "total": 14.99,
       "axes": {
-        "R": 2.33,
+        "R": 2.0,
         "Q": 1.49,
         "N": 2.0,
         "I": 5.0,
@@ -123251,10 +123251,10 @@
       "mcp"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.19,
+      "letter": "C",
+      "total": 13.69,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 1.69,
         "N": 2.0,
         "I": 4.5,
@@ -123290,9 +123290,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.16,
+      "total": 12.66,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.16,
         "N": 5.0,
         "I": 0.0,
@@ -123439,9 +123439,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.51,
+      "total": 17.18,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.18,
         "N": 4.0,
         "I": 5.0,
@@ -123476,10 +123476,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.31,
+      "total": 13.3,
       "axes": {
         "R": 2.0,
-        "Q": 1.81,
+        "Q": 1.8,
         "N": 2.0,
         "I": 4.5,
         "F": 3.0
@@ -123514,9 +123514,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.91,
+      "total": 14.24,
       "axes": {
-        "R": 1.67,
+        "R": 1.0,
         "Q": 1.74,
         "N": 2.0,
         "I": 5.0,
@@ -123551,10 +123551,10 @@
       "discord-bot"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.06,
+      "letter": "D",
+      "total": 9.73,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.23,
         "N": 2.0,
         "I": 0.0,
@@ -123628,9 +123628,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.28,
+      "total": 11.28,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.28,
         "N": 5.0,
         "I": 0.0,
@@ -123741,14 +123741,14 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.05,
+      "letter": "C",
+      "total": 13.05,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.05,
         "N": 2.0,
         "I": 5.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -123893,9 +123893,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.67,
+      "total": 10.17,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.17,
         "N": 5.0,
         "I": 0.0,
@@ -124157,13 +124157,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.1,
+      "total": 15.6,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.1,
         "N": 5.0,
         "I": 5.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -124195,9 +124195,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.98,
+      "total": 18.15,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.15,
         "N": 5.0,
         "I": 5.0,
@@ -125457,9 +125457,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.69,
+      "total": 17.02,
       "axes": {
-        "R": 1.17,
+        "R": 0.5,
         "Q": 2.52,
         "N": 5.0,
         "I": 5.0,
@@ -125640,9 +125640,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.7,
+      "total": 8.37,
       "axes": {
-        "R": 0.67,
+        "R": 0.33,
         "Q": 2.04,
         "N": 2.0,
         "I": 0.0,
@@ -125905,9 +125905,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.71,
+      "total": 8.21,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 1.71,
         "N": 2.0,
         "I": 0.0,
@@ -125942,10 +125942,10 @@
       "cursor-ai"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.38,
+      "letter": "D",
+      "total": 9.88,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 0.88,
         "N": 2.0,
         "I": 4.5,
@@ -126053,9 +126053,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.99,
+      "total": 11.49,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 1.99,
         "N": 2.0,
         "I": 5.0,
@@ -126239,9 +126239,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.43,
+      "total": 10.09,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.09,
         "N": 4.0,
         "I": 0.0,
@@ -126579,9 +126579,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.54,
+      "total": 16.21,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.21,
         "N": 4.0,
         "I": 5.0,
@@ -126805,9 +126805,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.59,
+      "total": 11.25,
       "axes": {
-        "R": 2.83,
+        "R": 0.5,
         "Q": 1.75,
         "N": 2.0,
         "I": 4.5,
@@ -126957,10 +126957,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.26,
+      "total": 12.25,
       "axes": {
         "R": 1.0,
-        "Q": 1.76,
+        "Q": 1.75,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -126995,9 +126995,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.02,
+      "total": 15.52,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.02,
         "N": 5.0,
         "I": 5.0,
@@ -127180,9 +127180,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.72,
+      "total": 13.06,
       "axes": {
-        "R": 1.17,
+        "R": 0.5,
         "Q": 1.56,
         "N": 2.0,
         "I": 5.0,
@@ -127290,10 +127290,10 @@
       "ide"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.13,
+      "letter": "C",
+      "total": 11.96,
       "axes": {
-        "R": 2.17,
+        "R": 0.0,
         "Q": 1.46,
         "N": 2.0,
         "I": 4.5,
@@ -127516,9 +127516,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.28,
+      "total": 11.44,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 0.94,
         "N": 2.0,
         "I": 4.5,
@@ -127742,7 +127742,7 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.93,
+      "total": 6.92,
       "axes": {
         "R": 0.5,
         "Q": 1.43,
@@ -128077,9 +128077,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.38,
+      "total": 11.55,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 1.55,
         "N": 2.0,
         "I": 4.5,
@@ -128637,9 +128637,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.96,
+      "total": 14.96,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 1.96,
         "N": 4.0,
         "I": 4.5,
@@ -131446,7 +131446,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "A programming framework for agentic AI",
+    "description": "Listed in e2b-dev/awesome-ai-agents",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 59666,
@@ -131505,9 +131505,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.27,
+      "total": 8.77,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.77,
         "N": 2.0,
         "I": 0.0,
@@ -131685,9 +131685,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.0,
+      "total": 12.5,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 0.0,
@@ -131723,9 +131723,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.98,
+      "total": 15.98,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.98,
         "N": 5.0,
         "I": 4.5,
@@ -131909,13 +131909,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.36,
+      "total": 15.37,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.87,
         "N": 5.0,
         "I": 2.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -131926,7 +131926,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "Harness LLMs with Multi-Agent Programming",
+    "description": "Listed in e2b-dev/awesome-ai-agents",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 4062,
@@ -131947,9 +131947,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.85,
+      "total": 11.85,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.85,
         "N": 5.0,
         "I": 0.0,
@@ -131964,7 +131964,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "👾 Open source implementation of the ChatGPT Code Interpreter",
+    "description": "Listed in kyrolabs/awesome-langchain",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 3851,
@@ -132116,7 +132116,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24)",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 3561,
@@ -132190,7 +132190,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "A repo lists papers related to LLM based agent",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 2328,
@@ -132357,9 +132357,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.2,
+      "total": 11.7,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.7,
         "N": 5.0,
         "I": 0.0,
@@ -132449,7 +132449,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "AIlice is a fully autonomous, general-purpose AI agent.",
+    "description": "Listed in e2b-dev/awesome-ai-agents",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 1410,
@@ -132783,7 +132783,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "The llama-cpp-agent framework is a tool designed for easy interaction with Large Language Models (LLMs). Allowing users to chat with LLM models, execute structured function calls and get structured output. Works also with models not fine-tuned to JSON output and function calls.",
+    "description": "Listed in kyrolabs/awesome-langchain",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 651,
@@ -132991,9 +132991,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.79,
+      "total": 7.29,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 1.29,
         "N": 2.0,
         "I": 0.0,
@@ -133028,10 +133028,10 @@
       "llama3"
     ],
     "grade": {
-      "letter": "D",
-      "total": 6.04,
+      "letter": "F",
+      "total": 5.54,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 1.04,
         "N": 2.0,
         "I": 0.0,
@@ -133105,9 +133105,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.89,
+      "total": 11.55,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.55,
         "N": 5.0,
         "I": 0.0,
@@ -133257,9 +133257,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.0,
+      "total": 11.5,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.5,
         "N": 5.0,
         "I": 0.0,
@@ -133366,9 +133366,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.57,
+      "total": 10.74,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.24,
         "N": 3.0,
         "I": 0.0,
@@ -133515,9 +133515,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.87,
+      "total": 7.54,
       "axes": {
-        "R": 0.67,
+        "R": 0.33,
         "Q": 1.2,
         "N": 2.0,
         "I": 0.0,
@@ -133804,10 +133804,10 @@
       "openclaw"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.06,
+      "letter": "D",
+      "total": 9.56,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.56,
         "N": 3.0,
         "I": 0.0,
@@ -134099,9 +134099,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.25,
+      "total": 8.09,
       "axes": {
-        "R": 0.17,
+        "R": 0.0,
         "Q": 2.09,
         "N": 2.0,
         "I": 0.0,
@@ -134645,10 +134645,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -134722,9 +134722,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.0,
+      "total": 8.5,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.5,
         "N": 2.0,
         "I": 0.0,
@@ -134797,10 +134797,10 @@
       "llm-tools"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.14,
+      "letter": "C",
+      "total": 13.81,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.81,
         "N": 5.0,
         "I": 2.5,
@@ -134911,10 +134911,10 @@
       "llm-tools"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.04,
+      "letter": "C",
+      "total": 13.2,
       "axes": {
-        "R": 1.83,
+        "R": 0.0,
         "Q": 2.7,
         "N": 2.0,
         "I": 4.5,
@@ -134988,9 +134988,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.04,
+      "total": 8.54,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.54,
         "N": 2.0,
         "I": 0.0,
@@ -135139,9 +135139,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.33,
+      "total": 10.33,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 1.33,
         "N": 2.0,
         "I": 4.5,
@@ -135177,9 +135177,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.25,
+      "total": 10.58,
       "axes": {
-        "R": 0.67,
+        "R": 0.0,
         "Q": 2.58,
         "N": 4.0,
         "I": 0.0,
@@ -135215,9 +135215,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.81,
+      "total": 17.31,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.81,
         "N": 5.0,
         "I": 5.0,
@@ -135266,7 +135266,7 @@
     "source": "github",
     "category": "claude_plugin",
     "subcategory": "general",
-    "description": "Give each AI agent its own isolated machine with root, Docker, and systemd. Active defense detects and stops threats automatically.",
+    "description": "Listed in hesreallyhim/awesome-claude-code",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 586,
@@ -135286,14 +135286,14 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.54,
+      "letter": "B",
+      "total": 17.54,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.54,
         "N": 5.0,
         "I": 5.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -135325,9 +135325,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.86,
+      "total": 8.52,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.52,
         "N": 2.0,
         "I": 0.0,
@@ -135362,10 +135362,10 @@
       "islamic-prayer-times"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.44,
+      "letter": "C",
+      "total": 12.94,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.44,
         "N": 2.0,
         "I": 4.5,
@@ -135439,9 +135439,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.95,
+      "total": 17.45,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.45,
         "N": 4.0,
         "I": 5.0,
@@ -135515,9 +135515,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.91,
+      "total": 10.41,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.41,
         "N": 3.0,
         "I": 0.0,
@@ -135591,9 +135591,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.7,
+      "total": 14.37,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.37,
         "N": 2.0,
         "I": 5.0,
@@ -135629,9 +135629,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.31,
+      "total": 11.98,
       "axes": {
-        "R": 1.67,
+        "R": 0.33,
         "Q": 1.15,
         "N": 2.0,
         "I": 4.5,
@@ -135705,9 +135705,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.4,
+      "total": 14.9,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.4,
         "N": 5.0,
         "I": 5.0,
@@ -135854,9 +135854,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.68,
+      "total": 17.35,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.35,
         "N": 5.0,
         "I": 4.5,
@@ -135892,9 +135892,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.61,
+      "total": 13.11,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.11,
         "N": 2.0,
         "I": 5.0,
@@ -135930,7 +135930,7 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.28,
+      "total": 8.27,
       "axes": {
         "R": 0.0,
         "Q": 2.27,
@@ -136155,9 +136155,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.9,
+      "total": 12.9,
       "axes": {
-        "R": 1.83,
+        "R": 0.83,
         "Q": 2.07,
         "N": 2.0,
         "I": 4.5,
@@ -136230,10 +136230,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.06,
+      "total": 11.05,
       "axes": {
-        "R": 1.0,
-        "Q": 2.06,
+        "R": 0.0,
+        "Q": 2.05,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -136306,9 +136306,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.38,
+      "total": 8.05,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.05,
         "N": 2.0,
         "I": 0.0,
@@ -136344,9 +136344,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.7,
+      "total": 12.2,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.2,
         "N": 2.0,
         "I": 4.5,
@@ -136420,9 +136420,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.95,
+      "total": 15.45,
       "axes": {
-        "R": 1.67,
+        "R": 0.17,
         "Q": 2.28,
         "N": 5.0,
         "I": 4.5,
@@ -136604,9 +136604,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.59,
+      "total": 8.25,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.25,
         "N": 2.0,
         "I": 0.0,
@@ -136925,7 +136925,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "docx ↔ LLM translator. Projects .docx to Markdown for editing. Projects edits back to OOXML as tracked changes. Python and Node.js implementations.",
+    "description": "Listed in appcypher/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 122,
@@ -136946,9 +136946,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.28,
+      "total": 15.78,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.28,
         "N": 5.0,
         "I": 4.5,
@@ -137381,7 +137381,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+    "description": "Listed in kyrolabs/awesome-langchain",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 35924,
@@ -137402,9 +137402,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.67,
+      "total": 12.0,
       "axes": {
-        "R": 0.67,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 0.0,
@@ -137440,9 +137440,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.17,
+      "total": 11.0,
       "axes": {
-        "R": 1.17,
+        "R": 1.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 0.0,
@@ -137588,9 +137588,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.0,
+      "total": 11.5,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 3.0,
         "N": 4.0,
         "I": 0.0,
@@ -137626,9 +137626,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.5,
+      "total": 12.0,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 0.0,
@@ -137792,7 +137792,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "Story Creation AI Agent for novel, scripts, interactive games, and IP content",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 7903,
@@ -137964,9 +137964,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.83,
+      "total": 18.33,
       "axes": {
-        "R": 2.33,
+        "R": 1.83,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -138040,9 +138040,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.52,
+      "total": 10.19,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.69,
         "N": 5.0,
         "I": 0.0,
@@ -138228,9 +138228,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.29,
+      "total": 8.96,
       "axes": {
-        "R": 0.83,
+        "R": 0.5,
         "Q": 2.96,
         "N": 3.0,
         "I": 0.0,
@@ -138340,10 +138340,10 @@
       "llm"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.5,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -138720,13 +138720,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.9,
+      "total": 14.23,
       "axes": {
-        "R": 1.17,
+        "R": 0.5,
         "Q": 2.73,
         "N": 2.0,
         "I": 5.0,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -138758,9 +138758,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.65,
+      "total": 12.32,
       "axes": {
-        "R": 0.83,
+        "R": 0.5,
         "Q": 2.82,
         "N": 5.0,
         "I": 0.0,
@@ -138832,10 +138832,10 @@
       "llm"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.1,
+      "letter": "C",
+      "total": 13.1,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.6,
         "N": 3.0,
         "I": 4.5,
@@ -138904,9 +138904,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.16,
+      "total": 14.83,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.83,
         "N": 5.0,
         "I": 4.5,
@@ -139654,10 +139654,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.85,
+      "total": 13.84,
       "axes": {
         "R": 0.5,
-        "Q": 2.35,
+        "Q": 2.34,
         "N": 2.0,
         "I": 5.0,
         "F": 4.0
@@ -139954,10 +139954,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 20.17,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 2.83,
+        "R": 0.17,
         "Q": 2.84,
         "N": 5.0,
         "I": 4.5,
@@ -140067,9 +140067,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.67,
+      "total": 16.17,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.67,
         "N": 4.0,
         "I": 4.5,
@@ -140143,9 +140143,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.04,
+      "total": 15.54,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.54,
         "N": 4.0,
         "I": 4.5,
@@ -140160,7 +140160,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Your First LLM-Wiki Conversation Knowledge Base",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 395,
@@ -140181,9 +140181,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.31,
+      "total": 14.97,
       "axes": {
-        "R": 2.33,
+        "R": 0.0,
         "Q": 2.47,
         "N": 4.0,
         "I": 4.5,
@@ -140218,10 +140218,10 @@
       "knowledge-graph"
     ],
     "grade": {
-      "letter": "B",
-      "total": 16.29,
+      "letter": "C",
+      "total": 13.95,
       "axes": {
-        "R": 2.33,
+        "R": 0.0,
         "Q": 2.45,
         "N": 3.0,
         "I": 4.5,
@@ -140257,9 +140257,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.37,
+      "total": 14.87,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.37,
         "N": 5.0,
         "I": 4.5,
@@ -140294,10 +140294,10 @@
       "embeddings"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.5,
+      "letter": "C",
+      "total": 13.83,
       "axes": {
-        "R": 2.17,
+        "R": 0.5,
         "Q": 2.33,
         "N": 4.0,
         "I": 4.5,
@@ -140370,10 +140370,10 @@
       "cursor"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.15,
+      "letter": "B",
+      "total": 16.49,
       "axes": {
-        "R": 2.17,
+        "R": 0.5,
         "Q": 2.49,
         "N": 5.0,
         "I": 4.5,
@@ -140409,9 +140409,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.99,
+      "total": 14.16,
       "axes": {
-        "R": 2.33,
+        "R": 1.5,
         "Q": 2.16,
         "N": 2.0,
         "I": 4.5,
@@ -140484,10 +140484,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.39,
+      "letter": "B",
+      "total": 17.56,
       "axes": {
-        "R": 2.83,
+        "R": 1.0,
         "Q": 2.56,
         "N": 5.0,
         "I": 4.5,
@@ -140523,9 +140523,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.32,
+      "total": 16.32,
       "axes": {
-        "R": 1.83,
+        "R": 0.83,
         "Q": 1.99,
         "N": 4.0,
         "I": 4.5,
@@ -140560,10 +140560,10 @@
       "code-intelligence"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.12,
+      "letter": "C",
+      "total": 12.62,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.12,
         "N": 2.0,
         "I": 4.5,
@@ -140898,9 +140898,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.51,
+      "total": 14.01,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.01,
         "N": 2.0,
         "I": 4.5,
@@ -140974,9 +140974,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.19,
+      "total": 14.19,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.19,
         "N": 3.0,
         "I": 4.5,
@@ -141088,9 +141088,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.16,
+      "total": 14.15,
       "axes": {
-        "R": 3.0,
+        "R": 1.0,
         "Q": 2.15,
         "N": 2.0,
         "I": 4.5,
@@ -141277,10 +141277,10 @@
       "insider-trading"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.54,
+      "letter": "C",
+      "total": 13.71,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.21,
         "N": 2.0,
         "I": 4.5,
@@ -141501,9 +141501,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.6,
+      "total": 15.1,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.6,
         "N": 5.0,
         "I": 4.5,
@@ -141615,9 +141615,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.71,
+      "total": 14.21,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.21,
         "N": 3.0,
         "I": 4.5,
@@ -142215,9 +142215,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.29,
+      "total": 16.45,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.45,
         "N": 5.0,
         "I": 4.5,
@@ -142252,10 +142252,10 @@
       "golang"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.11,
+      "letter": "C",
+      "total": 12.94,
       "axes": {
-        "R": 2.67,
+        "R": 0.5,
         "Q": 2.44,
         "N": 3.0,
         "I": 4.5,
@@ -143119,9 +143119,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.93,
+      "total": 14.43,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.93,
         "N": 2.0,
         "I": 5.0,
@@ -143297,9 +143297,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.08,
+      "total": 14.75,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 2.75,
         "N": 2.0,
         "I": 5.0,
@@ -143314,7 +143314,7 @@
     "source": "github",
     "category": "claude_plugin",
     "subcategory": "general",
-    "description": "A Systematic Analysis and Discussion of Claude Code for Designing Today's and Future AI Agent Systems",
+    "description": "Listed in hesreallyhim/awesome-claude-code",
     "readme_excerpt": null,
     "language": null,
     "stars": 1872,
@@ -143370,9 +143370,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 18.0,
+      "total": 17.66,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.66,
         "N": 5.0,
         "I": 5.0,
@@ -143407,14 +143407,14 @@
       "ai-swarm"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.15,
+      "letter": "B",
+      "total": 15.15,
       "axes": {
-        "R": 2.5,
+        "R": 0.0,
         "Q": 2.65,
         "N": 5.0,
         "I": 5.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -143634,12 +143634,12 @@
       "design-system"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.08,
+      "letter": "C",
+      "total": 13.07,
       "axes": {
         "R": 1.0,
-        "Q": 2.58,
-        "N": 3.0,
+        "Q": 2.57,
+        "N": 2.0,
         "I": 5.0,
         "F": 2.5
       }
@@ -144121,10 +144121,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.98,
+      "total": 13.97,
       "axes": {
         "R": 1.0,
-        "Q": 1.98,
+        "Q": 1.97,
         "N": 2.0,
         "I": 5.0,
         "F": 4.0
@@ -144138,7 +144138,7 @@
     "source": "github",
     "category": "claude_plugin",
     "subcategory": "general",
-    "description": "Design engine for Claude Code, Codex & Cursor — teaches design judgment, not just data. 74 rules, 48 components, 7 brand skins (Toss/Stripe/Linear/Notion/Raycast/Arc/Vercel), a named motion system (5 seeds + 20+ moves), 15 /ss-* skills. Stop shipping AI UI that looks generated. MIT.",
+    "description": "Listed in hesreallyhim/awesome-claude-code",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 670,
@@ -144158,10 +144158,10 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.23,
+      "letter": "B",
+      "total": 17.56,
       "axes": {
-        "R": 1.67,
+        "R": 1.0,
         "Q": 2.56,
         "N": 5.0,
         "I": 5.0,
@@ -145631,9 +145631,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.09,
+      "total": 18.59,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.59,
         "N": 5.0,
         "I": 5.0,
@@ -145964,10 +145964,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.85,
+      "total": 7.84,
       "axes": {
         "R": 0.0,
-        "Q": 1.85,
+        "Q": 1.84,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -146002,9 +146002,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.8,
+      "total": 10.97,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 1.97,
         "N": 5.0,
         "I": 0.0,
@@ -146040,10 +146040,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.45,
+      "total": 6.44,
       "axes": {
         "R": 0.0,
-        "Q": 1.95,
+        "Q": 1.94,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -146151,10 +146151,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.7,
+      "total": 11.69,
       "axes": {
         "R": 0.5,
-        "Q": 1.7,
+        "Q": 1.69,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -146379,9 +146379,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.86,
+      "total": 15.86,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 1.86,
         "N": 5.0,
         "I": 4.5,
@@ -148029,9 +148029,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.46,
+      "total": 10.96,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 1.47,
         "N": 2.0,
         "I": 2.5,
@@ -149051,10 +149051,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.14,
+      "total": 5.13,
       "axes": {
         "R": 0.0,
-        "Q": 0.64,
+        "Q": 0.63,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -152344,10 +152344,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.11,
+      "total": 7.1,
       "axes": {
         "R": 0.0,
-        "Q": 1.11,
+        "Q": 1.1,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -152381,10 +152381,10 @@
       "fts5"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.95,
+      "letter": "C",
+      "total": 13.78,
       "axes": {
-        "R": 3.17,
+        "R": 1.0,
         "Q": 2.28,
         "N": 3.0,
         "I": 4.5,
@@ -152519,9 +152519,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.46,
+      "total": 16.46,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.46,
         "N": 5.0,
         "I": 4.5,
@@ -153157,7 +153157,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "The missing open source Kubernetes UI. Topology, event timeline, and service traffic — plus resource browsing and Helm management.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 2553,
@@ -153178,9 +153178,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.28,
+      "total": 14.78,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.78,
         "N": 5.0,
         "I": 4.5,
@@ -153216,9 +153216,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.08,
+      "total": 11.58,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.08,
         "N": 2.0,
         "I": 4.5,
@@ -154367,9 +154367,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.45,
+      "total": 15.95,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.45,
         "N": 5.0,
         "I": 5.0,
@@ -154737,9 +154737,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.54,
+      "total": 17.21,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.21,
         "N": 4.0,
         "I": 5.0,
@@ -154976,9 +154976,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.12,
+      "total": 12.62,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.12,
         "N": 2.0,
         "I": 4.5,
@@ -155217,9 +155217,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.1,
+      "total": 15.6,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.6,
         "N": 5.0,
         "I": 4.5,
@@ -155457,9 +155457,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.61,
+      "total": 10.94,
       "axes": {
-        "R": 1.67,
+        "R": 0.0,
         "Q": 1.94,
         "N": 2.0,
         "I": 4.5,
@@ -155495,9 +155495,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.8,
+      "total": 11.3,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.3,
         "N": 2.0,
         "I": 4.5,
@@ -155703,9 +155703,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.48,
+      "total": 16.98,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 1.98,
         "N": 5.0,
         "I": 5.0,
@@ -156997,9 +156997,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.98,
+      "total": 14.48,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.48,
         "N": 3.0,
         "I": 4.5,
@@ -157853,9 +157853,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.93,
+      "total": 15.26,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 2.26,
         "N": 3.0,
         "I": 4.5,
@@ -159036,10 +159036,10 @@
       "langchain"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.65,
+      "letter": "B",
+      "total": 17.82,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.82,
         "N": 5.0,
         "I": 5.0,
@@ -160432,14 +160432,14 @@
       "claude-code"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.87,
+      "letter": "B",
+      "total": 16.87,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.87,
         "N": 5.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -160471,7 +160471,7 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.45,
+      "total": 13.44,
       "axes": {
         "R": 1.0,
         "Q": 2.44,
@@ -160919,9 +160919,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.31,
+      "total": 10.48,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.48,
         "N": 5.0,
         "I": 0.0,
@@ -161493,10 +161493,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.73,
+      "total": 14.72,
       "axes": {
         "R": 2.0,
-        "Q": 2.23,
+        "Q": 2.22,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -162676,9 +162676,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.82,
+      "total": 16.32,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.81,
         "N": 5.0,
         "I": 4.5,
@@ -164028,9 +164028,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.29,
+      "total": 18.96,
       "axes": {
-        "R": 2.17,
+        "R": 1.83,
         "Q": 2.62,
         "N": 5.0,
         "I": 4.5,
@@ -176190,7 +176190,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "search",
-    "description": "Operations substrate for AI agents that use real software: 311 sites/tools, logged-in browsers, desktop apps, local tools, MCP, policy, evidence, AgentEnvelope v2, and self-repair.",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 190,
@@ -176210,14 +176210,14 @@
       "cdp"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.69,
+      "letter": "B",
+      "total": 16.36,
       "axes": {
-        "R": 3.33,
+        "R": 0.5,
         "Q": 2.35,
         "N": 5.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -178524,13 +178524,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.35,
+      "total": 15.18,
       "axes": {
-        "R": 1.67,
+        "R": 0.5,
         "Q": 2.68,
         "N": 5.0,
         "I": 4.5,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -181901,9 +181901,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.74,
+      "total": 12.41,
       "axes": {
-        "R": 0.83,
+        "R": 0.5,
         "Q": 2.41,
         "N": 5.0,
         "I": 0.0,
@@ -182675,10 +182675,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.75,
+      "total": 11.41,
       "axes": {
-        "R": 1.83,
-        "Q": 1.92,
+        "R": 0.5,
+        "Q": 1.91,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -183548,9 +183548,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.42,
+      "total": 11.42,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 1.92,
         "N": 2.0,
         "I": 4.5,
@@ -183872,10 +183872,10 @@
       "openai"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.09,
+      "letter": "D",
+      "total": 9.92,
       "axes": {
-        "R": 0.17,
+        "R": 0.0,
         "Q": 2.42,
         "N": 5.0,
         "I": 0.0,
@@ -184510,9 +184510,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.85,
+      "total": 6.52,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.02,
         "N": 2.0,
         "I": 0.0,
@@ -184679,9 +184679,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.69,
+      "total": 7.36,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 1.86,
         "N": 3.0,
         "I": 0.0,
@@ -184750,9 +184750,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.23,
+      "total": 14.73,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.23,
         "N": 3.0,
         "I": 4.5,
@@ -186825,7 +186825,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Local-only Go static analysis engine with a built-in MCP server. Gives AI coding agents deterministic structural awareness: call graphs, impact analysis, symbol search, and more.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Go",
     "stars": 196,
@@ -186846,13 +186846,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.36,
+      "total": 14.86,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.36,
         "N": 5.0,
         "I": 4.5,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -187121,9 +187121,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.83,
+      "total": 15.0,
       "axes": {
-        "R": 2.33,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 2.5,
@@ -187378,7 +187378,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "The Execution Security Layer for the Agentic Era. Providing deterministic \"Sudo\" governance and audit logs for autonomous AI agents.",
+    "description": "Listed in hesreallyhim/awesome-claude-code",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 209,
@@ -187649,10 +187649,10 @@
       "claude-code-plugin"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.47,
+      "letter": "C",
+      "total": 12.97,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 1.97,
         "N": 2.0,
         "I": 4.5,
@@ -187781,9 +187781,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.06,
+      "total": 15.39,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 1.89,
         "N": 5.0,
         "I": 4.5,
@@ -187851,9 +187851,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.17,
+      "total": 15.01,
       "axes": {
-        "R": 3.17,
+        "R": 2.0,
         "Q": 1.5,
         "N": 2.0,
         "I": 5.0,
@@ -189708,9 +189708,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.99,
+      "total": 17.49,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.49,
         "N": 4.0,
         "I": 5.0,
@@ -189745,10 +189745,10 @@
       "android-agent"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.1,
+      "letter": "D",
+      "total": 9.77,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 1.77,
         "N": 2.0,
         "I": 2.5,
@@ -190897,10 +190897,10 @@
       "chrome-automation"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.36,
+      "letter": "C",
+      "total": 13.86,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.36,
         "N": 4.0,
         "I": 4.5,
@@ -191739,9 +191739,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.26,
+      "total": 14.76,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.26,
         "N": 4.0,
         "I": 4.5,
@@ -191843,9 +191843,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.49,
+      "total": 16.49,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.99,
         "N": 5.0,
         "I": 4.5,
@@ -192430,10 +192430,10 @@
       "mcp-server"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.08,
+      "letter": "B",
+      "total": 17.58,
       "axes": {
-        "R": 2.33,
+        "R": 1.83,
         "Q": 2.25,
         "N": 5.0,
         "I": 4.5,
@@ -192786,9 +192786,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.25,
+      "total": 14.25,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.75,
         "N": 4.0,
         "I": 4.5,
@@ -192923,13 +192923,13 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.33,
+      "total": 11.33,
       "axes": {
         "R": 0.0,
         "Q": 2.33,
         "N": 5.0,
         "I": 0.0,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -193027,9 +193027,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.5,
+      "total": 14.5,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 3.0,
         "I": 4.5,
@@ -194104,9 +194104,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.63,
+      "total": 14.97,
       "axes": {
-        "R": 2.67,
+        "R": 1.0,
         "Q": 2.47,
         "N": 4.0,
         "I": 4.5,
@@ -194142,9 +194142,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.76,
+      "total": 14.26,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.25,
         "N": 2.0,
         "I": 5.0,
@@ -194690,10 +194690,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.98,
+      "total": 13.97,
       "axes": {
         "R": 1.5,
-        "Q": 1.98,
+        "Q": 1.97,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -194728,9 +194728,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.75,
+      "total": 11.08,
       "axes": {
-        "R": 0.67,
+        "R": 0.0,
         "Q": 2.08,
         "N": 5.0,
         "I": 0.0,
@@ -195294,9 +195294,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.98,
+      "total": 15.32,
       "axes": {
-        "R": 2.17,
+        "R": 0.5,
         "Q": 2.82,
         "N": 5.0,
         "I": 4.5,
@@ -196028,10 +196028,10 @@
       "blog"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.17,
+      "letter": "B",
+      "total": 17.17,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.67,
         "N": 5.0,
         "I": 5.0,
@@ -196191,9 +196191,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.1,
+      "total": 15.6,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.1,
         "N": 5.0,
         "I": 4.5,
@@ -196950,7 +196950,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Self-correcting learning engine for Claude Code — persistent identity, behavioral pattern tracking, and cross-session memory",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 84,
@@ -196970,10 +196970,10 @@
       "cognitive-frameworks"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.68,
+      "letter": "C",
+      "total": 13.18,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.17,
         "N": 2.0,
         "I": 4.5,
@@ -197176,10 +197176,10 @@
       "cli"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.45,
+      "letter": "B",
+      "total": 17.45,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.45,
         "N": 5.0,
         "I": 4.5,
@@ -197691,9 +197691,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.03,
+      "total": 11.7,
       "axes": {
-        "R": 1.83,
+        "R": 0.5,
         "Q": 2.2,
         "N": 2.0,
         "I": 4.5,
@@ -199531,9 +199531,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.43,
+      "total": 14.6,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.6,
         "N": 3.0,
         "I": 4.5,
@@ -201382,9 +201382,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.98,
+      "total": 16.64,
       "axes": {
-        "R": 2.83,
+        "R": 1.5,
         "Q": 2.15,
         "N": 5.0,
         "I": 5.0,
@@ -202792,10 +202792,10 @@
       "flutter"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.02,
+      "letter": "C",
+      "total": 13.52,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.02,
         "N": 4.0,
         "I": 4.5,
@@ -205965,9 +205965,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.79,
+      "total": 16.29,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.79,
         "N": 5.0,
         "I": 4.5,
@@ -206712,7 +206712,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "Isolated CODEX_HOME profiles for Codex CLI/Desktop: switch accounts without copying auth.json",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "Shell",
     "stars": 48,
@@ -206988,9 +206988,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.36,
+      "total": 15.86,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.36,
         "N": 5.0,
         "I": 4.5,
@@ -207130,9 +207130,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.34,
+      "total": 14.84,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.83,
         "N": 5.0,
         "I": 4.5,
@@ -207506,7 +207506,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Local-first AI memory you can see, edit, and override — portable across Claude Code, Codex, Cursor, Windsurf, and other MCP coding tools.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 171,
@@ -207526,10 +207526,10 @@
       "awesome"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.34,
+      "letter": "B",
+      "total": 15.84,
       "axes": {
-        "R": 2.5,
+        "R": 0.0,
         "Q": 2.34,
         "N": 5.0,
         "I": 4.5,
@@ -207669,10 +207669,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.68,
+      "total": 11.67,
       "axes": {
         "R": 0.5,
-        "Q": 2.18,
+        "Q": 2.17,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -207859,7 +207859,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "EOC: open-source operating system for OpenAI Codex workflows with agents, skills, hooks, rules, memory, safety gates, and cross-harness adapters.",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "JavaScript",
     "stars": 83,
@@ -207879,14 +207879,14 @@
       "codex"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.39,
+      "letter": "D",
+      "total": 9.22,
       "axes": {
-        "R": 0.67,
+        "R": 0.5,
         "Q": 2.22,
         "N": 4.0,
         "I": 0.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -208607,9 +208607,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.11,
+      "total": 16.11,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.6,
         "N": 5.0,
         "I": 4.5,
@@ -209490,9 +209490,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.16,
+      "total": 15.66,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.66,
         "N": 4.0,
         "I": 4.5,
@@ -209527,10 +209527,10 @@
       "linux-ai"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.06,
+      "letter": "C",
+      "total": 13.56,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.56,
         "N": 4.0,
         "I": 4.5,
@@ -210441,14 +210441,14 @@
       "autonomous-agent"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.08,
+      "letter": "C",
+      "total": 12.75,
       "axes": {
-        "R": 2.83,
+        "R": 1.0,
         "Q": 1.25,
         "N": 3.0,
         "I": 5.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -210480,9 +210480,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.08,
+      "total": 14.25,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 1.25,
         "N": 5.0,
         "I": 5.0,
@@ -211121,9 +211121,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.7,
+      "total": 14.87,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 1.87,
         "N": 3.0,
         "I": 5.0,
@@ -212055,10 +212055,10 @@
       "copilot"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.35,
+      "letter": "C",
+      "total": 13.18,
       "axes": {
-        "R": 2.17,
+        "R": 1.0,
         "Q": 1.68,
         "N": 3.0,
         "I": 5.0,
@@ -212373,9 +212373,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.45,
+      "total": 14.11,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.61,
         "N": 4.0,
         "I": 2.5,
@@ -212411,9 +212411,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.02,
+      "total": 15.18,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.18,
         "N": 4.0,
         "I": 4.5,
@@ -212859,10 +212859,10 @@
       "gemini-cli"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.87,
+      "letter": "B",
+      "total": 17.87,
       "axes": {
-        "R": 1.83,
+        "R": 0.83,
         "Q": 2.53,
         "N": 5.0,
         "I": 4.5,
@@ -213249,10 +213249,10 @@
       "local-first"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.17,
+      "letter": "C",
+      "total": 13.67,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.17,
         "N": 4.0,
         "I": 4.5,
@@ -213461,9 +213461,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.87,
+      "total": 12.53,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.03,
         "N": 2.0,
         "I": 5.0,
@@ -213669,9 +213669,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.2,
+      "total": 15.2,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.2,
         "N": 5.0,
         "I": 4.5,
@@ -214429,9 +214429,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.91,
+      "total": 16.41,
       "axes": {
-        "R": 2.5,
+        "R": 2.0,
         "Q": 2.41,
         "N": 3.0,
         "I": 4.5,
@@ -214996,9 +214996,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.07,
+      "total": 11.57,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 1.57,
         "N": 2.0,
         "I": 5.0,
@@ -215072,9 +215072,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.7,
+      "total": 14.86,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.36,
         "N": 5.0,
         "I": 4.5,
@@ -215560,9 +215560,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.96,
+      "total": 14.63,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.63,
         "N": 3.0,
         "I": 5.0,
@@ -216017,9 +216017,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.69,
+      "total": 16.19,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.69,
         "N": 5.0,
         "I": 4.5,
@@ -216195,9 +216195,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.87,
+      "total": 11.37,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.37,
         "N": 5.0,
         "I": 0.0,
@@ -216430,9 +216430,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.97,
+      "total": 17.64,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.64,
         "N": 4.0,
         "I": 5.0,
@@ -217901,9 +217901,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.58,
+      "total": 8.25,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.75,
         "N": 3.0,
         "I": 0.0,
@@ -218040,10 +218040,10 @@
       "line-messaging-api"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.53,
+      "letter": "C",
+      "total": 13.7,
       "axes": {
-        "R": 1.83,
+        "R": 0.0,
         "Q": 2.2,
         "N": 3.0,
         "I": 4.5,
@@ -218700,9 +218700,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.83,
+      "total": 14.0,
       "axes": {
-        "R": 1.83,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -218738,9 +218738,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.5,
+      "total": 14.0,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -219042,10 +219042,10 @@
       "consensus"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.61,
+      "letter": "C",
+      "total": 12.78,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.28,
         "N": 3.0,
         "I": 4.5,
@@ -219212,10 +219212,10 @@
       "knowledge-base"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.66,
+      "letter": "B",
+      "total": 17.16,
       "axes": {
-        "R": 1.67,
+        "R": 0.17,
         "Q": 2.49,
         "N": 5.0,
         "I": 4.5,
@@ -225882,9 +225882,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.35,
+      "total": 16.19,
       "axes": {
-        "R": 1.17,
+        "R": 1.0,
         "Q": 2.69,
         "N": 5.0,
         "I": 5.0,
@@ -226052,9 +226052,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.65,
+      "total": 14.82,
       "axes": {
-        "R": 1.83,
+        "R": 0.0,
         "Q": 2.82,
         "N": 5.0,
         "I": 4.5,
@@ -226490,10 +226490,10 @@
       "codex-cli"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.29,
+      "letter": "B",
+      "total": 17.29,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.29,
         "N": 5.0,
         "I": 4.5,
@@ -226836,9 +226836,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.93,
+      "total": 17.43,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.94,
         "N": 5.0,
         "I": 4.5,
@@ -226874,9 +226874,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.33,
+      "total": 16.0,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 3.0,
         "N": 3.0,
         "I": 5.0,
@@ -227634,10 +227634,10 @@
       "hermes-agent"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.08,
+      "letter": "B",
+      "total": 17.91,
       "axes": {
-        "R": 2.5,
+        "R": 1.33,
         "Q": 2.58,
         "N": 4.0,
         "I": 5.0,
@@ -227673,13 +227673,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.48,
+      "total": 14.48,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 1.98,
         "N": 5.0,
         "I": 2.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -227981,9 +227981,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.76,
+      "total": 17.43,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.43,
         "N": 5.0,
         "I": 4.5,
@@ -228057,9 +228057,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.95,
+      "total": 18.79,
       "axes": {
-        "R": 2.67,
+        "R": 1.5,
         "Q": 2.79,
         "N": 5.0,
         "I": 5.0,
@@ -228338,9 +228338,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.7,
+      "total": 10.36,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.36,
         "N": 4.0,
         "I": 0.0,
@@ -228758,10 +228758,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.79,
+      "letter": "C",
+      "total": 13.79,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.29,
         "N": 3.0,
         "I": 4.5,
@@ -229604,9 +229604,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.04,
+      "total": 7.88,
       "axes": {
-        "R": 1.17,
+        "R": 0.0,
         "Q": 1.88,
         "N": 2.0,
         "I": 0.0,
@@ -230113,10 +230113,10 @@
       "embeddings"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.61,
+      "letter": "B",
+      "total": 16.45,
       "axes": {
-        "R": 2.67,
+        "R": 0.5,
         "Q": 2.45,
         "N": 5.0,
         "I": 4.5,
@@ -230152,13 +230152,13 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.65,
+      "total": 11.15,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 1.65,
         "N": 2.0,
         "I": 2.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -230258,9 +230258,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.44,
+      "total": 16.61,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 2.6,
         "N": 5.0,
         "I": 5.0,
@@ -230771,7 +230771,7 @@
     "source": "github",
     "category": null,
     "subcategory": null,
-    "description": "A Claude agent starter you can actually read — streaming + tool use in ~150 lines. Next.js + the official Anthropic SDK. MIT.",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 2,
@@ -230792,9 +230792,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.01,
+      "total": 10.68,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 1.68,
         "N": 5.0,
         "I": 0.0,
@@ -230957,10 +230957,10 @@
       "claude-ai"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.35,
+      "letter": "C",
+      "total": 13.35,
       "axes": {
-        "R": 3.0,
+        "R": 2.0,
         "Q": 1.85,
         "N": 2.0,
         "I": 5.0,
@@ -232527,9 +232527,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.22,
+      "total": 8.88,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.38,
         "N": 4.0,
         "I": 0.0,
@@ -233718,9 +233718,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.88,
+      "total": 15.38,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 1.88,
         "N": 4.0,
         "I": 4.5,
@@ -234222,9 +234222,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.15,
+      "total": 18.82,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.82,
         "N": 5.0,
         "I": 5.0,
@@ -239142,9 +239142,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.78,
+      "total": 11.78,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.28,
         "N": 2.0,
         "I": 4.5,
@@ -239418,10 +239418,10 @@
       "deepseek"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.32,
+      "letter": "B",
+      "total": 16.66,
       "axes": {
-        "R": 2.17,
+        "R": 0.5,
         "Q": 2.66,
         "N": 5.0,
         "I": 4.5,
@@ -239457,9 +239457,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.25,
+      "total": 11.75,
       "axes": {
-        "R": 0.83,
+        "R": 0.33,
         "Q": 2.42,
         "N": 5.0,
         "I": 0.0,
@@ -240016,9 +240016,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.03,
+      "total": 14.7,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.69,
         "N": 5.0,
         "I": 4.5,
@@ -241712,10 +241712,10 @@
       "gpu-monitoring"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.15,
+      "letter": "B",
+      "total": 16.82,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 2.32,
         "N": 5.0,
         "I": 4.5,
@@ -241879,9 +241879,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.43,
+      "total": 15.93,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.43,
         "N": 5.0,
         "I": 4.5,
@@ -242047,9 +242047,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.39,
+      "total": 16.39,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.89,
         "N": 5.0,
         "I": 4.5,
@@ -242586,9 +242586,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.03,
+      "total": 16.2,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 2.2,
         "N": 5.0,
         "I": 5.0,
@@ -242623,10 +242623,10 @@
       "llm-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.41,
+      "letter": "B",
+      "total": 16.91,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.41,
         "N": 5.0,
         "I": 4.5,
@@ -242761,9 +242761,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.91,
+      "total": 17.41,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.41,
         "N": 4.0,
         "I": 5.0,
@@ -242892,9 +242892,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.36,
+      "total": 15.86,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.36,
         "N": 5.0,
         "I": 4.5,
@@ -244044,9 +244044,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.43,
+      "total": 15.93,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.43,
         "N": 5.0,
         "I": 4.5,
@@ -245130,13 +245130,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.62,
+      "total": 15.29,
       "axes": {
-        "R": 2.83,
+        "R": 1.0,
         "Q": 1.79,
         "N": 5.0,
         "I": 5.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -245206,9 +245206,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.39,
+      "total": 10.89,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 1.89,
         "N": 5.0,
         "I": 0.0,
@@ -245656,10 +245656,10 @@
       "autonomous-agents"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.76,
+      "letter": "B",
+      "total": 17.43,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 2.93,
         "N": 5.0,
         "I": 4.5,
@@ -245727,10 +245727,10 @@
       "comfyui-mcp"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.46,
+      "letter": "B",
+      "total": 16.96,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.46,
         "N": 5.0,
         "I": 4.5,
@@ -246268,9 +246268,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.34,
+      "total": 15.34,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.34,
         "N": 5.0,
         "I": 4.5,
@@ -246285,7 +246285,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "An AI workforce platform: role-specialized agents with multi-provider LLM, MCP, tasks, and a web + CLI UI. You're in charge.",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "TypeScript",
     "stars": 81,
@@ -246306,13 +246306,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.72,
+      "total": 14.72,
       "axes": {
-        "R": 2.5,
+        "R": 0.0,
         "Q": 2.22,
         "N": 4.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -246618,9 +246618,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.13,
+      "total": 18.13,
       "axes": {
-        "R": 3.5,
+        "R": 2.5,
         "Q": 2.63,
         "N": 5.0,
         "I": 5.0,
@@ -247341,9 +247341,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.54,
+      "total": 13.21,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 1.71,
         "N": 3.0,
         "I": 4.5,
@@ -250839,7 +250839,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Catch your AI agents when they lie about what they shipped — verifies claims against git instead of believing the agent.",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 17,
@@ -250859,14 +250859,14 @@
       "claude"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.8,
+      "letter": "B",
+      "total": 14.47,
       "axes": {
-        "R": 3.83,
+        "R": 0.0,
         "Q": 1.97,
         "N": 4.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -250994,9 +250994,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.32,
+      "total": 11.98,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.98,
         "N": 5.0,
         "I": 0.0,
@@ -251631,9 +251631,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.33,
+      "total": 15.83,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.33,
         "N": 5.0,
         "I": 4.5,
@@ -252135,9 +252135,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.31,
+      "total": 14.31,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.31,
         "N": 4.0,
         "I": 4.5,
@@ -252417,9 +252417,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.73,
+      "total": 15.72,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.23,
         "N": 5.0,
         "I": 4.5,
@@ -252653,10 +252653,10 @@
       "cspm"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.6,
+      "letter": "C",
+      "total": 13.6,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.6,
         "N": 4.0,
         "I": 4.5,
@@ -252898,9 +252898,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.96,
+      "total": 15.96,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 1.96,
         "N": 5.0,
         "I": 4.5,
@@ -252967,9 +252967,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.99,
+      "total": 13.82,
       "axes": {
-        "R": 1.67,
+        "R": 1.5,
         "Q": 2.32,
         "N": 3.0,
         "I": 4.5,
@@ -253430,9 +253430,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -254006,9 +254006,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.32,
+      "total": 11.99,
       "axes": {
-        "R": 0.67,
+        "R": 0.33,
         "Q": 2.65,
         "N": 5.0,
         "I": 0.0,
@@ -254335,9 +254335,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.74,
+      "total": 18.07,
       "axes": {
-        "R": 2.33,
+        "R": 0.67,
         "Q": 2.9,
         "N": 5.0,
         "I": 4.5,
@@ -254456,7 +254456,7 @@
     "source": "github",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Durable MCP control plane for long-running Codex Desktop tasks",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 222,
@@ -254477,9 +254477,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.71,
+      "total": 14.38,
       "axes": {
-        "R": 2.83,
+        "R": 0.5,
         "Q": 2.38,
         "N": 3.0,
         "I": 4.5,
@@ -254614,10 +254614,10 @@
       "claude-code"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.28,
+      "letter": "B",
+      "total": 17.44,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.94,
         "N": 5.0,
         "I": 5.0,
@@ -255407,9 +255407,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.77,
+      "total": 16.27,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.27,
         "N": 5.0,
         "I": 4.5,
@@ -256497,9 +256497,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.84,
+      "total": 14.34,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.34,
         "N": 3.0,
         "I": 4.5,
@@ -256672,9 +256672,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.24,
+      "total": 14.24,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.75,
         "N": 4.0,
         "I": 4.5,
@@ -256709,10 +256709,10 @@
       "maigret"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.62,
+      "letter": "B",
+      "total": 17.12,
       "axes": {
-        "R": 3.0,
+        "R": 0.5,
         "Q": 2.62,
         "N": 5.0,
         "I": 4.5,
@@ -256813,10 +256813,10 @@
       "dynamic-island"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.7,
+      "letter": "C",
+      "total": 13.86,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.36,
         "N": 4.0,
         "I": 4.5,
@@ -257570,9 +257570,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.71,
+      "total": 12.21,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.21,
         "N": 3.0,
         "I": 4.5,
@@ -257802,9 +257802,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.44,
+      "total": 16.44,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.94,
         "N": 5.0,
         "I": 4.5,
@@ -257949,9 +257949,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.17,
+      "total": 15.67,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.67,
         "N": 4.0,
         "I": 5.0,
@@ -258249,10 +258249,10 @@
       "cli"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.36,
+      "letter": "C",
+      "total": 13.86,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 1.86,
         "N": 5.0,
         "I": 2.5,
@@ -261382,7 +261382,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Local-first memory layer for AI coding agents. Captures issues, attempts, decisions, and cross-project library gotchas — your AI starts experienced, not amnesiac. Native MCP server verified across Claude Desktop, Cursor, Antigravity, and Codex. 100% local · no cloud · no telemetry · MIT.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 163,
@@ -261403,9 +261403,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.33,
+      "total": 15.33,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.33,
         "N": 4.0,
         "I": 4.5,
@@ -262418,7 +262418,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Taisly Agent Kit: MCP server, CLI, SDK, and agent docs for publishing videos to TikTok, Reels, Shorts, X, and Facebook.",
+    "description": "Listed in punkpeye/awesome-mcp-servers",
     "readme_excerpt": null,
     "language": "JavaScript",
     "stars": 322,
@@ -262438,10 +262438,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.44,
+      "letter": "C",
+      "total": 13.94,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.44,
         "N": 4.0,
         "I": 4.5,
@@ -263207,9 +263207,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.52,
+      "total": 16.18,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.19,
         "N": 4.0,
         "I": 5.0,
@@ -263320,10 +263320,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.41,
+      "letter": "B",
+      "total": 17.07,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 2.07,
         "N": 5.0,
         "I": 4.5,
@@ -263826,9 +263826,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.07,
+      "total": 15.57,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.57,
         "N": 3.0,
         "I": 5.0,
@@ -263894,10 +263894,10 @@
       "cursor"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.83,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -265004,10 +265004,10 @@
       "claude-code"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -266494,9 +266494,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.47,
+      "total": 15.47,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 1.97,
         "N": 4.0,
         "I": 4.5,
@@ -266531,10 +266531,10 @@
       "context-window"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.24,
+      "letter": "B",
+      "total": 16.74,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.74,
         "N": 5.0,
         "I": 4.5,
@@ -267271,9 +267271,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.96,
+      "total": 14.46,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 1.96,
         "N": 5.0,
         "I": 5.0,
@@ -267615,9 +267615,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 20.33,
+      "total": 19.0,
       "axes": {
-        "R": 2.83,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -267979,9 +267979,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.08,
+      "total": 14.58,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.58,
         "N": 5.0,
         "I": 4.5,
@@ -268017,9 +268017,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.51,
+      "total": 11.34,
       "axes": {
-        "R": 1.17,
+        "R": 0.0,
         "Q": 2.34,
         "N": 5.0,
         "I": 0.0,
@@ -268086,9 +268086,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.37,
+      "total": 14.87,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.37,
         "N": 5.0,
         "I": 4.5,
@@ -268194,10 +268194,10 @@
       "graph-database"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.76,
+      "letter": "B",
+      "total": 16.76,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.76,
         "N": 5.0,
         "I": 4.5,
@@ -268731,9 +268731,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.56,
+      "total": 12.56,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.06,
         "N": 3.0,
         "I": 5.0,
@@ -268901,9 +268901,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.1,
+      "total": 14.6,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.6,
         "N": 5.0,
         "I": 4.5,
@@ -269030,12 +269030,12 @@
       "code-match"
     ],
     "grade": {
-      "letter": "D",
-      "total": 6.5,
+      "letter": "F",
+      "total": 5.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 4.0,
+        "N": 3.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -269061,12 +269061,12 @@
       "code-match"
     ],
     "grade": {
-      "letter": "D",
-      "total": 6.5,
+      "letter": "F",
+      "total": 5.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 4.0,
+        "N": 3.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -269092,12 +269092,12 @@
       "code-match"
     ],
     "grade": {
-      "letter": "D",
-      "total": 6.5,
+      "letter": "F",
+      "total": 5.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 4.0,
+        "N": 3.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -269164,11 +269164,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.5,
+      "total": 11.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 4.0,
+        "N": 3.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -269197,11 +269197,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.5,
+      "total": 11.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 4.0,
+        "N": 3.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -269230,11 +269230,11 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.5,
+      "total": 11.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 4.0,
+        "N": 3.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -269332,9 +269332,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.79,
+      "total": 16.29,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.29,
         "N": 5.0,
         "I": 4.5,
@@ -269631,9 +269631,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.76,
+      "total": 14.26,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.26,
         "N": 5.0,
         "I": 4.5,
@@ -269707,9 +269707,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.91,
+      "total": 9.57,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 1.57,
         "N": 4.0,
         "I": 0.0,
@@ -269843,10 +269843,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.17,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -271597,7 +271597,7 @@
     "source": "awesome",
     "category": "mcp_server",
     "subcategory": "general",
-    "description": "Agent OS: keep specialist agents in a hub, spin up a temporary orchestrator per task. Local-first, works with any model.",
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
     "readme_excerpt": null,
     "language": "Python",
     "stars": 123,
@@ -271752,11 +271752,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.04,
+      "total": 15.54,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.54,
-        "N": 5.0,
+        "N": 4.0,
         "I": 4.5,
         "F": 4.0
       }
@@ -272642,10 +272642,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.33,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.5,
         "N": 5.0,
         "I": 4.5,
@@ -272681,9 +272681,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.95,
+      "total": 17.28,
       "axes": {
-        "R": 1.67,
+        "R": 1.0,
         "Q": 2.28,
         "N": 5.0,
         "I": 5.0,
@@ -272896,9 +272896,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.06,
+      "total": 15.89,
       "axes": {
-        "R": 1.17,
+        "R": 1.0,
         "Q": 2.39,
         "N": 5.0,
         "I": 5.0,
@@ -273437,9 +273437,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.07,
+      "total": 15.57,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.07,
         "N": 5.0,
         "I": 5.0,
@@ -273550,10 +273550,10 @@
       "generative-ai"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.07,
+      "letter": "D",
+      "total": 9.57,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.07,
         "N": 5.0,
         "I": 0.0,
@@ -273589,9 +273589,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.24,
+      "total": 14.07,
       "axes": {
-        "R": 2.17,
+        "R": 0.0,
         "Q": 2.07,
         "N": 5.0,
         "I": 4.5,
@@ -273729,9 +273729,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.78,
+      "total": 11.44,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.44,
         "N": 5.0,
         "I": 0.0,
@@ -273798,9 +273798,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.9,
+      "total": 15.07,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.07,
         "N": 5.0,
         "I": 5.0,
@@ -273836,9 +273836,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.07,
+      "total": 16.57,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.07,
         "N": 5.0,
         "I": 5.0,
@@ -274199,10 +274199,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.66,
+      "total": 10.65,
       "axes": {
         "R": 0.0,
-        "Q": 2.66,
+        "Q": 2.65,
         "N": 4.0,
         "I": 0.0,
         "F": 4.0
@@ -274773,9 +274773,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.91,
+      "total": 17.58,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.58,
         "N": 5.0,
         "I": 5.0,
@@ -277848,9 +277848,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.64,
+      "total": 16.97,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 2.97,
         "N": 5.0,
         "I": 4.5,
@@ -277886,9 +277886,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.23,
+      "total": 14.23,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 2.23,
         "N": 5.0,
         "I": 4.5,
@@ -277924,9 +277924,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.84,
+      "total": 15.84,
       "axes": {
-        "R": 2.33,
+        "R": 0.33,
         "Q": 2.0,
         "N": 4.0,
         "I": 4.5,
@@ -278430,9 +278430,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.83,
+      "total": 17.0,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 5.0,
@@ -278737,9 +278737,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.66,
+      "total": 15.33,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.83,
         "N": 4.0,
         "I": 5.0,
@@ -279471,9 +279471,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.12,
+      "total": 15.12,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.12,
         "N": 5.0,
         "I": 4.5,
@@ -284563,9 +284563,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.47,
+      "total": 11.64,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 2.64,
         "N": 5.0,
         "I": 0.0,
@@ -285083,9 +285083,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.22,
+      "total": 16.05,
       "axes": {
-        "R": 2.17,
+        "R": 1.0,
         "Q": 2.55,
         "N": 5.0,
         "I": 4.5,
@@ -285475,10 +285475,10 @@
       "claude-code"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.27,
+      "letter": "B",
+      "total": 17.1,
       "axes": {
-        "R": 2.17,
+        "R": 1.0,
         "Q": 2.1,
         "N": 5.0,
         "I": 5.0,
@@ -285672,10 +285672,10 @@
       "integration-platform"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.02,
+      "letter": "B",
+      "total": 17.68,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 2.68,
         "N": 5.0,
         "I": 4.5,
@@ -285741,10 +285741,10 @@
       "jailbreak"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.86,
+      "letter": "B",
+      "total": 17.03,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.53,
         "N": 5.0,
         "I": 4.5,
@@ -285889,9 +285889,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.92,
+      "total": 10.59,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 1.59,
         "N": 5.0,
         "I": 0.0,
@@ -286544,9 +286544,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.69,
+      "total": 16.86,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.35,
         "N": 5.0,
         "I": 4.5,
@@ -286714,9 +286714,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.8,
+      "total": 15.8,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.3,
         "N": 5.0,
         "I": 4.5,
@@ -287550,10 +287550,10 @@
       "antigravity-skills"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -287589,9 +287589,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.17,
+      "total": 16.67,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.17,
         "N": 5.0,
         "I": 5.0,
@@ -287627,9 +287627,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.69,
+      "total": 15.86,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 1.86,
         "N": 5.0,
         "I": 5.0,
@@ -288048,10 +288048,10 @@
       "copilot"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.0,
+      "letter": "B",
+      "total": 16.67,
       "axes": {
-        "R": 2.83,
+        "R": 0.5,
         "Q": 2.67,
         "N": 5.0,
         "I": 4.5,
@@ -288117,10 +288117,10 @@
       "llm-agent"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.34,
+      "letter": "D",
+      "total": 9.34,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 1.84,
         "N": 5.0,
         "I": 0.0,
@@ -289012,9 +289012,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.37,
+      "total": 14.87,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.87,
         "N": 5.0,
         "I": 4.5,
@@ -289050,9 +289050,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -289157,13 +289157,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.55,
+      "total": 16.05,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.55,
         "N": 5.0,
         "I": 5.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -289266,9 +289266,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.44,
+      "total": 16.11,
       "axes": {
-        "R": 2.83,
+        "R": 1.5,
         "Q": 2.11,
         "N": 5.0,
         "I": 5.0,
@@ -289303,10 +289303,10 @@
       "indexing-engine"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.1,
+      "letter": "B",
+      "total": 16.43,
       "axes": {
-        "R": 2.17,
+        "R": 0.5,
         "Q": 2.43,
         "N": 5.0,
         "I": 4.5,
@@ -289475,9 +289475,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.74,
+      "total": 10.41,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 1.41,
         "N": 5.0,
         "I": 0.0,
@@ -289577,9 +289577,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.97,
+      "total": 17.47,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.47,
         "N": 5.0,
         "I": 5.0,
@@ -292801,6 +292801,454 @@
         "Q": 0.0,
         "N": 5.0,
         "I": 4.5,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "43dac04933ab4eb5",
+    "name": "mrtooher/fable-mode",
+    "url": "https://github.com/mrtooher/fable-mode",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in hesreallyhim/awesome-claude-code",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:55",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-claude-code"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "fd431f1aa4830044",
+    "name": "simple10/agents-observe",
+    "url": "https://github.com/simple10/agents-observe",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in hesreallyhim/awesome-claude-code",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:55",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-claude-code"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "ac1e9fdb057e9e63",
+    "name": "hoangsonww/Claude-Code-Agent-Monitor",
+    "url": "https://github.com/hoangsonww/Claude-Code-Agent-Monitor",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in hesreallyhim/awesome-claude-code",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:55",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-claude-code"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "dfd5e9343191b299",
+    "name": "ColeMurray/claude-code-otel",
+    "url": "https://github.com/ColeMurray/claude-code-otel",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in hesreallyhim/awesome-claude-code",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:55",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-claude-code"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "567dbc7361383479",
+    "name": "disler/claude-code-hooks-multi-agent-observability",
+    "url": "https://github.com/disler/claude-code-hooks-multi-agent-observability",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in hesreallyhim/awesome-claude-code",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:55",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-claude-code"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "548acfdeb16546d2",
+    "name": "ASCIT31/Dark-Moon",
+    "url": "https://github.com/ASCIT31/Dark-Moon",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:55",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-ai-agents"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "519ef97c27f1ea5e",
+    "name": "h5i-dev/h5i",
+    "url": "https://github.com/h5i-dev/h5i",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:55",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-ai-agents"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "7d5858229819e1f1",
+    "name": "TerminallyLazy/Tree-Ring-Memory",
+    "url": "https://github.com/TerminallyLazy/Tree-Ring-Memory",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:55",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-ai-agents"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "d1dd5d5523e8a7f4",
+    "name": "SpicyNoodles3/poolsplit",
+    "url": "https://github.com/SpicyNoodles3/poolsplit",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:55",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-ai-agents"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "73fff6b33518df4a",
+    "name": "cynative/cynative",
+    "url": "https://github.com/cynative/cynative",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:55",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-ai-agents"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "575525bc036b819e",
+    "name": "tylerjrbuell/reactive-agents-ts",
+    "url": "https://github.com/tylerjrbuell/reactive-agents-ts",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:56",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-ai-agents"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "29624dfa5c845170",
+    "name": "dylanneve1/talon",
+    "url": "https://github.com/dylanneve1/talon",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:56",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-ai-agents"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "759317cc2f9e8312",
+    "name": "suniel12/ciagent",
+    "url": "https://github.com/suniel12/ciagent",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:56",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-ai-agents"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "087486283aff1235",
+    "name": "MentionNetwork/awesome-agentic-commerce",
+    "url": "https://github.com/MentionNetwork/awesome-agentic-commerce",
+    "source": "awesome",
+    "category": null,
+    "subcategory": null,
+    "description": "Listed in Jenqyang/Awesome-AI-Agents",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-07-12T05:54:56",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "awesome",
+      "awesome-ai-agents"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
         "F": 2.5
       }
     }
