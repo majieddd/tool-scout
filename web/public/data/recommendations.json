@@ -61,6 +61,16 @@
   },
   {
     "rank": 7,
+    "tool_id": "ebcf72ba8deff69d",
+    "name": "yusufkaraaslan/Skill_Seekers",
+    "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 8,
     "tool_id": "2696e75fee93bc6e",
     "name": "DeusData/codebase-memory-mcp",
     "url": "https://github.com/DeusData/codebase-memory-mcp",
@@ -70,7 +80,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 8,
+    "rank": 9,
     "tool_id": "7574c5db3db84bea",
     "name": "farion1231/cc-switch",
     "url": "https://github.com/farion1231/cc-switch",
@@ -80,21 +90,11 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 9,
+    "rank": 10,
     "tool_id": "68310ed34aa5e9f6",
     "name": "wshobson/agents",
     "url": "https://github.com/wshobson/agents",
     "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.9,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 10,
-    "tool_id": "eab69d436ac6f5d2",
-    "name": "Panniantong/Agent-Reach",
-    "url": "https://github.com/Panniantong/Agent-Reach",
-    "category": "mcp_server",
     "letter": "A",
     "score": 0.9,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
