@@ -291,20 +291,20 @@
   },
   {
     "rank": 30,
-    "tool_id": "fdd10a9cf3bab09b",
-    "name": "stickerdaniel/linkedin-mcp-server",
-    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
-    "category": "mcp_server",
+    "tool_id": "c884b95657ebf9f9",
+    "name": "code-yeongyu/lazycodex",
+    "url": "https://github.com/code-yeongyu/lazycodex",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.89,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 31,
-    "tool_id": "c884b95657ebf9f9",
-    "name": "code-yeongyu/lazycodex",
-    "url": "https://github.com/code-yeongyu/lazycodex",
-    "category": "claude_plugin",
+    "tool_id": "fdd10a9cf3bab09b",
+    "name": "stickerdaniel/linkedin-mcp-server",
+    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+    "category": "mcp_server",
     "letter": "A",
     "score": 0.89,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
