@@ -451,16 +451,6 @@
   },
   {
     "rank": 46,
-    "tool_id": "9fc944cec8061c73",
-    "name": "CodeBendKit/codeseek",
-    "url": "https://github.com/CodeBendKit/codeseek",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.878,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 47,
     "tool_id": "60ae4b41f392eb27",
     "name": "KeyValueSoftwareSystems/agent-opfor",
     "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "0342507e15665c9d",
     "name": "ruvnet/metaharness",
     "url": "https://github.com/ruvnet/metaharness",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "fc31db0c8484f4cd",
     "name": "josstei/maestro-orchestrate",
     "url": "https://github.com/josstei/maestro-orchestrate",
@@ -490,10 +480,20 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.874,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "8c6c34009e9ff201",
+    "name": "Beever-AI/beever-atlas",
+    "url": "https://github.com/Beever-AI/beever-atlas",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.874,
