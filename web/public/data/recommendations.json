@@ -461,6 +461,16 @@
   },
   {
     "rank": 47,
+    "tool_id": "e9e88e373b4c008d",
+    "name": "RyjoxTechnologies/Octopoda-OS",
+    "url": "https://github.com/RyjoxTechnologies/Octopoda-OS",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.875,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 48,
     "tool_id": "0342507e15665c9d",
     "name": "ruvnet/metaharness",
     "url": "https://github.com/ruvnet/metaharness",
@@ -470,22 +480,12 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "tool_id": "fc31db0c8484f4cd",
     "name": "josstei/maestro-orchestrate",
     "url": "https://github.com/josstei/maestro-orchestrate",
     "category": "claude_plugin",
     "letter": "B",
-    "score": 0.875,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 49,
-    "tool_id": "e9e88e373b4c008d",
-    "name": "RyjoxTechnologies/Octopoda-OS",
-    "url": "https://github.com/RyjoxTechnologies/Octopoda-OS",
-    "category": "mcp_server",
-    "letter": "A",
     "score": 0.875,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
