@@ -431,6 +431,16 @@
   },
   {
     "rank": 44,
+    "tool_id": "b8928f4757dbdcaf",
+    "name": "jonigl/mcp-client-for-ollama",
+    "url": "https://github.com/jonigl/mcp-client-for-ollama",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.879,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 45,
     "tool_id": "1b63ec93537cdef4",
     "name": "zhnt/loushang",
     "url": "https://github.com/zhnt/loushang",
@@ -440,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "tool_id": "4c77b72c5229d285",
     "name": "Storybloq/storybloq",
     "url": "https://github.com/Storybloq/storybloq",
@@ -450,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "tool_id": "60ae4b41f392eb27",
     "name": "KeyValueSoftwareSystems/agent-opfor",
     "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
@@ -460,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "e9e88e373b4c008d",
     "name": "RyjoxTechnologies/Octopoda-OS",
     "url": "https://github.com/RyjoxTechnologies/Octopoda-OS",
@@ -470,7 +480,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "tool_id": "fc31db0c8484f4cd",
     "name": "josstei/maestro-orchestrate",
     "url": "https://github.com/josstei/maestro-orchestrate",
@@ -480,20 +490,10 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.874,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "8c6c34009e9ff201",
-    "name": "Beever-AI/beever-atlas",
-    "url": "https://github.com/Beever-AI/beever-atlas",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.874,
