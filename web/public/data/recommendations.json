@@ -441,22 +441,22 @@
   },
   {
     "rank": 45,
-    "tool_id": "1b63ec93537cdef4",
-    "name": "zhnt/loushang",
-    "url": "https://github.com/zhnt/loushang",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.878,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 46,
     "tool_id": "65273898ba911850",
     "name": "KnockOutEZ/wigolo",
     "url": "https://github.com/KnockOutEZ/wigolo",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.878,
+    "score": 0.879,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 46,
+    "tool_id": "1b63ec93537cdef4",
+    "name": "zhnt/loushang",
+    "url": "https://github.com/zhnt/loushang",
+    "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.879,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
