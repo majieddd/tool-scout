@@ -386,7 +386,7 @@
     "url": "https://github.com/thClaws/thClaws",
     "category": "claude_plugin",
     "letter": "A",
-    "score": 0.882,
+    "score": 0.883,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -421,20 +421,20 @@
   },
   {
     "rank": 43,
-    "tool_id": "ae7704f2ba795f6c",
-    "name": "freestylefly/wesight",
-    "url": "https://github.com/freestylefly/wesight",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.879,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 44,
     "tool_id": "65273898ba911850",
     "name": "KnockOutEZ/wigolo",
     "url": "https://github.com/KnockOutEZ/wigolo",
     "category": "mcp_server",
+    "letter": "A",
+    "score": 0.88,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 44,
+    "tool_id": "ae7704f2ba795f6c",
+    "name": "freestylefly/wesight",
+    "url": "https://github.com/freestylefly/wesight",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.879,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
@@ -491,11 +491,11 @@
   },
   {
     "rank": 50,
-    "tool_id": "fc31db0c8484f4cd",
-    "name": "josstei/maestro-orchestrate",
-    "url": "https://github.com/josstei/maestro-orchestrate",
-    "category": "claude_plugin",
-    "letter": "B",
+    "tool_id": "0342507e15665c9d",
+    "name": "ruvnet/metaharness",
+    "url": "https://github.com/ruvnet/metaharness",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.875,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
