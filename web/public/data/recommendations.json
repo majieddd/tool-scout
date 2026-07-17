@@ -471,22 +471,22 @@
   },
   {
     "rank": 48,
+    "tool_id": "65273898ba911850",
+    "name": "KnockOutEZ/wigolo",
+    "url": "https://github.com/KnockOutEZ/wigolo",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.877,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 49,
     "tool_id": "e9e88e373b4c008d",
     "name": "RyjoxTechnologies/Octopoda-OS",
     "url": "https://github.com/RyjoxTechnologies/Octopoda-OS",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.876,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 49,
-    "tool_id": "65273898ba911850",
-    "name": "KnockOutEZ/wigolo",
-    "url": "https://github.com/KnockOutEZ/wigolo",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.875,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
