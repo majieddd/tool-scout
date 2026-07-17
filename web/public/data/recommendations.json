@@ -301,20 +301,20 @@
   },
   {
     "rank": 31,
-    "tool_id": "c884b95657ebf9f9",
-    "name": "code-yeongyu/lazycodex",
-    "url": "https://github.com/code-yeongyu/lazycodex",
-    "category": "claude_plugin",
+    "tool_id": "2c9e9d9199c516b1",
+    "name": "oomol-lab/open-connector",
+    "url": "https://github.com/oomol-lab/open-connector",
+    "category": "mcp_server",
     "letter": "A",
     "score": 0.89,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 32,
-    "tool_id": "2c9e9d9199c516b1",
-    "name": "oomol-lab/open-connector",
-    "url": "https://github.com/oomol-lab/open-connector",
-    "category": "mcp_server",
+    "tool_id": "c884b95657ebf9f9",
+    "name": "code-yeongyu/lazycodex",
+    "url": "https://github.com/code-yeongyu/lazycodex",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.89,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
