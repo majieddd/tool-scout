@@ -361,6 +361,16 @@
   },
   {
     "rank": 37,
+    "tool_id": "65273898ba911850",
+    "name": "KnockOutEZ/wigolo",
+    "url": "https://github.com/KnockOutEZ/wigolo",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.884,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 38,
     "tool_id": "1c45c4e037952195",
     "name": "can4hou6joeng4/boss-agent-cli",
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
@@ -370,20 +380,10 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 38,
+    "rank": 39,
     "tool_id": "bd6171bccb27e0e5",
     "name": "Devin-AXIS/iPolloWork",
     "url": "https://github.com/Devin-AXIS/iPolloWork",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.884,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 39,
-    "tool_id": "65273898ba911850",
-    "name": "KnockOutEZ/wigolo",
-    "url": "https://github.com/KnockOutEZ/wigolo",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.884,
