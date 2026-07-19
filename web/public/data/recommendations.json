@@ -381,6 +381,16 @@
   },
   {
     "rank": 39,
+    "tool_id": "65273898ba911850",
+    "name": "KnockOutEZ/wigolo",
+    "url": "https://github.com/KnockOutEZ/wigolo",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.883,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 40,
     "tool_id": "823ea1e50f41683f",
     "name": "study8677/repobrain",
     "url": "https://github.com/study8677/repobrain",
@@ -390,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "tool_id": "21304ae14ee452ef",
     "name": "zhu1090093659/deepseek-pp",
     "url": "https://github.com/zhu1090093659/deepseek-pp",
@@ -400,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "tool_id": "692584b98a342218",
     "name": "fujibee/agmsg",
     "url": "https://github.com/fujibee/agmsg",
@@ -408,16 +418,6 @@
     "letter": "A",
     "score": 0.883,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 42,
-    "tool_id": "65273898ba911850",
-    "name": "KnockOutEZ/wigolo",
-    "url": "https://github.com/KnockOutEZ/wigolo",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.883,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 43,
