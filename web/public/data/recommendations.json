@@ -226,7 +226,7 @@
     "url": "https://github.com/1jehuang/jcode",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.899,
+    "score": 0.9,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -361,9 +361,9 @@
   },
   {
     "rank": 37,
-    "tool_id": "5cc80a4dbdcb6c6d",
-    "name": "chrisryugj/korean-law-mcp",
-    "url": "https://github.com/chrisryugj/korean-law-mcp",
+    "tool_id": "65273898ba911850",
+    "name": "KnockOutEZ/wigolo",
+    "url": "https://github.com/KnockOutEZ/wigolo",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.888,
@@ -371,9 +371,9 @@
   },
   {
     "rank": 38,
-    "tool_id": "65273898ba911850",
-    "name": "KnockOutEZ/wigolo",
-    "url": "https://github.com/KnockOutEZ/wigolo",
+    "tool_id": "5cc80a4dbdcb6c6d",
+    "name": "chrisryugj/korean-law-mcp",
+    "url": "https://github.com/chrisryugj/korean-law-mcp",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.888,
@@ -461,16 +461,6 @@
   },
   {
     "rank": 47,
-    "tool_id": "ae7704f2ba795f6c",
-    "name": "freestylefly/wesight",
-    "url": "https://github.com/freestylefly/wesight",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.879,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 48,
     "tool_id": "b8928f4757dbdcaf",
     "name": "jonigl/mcp-client-for-ollama",
     "url": "https://github.com/jonigl/mcp-client-for-ollama",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "1b63ec93537cdef4",
     "name": "zhnt/loushang",
     "url": "https://github.com/zhnt/loushang",
@@ -490,13 +480,23 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "60ae4b41f392eb27",
     "name": "KeyValueSoftwareSystems/agent-opfor",
     "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.877,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "0342507e15665c9d",
+    "name": "ruvnet/metaharness",
+    "url": "https://github.com/ruvnet/metaharness",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.876,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
