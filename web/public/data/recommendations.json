@@ -261,16 +261,6 @@
   },
   {
     "rank": 27,
-    "tool_id": "fbd1b812fbc71b2c",
-    "name": "golutra/golutra",
-    "url": "https://github.com/golutra/golutra",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.892,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 28,
     "tool_id": "5720873393b5d31a",
     "name": "TabularisDB/tabularis",
     "url": "https://github.com/TabularisDB/tabularis",
@@ -278,6 +268,16 @@
     "letter": "A",
     "score": 0.892,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 28,
+    "tool_id": "fbd1b812fbc71b2c",
+    "name": "golutra/golutra",
+    "url": "https://github.com/golutra/golutra",
+    "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.892,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 29,
@@ -311,9 +311,9 @@
   },
   {
     "rank": 32,
-    "tool_id": "2c9e9d9199c516b1",
-    "name": "oomol-lab/open-connector",
-    "url": "https://github.com/oomol-lab/open-connector",
+    "tool_id": "65273898ba911850",
+    "name": "KnockOutEZ/wigolo",
+    "url": "https://github.com/KnockOutEZ/wigolo",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.89,
@@ -321,9 +321,9 @@
   },
   {
     "rank": 33,
-    "tool_id": "65273898ba911850",
-    "name": "KnockOutEZ/wigolo",
-    "url": "https://github.com/KnockOutEZ/wigolo",
+    "tool_id": "2c9e9d9199c516b1",
+    "name": "oomol-lab/open-connector",
+    "url": "https://github.com/oomol-lab/open-connector",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.89,
