@@ -421,20 +421,20 @@
   },
   {
     "rank": 43,
-    "tool_id": "b8928f4757dbdcaf",
-    "name": "jonigl/mcp-client-for-ollama",
-    "url": "https://github.com/jonigl/mcp-client-for-ollama",
-    "category": "mcp_server",
+    "tool_id": "1b63ec93537cdef4",
+    "name": "zhnt/loushang",
+    "url": "https://github.com/zhnt/loushang",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.879,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 44,
-    "tool_id": "1b63ec93537cdef4",
-    "name": "zhnt/loushang",
-    "url": "https://github.com/zhnt/loushang",
-    "category": "claude_plugin",
+    "tool_id": "b8928f4757dbdcaf",
+    "name": "jonigl/mcp-client-for-ollama",
+    "url": "https://github.com/jonigl/mcp-client-for-ollama",
+    "category": "mcp_server",
     "letter": "A",
     "score": 0.879,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
