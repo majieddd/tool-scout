@@ -401,20 +401,20 @@
   },
   {
     "rank": 41,
-    "tool_id": "9bd1cc8f39fe60cb",
-    "name": "thClaws/thClaws",
-    "url": "https://github.com/thClaws/thClaws",
-    "category": "claude_plugin",
+    "tool_id": "4e5b26fed127bd1c",
+    "name": "OpenOSINT/OpenOSINT",
+    "url": "https://github.com/OpenOSINT/OpenOSINT",
+    "category": "mcp_server",
     "letter": "A",
     "score": 0.883,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 42,
-    "tool_id": "4e5b26fed127bd1c",
-    "name": "OpenOSINT/OpenOSINT",
-    "url": "https://github.com/OpenOSINT/OpenOSINT",
-    "category": "mcp_server",
+    "tool_id": "9bd1cc8f39fe60cb",
+    "name": "thClaws/thClaws",
+    "url": "https://github.com/thClaws/thClaws",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.883,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
