@@ -491,12 +491,12 @@
   },
   {
     "rank": 50,
-    "tool_id": "c4e7485cfd8131e8",
-    "name": "syncable-dev/memtrace-public",
-    "url": "https://github.com/syncable-dev/memtrace-public",
+    "tool_id": "4d80c7fa56353ddf",
+    "name": "CodeAbra/iai-personal-memory-engine",
+    "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.875,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   }
 ]
