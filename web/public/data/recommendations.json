@@ -1,6 +1,126 @@
 [
   {
     "rank": 1,
+    "tool_id": "b2200a220683fb8e",
+    "name": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 2,
+    "tool_id": "b75e4fe05850e0dd",
+    "name": "D4Vinci/Scrapling",
+    "url": "https://github.com/D4Vinci/Scrapling",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 3,
+    "tool_id": "88a4bd0fbc51dfc1",
+    "name": "nukeop/nuclear",
+    "url": "https://github.com/nukeop/nuclear",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 4,
+    "tool_id": "ce9450c3e068e59c",
+    "name": "microsoft/mcp-for-beginners",
+    "url": "https://github.com/microsoft/mcp-for-beginners",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 5,
+    "tool_id": "a7120db1c4edd30e",
+    "name": "triggerdotdev/trigger.dev",
+    "url": "https://github.com/triggerdotdev/trigger.dev",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 6,
+    "tool_id": "2696e75fee93bc6e",
+    "name": "DeusData/codebase-memory-mcp",
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 7,
+    "tool_id": "e25dbd259c0056f9",
+    "name": "HKUDS/nanobot",
+    "url": "https://github.com/HKUDS/nanobot",
+    "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 8,
+    "tool_id": "eab69d436ac6f5d2",
+    "name": "Panniantong/Agent-Reach",
+    "url": "https://github.com/Panniantong/Agent-Reach",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 9,
+    "tool_id": "07017ec54bcbb005",
+    "name": "superset-sh/superset",
+    "url": "https://github.com/superset-sh/superset",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 10,
+    "tool_id": "98d8d012b406fff0",
+    "name": "getpaseo/paseo",
+    "url": "https://github.com/getpaseo/paseo",
+    "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 11,
+    "tool_id": "4c8de4cf9aa27170",
+    "name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 12,
+    "tool_id": "354cca612204791a",
+    "name": "ComposioHQ/composio",
+    "url": "https://github.com/ComposioHQ/composio",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 13,
     "tool_id": "6bb25462214ed79a",
     "name": "alibaba/page-agent",
     "url": "https://github.com/alibaba/page-agent",
@@ -10,7 +130,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 2,
+    "rank": 14,
     "tool_id": "7034b7c1cc85f5c6",
     "name": "udecode/plate",
     "url": "https://github.com/udecode/plate",
@@ -20,7 +140,67 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 3,
+    "rank": 15,
+    "tool_id": "717ba51b47520225",
+    "name": "HKUDS/Vibe-Trading",
+    "url": "https://github.com/HKUDS/Vibe-Trading",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 16,
+    "tool_id": "1ebd4cb431c81c4f",
+    "name": "can1357/oh-my-pi",
+    "url": "https://github.com/can1357/oh-my-pi",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 17,
+    "tool_id": "9da21edc519e6070",
+    "name": "esengine/DeepSeek-Reasonix",
+    "url": "https://github.com/esengine/DeepSeek-Reasonix",
+    "category": "harness",
+    "letter": "B",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 18,
+    "tool_id": "0417ecbbab9ba4a8",
+    "name": "headroomlabs-ai/headroom",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 19,
+    "tool_id": "faa30639e929042c",
+    "name": "stablyai/orca",
+    "url": "https://github.com/stablyai/orca",
+    "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 20,
+    "tool_id": "49cb8bfed962a939",
+    "name": "1jehuang/jcode",
+    "url": "https://github.com/1jehuang/jcode",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 21,
     "tool_id": "cbe8707c045bbd86",
     "name": "AgentWrapper/agent-orchestrator",
     "url": "https://github.com/AgentWrapper/agent-orchestrator",
@@ -30,473 +210,293 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 4,
+    "rank": 22,
+    "tool_id": "3781795835c9ee06",
+    "name": "grab/cursor-talk-to-figma-mcp",
+    "url": "https://github.com/grab/cursor-talk-to-figma-mcp",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.897,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 23,
+    "tool_id": "0034d907fd694f2a",
+    "name": "strands-agents/harness-sdk",
+    "url": "https://github.com/strands-agents/harness-sdk",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.897,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 24,
+    "tool_id": "54d5d00880b8a3cf",
+    "name": "netease-youdao/LobsterAI",
+    "url": "https://github.com/netease-youdao/LobsterAI",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.895,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 25,
+    "tool_id": "d55a08b521e4f15d",
+    "name": "holaboss-ai/holaOS",
+    "url": "https://github.com/holaboss-ai/holaOS",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.895,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 26,
+    "tool_id": "5720873393b5d31a",
+    "name": "TabularisDB/tabularis",
+    "url": "https://github.com/TabularisDB/tabularis",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.892,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 27,
+    "tool_id": "918dda28e9b98040",
+    "name": "evalstate/fast-agent",
+    "url": "https://github.com/evalstate/fast-agent",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.892,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 28,
+    "tool_id": "65273898ba911850",
+    "name": "KnockOutEZ/wigolo",
+    "url": "https://github.com/KnockOutEZ/wigolo",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.892,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 29,
+    "tool_id": "4b88c907cbb197eb",
+    "name": "IvanMurzak/Unity-MCP",
+    "url": "https://github.com/IvanMurzak/Unity-MCP",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.892,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 30,
+    "tool_id": "063c37d70c9404fe",
+    "name": "huangjunsen0406/py-xiaozhi",
+    "url": "https://github.com/huangjunsen0406/py-xiaozhi",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.891,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 31,
+    "tool_id": "94346b228662cd9b",
+    "name": "yvgude/lean-ctx",
+    "url": "https://github.com/yvgude/lean-ctx",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.891,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 32,
+    "tool_id": "2c9e9d9199c516b1",
+    "name": "oomol-lab/open-connector",
+    "url": "https://github.com/oomol-lab/open-connector",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.891,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 33,
+    "tool_id": "c884b95657ebf9f9",
+    "name": "code-yeongyu/lazycodex",
+    "url": "https://github.com/code-yeongyu/lazycodex",
+    "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.89,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 34,
+    "tool_id": "fdd10a9cf3bab09b",
+    "name": "stickerdaniel/linkedin-mcp-server",
+    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.89,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 35,
+    "tool_id": "cc1dd61aa26f6e76",
+    "name": "vitali87/code-graph-rag",
+    "url": "https://github.com/vitali87/code-graph-rag",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.888,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 36,
+    "tool_id": "5cc80a4dbdcb6c6d",
+    "name": "chrisryugj/korean-law-mcp",
+    "url": "https://github.com/chrisryugj/korean-law-mcp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.888,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 37,
+    "tool_id": "1c45c4e037952195",
+    "name": "can4hou6joeng4/boss-agent-cli",
+    "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.884,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 38,
+    "tool_id": "21304ae14ee452ef",
+    "name": "zhu1090093659/deepseek-pp",
+    "url": "https://github.com/zhu1090093659/deepseek-pp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.884,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 39,
     "tool_id": "692584b98a342218",
     "name": "fujibee/agmsg",
     "url": "https://github.com/fujibee/agmsg",
     "category": "claude_plugin",
     "letter": "A",
     "score": 0.884,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 40,
+    "tool_id": "823ea1e50f41683f",
+    "name": "study8677/repobrain",
+    "url": "https://github.com/study8677/repobrain",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.883,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 5,
-    "tool_id": "aa16dbbb677d4a7f",
-    "name": "google-gemini/gemini-cli",
-    "url": "https://github.com/google-gemini/gemini-cli",
+    "rank": 41,
+    "tool_id": "4e5b26fed127bd1c",
+    "name": "OpenOSINT/OpenOSINT",
+    "url": "https://github.com/OpenOSINT/OpenOSINT",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 6,
-    "tool_id": "a7120db1c4edd30e",
-    "name": "triggerdotdev/trigger.dev",
-    "url": "https://github.com/triggerdotdev/trigger.dev",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 7,
-    "tool_id": "7da3a9ed70566ada",
-    "name": "anthropics/claude-plugins-official",
-    "url": "https://github.com/anthropics/claude-plugins-official",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 8,
-    "tool_id": "025421aeb7aa74a8",
-    "name": "MemPalace/mempalace",
-    "url": "https://github.com/MemPalace/mempalace",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 9,
-    "tool_id": "ebe5e44a2bb6b040",
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ECC",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.855,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 10,
-    "tool_id": "66722f47f2878756",
-    "name": "mycelium-hq/ai-brain-starter",
-    "url": "https://github.com/mycelium-hq/ai-brain-starter",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.853,
+    "score": 0.883,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 11,
-    "tool_id": "3781795835c9ee06",
-    "name": "grab/cursor-talk-to-figma-mcp",
-    "url": "https://github.com/grab/cursor-talk-to-figma-mcp",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.852,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
+    "rank": 42,
+    "tool_id": "9bd1cc8f39fe60cb",
+    "name": "thClaws/thClaws",
+    "url": "https://github.com/thClaws/thClaws",
+    "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.883,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 12,
-    "tool_id": "158a67a0c432dd67",
-    "name": "Q00/ouroboros",
-    "url": "https://github.com/Q00/ouroboros",
+    "rank": 43,
+    "tool_id": "f0ca44cd13ca6284",
+    "name": "ArcadeAI/arcade-mcp",
+    "url": "https://github.com/ArcadeAI/arcade-mcp",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.85,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
+    "score": 0.881,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 13,
-    "tool_id": "04db7fa09dfecc36",
-    "name": "davepoon/buildwithclaude",
-    "url": "https://github.com/davepoon/buildwithclaude",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.846,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 14,
+    "rank": 44,
     "tool_id": "1b63ec93537cdef4",
     "name": "zhnt/loushang",
     "url": "https://github.com/zhnt/loushang",
     "category": "claude_plugin",
     "letter": "A",
-    "score": 0.835,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 15,
-    "tool_id": "4d72959b072e1f6e",
-    "name": "fancyboi999/goofish-cli",
-    "url": "https://github.com/fancyboi999/goofish-cli",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.831,
+    "score": 0.88,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 16,
-    "tool_id": "98935c0895ec77dd",
-    "name": "JungHoonGhae/tossinvest-cli",
-    "url": "https://github.com/JungHoonGhae/tossinvest-cli",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.83,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 17,
-    "tool_id": "4b1fe02ca53041a1",
-    "name": "kaanozhan/Frame",
-    "url": "https://github.com/kaanozhan/Frame",
-    "category": "claude_plugin",
-    "letter": "B",
-    "score": 0.827,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 18,
-    "tool_id": "2668f1a9765510c0",
-    "name": "runtm-ai/runtm",
-    "url": "https://github.com/runtm-ai/runtm",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.826,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 19,
-    "tool_id": "2040f838332dee53",
-    "name": "FrkAk/piyaz",
-    "url": "https://github.com/FrkAk/piyaz",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.821,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 20,
-    "tool_id": "22ad3907e6ec0a44",
-    "name": "jamubc/gemini-mcp-tool",
-    "url": "https://github.com/jamubc/gemini-mcp-tool",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.813,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 21,
-    "tool_id": "ce9450c3e068e59c",
-    "name": "microsoft/mcp-for-beginners",
-    "url": "https://github.com/microsoft/mcp-for-beginners",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.81,
-    "reasoning": "relevance 0.80; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 22,
-    "tool_id": "688d4584ab9acb84",
-    "name": "open-webui/open-webui",
-    "url": "https://github.com/open-webui/open-webui",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.81,
-    "reasoning": "relevance 0.80; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 23,
-    "tool_id": "bdf886609bde266f",
-    "name": "agentscope-ai/agentscope",
-    "url": "https://github.com/agentscope-ai/agentscope",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.81,
-    "reasoning": "relevance 0.80; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 24,
-    "tool_id": "717ba51b47520225",
-    "name": "HKUDS/Vibe-Trading",
-    "url": "https://github.com/HKUDS/Vibe-Trading",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.81,
-    "reasoning": "relevance 0.80; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 25,
-    "tool_id": "8fd5223610c34b22",
-    "name": "ComposioHQ/agent-orchestrator",
-    "url": "https://github.com/ComposioHQ/agent-orchestrator",
-    "category": "claude_plugin",
-    "letter": "B",
-    "score": 0.803,
-    "reasoning": "relevance 1.00; matches HYDRA"
-  },
-  {
-    "rank": 26,
-    "tool_id": "99c874be76dadb4d",
-    "name": "Dedsec-Xu/needle",
-    "url": "https://github.com/Dedsec-Xu/needle",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.801,
-    "reasoning": "relevance 1.00; matches HYDRA"
-  },
-  {
-    "rank": 27,
-    "tool_id": "537f944d2eaf6974",
-    "name": "kuberstar/qartez-mcp",
-    "url": "https://github.com/kuberstar/qartez-mcp",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.799,
-    "reasoning": "relevance 1.00; matches HYDRA"
-  },
-  {
-    "rank": 28,
-    "tool_id": "1cb8658b41801c45",
-    "name": "zxyasfas/paper_format_agent",
-    "url": "https://github.com/zxyasfas/paper_format_agent",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.787,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 29,
-    "tool_id": "b3cce211ef68ad6a",
-    "name": "fivetaku/fablize",
-    "url": "https://github.com/fivetaku/fablize",
-    "category": "claude_plugin",
-    "letter": "B",
-    "score": 0.775,
-    "reasoning": "relevance 0.90; matches HYDRA"
-  },
-  {
-    "rank": 30,
-    "tool_id": "c3dfa760bae21132",
-    "name": "hlpun/Train-in-Silence",
-    "url": "https://github.com/hlpun/Train-in-Silence",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.772,
-    "reasoning": "relevance 1.00; matches HYDRA"
-  },
-  {
-    "rank": 31,
-    "tool_id": "e49ecc3666265130",
-    "name": "butterbase-ai/butterbase-skills",
-    "url": "https://github.com/butterbase-ai/butterbase-skills",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.771,
-    "reasoning": "relevance 0.90; matches HYDRA"
-  },
-  {
-    "rank": 32,
-    "tool_id": "cd91785f7ef4117f",
-    "name": "zhizhuodemao/js-reverse-mcp",
-    "url": "https://github.com/zhizhuodemao/js-reverse-mcp",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.768,
-    "reasoning": "relevance 0.80; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 33,
-    "tool_id": "bf4616ff2f105e30",
-    "name": "janbjorge/rekal",
-    "url": "https://github.com/janbjorge/rekal",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.766,
-    "reasoning": "relevance 1.00; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 34,
-    "tool_id": "59ed472f6c8c3c8e",
-    "name": "artemnovichkov/xcode-tools-docs",
-    "url": "https://github.com/artemnovichkov/xcode-tools-docs",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.766,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 35,
-    "tool_id": "3039254018be3b89",
-    "name": "madguyevans-creator/resale-agent-skill-hub",
-    "url": "https://github.com/madguyevans-creator/resale-agent-skill-hub",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.765,
-    "reasoning": "relevance 1.00; matches HYDRA"
-  },
-  {
-    "rank": 36,
-    "tool_id": "aba564dafc60e40f",
-    "name": "infersports/infersports-skill",
-    "url": "https://github.com/infersports/infersports-skill",
-    "category": "mcp_server",
-    "letter": "C",
-    "score": 0.763,
-    "reasoning": "relevance 1.00; matches HYDRA"
-  },
-  {
-    "rank": 37,
-    "tool_id": "c871da3c7d25e2ee",
-    "name": "alvinunreal/openpets",
-    "url": "https://github.com/alvinunreal/openpets",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.761,
-    "reasoning": "relevance 0.80; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 38,
-    "tool_id": "5468fee7651a49cf",
-    "name": "xTeardx/diaphora-mcp",
-    "url": "https://github.com/xTeardx/diaphora-mcp",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.761,
-    "reasoning": "relevance 0.90; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 39,
-    "tool_id": "9d611b13e0fbadf8",
-    "name": "affaan-m/everything-claude-code",
-    "url": "https://github.com/affaan-m/everything-claude-code",
-    "category": "mcp_server",
-    "letter": "C",
-    "score": 0.758,
-    "reasoning": "relevance 0.90; matches HYDRA"
-  },
-  {
-    "rank": 40,
-    "tool_id": "af8242909712d22d",
-    "name": "adelaidasofia/ai-brain-starter",
-    "url": "https://github.com/adelaidasofia/ai-brain-starter",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.757,
-    "reasoning": "relevance 1.00; matches HYDRA"
-  },
-  {
-    "rank": 41,
-    "tool_id": "4fec3b761493b6d8",
-    "name": "GLips/Figma-Context-MCP",
-    "url": "https://github.com/GLips/Figma-Context-MCP",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.75,
-    "reasoning": "relevance 0.80; matches HYDRA"
-  },
-  {
-    "rank": 42,
-    "tool_id": "d21a99a7e2dec303",
-    "name": "Kuberwastaken/claurst",
-    "url": "https://github.com/Kuberwastaken/claurst",
-    "category": "claude_plugin",
-    "letter": "B",
-    "score": 0.75,
-    "reasoning": "relevance 1.00; recent activity"
-  },
-  {
-    "rank": 43,
-    "tool_id": "039020d7290faff6",
-    "name": "deedy5/ddgs",
-    "url": "https://github.com/deedy5/ddgs",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.748,
-    "reasoning": "relevance 0.90; matches HYDRA"
-  },
-  {
-    "rank": 44,
-    "tool_id": "6c01cef6c73a3e4c",
-    "name": "Zhenyu98/codex-chatgpt-bridge",
-    "url": "https://github.com/Zhenyu98/codex-chatgpt-bridge",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.746,
-    "reasoning": "relevance 0.80; recent activity; matches HYDRA"
-  },
-  {
     "rank": 45,
-    "tool_id": "cccfe81f3a8fecf3",
-    "name": "Frank-ay/mimo-mcp",
-    "url": "https://github.com/Frank-ay/mimo-mcp",
+    "tool_id": "b8928f4757dbdcaf",
+    "name": "jonigl/mcp-client-for-ollama",
+    "url": "https://github.com/jonigl/mcp-client-for-ollama",
     "category": "mcp_server",
-    "letter": "B",
-    "score": 0.746,
-    "reasoning": "relevance 1.00; matches HYDRA"
+    "letter": "A",
+    "score": 0.879,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 46,
-    "tool_id": "143a7fcca0834fc4",
-    "name": "haris-musa/excel-mcp-server",
-    "url": "https://github.com/haris-musa/excel-mcp-server",
+    "tool_id": "60ae4b41f392eb27",
+    "name": "KeyValueSoftwareSystems/agent-opfor",
+    "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
     "category": "mcp_server",
-    "letter": "B",
-    "score": 0.744,
-    "reasoning": "relevance 0.90; matches HYDRA"
+    "letter": "A",
+    "score": 0.877,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 47,
-    "tool_id": "e41342116834590b",
-    "name": "wolf-jonathan/logseq-cli",
-    "url": "https://github.com/wolf-jonathan/logseq-cli",
+    "tool_id": "0eadbe4280229ec4",
+    "name": "vshulcz/deja-vu",
+    "url": "https://github.com/vshulcz/deja-vu",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.743,
-    "reasoning": "relevance 1.00; matches HYDRA"
+    "score": 0.875,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 48,
-    "tool_id": "27903415f27d867b",
-    "name": "bjan/pycentauri",
-    "url": "https://github.com/bjan/pycentauri",
+    "tool_id": "135d05766ff2c73c",
+    "name": "artokun/comfyui-mcp",
+    "url": "https://github.com/artokun/comfyui-mcp",
     "category": "mcp_server",
-    "letter": "B",
-    "score": 0.743,
-    "reasoning": "relevance 1.00; matches HYDRA"
+    "letter": "A",
+    "score": 0.875,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 49,
-    "tool_id": "52d91e6bdabe4783",
-    "name": "roman10/mcode",
-    "url": "https://github.com/roman10/mcode",
+    "tool_id": "c4e7485cfd8131e8",
+    "name": "syncable-dev/memtrace-public",
+    "url": "https://github.com/syncable-dev/memtrace-public",
     "category": "mcp_server",
-    "letter": "B",
-    "score": 0.741,
-    "reasoning": "relevance 1.00; matches HYDRA"
+    "letter": "A",
+    "score": 0.875,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 50,
-    "tool_id": "2449b173d95f297e",
-    "name": "prgilabert/agent-ecosystem-generator",
-    "url": "https://github.com/prgilabert/agent-ecosystem-generator",
+    "tool_id": "8c6c34009e9ff201",
+    "name": "Beever-AI/beever-atlas",
+    "url": "https://github.com/Beever-AI/beever-atlas",
     "category": "mcp_server",
-    "letter": "B",
-    "score": 0.74,
-    "reasoning": "relevance 1.00; matches HYDRA"
+    "letter": "A",
+    "score": 0.874,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
