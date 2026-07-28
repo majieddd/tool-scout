@@ -491,12 +491,12 @@
   },
   {
     "rank": 50,
-    "tool_id": "8c6c34009e9ff201",
-    "name": "Beever-AI/beever-atlas",
-    "url": "https://github.com/Beever-AI/beever-atlas",
+    "tool_id": "4d80c7fa56353ddf",
+    "name": "CodeAbra/iai-personal-memory-engine",
+    "url": "https://github.com/CodeAbra/iai-personal-memory-engine",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.874,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+    "score": 0.875,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   }
 ]
