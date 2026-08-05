@@ -346,7 +346,7 @@
     "url": "https://github.com/yvgude/lean-ctx",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.891,
+    "score": 0.892,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -451,21 +451,21 @@
   },
   {
     "rank": 46,
-    "tool_id": "60ae4b41f392eb27",
-    "name": "KeyValueSoftwareSystems/agent-opfor",
-    "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.877,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 47,
     "tool_id": "0eadbe4280229ec4",
     "name": "vshulcz/deja-vu",
     "url": "https://github.com/vshulcz/deja-vu",
     "category": "mcp_server",
     "letter": "B",
+    "score": 0.877,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 47,
+    "tool_id": "60ae4b41f392eb27",
+    "name": "KeyValueSoftwareSystems/agent-opfor",
+    "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.877,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
