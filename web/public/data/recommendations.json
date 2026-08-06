@@ -421,20 +421,20 @@
   },
   {
     "rank": 43,
-    "tool_id": "c871da3c7d25e2ee",
-    "name": "alvinunreal/openpets",
-    "url": "https://github.com/alvinunreal/openpets",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.881,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 44,
     "tool_id": "1b63ec93537cdef4",
     "name": "zhnt/loushang",
     "url": "https://github.com/zhnt/loushang",
     "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.882,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 44,
+    "tool_id": "c871da3c7d25e2ee",
+    "name": "alvinunreal/openpets",
+    "url": "https://github.com/alvinunreal/openpets",
+    "category": "mcp_server",
     "letter": "A",
     "score": 0.881,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
