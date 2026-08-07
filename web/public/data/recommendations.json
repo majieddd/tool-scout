@@ -471,6 +471,16 @@
   },
   {
     "rank": 48,
+    "tool_id": "f0ca44cd13ca6284",
+    "name": "ArcadeAI/arcade-mcp",
+    "url": "https://github.com/ArcadeAI/arcade-mcp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.881,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 49,
     "tool_id": "0eadbe4280229ec4",
     "name": "vshulcz/deja-vu",
     "url": "https://github.com/vshulcz/deja-vu",
@@ -480,23 +490,13 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "60ae4b41f392eb27",
     "name": "KeyValueSoftwareSystems/agent-opfor",
     "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.877,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "0342507e15665c9d",
-    "name": "ruvnet/metaharness",
-    "url": "https://github.com/ruvnet/metaharness",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.876,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
