@@ -361,20 +361,20 @@
   },
   {
     "rank": 37,
-    "tool_id": "c884b95657ebf9f9",
-    "name": "code-yeongyu/lazycodex",
-    "url": "https://github.com/code-yeongyu/lazycodex",
-    "category": "claude_plugin",
+    "tool_id": "cc1dd61aa26f6e76",
+    "name": "vitali87/code-graph-rag",
+    "url": "https://github.com/vitali87/code-graph-rag",
+    "category": "mcp_server",
     "letter": "A",
     "score": 0.891,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 38,
-    "tool_id": "cc1dd61aa26f6e76",
-    "name": "vitali87/code-graph-rag",
-    "url": "https://github.com/vitali87/code-graph-rag",
-    "category": "mcp_server",
+    "tool_id": "c884b95657ebf9f9",
+    "name": "code-yeongyu/lazycodex",
+    "url": "https://github.com/code-yeongyu/lazycodex",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.891,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
@@ -396,7 +396,7 @@
     "url": "https://github.com/chrisryugj/korean-law-mcp",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.888,
+    "score": 0.889,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
