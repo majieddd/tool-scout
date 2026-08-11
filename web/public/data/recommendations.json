@@ -491,11 +491,11 @@
   },
   {
     "rank": 50,
-    "tool_id": "60ae4b41f392eb27",
-    "name": "KeyValueSoftwareSystems/agent-opfor",
-    "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
+    "tool_id": "a775a41b6e4e9181",
+    "name": "sv-number/mcp-server",
+    "url": "https://github.com/sv-number/mcp-server",
     "category": "mcp_server",
-    "letter": "A",
+    "letter": "B",
     "score": 0.877,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
