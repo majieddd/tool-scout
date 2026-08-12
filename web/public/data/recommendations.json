@@ -321,9 +321,9 @@
   },
   {
     "rank": 33,
-    "tool_id": "918dda28e9b98040",
-    "name": "evalstate/fast-agent",
-    "url": "https://github.com/evalstate/fast-agent",
+    "tool_id": "cc1dd61aa26f6e76",
+    "name": "vitali87/code-graph-rag",
+    "url": "https://github.com/vitali87/code-graph-rag",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.892,
@@ -331,9 +331,9 @@
   },
   {
     "rank": 34,
-    "tool_id": "cc1dd61aa26f6e76",
-    "name": "vitali87/code-graph-rag",
-    "url": "https://github.com/vitali87/code-graph-rag",
+    "tool_id": "918dda28e9b98040",
+    "name": "evalstate/fast-agent",
+    "url": "https://github.com/evalstate/fast-agent",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.892,
@@ -486,7 +486,7 @@
     "url": "https://github.com/sv-number/mcp-server",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.877,
+    "score": 0.878,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
