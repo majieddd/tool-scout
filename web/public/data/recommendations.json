@@ -381,6 +381,16 @@
   },
   {
     "rank": 39,
+    "tool_id": "2382a3bd5d04f397",
+    "name": "NanoNets/Graft",
+    "url": "https://github.com/NanoNets/Graft",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.886,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 40,
     "tool_id": "1c45c4e037952195",
     "name": "can4hou6joeng4/boss-agent-cli",
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
@@ -390,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "tool_id": "21304ae14ee452ef",
     "name": "zhu1090093659/deepseek-pp",
     "url": "https://github.com/zhu1090093659/deepseek-pp",
@@ -400,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "tool_id": "692584b98a342218",
     "name": "fujibee/agmsg",
     "url": "https://github.com/fujibee/agmsg",
@@ -410,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
@@ -420,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "tool_id": "9bd1cc8f39fe60cb",
     "name": "thClaws/thClaws",
     "url": "https://github.com/thClaws/thClaws",
@@ -430,21 +440,11 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "tool_id": "1b63ec93537cdef4",
     "name": "zhnt/loushang",
     "url": "https://github.com/zhnt/loushang",
     "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.882,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 45,
-    "tool_id": "c871da3c7d25e2ee",
-    "name": "alvinunreal/openpets",
-    "url": "https://github.com/alvinunreal/openpets",
-    "category": "mcp_server",
     "letter": "A",
     "score": 0.882,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
