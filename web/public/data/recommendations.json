@@ -326,7 +326,7 @@
     "url": "https://github.com/vitali87/code-graph-rag",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.892,
+    "score": 0.893,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -381,16 +381,26 @@
   },
   {
     "rank": 39,
+    "tool_id": "5cc80a4dbdcb6c6d",
+    "name": "chrisryugj/korean-law-mcp",
+    "url": "https://github.com/chrisryugj/korean-law-mcp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.889,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 40,
     "tool_id": "2382a3bd5d04f397",
     "name": "NanoNets/Graft",
     "url": "https://github.com/NanoNets/Graft",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.886,
+    "score": 0.887,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "tool_id": "1c45c4e037952195",
     "name": "can4hou6joeng4/boss-agent-cli",
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
@@ -400,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "tool_id": "21304ae14ee452ef",
     "name": "zhu1090093659/deepseek-pp",
     "url": "https://github.com/zhu1090093659/deepseek-pp",
@@ -410,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "tool_id": "692584b98a342218",
     "name": "fujibee/agmsg",
     "url": "https://github.com/fujibee/agmsg",
@@ -420,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
@@ -430,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "tool_id": "9bd1cc8f39fe60cb",
     "name": "thClaws/thClaws",
     "url": "https://github.com/thClaws/thClaws",
@@ -440,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "tool_id": "1b63ec93537cdef4",
     "name": "zhnt/loushang",
     "url": "https://github.com/zhnt/loushang",
@@ -450,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "tool_id": "6be3710b43fac1b5",
     "name": "awslabs/cli-agent-orchestrator",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
@@ -460,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "f0ca44cd13ca6284",
     "name": "ArcadeAI/arcade-mcp",
     "url": "https://github.com/ArcadeAI/arcade-mcp",
@@ -470,7 +480,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "tool_id": "4c77b72c5229d285",
     "name": "Storybloq/storybloq",
     "url": "https://github.com/Storybloq/storybloq",
@@ -480,23 +490,13 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "a775a41b6e4e9181",
     "name": "sv-number/mcp-server",
     "url": "https://github.com/sv-number/mcp-server",
     "category": "mcp_server",
     "letter": "B",
     "score": 0.878,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "0eadbe4280229ec4",
-    "name": "vshulcz/deja-vu",
-    "url": "https://github.com/vshulcz/deja-vu",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.877,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
