@@ -256,7 +256,7 @@
     "url": "https://github.com/holaboss-ai/holaOS",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.896,
+    "score": 0.897,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -481,19 +481,19 @@
   },
   {
     "rank": 49,
-    "tool_id": "4c77b72c5229d285",
-    "name": "Storybloq/storybloq",
-    "url": "https://github.com/Storybloq/storybloq",
+    "tool_id": "a775a41b6e4e9181",
+    "name": "sv-number/mcp-server",
+    "url": "https://github.com/sv-number/mcp-server",
     "category": "mcp_server",
-    "letter": "A",
+    "letter": "B",
     "score": 0.878,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 50,
-    "tool_id": "a775a41b6e4e9181",
-    "name": "sv-number/mcp-server",
-    "url": "https://github.com/sv-number/mcp-server",
+    "tool_id": "0eadbe4280229ec4",
+    "name": "vshulcz/deja-vu",
+    "url": "https://github.com/vshulcz/deja-vu",
     "category": "mcp_server",
     "letter": "B",
     "score": 0.878,
