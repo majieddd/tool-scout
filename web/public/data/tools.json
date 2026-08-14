@@ -9,9 +9,9 @@
     "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 200571,
+    "stars": 200582,
     "license": "NOASSERTION",
-    "last_updated": "2026-08-14T06:36:11",
+    "last_updated": "2026-08-14T08:34:40",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -47,7 +47,7 @@
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 106511,
+    "stars": 106513,
     "license": "Apache-2.0",
     "last_updated": "2026-08-14T01:24:05",
     "first_seen": "2026-05-02T20:26:38",
@@ -85,7 +85,7 @@
     "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 61456,
+    "stars": 61463,
     "license": "GPL-3.0",
     "last_updated": "2026-07-17T13:54:28",
     "first_seen": "2026-05-02T20:26:38",
@@ -123,9 +123,9 @@
     "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 60711,
+    "stars": 60719,
     "license": "MIT",
-    "last_updated": "2026-08-13T20:36:57",
+    "last_updated": "2026-08-14T08:32:17",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -159,7 +159,7 @@
     "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 73876,
+    "stars": 73895,
     "license": "BSD-3-Clause",
     "last_updated": "2026-08-11T18:45:32",
     "first_seen": "2026-05-02T20:26:38",
@@ -197,9 +197,9 @@
     "description": "Chrome DevTools for coding agents",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 49131,
+    "stars": 49141,
     "license": "Apache-2.0",
-    "last_updated": "2026-08-14T06:38:40",
+    "last_updated": "2026-08-14T07:24:30",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -235,9 +235,9 @@
     "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 67820,
+    "stars": 67826,
     "license": "MIT",
-    "last_updated": "2026-08-14T06:35:09",
+    "last_updated": "2026-08-14T06:47:22",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -273,7 +273,7 @@
     "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 38585,
+    "stars": 38586,
     "license": "Apache-2.0",
     "last_updated": "2026-08-05T02:48:59",
     "first_seen": "2026-05-02T20:26:38",
@@ -311,9 +311,9 @@
     "description": "GitHub's official MCP Server",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 32230,
+    "stars": 32238,
     "license": "MIT",
-    "last_updated": "2026-08-12T13:40:55",
+    "last_updated": "2026-08-14T07:04:51",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -346,7 +346,7 @@
     "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 28967,
+    "stars": 28969,
     "license": "Apache-2.0",
     "last_updated": "2026-07-18T07:56:55",
     "first_seen": "2026-05-02T20:26:38",
@@ -384,7 +384,7 @@
     "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 27982,
+    "stars": 27985,
     "license": "MIT",
     "last_updated": "2026-08-13T20:39:51",
     "first_seen": "2026-05-02T20:26:38",
@@ -422,9 +422,9 @@
     "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 23775,
+    "stars": 23778,
     "license": "NOASSERTION",
-    "last_updated": "2026-08-14T02:49:49",
+    "last_updated": "2026-08-14T07:20:19",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -460,9 +460,9 @@
     "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 22508,
+    "stars": 22509,
     "license": "GPL-3.0",
-    "last_updated": "2026-08-14T06:14:27",
+    "last_updated": "2026-08-14T07:47:05",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -498,7 +498,7 @@
     "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 22682,
+    "stars": 22683,
     "license": "MIT",
     "last_updated": "2026-08-10T10:08:18",
     "first_seen": "2026-05-02T20:26:38",
@@ -532,7 +532,7 @@
     "description": "Streaming music player that finds free music for you",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 18265,
+    "stars": 18266,
     "license": "AGPL-3.0",
     "last_updated": "2026-08-13T22:33:06",
     "first_seen": "2026-05-02T20:26:38",
@@ -608,9 +608,9 @@
     "description": "Trigger.dev – build and deploy fully‑managed AI agents and workflows",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 16010,
+    "stars": 16012,
     "license": "Apache-2.0",
-    "last_updated": "2026-08-13T23:23:58",
+    "last_updated": "2026-08-14T08:30:13",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -646,9 +646,9 @@
     "description": "The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context and business semantics for humans, AI assistants, and agents.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 14874,
+    "stars": 14875,
     "license": "Apache-2.0",
-    "last_updated": "2026-08-14T06:39:19",
+    "last_updated": "2026-08-14T08:21:57",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -684,7 +684,7 @@
     "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 14756,
+    "stars": 14757,
     "license": "MIT",
     "last_updated": "2026-08-09T13:13:26",
     "first_seen": "2026-05-02T20:26:38",
@@ -722,7 +722,7 @@
     "description": "MCP for xiaohongshu.com",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 15249,
+    "stars": 15254,
     "license": "Apache-2.0",
     "last_updated": "2026-08-13T07:05:33",
     "first_seen": "2026-05-02T20:26:38",
@@ -755,7 +755,7 @@
     "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 19851,
+    "stars": 19853,
     "license": "NOASSERTION",
     "last_updated": "2026-08-13T12:14:36",
     "first_seen": "2026-05-02T20:26:38",
@@ -831,7 +831,7 @@
     "description": "Yet another WebUI for Nginx",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 11409,
+    "stars": 11411,
     "license": "AGPL-3.0",
     "last_updated": "2026-08-14T04:18:33",
     "first_seen": "2026-05-02T20:26:38",
@@ -907,7 +907,7 @@
     "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 10488,
+    "stars": 10489,
     "license": "MIT",
     "last_updated": "2026-08-14T00:49:39",
     "first_seen": "2026-05-02T20:26:38",
@@ -945,7 +945,7 @@
     "description": "本项目为xiaozhi-esp32提供后端服务，帮助您快速搭建ESP32设备控制服务器。Backend service for xiaozhi-esp32, helps you quickly build an ESP32 device control server.",
     "readme_excerpt": null,
     "language": "JavaScript",
-    "stars": 10317,
+    "stars": 10318,
     "license": "MIT",
     "last_updated": "2026-08-14T02:37:45",
     "first_seen": "2026-05-02T20:26:38",
@@ -983,7 +983,7 @@
     "description": "Open source MCP Servers for AWS",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 9594,
+    "stars": 9595,
     "license": "Apache-2.0",
     "last_updated": "2026-08-14T00:20:10",
     "first_seen": "2026-05-02T20:26:38",
@@ -1021,7 +1021,7 @@
     "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 10989,
+    "stars": 10993,
     "license": "MIT",
     "last_updated": "2026-08-03T14:33:09",
     "first_seen": "2026-05-02T20:26:38",
@@ -1097,7 +1097,7 @@
     "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 14656,
+    "stars": 14663,
     "license": "MIT",
     "last_updated": "2026-08-11T10:58:24",
     "first_seen": "2026-05-02T20:26:38",
@@ -1135,7 +1135,7 @@
     "description": "Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop, UI/OCR/image-matching automation, one-click MITM, built-in Frida, proxy/VPN/frp/P2P networking, MCP/Agent, 160+ APIs, designed for multi-device clusters and engineered deployments.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 8172,
+    "stars": 8173,
     "license": "MIT",
     "last_updated": "2026-08-09T14:58:48",
     "first_seen": "2026-05-02T20:26:38",
@@ -1208,7 +1208,7 @@
     "description": "MCP 资源精选， MCP指南，Claude MCP，MCP Servers, MCP Clients",
     "readme_excerpt": null,
     "language": null,
-    "stars": 7561,
+    "stars": 7563,
     "license": "MIT",
     "last_updated": "2026-07-03T22:06:18",
     "first_seen": "2026-05-02T20:26:38",
@@ -1358,7 +1358,7 @@
     "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 6234,
+    "stars": 6235,
     "license": "MIT",
     "last_updated": "2026-08-12T20:00:35",
     "first_seen": "2026-05-02T20:26:38",
@@ -1395,9 +1395,9 @@
     "description": "Own your AI. The native macOS harness for AI agents -- any model, persistent memory, autonomous execution, cryptographic identity. Built in Swift. Fully offline. Open source.",
     "readme_excerpt": null,
     "language": "Swift",
-    "stars": 7613,
+    "stars": 7614,
     "license": "MIT",
-    "last_updated": "2026-08-14T05:34:50",
+    "last_updated": "2026-08-14T08:31:46",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -1509,9 +1509,9 @@
     "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 7301,
+    "stars": 7306,
     "license": "Apache-2.0",
-    "last_updated": "2026-08-14T05:34:26",
+    "last_updated": "2026-08-14T07:22:04",
     "first_seen": "2026-05-02T20:26:38",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -1788,10 +1788,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.61,
+      "total": 13.6,
       "axes": {
         "R": 1.5,
-        "Q": 2.61,
+        "Q": 2.6,
         "N": 1.0,
         "I": 4.5,
         "F": 4.0
@@ -1995,7 +1995,7 @@
     "description": "Open-source AI assistant ecosystem with MCP integrations, multimodal workflows, IoT support, and cross-platform voice interaction.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 3440,
+    "stars": 3441,
     "license": "MIT",
     "last_updated": "2026-07-26T13:14:12",
     "first_seen": "2026-05-02T20:26:38",
@@ -2109,7 +2109,7 @@
     "description": "Token conscious database MCP server for Postgres, MySQL, SQL Server, MariaDB, SQLite.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 3354,
+    "stars": 3355,
     "license": "MIT",
     "last_updated": "2026-08-08T12:35:40",
     "first_seen": "2026-05-02T20:26:39",
@@ -2185,7 +2185,7 @@
     "description": "A metasearch library that aggregates results from diverse web search services",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 2888,
+    "stars": 2889,
     "license": "MIT",
     "last_updated": "2026-05-23T21:32:02",
     "first_seen": "2026-05-02T20:26:39",
@@ -2223,7 +2223,7 @@
     "description": "Save or export your private and public Slack messages, threads, files, and users locally without admin privileges.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 2742,
+    "stars": 2743,
     "license": "AGPL-3.0",
     "last_updated": "2026-08-13T07:45:15",
     "first_seen": "2026-05-02T20:26:39",
@@ -2299,7 +2299,7 @@
     "description": "AI Skills, MCP Tools, and CLI for Unity Engine. Full AI develop and test loop. Use cli for quick setup. Efficient token usage, advanced tools. Any C# method may be turned into a tool by a single line. Works with Claude Code, Gemini, Copilot, Cursor and any other absolutely for free.",
     "readme_excerpt": null,
     "language": "C#",
-    "stars": 3888,
+    "stars": 3890,
     "license": "Apache-2.0",
     "last_updated": "2026-08-10T17:59:31",
     "first_seen": "2026-05-02T20:26:39",
@@ -2448,7 +2448,7 @@
     "description": "TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 3952,
+    "stars": 3953,
     "license": "MIT",
     "last_updated": "2026-08-07T16:03:29",
     "first_seen": "2026-05-02T20:26:39",
@@ -2746,9 +2746,9 @@
     "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
     "readme_excerpt": null,
     "language": "C",
-    "stars": 38866,
+    "stars": 38879,
     "license": "MIT",
-    "last_updated": "2026-08-14T04:11:37",
+    "last_updated": "2026-08-14T06:49:15",
     "first_seen": "2026-05-02T20:26:39",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -3134,9 +3134,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.56,
+      "total": 10.06,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.06,
         "N": 1.0,
         "I": 4.5,
@@ -3209,10 +3209,10 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.15,
+      "letter": "C",
+      "total": 13.65,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.65,
         "N": 2.0,
         "I": 4.5,
@@ -3285,10 +3285,10 @@
       "korea"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.1,
+      "letter": "B",
+      "total": 17.27,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.77,
         "N": 5.0,
         "I": 4.5,
@@ -3471,9 +3471,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.33,
+      "total": 18.0,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -3509,9 +3509,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.67,
+      "total": 15.5,
       "axes": {
-        "R": 1.17,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -3582,9 +3582,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.5,
+      "total": 18.0,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -3620,9 +3620,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.0,
+      "total": 15.5,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -3657,10 +3657,10 @@
       "composio"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.25,
+      "letter": "B",
+      "total": 17.25,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.75,
         "N": 5.0,
         "I": 4.5,
@@ -3772,9 +3772,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.5,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -3810,9 +3810,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.5,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -3886,9 +3886,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 17.0,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -3924,9 +3924,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.5,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -3961,10 +3961,10 @@
       "chatops"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.33,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 2.33,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -4038,9 +4038,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.67,
+      "total": 17.5,
       "axes": {
-        "R": 1.67,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -4076,9 +4076,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.5,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -4114,10 +4114,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.48,
+      "total": 13.47,
       "axes": {
         "R": 0.0,
-        "Q": 2.98,
+        "Q": 2.97,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -4151,10 +4151,10 @@
       "claude"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.17,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 2.67,
+        "R": 0.5,
         "Q": 3.0,
         "N": 4.0,
         "I": 5.0,
@@ -4447,10 +4447,10 @@
       "chatbot"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -4520,9 +4520,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.65,
+      "total": 12.49,
       "axes": {
-        "R": 0.67,
+        "R": 0.5,
         "Q": 1.99,
         "N": 1.0,
         "I": 5.0,
@@ -4596,9 +4596,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.0,
+      "total": 14.5,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 5.0,
@@ -4709,9 +4709,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 20.0,
+      "total": 18.5,
       "axes": {
-        "R": 3.0,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -4896,10 +4896,10 @@
       "ghostty"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -4935,9 +4935,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.0,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -5011,9 +5011,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.67,
+      "total": 17.0,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -5086,10 +5086,10 @@
       "claude-cowork"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.33,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -5125,9 +5125,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.96,
+      "total": 11.46,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.46,
         "N": 1.0,
         "I": 5.0,
@@ -5312,9 +5312,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.33,
+      "total": 15.0,
       "axes": {
-        "R": 1.83,
+        "R": 0.5,
         "Q": 3.0,
         "N": 3.0,
         "I": 4.5,
@@ -5388,9 +5388,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.83,
+      "total": 17.5,
       "axes": {
-        "R": 0.83,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -5426,9 +5426,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.33,
+      "total": 18.0,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -5537,9 +5537,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.83,
+      "total": 16.5,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -5687,9 +5687,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.5,
+      "total": 19.0,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -6023,14 +6023,14 @@
       "claude-ai"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.75,
+      "letter": "B",
+      "total": 16.92,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.92,
         "N": 5.0,
         "I": 5.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -6061,10 +6061,10 @@
       "incident-response"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.92,
+      "letter": "C",
+      "total": 13.92,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.92,
         "N": 2.0,
         "I": 4.5,
@@ -6176,13 +6176,13 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 20.33,
+      "total": 18.0,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -6854,10 +6854,10 @@
       "bedrock-agentcore"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.85,
+      "letter": "C",
+      "total": 12.85,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 2.35,
         "N": 2.0,
         "I": 4.5,
@@ -7002,10 +7002,10 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.55,
+      "letter": "B",
+      "total": 16.88,
       "axes": {
-        "R": 2.67,
+        "R": 1.0,
         "Q": 2.38,
         "N": 5.0,
         "I": 4.5,
@@ -7117,9 +7117,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.15,
+      "total": 15.31,
       "axes": {
-        "R": 2.33,
+        "R": 1.5,
         "Q": 2.31,
         "N": 4.0,
         "I": 5.0,
@@ -7228,9 +7228,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.81,
+      "total": 12.98,
       "axes": {
-        "R": 2.33,
+        "R": 1.5,
         "Q": 1.98,
         "N": 1.0,
         "I": 4.5,
@@ -7342,9 +7342,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.07,
+      "total": 16.07,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.58,
         "N": 5.0,
         "I": 4.5,
@@ -7380,9 +7380,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.45,
+      "total": 14.95,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 1.95,
         "N": 5.0,
         "I": 4.5,
@@ -7567,9 +7567,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.52,
+      "total": 12.02,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.02,
         "N": 2.0,
         "I": 5.0,
@@ -7832,9 +7832,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.53,
+      "total": 12.2,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 1.2,
         "N": 1.0,
         "I": 5.0,
@@ -8392,10 +8392,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.97,
+      "total": 13.96,
       "axes": {
         "R": 1.0,
-        "Q": 1.97,
+        "Q": 1.96,
         "N": 2.0,
         "I": 5.0,
         "F": 4.0
@@ -8468,13 +8468,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.51,
+      "total": 14.01,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.0,
         "N": 2.0,
         "I": 5.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -8581,10 +8581,10 @@
       "gallery"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.59,
+      "letter": "C",
+      "total": 12.59,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.09,
         "N": 3.0,
         "I": 4.5,
@@ -9473,10 +9473,10 @@
       "chatbot"
     ],
     "grade": {
-      "letter": "B",
-      "total": 16.19,
+      "letter": "C",
+      "total": 13.69,
       "axes": {
-        "R": 2.5,
+        "R": 0.0,
         "Q": 2.19,
         "N": 3.0,
         "I": 4.5,
@@ -9847,10 +9847,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.13,
+      "total": 12.12,
       "axes": {
         "R": 1.0,
-        "Q": 1.63,
+        "Q": 1.62,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -10066,9 +10066,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.87,
+      "total": 16.37,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.87,
         "N": 5.0,
         "I": 4.5,
@@ -10104,10 +10104,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.46,
+      "total": 13.45,
       "axes": {
         "R": 1.0,
-        "Q": 2.46,
+        "Q": 2.45,
         "N": 1.0,
         "I": 5.0,
         "F": 4.0
@@ -10180,7 +10180,7 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.68,
+      "total": 10.67,
       "axes": {
         "R": 0.5,
         "Q": 2.17,
@@ -10256,13 +10256,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.56,
+      "total": 15.06,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 2.56,
         "N": 4.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -11768,10 +11768,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.73,
+      "total": 10.72,
       "axes": {
         "R": 1.5,
-        "Q": 1.23,
+        "Q": 1.22,
         "N": 1.0,
         "I": 4.5,
         "F": 2.5
@@ -12518,10 +12518,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.33,
+      "total": 12.32,
       "axes": {
         "R": 1.0,
-        "Q": 1.33,
+        "Q": 1.32,
         "N": 1.0,
         "I": 5.0,
         "F": 4.0
@@ -25156,7 +25156,7 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.46,
+      "total": 10.45,
       "axes": {
         "R": 1.5,
         "Q": 0.95,
@@ -30777,9 +30777,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.94,
+      "total": 15.44,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.44,
         "N": 5.0,
         "I": 4.5,
@@ -31614,10 +31614,10 @@
       "generative-ai"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -32291,9 +32291,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.21,
+      "total": 16.71,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.71,
         "N": 4.0,
         "I": 4.5,
@@ -33989,9 +33989,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.83,
+      "total": 14.83,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.33,
         "N": 5.0,
         "I": 4.5,
@@ -44260,9 +44260,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.18,
+      "total": 16.68,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.67,
         "N": 4.0,
         "I": 4.5,
@@ -48146,9 +48146,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.49,
+      "total": 15.16,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.66,
         "N": 4.0,
         "I": 4.5,
@@ -57336,9 +57336,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.59,
+      "total": 16.09,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.59,
         "N": 5.0,
         "I": 4.5,
@@ -70898,9 +70898,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.73,
+      "total": 14.73,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.73,
         "N": 5.0,
         "I": 4.5,
@@ -74118,9 +74118,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.79,
+      "total": 12.29,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 1.78,
         "N": 1.0,
         "I": 4.5,
@@ -79566,9 +79566,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.15,
+      "total": 16.15,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.65,
         "N": 5.0,
         "I": 4.5,
@@ -81022,9 +81022,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -83236,10 +83236,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.19,
+      "total": 13.18,
       "axes": {
         "R": 0.5,
-        "Q": 2.19,
+        "Q": 2.18,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -87429,10 +87429,10 @@
       "cursor"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.84,
+      "letter": "C",
+      "total": 13.34,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.34,
         "N": 4.0,
         "I": 4.5,
@@ -95572,10 +95572,10 @@
       "claude"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.2,
+      "letter": "B",
+      "total": 17.2,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.7,
         "N": 5.0,
         "I": 4.5,
@@ -101467,9 +101467,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.95,
+      "total": 16.61,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.61,
         "N": 4.0,
         "I": 4.5,
@@ -103617,13 +103617,13 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.0,
+      "total": 10.5,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 0.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -105203,9 +105203,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.67,
+      "total": 12.33,
       "axes": {
-        "R": 1.67,
+        "R": 0.33,
         "Q": 2.5,
         "N": 1.0,
         "I": 4.5,
@@ -111845,9 +111845,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.96,
+      "total": 10.96,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 1.46,
         "N": 1.0,
         "I": 4.5,
@@ -113183,10 +113183,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 4.03,
+      "total": 4.02,
       "axes": {
         "R": 0.0,
-        "Q": 0.53,
+        "Q": 0.52,
         "N": 1.0,
         "I": 0.0,
         "F": 2.5
@@ -113343,10 +113343,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 3.76,
+      "total": 3.75,
       "axes": {
         "R": 0.0,
-        "Q": 0.26,
+        "Q": 0.25,
         "N": 1.0,
         "I": 0.0,
         "F": 2.5
@@ -114120,14 +114120,14 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.96,
+      "letter": "B",
+      "total": 16.96,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.96,
         "N": 4.0,
         "I": 5.0,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -114385,7 +114385,7 @@
       "total": 7.64,
       "axes": {
         "R": 0.0,
-        "Q": 1.65,
+        "Q": 1.64,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -114420,9 +114420,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.64,
+      "total": 10.14,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 1.64,
         "N": 1.0,
         "I": 4.5,
@@ -114496,9 +114496,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.34,
+      "total": 7.0,
       "axes": {
-        "R": 0.83,
+        "R": 0.5,
         "Q": 1.5,
         "N": 1.0,
         "I": 0.0,
@@ -114648,9 +114648,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.12,
+      "total": 15.79,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 1.79,
         "N": 5.0,
         "I": 5.0,
@@ -114723,10 +114723,10 @@
       "linkedin-automation"
     ],
     "grade": {
-      "letter": "C",
-      "total": 11.22,
+      "letter": "D",
+      "total": 9.72,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 1.22,
         "N": 1.0,
         "I": 4.5,
@@ -114836,10 +114836,10 @@
       "claude-code-plugins"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.72,
+      "letter": "D",
+      "total": 9.72,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 1.22,
         "N": 1.0,
         "I": 4.5,
@@ -114875,9 +114875,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.81,
+      "total": 11.14,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 1.64,
         "N": 1.0,
         "I": 4.5,
@@ -115252,10 +115252,10 @@
       "codex-skills"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.81,
+      "letter": "D",
+      "total": 9.81,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 1.31,
         "N": 1.0,
         "I": 4.5,
@@ -115515,10 +115515,10 @@
       "claude-marketplace"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.75,
+      "letter": "D",
+      "total": 9.91,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 0.91,
         "N": 1.0,
         "I": 5.0,
@@ -115592,9 +115592,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.5,
+      "total": 18.0,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -115630,9 +115630,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.0,
+      "total": 14.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -115668,9 +115668,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.34,
+      "total": 12.84,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.34,
         "N": 1.0,
         "I": 4.5,
@@ -115744,9 +115744,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.44,
+      "total": 14.94,
       "axes": {
-        "R": 2.5,
+        "R": 2.0,
         "Q": 2.94,
         "N": 3.0,
         "I": 4.5,
@@ -115856,9 +115856,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.74,
+      "total": 14.9,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.9,
         "N": 4.0,
         "I": 4.5,
@@ -115893,14 +115893,14 @@
       "artificial-intelligence"
     ],
     "grade": {
-      "letter": "A",
-      "total": 20.1,
+      "letter": "B",
+      "total": 17.44,
       "axes": {
-        "R": 2.67,
+        "R": 1.0,
         "Q": 2.94,
         "N": 5.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -115932,9 +115932,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.86,
+      "total": 16.36,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.86,
         "N": 5.0,
         "I": 4.5,
@@ -115969,10 +115969,10 @@
       "interview-questions"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.78,
+      "letter": "C",
+      "total": 13.78,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.78,
         "N": 4.0,
         "I": 4.5,
@@ -116008,9 +116008,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.09,
+      "total": 16.76,
       "axes": {
-        "R": 2.33,
+        "R": 2.0,
         "Q": 2.76,
         "N": 3.0,
         "I": 4.5,
@@ -116084,9 +116084,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.73,
+      "total": 15.23,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.73,
         "N": 5.0,
         "I": 5.0,
@@ -116121,10 +116121,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.6,
+      "total": 14.59,
       "axes": {
         "R": 1.5,
-        "Q": 2.6,
+        "Q": 2.59,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -116159,9 +116159,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.23,
+      "total": 11.73,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.23,
         "N": 1.0,
         "I": 4.5,
@@ -116197,9 +116197,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.28,
+      "total": 13.11,
       "axes": {
-        "R": 1.67,
+        "R": 1.5,
         "Q": 2.61,
         "N": 2.0,
         "I": 4.5,
@@ -116235,9 +116235,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.92,
+      "total": 11.92,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.42,
         "N": 1.0,
         "I": 4.5,
@@ -116310,10 +116310,10 @@
       "generative-ai"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.36,
+      "letter": "D",
+      "total": 9.52,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.52,
         "N": 2.0,
         "I": 0.0,
@@ -116424,10 +116424,10 @@
       "mcp-framework"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.63,
+      "letter": "B",
+      "total": 17.63,
       "axes": {
-        "R": 2.5,
+        "R": 1.5,
         "Q": 2.63,
         "N": 5.0,
         "I": 4.5,
@@ -116686,9 +116686,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.27,
+      "total": 15.11,
       "axes": {
-        "R": 1.17,
+        "R": 0.0,
         "Q": 2.61,
         "N": 4.0,
         "I": 4.5,
@@ -116835,9 +116835,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.77,
+      "total": 10.27,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.27,
         "N": 1.0,
         "I": 4.5,
@@ -116949,9 +116949,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.2,
+      "total": 14.2,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.7,
         "N": 3.0,
         "I": 4.5,
@@ -117022,7 +117022,7 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.45,
+      "total": 14.44,
       "axes": {
         "R": 1.5,
         "Q": 2.44,
@@ -117098,9 +117098,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.79,
+      "total": 12.29,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.29,
         "N": 2.0,
         "I": 4.5,
@@ -117118,7 +117118,7 @@
     "description": "Fast and Accurate Code Search for Agents. Uses 99% fewer tokens than grep+read",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 5875,
+    "stars": 5876,
     "license": "MIT",
     "last_updated": "2026-08-12T05:30:37",
     "first_seen": "2026-05-03T16:53:11",
@@ -117211,9 +117211,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.64,
+      "total": 16.14,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.65,
         "N": 4.0,
         "I": 4.5,
@@ -117628,10 +117628,10 @@
       "awesome-langchain"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.83,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -117738,9 +117738,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.5,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -117851,9 +117851,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -117888,10 +117888,10 @@
       "cowagent"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.33,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 1.83,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -117962,9 +117962,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.0,
+      "total": 14.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -118000,9 +118000,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.5,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118074,10 +118074,10 @@
       "math"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.81,
+      "letter": "C",
+      "total": 13.31,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.81,
         "N": 2.0,
         "I": 4.5,
@@ -118113,9 +118113,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118150,10 +118150,10 @@
       "gemini"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118188,10 +118188,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.67,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 2.17,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118299,9 +118299,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.0,
+      "total": 14.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -118337,9 +118337,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.0,
+      "total": 14.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -118412,10 +118412,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.17,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 1.67,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118451,9 +118451,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118527,10 +118527,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.62,
+      "total": 13.45,
       "axes": {
-        "R": 1.67,
-        "Q": 2.96,
+        "R": 1.5,
+        "Q": 2.95,
         "N": 2.0,
         "I": 4.5,
         "F": 2.5
@@ -118603,9 +118603,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.17,
+      "total": 15.0,
       "axes": {
-        "R": 1.17,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118641,9 +118641,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.33,
+      "total": 18.0,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -118678,14 +118678,14 @@
       "linux-app"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.33,
+      "letter": "B",
+      "total": 17.33,
       "axes": {
-        "R": 1.83,
+        "R": 0.33,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.5
       }
     }
   },
@@ -118792,10 +118792,10 @@
       "deep-learning"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.25,
+      "letter": "C",
+      "total": 13.75,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.75,
         "N": 4.0,
         "I": 4.5,
@@ -118983,10 +118983,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.03,
+      "total": 12.02,
       "axes": {
         "R": 0.0,
-        "Q": 2.53,
+        "Q": 2.52,
         "N": 1.0,
         "I": 4.5,
         "F": 4.0
@@ -119209,9 +119209,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.75,
+      "total": 14.75,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.75,
         "N": 5.0,
         "I": 4.5,
@@ -119323,9 +119323,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.01,
+      "total": 15.84,
       "axes": {
-        "R": 2.67,
+        "R": 1.5,
         "Q": 2.84,
         "N": 4.0,
         "I": 5.0,
@@ -119437,13 +119437,13 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.81,
+      "total": 11.81,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.81,
         "N": 5.0,
         "I": 0.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -119626,9 +119626,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.6,
+      "total": 15.26,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.76,
         "N": 4.0,
         "I": 5.0,
@@ -120040,9 +120040,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.97,
+      "total": 17.64,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.64,
         "N": 5.0,
         "I": 5.0,
@@ -120153,10 +120153,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.17,
+      "total": 12.16,
       "axes": {
         "R": 1.0,
-        "Q": 2.17,
+        "Q": 2.16,
         "N": 1.0,
         "I": 5.0,
         "F": 3.0
@@ -120190,10 +120190,10 @@
       "codex-cli"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.44,
+      "letter": "B",
+      "total": 17.11,
       "axes": {
-        "R": 1.83,
+        "R": 0.5,
         "Q": 2.6,
         "N": 5.0,
         "I": 4.5,
@@ -120228,14 +120228,14 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.62,
+      "letter": "B",
+      "total": 17.62,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.62,
         "N": 5.0,
         "I": 5.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -120530,9 +120530,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.16,
+      "total": 15.5,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 2.5,
         "N": 4.0,
         "I": 5.0,
@@ -120606,9 +120606,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.29,
+      "total": 18.46,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.46,
         "N": 5.0,
         "I": 5.0,
@@ -120791,9 +120791,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.78,
+      "total": 14.44,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.44,
         "N": 3.0,
         "I": 5.0,
@@ -120829,9 +120829,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.32,
+      "total": 11.82,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.32,
         "N": 2.0,
         "I": 4.5,
@@ -120867,9 +120867,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.34,
+      "total": 15.01,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.51,
         "N": 4.0,
         "I": 5.0,
@@ -121019,9 +121019,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.41,
+      "total": 14.91,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.41,
         "N": 5.0,
         "I": 4.5,
@@ -121057,9 +121057,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.86,
+      "total": 14.36,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.36,
         "N": 2.0,
         "I": 4.5,
@@ -121095,13 +121095,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.42,
+      "total": 14.92,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.42,
         "N": 4.0,
         "I": 5.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -121316,9 +121316,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.15,
+      "total": 11.65,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.15,
         "N": 1.0,
         "I": 4.5,
@@ -121654,9 +121654,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.32,
+      "total": 11.99,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.49,
         "N": 5.0,
         "I": 0.0,
@@ -121882,9 +121882,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.02,
+      "total": 15.35,
       "axes": {
-        "R": 1.17,
+        "R": 0.5,
         "Q": 2.35,
         "N": 5.0,
         "I": 4.5,
@@ -122436,10 +122436,10 @@
       "ai-agents"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.11,
+      "letter": "C",
+      "total": 13.61,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.61,
         "N": 2.0,
         "I": 5.0,
@@ -122475,9 +122475,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.66,
+      "total": 15.66,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.66,
         "N": 3.0,
         "I": 4.5,
@@ -122513,9 +122513,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.46,
+      "total": 10.13,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.63,
         "N": 5.0,
         "I": 0.0,
@@ -122550,14 +122550,14 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.56,
+      "letter": "B",
+      "total": 17.56,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.56,
         "N": 5.0,
         "I": 5.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -122589,9 +122589,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.07,
+      "total": 14.57,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.57,
         "N": 4.0,
         "I": 5.0,
@@ -122845,9 +122845,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.99,
+      "total": 15.49,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.49,
         "N": 5.0,
         "I": 4.5,
@@ -122997,13 +122997,13 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.86,
+      "total": 4.86,
       "axes": {
-        "R": 0.83,
+        "R": 0.33,
         "Q": 1.02,
         "N": 1.0,
         "I": 0.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -123149,9 +123149,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.08,
+      "total": 11.08,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.08,
         "N": 2.0,
         "I": 4.5,
@@ -123563,9 +123563,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.94,
+      "total": 8.6,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.1,
         "N": 1.0,
         "I": 0.0,
@@ -123639,9 +123639,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.29,
+      "total": 10.29,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.29,
         "N": 4.0,
         "I": 0.0,
@@ -123753,13 +123753,13 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.95,
+      "total": 11.95,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 1.95,
         "N": 1.0,
         "I": 5.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -123904,9 +123904,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.72,
+      "total": 10.22,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.22,
         "N": 5.0,
         "I": 0.0,
@@ -124206,9 +124206,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.02,
+      "total": 18.18,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.19,
         "N": 5.0,
         "I": 5.0,
@@ -124535,11 +124535,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.66,
+      "total": 14.66,
       "axes": {
         "R": 1.5,
         "Q": 2.16,
-        "N": 4.0,
+        "N": 3.0,
         "I": 5.0,
         "F": 3.0
       }
@@ -125246,10 +125246,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.58,
+      "total": 12.57,
       "axes": {
         "R": 1.0,
-        "Q": 1.58,
+        "Q": 1.57,
         "N": 1.0,
         "I": 5.0,
         "F": 4.0
@@ -125468,9 +125468,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.69,
+      "total": 15.03,
       "axes": {
-        "R": 1.17,
+        "R": 0.5,
         "Q": 2.53,
         "N": 3.0,
         "I": 5.0,
@@ -125689,10 +125689,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 4.76,
+      "total": 4.75,
       "axes": {
         "R": 0.0,
-        "Q": 1.26,
+        "Q": 1.25,
         "N": 1.0,
         "I": 0.0,
         "F": 2.5
@@ -125916,9 +125916,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.59,
+      "total": 7.09,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 1.59,
         "N": 1.0,
         "I": 0.0,
@@ -125954,9 +125954,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.38,
+      "total": 8.88,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 0.88,
         "N": 1.0,
         "I": 4.5,
@@ -126064,9 +126064,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.87,
+      "total": 11.37,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 1.87,
         "N": 2.0,
         "I": 5.0,
@@ -126174,11 +126174,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.74,
+      "total": 14.74,
       "axes": {
         "R": 0.5,
         "Q": 2.24,
-        "N": 4.0,
+        "N": 3.0,
         "I": 5.0,
         "F": 4.0
       }
@@ -126250,9 +126250,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.39,
+      "total": 8.05,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.05,
         "N": 2.0,
         "I": 0.0,
@@ -126590,9 +126590,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.52,
+      "total": 14.18,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.18,
         "N": 2.0,
         "I": 5.0,
@@ -126816,9 +126816,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.47,
+      "total": 10.14,
       "axes": {
-        "R": 2.83,
+        "R": 0.5,
         "Q": 1.64,
         "N": 1.0,
         "I": 4.5,
@@ -126854,10 +126854,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.24,
+      "total": 11.23,
       "axes": {
         "R": 1.0,
-        "Q": 1.74,
+        "Q": 1.73,
         "N": 1.0,
         "I": 5.0,
         "F": 2.5
@@ -127006,9 +127006,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.07,
+      "total": 15.57,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.07,
         "N": 5.0,
         "I": 5.0,
@@ -127191,9 +127191,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.6,
+      "total": 11.94,
       "axes": {
-        "R": 1.17,
+        "R": 0.5,
         "Q": 1.44,
         "N": 1.0,
         "I": 5.0,
@@ -127302,9 +127302,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.02,
+      "total": 10.85,
       "axes": {
-        "R": 2.17,
+        "R": 0.0,
         "Q": 1.35,
         "N": 1.0,
         "I": 4.5,
@@ -128087,10 +128087,10 @@
       "cursor-rules"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.83,
+      "letter": "C",
+      "total": 14.0,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.0,
         "N": 4.0,
         "I": 4.5,
@@ -128197,10 +128197,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.92,
+      "total": 5.91,
       "axes": {
         "R": 0.0,
-        "Q": 0.92,
+        "Q": 0.91,
         "N": 1.0,
         "I": 0.0,
         "F": 4.0
@@ -128648,9 +128648,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.0,
+      "total": 14.0,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.0,
         "N": 3.0,
         "I": 4.5,
@@ -131516,9 +131516,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.15,
+      "total": 7.65,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.65,
         "N": 1.0,
         "I": 0.0,
@@ -131699,9 +131699,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.0,
+      "total": 12.5,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 0.0,
@@ -131737,9 +131737,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.98,
+      "total": 14.98,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.98,
         "N": 4.0,
         "I": 4.5,
@@ -131770,12 +131770,12 @@
       "llm-evaluation"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.18,
+      "letter": "D",
+      "total": 9.18,
       "axes": {
         "R": 0.0,
         "Q": 2.68,
-        "N": 5.0,
+        "N": 4.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -131923,13 +131923,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.37,
+      "total": 15.37,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.87,
         "N": 5.0,
         "I": 2.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -131960,10 +131960,10 @@
       "gpt-4"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.86,
+      "letter": "D",
+      "total": 9.86,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.85,
         "N": 3.0,
         "I": 0.0,
@@ -132371,9 +132371,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.21,
+      "total": 11.71,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.71,
         "N": 5.0,
         "I": 0.0,
@@ -132555,10 +132555,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.67,
+      "total": 7.66,
       "axes": {
         "R": 1.0,
-        "Q": 1.67,
+        "Q": 1.66,
         "N": 1.0,
         "I": 0.0,
         "F": 4.0
@@ -133005,9 +133005,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.79,
+      "total": 6.29,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 1.29,
         "N": 1.0,
         "I": 0.0,
@@ -133043,9 +133043,9 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.04,
+      "total": 4.54,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 1.04,
         "N": 1.0,
         "I": 0.0,
@@ -133119,9 +133119,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.89,
+      "total": 11.55,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.55,
         "N": 5.0,
         "I": 0.0,
@@ -133271,9 +133271,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.01,
+      "total": 11.51,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.51,
         "N": 5.0,
         "I": 0.0,
@@ -133379,10 +133379,10 @@
       "linux"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.49,
+      "letter": "D",
+      "total": 9.66,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.16,
         "N": 2.0,
         "I": 0.0,
@@ -133418,10 +133418,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.49,
+      "total": 6.48,
       "axes": {
         "R": 0.0,
-        "Q": 1.49,
+        "Q": 1.48,
         "N": 1.0,
         "I": 0.0,
         "F": 4.0
@@ -133529,9 +133529,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.87,
+      "total": 6.54,
       "axes": {
-        "R": 0.67,
+        "R": 0.33,
         "Q": 1.2,
         "N": 1.0,
         "I": 0.0,
@@ -133819,9 +133819,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.96,
+      "total": 8.46,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.46,
         "N": 2.0,
         "I": 0.0,
@@ -134113,9 +134113,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.13,
+      "total": 6.96,
       "axes": {
-        "R": 0.17,
+        "R": 0.0,
         "Q": 1.97,
         "N": 1.0,
         "I": 0.0,
@@ -134584,9 +134584,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.5,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -134622,9 +134622,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.37,
+      "total": 16.37,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.87,
         "N": 5.0,
         "I": 4.5,
@@ -134659,10 +134659,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -134736,10 +134736,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.88,
+      "total": 7.37,
       "axes": {
-        "R": 0.5,
-        "Q": 2.38,
+        "R": 0.0,
+        "Q": 2.37,
         "N": 1.0,
         "I": 0.0,
         "F": 4.0
@@ -134811,10 +134811,10 @@
       "llm-tools"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.15,
+      "letter": "C",
+      "total": 13.82,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.82,
         "N": 5.0,
         "I": 2.5,
@@ -134926,9 +134926,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.04,
+      "total": 15.21,
       "axes": {
-        "R": 1.83,
+        "R": 0.0,
         "Q": 2.71,
         "N": 4.0,
         "I": 4.5,
@@ -135001,10 +135001,10 @@
       "openai-proxy"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.12,
+      "letter": "D",
+      "total": 9.62,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.62,
         "N": 3.0,
         "I": 0.0,
@@ -135152,10 +135152,10 @@
       "llm-tools"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.33,
+      "letter": "D",
+      "total": 9.33,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 1.33,
         "N": 1.0,
         "I": 4.5,
@@ -135191,9 +135191,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.25,
+      "total": 11.59,
       "axes": {
-        "R": 0.67,
+        "R": 0.0,
         "Q": 2.59,
         "N": 5.0,
         "I": 0.0,
@@ -135229,9 +135229,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.35,
+      "total": 16.35,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.85,
         "N": 4.0,
         "I": 5.0,
@@ -135301,13 +135301,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.05,
+      "total": 16.05,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.56,
         "N": 5.0,
         "I": 5.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -135339,9 +135339,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.74,
+      "total": 8.4,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.4,
         "N": 2.0,
         "I": 0.0,
@@ -135376,10 +135376,10 @@
       "islamic-prayer-times"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.31,
+      "letter": "C",
+      "total": 12.81,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.31,
         "N": 2.0,
         "I": 4.5,
@@ -135453,9 +135453,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.92,
+      "total": 15.42,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.42,
         "N": 2.0,
         "I": 5.0,
@@ -135529,9 +135529,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.81,
+      "total": 9.31,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.31,
         "N": 2.0,
         "I": 0.0,
@@ -135605,9 +135605,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.63,
+      "total": 14.3,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.3,
         "N": 2.0,
         "I": 5.0,
@@ -135643,9 +135643,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.31,
+      "total": 10.98,
       "axes": {
-        "R": 1.67,
+        "R": 0.33,
         "Q": 1.15,
         "N": 1.0,
         "I": 4.5,
@@ -135719,9 +135719,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.4,
+      "total": 14.9,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.4,
         "N": 5.0,
         "I": 5.0,
@@ -135906,9 +135906,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.49,
+      "total": 11.99,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.0,
         "N": 1.0,
         "I": 5.0,
@@ -136320,9 +136320,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.65,
+      "total": 9.32,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.32,
         "N": 3.0,
         "I": 0.0,
@@ -136656,10 +136656,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.63,
+      "total": 6.62,
       "axes": {
         "R": 0.0,
-        "Q": 2.13,
+        "Q": 2.12,
         "N": 2.0,
         "I": 0.0,
         "F": 2.5
@@ -136997,10 +136997,10 @@
       "llm-security"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.2,
+      "letter": "D",
+      "total": 9.87,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.37,
         "N": 5.0,
         "I": 0.0,
@@ -137416,9 +137416,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.67,
+      "total": 12.0,
       "axes": {
-        "R": 0.67,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 0.0,
@@ -137454,9 +137454,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.17,
+      "total": 11.0,
       "axes": {
-        "R": 1.17,
+        "R": 1.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 0.0,
@@ -137602,9 +137602,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.0,
+      "total": 12.5,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 0.0,
@@ -137640,9 +137640,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.5,
+      "total": 12.0,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 0.0,
@@ -137978,9 +137978,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.83,
+      "total": 18.33,
       "axes": {
-        "R": 2.33,
+        "R": 1.83,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -138054,9 +138054,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.55,
+      "total": 9.22,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.72,
         "N": 4.0,
         "I": 0.0,
@@ -138241,10 +138241,10 @@
       "headless-browser"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.31,
+      "letter": "D",
+      "total": 9.97,
       "axes": {
-        "R": 0.83,
+        "R": 0.5,
         "Q": 2.98,
         "N": 4.0,
         "I": 0.0,
@@ -138354,10 +138354,10 @@
       "llm"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.5,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -138733,14 +138733,14 @@
       "claude-code-tools"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.78,
+      "letter": "C",
+      "total": 13.11,
       "axes": {
-        "R": 1.17,
+        "R": 0.5,
         "Q": 2.61,
         "N": 1.0,
         "I": 5.0,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -138848,9 +138848,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.01,
+      "total": 12.01,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.51,
         "N": 2.0,
         "I": 4.5,
@@ -139370,7 +139370,7 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.18,
+      "total": 13.17,
       "axes": {
         "R": 1.0,
         "Q": 2.67,
@@ -139631,7 +139631,7 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 6.82,
+      "total": 6.81,
       "axes": {
         "R": 1.0,
         "Q": 2.31,
@@ -140082,9 +140082,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.69,
+      "total": 16.19,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.69,
         "N": 4.0,
         "I": 4.5,
@@ -140157,10 +140157,10 @@
       "embeddings"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.0,
+      "letter": "C",
+      "total": 13.5,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.5,
         "N": 2.0,
         "I": 4.5,
@@ -140195,10 +140195,10 @@
       "gemini"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.32,
+      "letter": "B",
+      "total": 15.99,
       "axes": {
-        "R": 2.33,
+        "R": 0.0,
         "Q": 2.49,
         "N": 5.0,
         "I": 4.5,
@@ -140234,9 +140234,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.36,
+      "total": 14.02,
       "axes": {
-        "R": 2.33,
+        "R": 0.0,
         "Q": 2.52,
         "N": 3.0,
         "I": 4.5,
@@ -140272,9 +140272,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.38,
+      "total": 14.88,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.38,
         "N": 5.0,
         "I": 4.5,
@@ -140310,9 +140310,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.5,
+      "total": 14.84,
       "axes": {
-        "R": 2.17,
+        "R": 0.5,
         "Q": 2.34,
         "N": 5.0,
         "I": 4.5,
@@ -140385,10 +140385,10 @@
       "cursor"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.16,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 2.17,
+        "R": 0.5,
         "Q": 2.5,
         "N": 5.0,
         "I": 4.5,
@@ -140424,9 +140424,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.63,
+      "total": 14.79,
       "axes": {
-        "R": 2.33,
+        "R": 1.5,
         "Q": 2.29,
         "N": 4.0,
         "I": 4.5,
@@ -140499,10 +140499,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.4,
+      "letter": "B",
+      "total": 16.57,
       "axes": {
-        "R": 2.83,
+        "R": 1.0,
         "Q": 2.56,
         "N": 4.0,
         "I": 4.5,
@@ -141103,9 +141103,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.29,
+      "total": 15.29,
       "axes": {
-        "R": 3.0,
+        "R": 1.0,
         "Q": 2.29,
         "N": 3.0,
         "I": 4.5,
@@ -141516,9 +141516,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.65,
+      "total": 15.15,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.65,
         "N": 5.0,
         "I": 4.5,
@@ -142230,9 +142230,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.31,
+      "total": 16.47,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.47,
         "N": 5.0,
         "I": 4.5,
@@ -142267,10 +142267,10 @@
       "golang"
     ],
     "grade": {
-      "letter": "B",
-      "total": 16.11,
+      "letter": "C",
+      "total": 13.94,
       "axes": {
-        "R": 2.67,
+        "R": 0.5,
         "Q": 2.44,
         "N": 4.0,
         "I": 4.5,
@@ -142458,10 +142458,10 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.28,
+      "total": 14.27,
       "axes": {
         "R": 2.0,
-        "Q": 1.78,
+        "Q": 1.77,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -143134,9 +143134,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.0,
+      "total": 16.5,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 3.0,
         "N": 4.0,
         "I": 5.0,
@@ -143312,9 +143312,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.97,
+      "total": 14.64,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 2.64,
         "N": 2.0,
         "I": 5.0,
@@ -143385,9 +143385,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 18.0,
+      "total": 17.67,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.67,
         "N": 5.0,
         "I": 5.0,
@@ -143422,14 +143422,14 @@
       "ai-swarm"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.15,
+      "letter": "B",
+      "total": 15.15,
       "axes": {
-        "R": 2.5,
+        "R": 0.0,
         "Q": 2.65,
         "N": 5.0,
         "I": 5.0,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -143761,10 +143761,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.66,
+      "total": 11.65,
       "axes": {
         "R": 1.0,
-        "Q": 2.16,
+        "Q": 2.15,
         "N": 1.0,
         "I": 5.0,
         "F": 2.5
@@ -146017,9 +146017,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.84,
+      "total": 9.0,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 2.0,
         "N": 3.0,
         "I": 0.0,
@@ -147372,7 +147372,7 @@
       "total": 6.04,
       "axes": {
         "R": 0.0,
-        "Q": 1.04,
+        "Q": 1.03,
         "N": 1.0,
         "I": 0.0,
         "F": 4.0
@@ -148642,10 +148642,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 4.39,
+      "total": 4.38,
       "axes": {
         "R": 0.0,
-        "Q": 0.89,
+        "Q": 0.88,
         "N": 1.0,
         "I": 0.0,
         "F": 2.5
@@ -150764,10 +150764,10 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 3.81,
+      "total": 3.8,
       "axes": {
         "R": 0.0,
-        "Q": 0.31,
+        "Q": 0.3,
         "N": 1.0,
         "I": 0.0,
         "F": 2.5
@@ -151724,10 +151724,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.68,
+      "total": 10.67,
       "axes": {
         "R": 1.0,
-        "Q": 1.18,
+        "Q": 1.17,
         "N": 1.0,
         "I": 5.0,
         "F": 2.5
@@ -151838,9 +151838,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.52,
+      "total": 14.19,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.19,
         "N": 5.0,
         "I": 4.5,
@@ -152404,9 +152404,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.95,
+      "total": 14.79,
       "axes": {
-        "R": 3.17,
+        "R": 1.0,
         "Q": 2.29,
         "N": 4.0,
         "I": 4.5,
@@ -152617,10 +152617,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.35,
+      "total": 13.34,
       "axes": {
         "R": 2.0,
-        "Q": 1.35,
+        "Q": 1.34,
         "N": 1.0,
         "I": 4.5,
         "F": 4.5
@@ -153182,9 +153182,9 @@
     "description": "The missing open-source Kubernetes UI with a built-in MCP server for AI agents. See what's broken, why, and what changed. Issues, Topology, event timeline, Helm, GitOps, live service traffic, and cluster audits - all in one Go binary.",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 2898,
+    "stars": 2899,
     "license": "Apache-2.0",
-    "last_updated": "2026-08-14T04:40:15",
+    "last_updated": "2026-08-14T07:25:50",
     "first_seen": "2026-05-04T17:02:00",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -153237,10 +153237,10 @@
       "google-ads-mcp"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.16,
+      "letter": "C",
+      "total": 13.66,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.16,
         "N": 4.0,
         "I": 4.5,
@@ -154389,9 +154389,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.46,
+      "total": 15.96,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.46,
         "N": 5.0,
         "I": 5.0,
@@ -154759,9 +154759,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.55,
+      "total": 17.22,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.22,
         "N": 4.0,
         "I": 5.0,
@@ -154998,9 +154998,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.0,
+      "total": 11.49,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.0,
         "N": 1.0,
         "I": 4.5,
@@ -155478,10 +155478,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "C",
-      "total": 11.49,
+      "letter": "D",
+      "total": 9.82,
       "axes": {
-        "R": 1.67,
+        "R": 0.0,
         "Q": 1.82,
         "N": 1.0,
         "I": 4.5,
@@ -155725,9 +155725,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.56,
+      "total": 17.06,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.06,
         "N": 5.0,
         "I": 5.0,
@@ -157019,9 +157019,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.04,
+      "total": 14.54,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.54,
         "N": 3.0,
         "I": 4.5,
@@ -159058,10 +159058,10 @@
       "langchain"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.66,
+      "letter": "B",
+      "total": 17.82,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 2.83,
         "N": 5.0,
         "I": 5.0,
@@ -160454,14 +160454,14 @@
       "claude-code"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.89,
+      "letter": "B",
+      "total": 16.89,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.89,
         "N": 5.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -160941,9 +160941,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.3,
+      "total": 7.47,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.47,
         "N": 2.0,
         "I": 0.0,
@@ -161377,10 +161377,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.79,
+      "total": 10.78,
       "axes": {
         "R": 1.0,
-        "Q": 1.29,
+        "Q": 1.28,
         "N": 1.0,
         "I": 5.0,
         "F": 2.5
@@ -162680,7 +162680,7 @@
     "description": "Markdown to WeChat CLI | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题 、AI 配图 、批量发布 、多账号管理",
     "readme_excerpt": null,
     "language": "Go",
-    "stars": 3516,
+    "stars": 3520,
     "license": "NOASSERTION",
     "last_updated": "2026-08-07T07:06:57",
     "first_seen": "2026-05-09T10:18:39",
@@ -168456,9 +168456,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.5,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -172333,10 +172333,10 @@
       "awesome-langchain"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.67,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 2.17,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -176244,14 +176244,14 @@
       "cdp"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.72,
+      "letter": "B",
+      "total": 16.38,
       "axes": {
-        "R": 3.33,
+        "R": 0.5,
         "Q": 2.38,
         "N": 5.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -178558,13 +178558,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.38,
+      "total": 14.21,
       "axes": {
-        "R": 1.67,
+        "R": 0.5,
         "Q": 2.71,
         "N": 4.0,
         "I": 4.5,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -178731,10 +178731,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.73,
+      "total": 11.72,
       "axes": {
         "R": 0.0,
-        "Q": 1.23,
+        "Q": 1.22,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -178764,10 +178764,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.74,
+      "total": 7.73,
       "axes": {
         "R": 0.0,
-        "Q": 1.74,
+        "Q": 1.73,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -181935,9 +181935,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.8,
+      "total": 12.47,
       "axes": {
-        "R": 0.83,
+        "R": 0.5,
         "Q": 2.47,
         "N": 5.0,
         "I": 0.0,
@@ -182709,9 +182709,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.64,
+      "total": 10.31,
       "axes": {
-        "R": 1.83,
+        "R": 0.5,
         "Q": 1.81,
         "N": 1.0,
         "I": 4.5,
@@ -183582,9 +183582,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.3,
+      "total": 11.3,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 1.8,
         "N": 2.0,
         "I": 4.5,
@@ -183907,9 +183907,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.1,
+      "total": 8.93,
       "axes": {
-        "R": 0.17,
+        "R": 0.0,
         "Q": 2.43,
         "N": 4.0,
         "I": 0.0,
@@ -184783,10 +184783,10 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.21,
+      "letter": "C",
+      "total": 13.71,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.21,
         "N": 2.0,
         "I": 4.5,
@@ -186880,13 +186880,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.37,
+      "total": 14.87,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.37,
         "N": 5.0,
         "I": 4.5,
-        "F": 3.0
+        "F": 2.5
       }
     }
   },
@@ -187155,9 +187155,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.83,
+      "total": 15.0,
       "axes": {
-        "R": 2.33,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 2.5,
@@ -187684,9 +187684,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.36,
+      "total": 11.86,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 1.86,
         "N": 1.0,
         "I": 4.5,
@@ -187884,10 +187884,10 @@
       "local-first"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.05,
+      "letter": "C",
+      "total": 13.88,
       "axes": {
-        "R": 3.17,
+        "R": 2.0,
         "Q": 1.38,
         "N": 1.0,
         "I": 5.0,
@@ -188862,10 +188862,10 @@
       "claude-skills"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.94,
+      "letter": "D",
+      "total": 9.94,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.44,
         "N": 5.0,
         "I": 0.0,
@@ -189741,10 +189741,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.01,
+      "letter": "B",
+      "total": 17.51,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.51,
         "N": 4.0,
         "I": 5.0,
@@ -190931,10 +190931,10 @@
       "chrome-automation"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.39,
+      "letter": "C",
+      "total": 12.89,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.39,
         "N": 3.0,
         "I": 4.5,
@@ -190963,11 +190963,11 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 4.5,
+      "total": 3.5,
       "axes": {
         "R": 0.0,
         "Q": 0.0,
-        "N": 2.0,
+        "N": 1.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -190997,11 +190997,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.78,
+      "total": 7.77,
       "axes": {
         "R": 0.0,
-        "Q": 2.78,
-        "N": 2.0,
+        "Q": 2.77,
+        "N": 1.0,
         "I": 0.0,
         "F": 4.0
       }
@@ -191035,11 +191035,11 @@
     ],
     "grade": {
       "letter": "F",
-      "total": 5.84,
+      "total": 4.84,
       "axes": {
         "R": 0.0,
         "Q": 1.34,
-        "N": 2.0,
+        "N": 1.0,
         "I": 0.0,
         "F": 2.5
       }
@@ -191073,11 +191073,11 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.84,
+      "total": 6.84,
       "axes": {
         "R": 0.5,
         "Q": 1.34,
-        "N": 2.0,
+        "N": 1.0,
         "I": 0.0,
         "F": 4.0
       }
@@ -191105,12 +191105,12 @@
       "mcp-server"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.5,
+      "letter": "D",
+      "total": 9.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 2.0,
+        "N": 1.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -191138,12 +191138,12 @@
       "mcp-server"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.5,
+      "letter": "D",
+      "total": 9.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 2.0,
+        "N": 1.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -191171,12 +191171,12 @@
       "mcp-server"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.5,
+      "letter": "D",
+      "total": 9.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 2.0,
+        "N": 1.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -191204,12 +191204,12 @@
       "mcp-server"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.5,
+      "letter": "D",
+      "total": 9.5,
       "axes": {
         "R": 1.5,
         "Q": 0.0,
-        "N": 2.0,
+        "N": 1.0,
         "I": 4.5,
         "F": 2.5
       }
@@ -191773,9 +191773,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.27,
+      "total": 14.77,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.27,
         "N": 4.0,
         "I": 4.5,
@@ -192820,9 +192820,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.25,
+      "total": 15.25,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.75,
         "N": 5.0,
         "I": 4.5,
@@ -192957,13 +192957,13 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.35,
+      "total": 10.35,
       "axes": {
         "R": 0.0,
         "Q": 2.35,
         "N": 4.0,
         "I": 0.0,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -193060,12 +193060,12 @@
       "from-scratch"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.5,
+      "letter": "B",
+      "total": 15.5,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 3.0,
-        "N": 5.0,
+        "N": 4.0,
         "I": 4.5,
         "F": 4.0
       }
@@ -194176,9 +194176,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.84,
+      "total": 16.34,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.34,
         "N": 4.0,
         "I": 5.0,
@@ -194484,10 +194484,10 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.21,
+      "total": 7.2,
       "axes": {
         "R": 0.5,
-        "Q": 1.71,
+        "Q": 1.7,
         "N": 2.0,
         "I": 0.0,
         "F": 3.0
@@ -195310,7 +195310,7 @@
     "description": "Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, remembers what they learn, guards what they touch, and proves what they save. 60–90% fewer tokens as the receipt. 76 MCP tools, 30+ agents, local-first.",
     "readme_excerpt": null,
     "language": "Rust",
-    "stars": 3573,
+    "stars": 3574,
     "license": "Apache-2.0",
     "last_updated": "2026-08-13T12:59:06",
     "first_seen": "2026-05-17T17:14:22",
@@ -196063,9 +196063,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.2,
+      "total": 15.21,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.71,
         "N": 3.0,
         "I": 5.0,
@@ -196225,9 +196225,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.18,
+      "total": 15.68,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.18,
         "N": 5.0,
         "I": 4.5,
@@ -197210,10 +197210,10 @@
       "cli"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.45,
+      "letter": "B",
+      "total": 17.45,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.45,
         "N": 5.0,
         "I": 4.5,
@@ -197687,11 +197687,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.81,
+      "total": 16.81,
       "axes": {
         "R": 1.5,
         "Q": 2.31,
-        "N": 5.0,
+        "N": 4.0,
         "I": 5.0,
         "F": 4.0
       }
@@ -197763,7 +197763,7 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.95,
+      "total": 7.94,
       "axes": {
         "R": 0.33,
         "Q": 2.11,
@@ -199565,10 +199565,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.53,
+      "total": 13.52,
       "axes": {
         "R": 0.5,
-        "Q": 2.53,
+        "Q": 2.52,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -202206,10 +202206,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.57,
+      "total": 12.56,
       "axes": {
         "R": 1.0,
-        "Q": 2.07,
+        "Q": 2.06,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -202827,9 +202827,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.06,
+      "total": 14.56,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.06,
         "N": 5.0,
         "I": 4.5,
@@ -206767,13 +206767,13 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.23,
+      "total": 10.23,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.23,
         "N": 4.0,
         "I": 0.0,
-        "F": 4.0
+        "F": 3.5
       }
     }
   },
@@ -207022,9 +207022,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.42,
+      "total": 15.92,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.42,
         "N": 5.0,
         "I": 4.5,
@@ -207148,7 +207148,7 @@
     "language": "Go",
     "stars": 3745,
     "license": "GPL-3.0",
-    "last_updated": "2026-08-14T05:23:42",
+    "last_updated": "2026-08-14T08:14:50",
     "first_seen": "2026-05-22T15:55:50",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -207561,9 +207561,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.34,
+      "total": 14.84,
       "axes": {
-        "R": 2.5,
+        "R": 0.0,
         "Q": 2.34,
         "N": 4.0,
         "I": 4.5,
@@ -207914,13 +207914,13 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.4,
+      "total": 10.23,
       "axes": {
-        "R": 0.67,
+        "R": 0.5,
         "Q": 2.23,
         "N": 5.0,
         "I": 0.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -208641,9 +208641,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.61,
+      "total": 16.61,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.61,
         "N": 5.0,
         "I": 4.5,
@@ -209524,9 +209524,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.7,
+      "total": 16.2,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.7,
         "N": 5.0,
         "I": 4.5,
@@ -209562,9 +209562,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.08,
+      "total": 14.58,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.58,
         "N": 5.0,
         "I": 4.5,
@@ -209846,9 +209846,9 @@
     "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 19827,
+    "stars": 19830,
     "license": "MIT",
-    "last_updated": "2026-08-14T04:09:49",
+    "last_updated": "2026-08-14T07:40:04",
     "first_seen": "2026-05-24T13:59:45",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -210514,9 +210514,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.08,
+      "total": 14.25,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 1.25,
         "N": 5.0,
         "I": 5.0,
@@ -211155,9 +211155,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.72,
+      "total": 15.89,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 1.89,
         "N": 4.0,
         "I": 5.0,
@@ -212090,9 +212090,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.28,
+      "total": 12.11,
       "axes": {
-        "R": 2.17,
+        "R": 1.0,
         "Q": 1.61,
         "N": 2.0,
         "I": 5.0,
@@ -212407,9 +212407,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.66,
+      "total": 14.33,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.83,
         "N": 4.0,
         "I": 2.5,
@@ -212894,9 +212894,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.87,
+      "total": 15.87,
       "axes": {
-        "R": 1.83,
+        "R": 0.83,
         "Q": 2.54,
         "N": 3.0,
         "I": 4.5,
@@ -213184,10 +213184,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.33,
+      "total": 12.32,
       "axes": {
         "R": 1.0,
-        "Q": 1.33,
+        "Q": 1.32,
         "N": 2.0,
         "I": 5.0,
         "F": 3.0
@@ -213495,9 +213495,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.84,
+      "total": 12.5,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.0,
         "N": 2.0,
         "I": 5.0,
@@ -213703,9 +213703,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.2,
+      "total": 15.2,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.2,
         "N": 5.0,
         "I": 4.5,
@@ -214463,9 +214463,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.81,
+      "total": 15.31,
       "axes": {
-        "R": 2.5,
+        "R": 2.0,
         "Q": 2.31,
         "N": 2.0,
         "I": 4.5,
@@ -215030,9 +215030,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.11,
+      "total": 12.61,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 1.61,
         "N": 3.0,
         "I": 5.0,
@@ -215105,10 +215105,10 @@
       "github-copilot"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.7,
+      "letter": "C",
+      "total": 13.87,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.37,
         "N": 4.0,
         "I": 4.5,
@@ -216051,9 +216051,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.7,
+      "total": 14.2,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.69,
         "N": 3.0,
         "I": 4.5,
@@ -216229,9 +216229,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.86,
+      "total": 8.36,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.36,
         "N": 2.0,
         "I": 0.0,
@@ -217935,9 +217935,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 10.58,
+      "total": 10.25,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.75,
         "N": 5.0,
         "I": 0.0,
@@ -218734,9 +218734,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.83,
+      "total": 14.0,
       "axes": {
-        "R": 1.83,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -218772,9 +218772,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.5,
+      "total": 14.0,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 4.0,
         "I": 4.5,
@@ -219076,10 +219076,10 @@
       "consensus"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.63,
+      "letter": "C",
+      "total": 12.79,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.29,
         "N": 3.0,
         "I": 4.5,
@@ -219246,10 +219246,10 @@
       "knowledge-base"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.76,
+      "letter": "B",
+      "total": 17.26,
       "axes": {
-        "R": 1.67,
+        "R": 0.17,
         "Q": 2.6,
         "N": 5.0,
         "I": 4.5,
@@ -225917,9 +225917,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.37,
+      "total": 16.2,
       "axes": {
-        "R": 1.17,
+        "R": 1.0,
         "Q": 2.7,
         "N": 5.0,
         "I": 5.0,
@@ -226071,7 +226071,7 @@
     "language": "JavaScript",
     "stars": 3255,
     "license": "MIT",
-    "last_updated": "2026-08-14T06:37:16",
+    "last_updated": "2026-08-14T08:35:11",
     "first_seen": "2026-05-31T12:21:33",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -226526,9 +226526,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.54,
+      "total": 16.54,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.54,
         "N": 4.0,
         "I": 4.5,
@@ -226909,9 +226909,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.33,
+      "total": 18.0,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -227708,13 +227708,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.49,
+      "total": 14.49,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 1.99,
         "N": 5.0,
         "I": 2.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -228016,9 +228016,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.77,
+      "total": 17.43,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.44,
         "N": 5.0,
         "I": 4.5,
@@ -228091,10 +228091,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.98,
+      "letter": "B",
+      "total": 17.82,
       "axes": {
-        "R": 2.67,
+        "R": 1.5,
         "Q": 2.82,
         "N": 4.0,
         "I": 5.0,
@@ -228373,9 +228373,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.72,
+      "total": 10.39,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.39,
         "N": 4.0,
         "I": 0.0,
@@ -228794,9 +228794,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.68,
+      "total": 12.68,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.18,
         "N": 2.0,
         "I": 4.5,
@@ -228967,7 +228967,7 @@
       "total": 12.09,
       "axes": {
         "R": 0.5,
-        "Q": 2.09,
+        "Q": 2.08,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -230148,10 +230148,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.68,
+      "letter": "B",
+      "total": 16.51,
       "axes": {
-        "R": 2.67,
+        "R": 0.5,
         "Q": 2.51,
         "N": 5.0,
         "I": 4.5,
@@ -230293,9 +230293,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.48,
+      "total": 16.64,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 2.64,
         "N": 5.0,
         "I": 5.0,
@@ -230827,9 +230827,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.0,
+      "total": 7.66,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 1.66,
         "N": 2.0,
         "I": 0.0,
@@ -230992,10 +230992,10 @@
       "claude-ai"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.23,
+      "letter": "C",
+      "total": 13.23,
       "axes": {
-        "R": 3.0,
+        "R": 2.0,
         "Q": 1.74,
         "N": 2.0,
         "I": 5.0,
@@ -232562,9 +232562,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 9.22,
+      "total": 8.88,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.38,
         "N": 4.0,
         "I": 0.0,
@@ -234259,9 +234259,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.17,
+      "total": 18.84,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.84,
         "N": 5.0,
         "I": 5.0,
@@ -237734,10 +237734,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.07,
+      "total": 13.06,
       "axes": {
         "R": 0.5,
-        "Q": 2.07,
+        "Q": 2.06,
         "N": 2.0,
         "I": 4.5,
         "F": 4.0
@@ -239180,9 +239180,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.69,
+      "total": 11.69,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.19,
         "N": 2.0,
         "I": 4.5,
@@ -239456,10 +239456,10 @@
       "deepseek"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.36,
+      "letter": "B",
+      "total": 16.7,
       "axes": {
-        "R": 2.17,
+        "R": 0.5,
         "Q": 2.7,
         "N": 5.0,
         "I": 4.5,
@@ -239495,9 +239495,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.28,
+      "total": 11.78,
       "axes": {
-        "R": 0.83,
+        "R": 0.33,
         "Q": 2.44,
         "N": 5.0,
         "I": 0.0,
@@ -239801,10 +239801,10 @@
       "markdown"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.83,
+      "letter": "B",
+      "total": 17.83,
       "axes": {
-        "R": 1.33,
+        "R": 0.33,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -239877,7 +239877,7 @@
       "total": 7.57,
       "axes": {
         "R": 0.33,
-        "Q": 1.24,
+        "Q": 1.23,
         "N": 2.0,
         "I": 0.0,
         "F": 4.0
@@ -240054,9 +240054,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.04,
+      "total": 14.71,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.71,
         "N": 5.0,
         "I": 4.5,
@@ -240092,9 +240092,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.4,
+      "total": 12.4,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 1.91,
         "N": 3.0,
         "I": 4.5,
@@ -241750,10 +241750,10 @@
       "gpu-monitoring"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.18,
+      "letter": "B",
+      "total": 16.85,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 2.35,
         "N": 5.0,
         "I": 4.5,
@@ -241917,9 +241917,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.53,
+      "total": 16.03,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.53,
         "N": 5.0,
         "I": 4.5,
@@ -242067,7 +242067,7 @@
     "description": "Transparent and Efficient Financial Analysis",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 5220,
+    "stars": 5222,
     "license": "MIT",
     "last_updated": "2026-08-13T07:58:41",
     "first_seen": "2026-06-09T21:09:32",
@@ -242624,9 +242624,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.12,
+      "total": 16.29,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 2.29,
         "N": 5.0,
         "I": 5.0,
@@ -242661,10 +242661,10 @@
       "llm-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.43,
+      "letter": "B",
+      "total": 16.93,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.43,
         "N": 5.0,
         "I": 4.5,
@@ -242799,9 +242799,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.94,
+      "total": 18.44,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.44,
         "N": 5.0,
         "I": 5.0,
@@ -242930,9 +242930,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.5,
+      "total": 15.0,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.5,
         "N": 4.0,
         "I": 4.5,
@@ -245694,10 +245694,10 @@
       "autonomous-agents"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.77,
+      "letter": "B",
+      "total": 17.44,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 2.94,
         "N": 5.0,
         "I": 4.5,
@@ -245765,10 +245765,10 @@
       "comfyui-mcp"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.87,
+      "letter": "B",
+      "total": 17.04,
       "axes": {
-        "R": 2.83,
+        "R": 1.0,
         "Q": 2.54,
         "N": 5.0,
         "I": 4.5,
@@ -246305,10 +246305,10 @@
       "golang"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.34,
+      "letter": "C",
+      "total": 13.34,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.34,
         "N": 3.0,
         "I": 4.5,
@@ -246344,9 +246344,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.73,
+      "total": 14.22,
       "axes": {
-        "R": 2.5,
+        "R": 0.0,
         "Q": 2.23,
         "N": 3.0,
         "I": 4.5,
@@ -246656,9 +246656,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.18,
+      "total": 18.18,
       "axes": {
-        "R": 3.5,
+        "R": 2.5,
         "Q": 2.68,
         "N": 5.0,
         "I": 5.0,
@@ -247379,9 +247379,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.43,
+      "total": 12.1,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 1.6,
         "N": 2.0,
         "I": 4.5,
@@ -251038,9 +251038,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.33,
+      "total": 12.0,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 0.0,
@@ -251675,9 +251675,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.37,
+      "total": 14.87,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.37,
         "N": 4.0,
         "I": 4.5,
@@ -252179,9 +252179,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.37,
+      "total": 15.37,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.37,
         "N": 5.0,
         "I": 4.5,
@@ -252698,9 +252698,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.6,
+      "total": 14.6,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.6,
         "N": 5.0,
         "I": 4.5,
@@ -252942,9 +252942,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.14,
+      "total": 15.14,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.14,
         "N": 4.0,
         "I": 4.5,
@@ -253011,9 +253011,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.89,
+      "total": 12.72,
       "axes": {
-        "R": 1.67,
+        "R": 1.5,
         "Q": 2.22,
         "N": 2.0,
         "I": 4.5,
@@ -253474,9 +253474,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -253878,9 +253878,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.85,
+      "total": 16.35,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.35,
         "N": 5.0,
         "I": 4.5,
@@ -254050,9 +254050,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.34,
+      "total": 11.0,
       "axes": {
-        "R": 0.67,
+        "R": 0.33,
         "Q": 2.67,
         "N": 4.0,
         "I": 0.0,
@@ -254379,9 +254379,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.75,
+      "total": 18.08,
       "axes": {
-        "R": 2.33,
+        "R": 0.67,
         "Q": 2.91,
         "N": 5.0,
         "I": 4.5,
@@ -254521,9 +254521,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.71,
+      "total": 14.38,
       "axes": {
-        "R": 2.83,
+        "R": 0.5,
         "Q": 2.38,
         "N": 3.0,
         "I": 4.5,
@@ -254658,10 +254658,10 @@
       "claude-code"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.31,
+      "letter": "B",
+      "total": 17.48,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.98,
         "N": 5.0,
         "I": 5.0,
@@ -256541,9 +256541,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.86,
+      "total": 14.36,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.36,
         "N": 3.0,
         "I": 4.5,
@@ -256716,9 +256716,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.25,
+      "total": 15.25,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.75,
         "N": 5.0,
         "I": 4.5,
@@ -256753,10 +256753,10 @@
       "maigret"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.68,
+      "letter": "B",
+      "total": 17.18,
       "axes": {
-        "R": 3.0,
+        "R": 0.5,
         "Q": 2.68,
         "N": 5.0,
         "I": 4.5,
@@ -256857,10 +256857,10 @@
       "dynamic-island"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.7,
+      "letter": "C",
+      "total": 13.87,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.37,
         "N": 4.0,
         "I": 4.5,
@@ -257614,9 +257614,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.61,
+      "total": 11.11,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.11,
         "N": 2.0,
         "I": 4.5,
@@ -257846,9 +257846,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.5,
+      "total": 16.5,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -261447,9 +261447,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.56,
+      "total": 15.06,
       "axes": {
-        "R": 2.5,
+        "R": 0.0,
         "Q": 2.56,
         "N": 4.0,
         "I": 4.5,
@@ -262483,9 +262483,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.41,
+      "total": 11.91,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.41,
         "N": 2.0,
         "I": 4.5,
@@ -263251,9 +263251,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.46,
+      "total": 14.13,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.13,
         "N": 2.0,
         "I": 5.0,
@@ -263364,10 +263364,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.41,
+      "letter": "B",
+      "total": 17.08,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 2.08,
         "N": 5.0,
         "I": 4.5,
@@ -263870,9 +263870,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.08,
+      "total": 16.58,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.58,
         "N": 4.0,
         "I": 5.0,
@@ -263938,10 +263938,10 @@
       "cursor"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.83,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -265048,10 +265048,10 @@
       "claude-code"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -266575,10 +266575,10 @@
       "context-window"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.28,
+      "letter": "B",
+      "total": 16.78,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.78,
         "N": 5.0,
         "I": 4.5,
@@ -267315,9 +267315,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.47,
+      "total": 15.97,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 1.97,
         "N": 5.0,
         "I": 5.0,
@@ -267659,9 +267659,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 20.33,
+      "total": 19.0,
       "axes": {
-        "R": 2.83,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -268061,9 +268061,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.56,
+      "total": 11.39,
       "axes": {
-        "R": 1.17,
+        "R": 0.0,
         "Q": 2.39,
         "N": 5.0,
         "I": 0.0,
@@ -268130,9 +268130,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.4,
+      "total": 14.9,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.4,
         "N": 5.0,
         "I": 4.5,
@@ -268221,7 +268221,7 @@
     "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 4232,
+    "stars": 4247,
     "license": "MIT",
     "last_updated": "2026-08-14T03:25:58",
     "first_seen": "2026-06-26T12:27:45",
@@ -268775,9 +268775,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.64,
+      "total": 14.64,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.14,
         "N": 5.0,
         "I": 5.0,
@@ -268944,10 +268944,10 @@
       "confluence"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.12,
+      "letter": "C",
+      "total": 12.62,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.62,
         "N": 3.0,
         "I": 4.5,
@@ -269376,9 +269376,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.82,
+      "total": 16.32,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.32,
         "N": 5.0,
         "I": 4.5,
@@ -269675,9 +269675,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.81,
+      "total": 14.31,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.31,
         "N": 5.0,
         "I": 4.5,
@@ -271796,9 +271796,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.13,
+      "total": 16.63,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.63,
         "N": 5.0,
         "I": 4.5,
@@ -272686,10 +272686,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.37,
+      "letter": "B",
+      "total": 16.54,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.54,
         "N": 5.0,
         "I": 4.5,
@@ -272725,9 +272725,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.0,
+      "total": 16.33,
       "axes": {
-        "R": 1.67,
+        "R": 1.0,
         "Q": 2.33,
         "N": 4.0,
         "I": 5.0,
@@ -273481,9 +273481,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.07,
+      "total": 15.57,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.07,
         "N": 5.0,
         "I": 5.0,
@@ -273594,10 +273594,10 @@
       "generative-ai"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.07,
+      "letter": "D",
+      "total": 9.57,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.07,
         "N": 5.0,
         "I": 0.0,
@@ -273633,9 +273633,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.24,
+      "total": 14.08,
       "axes": {
-        "R": 2.17,
+        "R": 0.0,
         "Q": 2.08,
         "N": 5.0,
         "I": 4.5,
@@ -273772,10 +273772,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.66,
+      "letter": "B",
+      "total": 18.0,
       "axes": {
-        "R": 1.67,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -273842,9 +273842,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.9,
+      "total": 15.07,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.07,
         "N": 5.0,
         "I": 5.0,
@@ -273880,9 +273880,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.07,
+      "total": 16.57,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.07,
         "N": 5.0,
         "I": 5.0,
@@ -277892,9 +277892,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.67,
+      "total": 17.0,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -277930,9 +277930,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.33,
+      "total": 14.33,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 2.33,
         "N": 5.0,
         "I": 4.5,
@@ -277967,10 +277967,10 @@
       "llm-agent"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.89,
+      "letter": "B",
+      "total": 16.89,
       "axes": {
-        "R": 2.33,
+        "R": 0.33,
         "Q": 2.05,
         "N": 5.0,
         "I": 4.5,
@@ -278474,9 +278474,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 18.83,
+      "total": 18.0,
       "axes": {
-        "R": 1.83,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -278609,9 +278609,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.0,
+      "total": 18.0,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -284158,9 +284158,9 @@
     "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 81675,
+    "stars": 81714,
     "license": "NOASSERTION",
-    "last_updated": "2026-08-14T06:31:25",
+    "last_updated": "2026-08-14T08:34:40",
     "first_seen": "2026-07-05T14:54:26",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -284615,9 +284615,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.47,
+      "total": 10.64,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 2.64,
         "N": 4.0,
         "I": 0.0,
@@ -285724,10 +285724,10 @@
       "integration-platform"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.21,
+      "letter": "B",
+      "total": 17.88,
       "axes": {
-        "R": 2.33,
+        "R": 1.0,
         "Q": 2.88,
         "N": 5.0,
         "I": 4.5,
@@ -285793,10 +285793,10 @@
       "jailbreak"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.87,
+      "letter": "B",
+      "total": 17.04,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.54,
         "N": 5.0,
         "I": 4.5,
@@ -286306,10 +286306,10 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.97,
+      "total": 11.96,
       "axes": {
         "R": 1.0,
-        "Q": 1.47,
+        "Q": 1.46,
         "N": 2.0,
         "I": 5.0,
         "F": 2.5
@@ -286596,9 +286596,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.86,
+      "total": 17.02,
       "axes": {
-        "R": 1.33,
+        "R": 0.5,
         "Q": 2.52,
         "N": 5.0,
         "I": 4.5,
@@ -286766,9 +286766,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.15,
+      "total": 16.15,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.65,
         "N": 5.0,
         "I": 4.5,
@@ -287602,10 +287602,10 @@
       "antigravity-skills"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 16.5,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -287640,10 +287640,10 @@
       "claude-config-dir"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.15,
+      "letter": "C",
+      "total": 13.65,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.15,
         "N": 2.0,
         "I": 5.0,
@@ -288100,10 +288100,10 @@
       "copilot"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.0,
+      "letter": "B",
+      "total": 16.67,
       "axes": {
-        "R": 2.83,
+        "R": 0.5,
         "Q": 2.67,
         "N": 5.0,
         "I": 4.5,
@@ -288170,9 +288170,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.48,
+      "total": 7.48,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 1.98,
         "N": 3.0,
         "I": 0.0,
@@ -289066,9 +289066,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.87,
+      "total": 14.87,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.87,
         "N": 5.0,
         "I": 4.5,
@@ -289104,9 +289104,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.0,
+      "total": 15.0,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -289211,13 +289211,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.68,
+      "total": 16.18,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.67,
         "N": 5.0,
         "I": 5.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -289320,9 +289320,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.46,
+      "total": 16.12,
       "axes": {
-        "R": 2.83,
+        "R": 1.5,
         "Q": 2.12,
         "N": 5.0,
         "I": 5.0,
@@ -289357,10 +289357,10 @@
       "indexing-engine"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.11,
+      "letter": "B",
+      "total": 16.44,
       "axes": {
-        "R": 2.17,
+        "R": 0.5,
         "Q": 2.44,
         "N": 5.0,
         "I": 4.5,
@@ -289529,9 +289529,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.68,
+      "total": 7.34,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 1.34,
         "N": 2.0,
         "I": 0.0,
@@ -289630,10 +289630,10 @@
       "claude-code"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.22,
+      "letter": "B",
+      "total": 17.72,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.72,
         "N": 5.0,
         "I": 5.0,
@@ -293656,10 +293656,10 @@
       "llm"
     ],
     "grade": {
-      "letter": "A",
-      "total": 20.03,
+      "letter": "B",
+      "total": 17.2,
       "axes": {
-        "R": 3.17,
+        "R": 0.33,
         "Q": 2.37,
         "N": 5.0,
         "I": 4.5,
@@ -295243,7 +295243,7 @@
     "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 4533,
+    "stars": 4535,
     "license": "NOASSERTION",
     "last_updated": "2026-08-14T06:41:05",
     "first_seen": "2026-07-13T11:29:29",
@@ -296411,9 +296411,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.39,
+      "total": 12.39,
       "axes": {
-        "R": 2.5,
+        "R": 1.5,
         "Q": 1.9,
         "N": 2.0,
         "I": 4.5,
@@ -296615,10 +296615,10 @@
       "cordis"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.42,
+      "letter": "B",
+      "total": 16.92,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.42,
         "N": 5.0,
         "I": 4.5,
@@ -297011,11 +297011,11 @@
       "automation"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.16,
+      "letter": "C",
+      "total": 13.66,
       "axes": {
-        "R": 1.0,
-        "Q": 2.67,
+        "R": 0.5,
+        "Q": 2.66,
         "N": 3.0,
         "I": 5.0,
         "F": 2.5
@@ -297558,10 +297558,10 @@
       "cursor"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.88,
+      "letter": "C",
+      "total": 13.88,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 1.88,
         "N": 3.0,
         "I": 4.5,
@@ -298277,9 +298277,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.23,
+      "total": 14.23,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.23,
         "N": 4.0,
         "I": 5.0,
@@ -298379,9 +298379,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.14,
+      "total": 18.64,
       "axes": {
-        "R": 2.5,
+        "R": 2.0,
         "Q": 2.64,
         "N": 5.0,
         "I": 5.0,
@@ -298482,10 +298482,10 @@
       "grok-mcp"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.02,
+      "letter": "B",
+      "total": 16.52,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.02,
         "N": 5.0,
         "I": 4.5,
@@ -299083,9 +299083,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 8.82,
+      "total": 8.49,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 1.49,
         "N": 3.0,
         "I": 0.0,
@@ -299284,9 +299284,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.55,
+      "total": 16.05,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.55,
         "N": 5.0,
         "I": 4.5,
@@ -299321,10 +299321,10 @@
       "fable"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.05,
+      "letter": "B",
+      "total": 16.71,
       "axes": {
-        "R": 1.83,
+        "R": 0.5,
         "Q": 2.71,
         "N": 5.0,
         "I": 4.5,
@@ -299393,13 +299393,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.23,
+      "total": 14.89,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.39,
         "N": 4.0,
         "I": 5.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -299617,9 +299617,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.88,
+      "total": 14.88,
       "axes": {
-        "R": 2.0,
+        "R": 0.0,
         "Q": 2.38,
         "N": 4.0,
         "I": 4.5,
@@ -299891,9 +299891,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.87,
+      "total": 15.37,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.37,
         "N": 5.0,
         "I": 4.5,
@@ -300612,9 +300612,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.78,
+      "total": 16.28,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.78,
         "N": 4.0,
         "I": 4.5,
@@ -301139,10 +301139,10 @@
       "lm-studio"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.25,
+      "letter": "B",
+      "total": 16.75,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.25,
         "N": 5.0,
         "I": 4.5,
@@ -301178,9 +301178,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.24,
+      "total": 18.74,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.74,
         "N": 5.0,
         "I": 5.0,
@@ -301472,9 +301472,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.14,
+      "total": 14.64,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.64,
         "N": 3.0,
         "I": 5.0,
@@ -302195,9 +302195,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 12.36,
+      "total": 11.86,
       "axes": {
-        "R": 0.83,
+        "R": 0.33,
         "Q": 2.02,
         "N": 5.0,
         "I": 0.0,
@@ -302902,9 +302902,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.83,
+      "total": 16.5,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -309202,10 +309202,10 @@
       "collage-video"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.17,
+      "letter": "B",
+      "total": 17.67,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.67,
         "N": 5.0,
         "I": 5.0,
@@ -309612,7 +309612,7 @@
     "description": "AI quantitative trading platform for crypto, stocks, and forex with backtesting, live trading, market data, and multi-agent research.vibe-trading ,trading-agents,ai-trader,ai-trading",
     "readme_excerpt": null,
     "language": "Python",
-    "stars": 10644,
+    "stars": 10646,
     "license": "Apache-2.0",
     "last_updated": "2026-08-07T15:37:12",
     "first_seen": "2026-07-19T11:23:08",
@@ -310370,11 +310370,11 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.83,
+      "total": 15.83,
       "axes": {
         "R": 1.5,
         "Q": 2.33,
-        "N": 5.0,
+        "N": 4.0,
         "I": 5.0,
         "F": 3.0
       }
@@ -312309,10 +312309,10 @@
       "clawdbot"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.12,
+      "letter": "C",
+      "total": 12.62,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.62,
         "N": 3.0,
         "I": 4.5,
@@ -312348,9 +312348,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.67,
+      "total": 14.33,
       "axes": {
-        "R": 1.33,
+        "R": 0.0,
         "Q": 2.33,
         "N": 5.0,
         "I": 4.5,
@@ -312386,9 +312386,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.75,
+      "total": 16.41,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.41,
         "N": 4.0,
         "I": 4.5,
@@ -312885,10 +312885,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.31,
+      "letter": "B",
+      "total": 17.48,
       "axes": {
-        "R": 2.83,
+        "R": 1.0,
         "Q": 2.48,
         "N": 5.0,
         "I": 4.5,
@@ -314111,9 +314111,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.03,
+      "total": 14.53,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.53,
         "N": 5.0,
         "I": 4.5,
@@ -316280,9 +316280,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.93,
+      "total": 13.43,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 2.43,
         "N": 3.0,
         "I": 5.0,
@@ -316317,10 +316317,10 @@
       "claude-code"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.31,
+      "letter": "B",
+      "total": 16.31,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.31,
         "N": 5.0,
         "I": 4.5,
@@ -316643,9 +316643,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 13.81,
+      "total": 13.31,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.31,
         "N": 3.0,
         "I": 4.5,
@@ -316745,9 +316745,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.98,
+      "total": 15.48,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.98,
         "N": 4.0,
         "I": 5.0,
@@ -316783,9 +316783,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.69,
+      "total": 14.19,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.69,
         "N": 3.0,
         "I": 5.0,
@@ -317107,14 +317107,14 @@
       "mcp"
     ],
     "grade": {
-      "letter": "B",
-      "total": 15.13,
+      "letter": "C",
+      "total": 12.96,
       "axes": {
-        "R": 2.17,
+        "R": 1.0,
         "Q": 1.96,
         "N": 3.0,
         "I": 4.5,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -317375,10 +317375,10 @@
       "claude"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.14,
+      "letter": "B",
+      "total": 16.31,
       "axes": {
-        "R": 1.83,
+        "R": 0.0,
         "Q": 2.31,
         "N": 5.0,
         "I": 5.0,
@@ -317475,14 +317475,14 @@
       "npm"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.43,
+      "letter": "B",
+      "total": 17.27,
       "axes": {
-        "R": 2.67,
+        "R": 1.5,
         "Q": 2.77,
         "N": 5.0,
         "I": 5.0,
-        "F": 4.0
+        "F": 3.0
       }
     }
   },
@@ -317720,13 +317720,13 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.33,
+      "total": 18.0,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -317871,10 +317871,10 @@
       "developer-tools"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.91,
+      "letter": "C",
+      "total": 13.91,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.41,
         "N": 4.0,
         "I": 4.5,
@@ -328684,7 +328684,7 @@
     "description": "🫖 Status page with uptime monitoring & API monitoring as code   🫖",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 8970,
+    "stars": 8972,
     "license": "AGPL-3.0",
     "last_updated": "2026-08-13T12:55:04",
     "first_seen": "2026-07-26T19:36:09",
@@ -328740,9 +328740,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.1,
+      "total": 14.6,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.1,
         "N": 4.0,
         "I": 5.0,
@@ -329267,9 +329267,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.28,
+      "total": 14.94,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 2.44,
         "N": 5.0,
         "I": 2.5,
@@ -329336,9 +329336,9 @@
     ],
     "grade": {
       "letter": "D",
-      "total": 7.59,
+      "total": 7.26,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 1.76,
         "N": 3.0,
         "I": 0.0,
@@ -330391,9 +330391,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.91,
+      "total": 19.08,
       "axes": {
-        "R": 2.17,
+        "R": 1.33,
         "Q": 2.74,
         "N": 5.0,
         "I": 5.0,
@@ -331151,10 +331151,10 @@
       "claude-code"
     ],
     "grade": {
-      "letter": "B",
-      "total": 14.5,
+      "letter": "C",
+      "total": 14.0,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.5,
         "N": 3.0,
         "I": 5.0,
@@ -331383,9 +331383,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.41,
+      "total": 15.41,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.41,
         "N": 4.0,
         "I": 4.5,
@@ -331483,9 +331483,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 14.85,
+      "total": 14.35,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.35,
         "N": 4.0,
         "I": 4.5,
@@ -331585,14 +331585,14 @@
       "computer-use"
     ],
     "grade": {
-      "letter": "A",
-      "total": 20.0,
+      "letter": "B",
+      "total": 17.0,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -332009,9 +332009,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.11,
+      "total": 18.78,
       "axes": {
-        "R": 2.17,
+        "R": 1.83,
         "Q": 2.44,
         "N": 5.0,
         "I": 4.5,
@@ -332243,14 +332243,14 @@
       "previz"
     ],
     "grade": {
-      "letter": "C",
-      "total": 11.57,
+      "letter": "D",
+      "total": 9.74,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 2.24,
         "N": 5.0,
         "I": 0.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -332597,10 +332597,10 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.17,
+      "letter": "B",
+      "total": 17.5,
       "axes": {
-        "R": 2.17,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 5.0,
@@ -332876,9 +332876,9 @@
     "description": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 3579,
+    "stars": 3586,
     "license": "MIT",
-    "last_updated": "2026-08-13T11:35:35",
+    "last_updated": "2026-08-14T07:26:01",
     "first_seen": "2026-07-30T03:27:44",
     "compatibility": "mcp_ready",
     "install_hint": "",
@@ -333251,9 +333251,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.14,
+      "total": 10.31,
       "axes": {
-        "R": 0.83,
+        "R": 0.0,
         "Q": 2.31,
         "N": 4.0,
         "I": 0.0,
@@ -333288,10 +333288,10 @@
       "asyncio"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.5,
+      "letter": "D",
+      "total": 10.0,
       "axes": {
-        "R": 0.5,
+        "R": 0.0,
         "Q": 2.0,
         "N": 4.0,
         "I": 0.0,
@@ -333359,10 +333359,10 @@
       "codex-cli"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.17,
+      "letter": "B",
+      "total": 17.67,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.67,
         "N": 4.0,
         "I": 5.0,
@@ -335781,14 +335781,14 @@
       "desktop-app"
     ],
     "grade": {
-      "letter": "A",
-      "total": 20.25,
+      "letter": "B",
+      "total": 16.92,
       "axes": {
-        "R": 2.83,
+        "R": 0.5,
         "Q": 2.92,
         "N": 5.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -335918,10 +335918,10 @@
       "cursor-cli"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.46,
+      "letter": "B",
+      "total": 16.63,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.63,
         "N": 5.0,
         "I": 4.5,
@@ -337071,9 +337071,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.32,
+      "total": 14.65,
       "axes": {
-        "R": 1.67,
+        "R": 0.0,
         "Q": 2.65,
         "N": 5.0,
         "I": 4.5,
@@ -339964,10 +339964,10 @@
       "hermes"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.08,
+      "letter": "B",
+      "total": 16.58,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.58,
         "N": 5.0,
         "I": 4.5,
@@ -340692,9 +340692,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.83,
+      "total": 18.5,
       "axes": {
-        "R": 2.83,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -340729,14 +340729,14 @@
       "openai-codex"
     ],
     "grade": {
-      "letter": "C",
-      "total": 11.48,
+      "letter": "D",
+      "total": 9.31,
       "axes": {
-        "R": 1.17,
+        "R": 0.0,
         "Q": 2.81,
         "N": 4.0,
         "I": 0.0,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -341102,7 +341102,7 @@
     "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
     "readme_excerpt": null,
     "language": "TypeScript",
-    "stars": 13167,
+    "stars": 13168,
     "license": "NOASSERTION",
     "last_updated": "2026-08-14T05:42:22",
     "first_seen": "2026-08-03T15:15:18",
@@ -341170,7 +341170,7 @@
     "description": "The official Java SDK for Model Context Protocol servers and clients. Maintained in collaboration with Spring AI",
     "readme_excerpt": null,
     "language": "Java",
-    "stars": 3656,
+    "stars": 3657,
     "license": "MIT",
     "last_updated": "2026-08-07T16:36:23",
     "first_seen": "2026-08-03T15:15:18",
@@ -342152,13 +342152,13 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.25,
+      "total": 16.25,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.25,
         "N": 4.0,
         "I": 5.0,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -342447,9 +342447,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.71,
+      "total": 15.38,
       "axes": {
-        "R": 2.83,
+        "R": 0.5,
         "Q": 2.38,
         "N": 5.0,
         "I": 4.5,
@@ -342583,14 +342583,14 @@
       "claude-code"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.64,
+      "letter": "B",
+      "total": 16.14,
       "axes": {
-        "R": 2.5,
+        "R": 0.5,
         "Q": 2.14,
         "N": 5.0,
         "I": 4.5,
-        "F": 4.5
+        "F": 4.0
       }
     }
   },
@@ -342653,9 +342653,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.04,
+      "total": 15.38,
       "axes": {
-        "R": 1.67,
+        "R": 1.0,
         "Q": 2.38,
         "N": 4.0,
         "I": 4.5,
@@ -342819,13 +342819,13 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.33,
+      "total": 18.0,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -343044,10 +343044,10 @@
       "llm-tools"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.18,
+      "letter": "B",
+      "total": 16.35,
       "axes": {
-        "R": 2.33,
+        "R": 0.5,
         "Q": 2.35,
         "N": 5.0,
         "I": 4.5,
@@ -343120,14 +343120,14 @@
       "llm"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.0,
+      "letter": "B",
+      "total": 14.83,
       "axes": {
-        "R": 2.67,
+        "R": 0.5,
         "Q": 2.33,
         "N": 5.0,
         "I": 4.5,
-        "F": 3.5
+        "F": 2.5
       }
     }
   },
@@ -343159,9 +343159,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.68,
+      "total": 16.68,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.68,
         "N": 5.0,
         "I": 4.5,
@@ -343685,9 +343685,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.19,
+      "total": 16.69,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.19,
         "N": 5.0,
         "I": 5.0,
@@ -344113,9 +344113,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.56,
+      "total": 14.56,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.06,
         "N": 5.0,
         "I": 5.0,
@@ -344281,9 +344281,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.92,
+      "total": 11.59,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.59,
         "N": 5.0,
         "I": 0.0,
@@ -344539,10 +344539,10 @@
       "kafka"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.06,
+      "letter": "B",
+      "total": 17.39,
       "axes": {
-        "R": 1.83,
+        "R": 0.17,
         "Q": 2.73,
         "N": 5.0,
         "I": 4.5,
@@ -344879,10 +344879,10 @@
       "llm-tools"
     ],
     "grade": {
-      "letter": "C",
-      "total": 10.57,
+      "letter": "D",
+      "total": 9.57,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.07,
         "N": 4.0,
         "I": 0.0,
@@ -346675,9 +346675,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.1,
+      "total": 14.1,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.1,
         "N": 4.0,
         "I": 4.5,
@@ -347110,9 +347110,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.18,
+      "total": 15.18,
       "axes": {
-        "R": 2.0,
+        "R": 1.0,
         "Q": 2.18,
         "N": 5.0,
         "I": 4.5,
@@ -347490,10 +347490,10 @@
       "ai-workspace"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.15,
+      "letter": "B",
+      "total": 16.32,
       "axes": {
-        "R": 1.83,
+        "R": 0.0,
         "Q": 2.82,
         "N": 5.0,
         "I": 4.5,
@@ -347755,10 +347755,10 @@
       "claude-plugin"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.94,
+      "letter": "B",
+      "total": 17.77,
       "axes": {
-        "R": 2.67,
+        "R": 1.5,
         "Q": 2.27,
         "N": 5.0,
         "I": 5.0,
@@ -348468,10 +348468,10 @@
       "hermes-agent"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.15,
+      "letter": "B",
+      "total": 17.65,
       "axes": {
-        "R": 1.5,
+        "R": 1.0,
         "Q": 2.65,
         "N": 5.0,
         "I": 5.0,
@@ -349168,9 +349168,9 @@
     ],
     "grade": {
       "letter": "C",
-      "total": 11.95,
+      "total": 11.61,
       "axes": {
-        "R": 0.33,
+        "R": 0.0,
         "Q": 2.61,
         "N": 5.0,
         "I": 0.0,
@@ -349238,10 +349238,10 @@
       "obs"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.14,
+      "letter": "B",
+      "total": 17.31,
       "axes": {
-        "R": 2.33,
+        "R": 1.5,
         "Q": 2.31,
         "N": 5.0,
         "I": 4.5,
@@ -349467,9 +349467,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.32,
+      "total": 15.32,
       "axes": {
-        "R": 1.5,
+        "R": 0.5,
         "Q": 2.32,
         "N": 4.0,
         "I": 4.5,
@@ -349635,9 +349635,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.05,
+      "total": 15.55,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.55,
         "N": 4.0,
         "I": 4.5,
@@ -349867,9 +349867,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 15.06,
+      "total": 14.06,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.06,
         "N": 5.0,
         "I": 4.5,
@@ -350199,10 +350199,10 @@
       "evidence"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.15,
+      "letter": "B",
+      "total": 16.65,
       "axes": {
-        "R": 2.0,
+        "R": 0.5,
         "Q": 2.15,
         "N": 5.0,
         "I": 4.5,
@@ -350434,9 +350434,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.89,
+      "total": 16.55,
       "axes": {
-        "R": 2.33,
+        "R": 2.0,
         "Q": 2.55,
         "N": 5.0,
         "I": 4.5,
@@ -350928,10 +350928,10 @@
       "mcp-server"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.3,
+      "letter": "B",
+      "total": 17.8,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.8,
         "N": 5.0,
         "I": 4.5,
@@ -351872,9 +351872,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.26,
+      "total": 16.26,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.76,
         "N": 5.0,
         "I": 4.5,
@@ -352178,10 +352178,10 @@
       "cursor"
     ],
     "grade": {
-      "letter": "A",
-      "total": 19.27,
+      "letter": "B",
+      "total": 17.77,
       "axes": {
-        "R": 2.5,
+        "R": 1.0,
         "Q": 2.77,
         "N": 5.0,
         "I": 4.5,
@@ -352280,14 +352280,14 @@
       "codex"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.97,
+      "letter": "B",
+      "total": 16.64,
       "axes": {
-        "R": 1.83,
+        "R": 0.5,
         "Q": 2.64,
         "N": 5.0,
         "I": 4.5,
-        "F": 5.0
+        "F": 4.0
       }
     }
   },
@@ -352318,10 +352318,10 @@
       "generative-engine-optimization"
     ],
     "grade": {
-      "letter": "A",
-      "total": 18.05,
+      "letter": "B",
+      "total": 17.55,
       "axes": {
-        "R": 2.0,
+        "R": 1.5,
         "Q": 2.05,
         "N": 5.0,
         "I": 5.0,
@@ -352582,9 +352582,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.82,
+      "total": 16.49,
       "axes": {
-        "R": 1.33,
+        "R": 1.0,
         "Q": 1.99,
         "N": 5.0,
         "I": 4.5,
@@ -353080,9 +353080,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.67,
+      "total": 15.0,
       "axes": {
-        "R": 1.67,
+        "R": 0.0,
         "Q": 3.0,
         "N": 5.0,
         "I": 4.5,
@@ -353556,9 +353556,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.49,
+      "total": 15.99,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.49,
         "N": 5.0,
         "I": 4.5,
@@ -353808,9 +353808,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.94,
+      "total": 16.44,
       "axes": {
-        "R": 1.0,
+        "R": 0.5,
         "Q": 1.94,
         "N": 5.0,
         "I": 5.0,
@@ -354494,9 +354494,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.64,
+      "total": 16.14,
       "axes": {
-        "R": 1.5,
+        "R": 0.0,
         "Q": 2.64,
         "N": 5.0,
         "I": 4.5,
@@ -354850,9 +354850,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 17.61,
+      "total": 17.27,
       "axes": {
-        "R": 1.83,
+        "R": 1.5,
         "Q": 2.27,
         "N": 5.0,
         "I": 4.5,
@@ -354888,9 +354888,9 @@
     ],
     "grade": {
       "letter": "B",
-      "total": 16.51,
+      "total": 15.51,
       "axes": {
-        "R": 1.0,
+        "R": 0.0,
         "Q": 2.01,
         "N": 5.0,
         "I": 4.5,
@@ -355149,9 +355149,9 @@
     ],
     "grade": {
       "letter": "A",
-      "total": 19.77,
+      "total": 18.27,
       "axes": {
-        "R": 3.5,
+        "R": 2.0,
         "Q": 2.27,
         "N": 5.0,
         "I": 4.5,
@@ -355173,6 +355173,172 @@
     "license": null,
     "last_updated": null,
     "first_seen": "2026-08-14T06:42:04",
+    "compatibility": "mcp_ready",
+    "install_hint": "",
+    "tags": [
+      "https://glama.ai/mcp/servers",
+      "mcp",
+      "mcp-server"
+    ],
+    "grade": {
+      "letter": "C",
+      "total": 13.5,
+      "axes": {
+        "R": 1.5,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 4.5,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "6fb27a15485e25f9",
+    "name": "906491213/writing-turtle-soup",
+    "url": "https://github.com/906491213/writing-turtle-soup",
+    "source": "github",
+    "category": "skill",
+    "subcategory": "general",
+    "description": "海龟汤（情境猜谜/横向思维谜题）创作方法论——四阶段施工框架 | A methodology for crafting turtle soup / lateral thinking puzzles: 4-phase pipeline from embryo to finished puzzle (CC BY-NC 4.0)",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 1,
+    "license": "NOASSERTION",
+    "last_updated": "2026-08-14T06:44:17",
+    "first_seen": "2026-08-14T08:36:11",
+    "compatibility": "native_claude_code",
+    "install_hint": "",
+    "tags": [
+      "anthropic-skill",
+      "claude",
+      "claude-code",
+      "creative-writing",
+      "game-design",
+      "interactive-fiction",
+      "lateral-thinking",
+      "llm-agent"
+    ],
+    "grade": {
+      "letter": "B",
+      "total": 15.45,
+      "axes": {
+        "R": 1.33,
+        "Q": 1.61,
+        "N": 5.0,
+        "I": 5.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "ebeb8c3218c3564a",
+    "name": "jordanhubbard/nanolang/.cursorrules",
+    "url": "https://github.com/jordanhubbard/nanolang/blob/8e810b73b672de428895fdb4340aa00b025d1709/.cursorrules",
+    "source": "github",
+    "category": null,
+    "subcategory": null,
+    "description": "file match: .cursorrules",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-08-14T08:36:11",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "code-match"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "ca3a2b5c7b26ccea",
+    "name": "wilcompute/W33-Theory/.cursorrules",
+    "url": "https://github.com/wilcompute/W33-Theory/blob/8e619443dd16e4ea8d098f7769d6da5ad071462f/.cursorrules",
+    "source": "github",
+    "category": null,
+    "subcategory": null,
+    "description": "file match: .cursorrules",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-08-14T08:36:11",
+    "compatibility": null,
+    "install_hint": "",
+    "tags": [
+      "code-match"
+    ],
+    "grade": {
+      "letter": "D",
+      "total": 7.5,
+      "axes": {
+        "R": 0.0,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 0.0,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "807515d7b65871bb",
+    "name": "chat_history_read",
+    "url": "https://glama.ai/mcp/servers/event4u-app/agent-config/tools/chat_history_read",
+    "source": "https://glama.ai/mcp/servers",
+    "category": "mcp_server",
+    "subcategory": "general",
+    "description": "Listed on https://glama.ai/mcp/servers",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-08-14T08:36:11",
+    "compatibility": "mcp_ready",
+    "install_hint": "",
+    "tags": [
+      "https://glama.ai/mcp/servers",
+      "mcp",
+      "mcp-server"
+    ],
+    "grade": {
+      "letter": "C",
+      "total": 13.5,
+      "axes": {
+        "R": 1.5,
+        "Q": 0.0,
+        "N": 5.0,
+        "I": 4.5,
+        "F": 2.5
+      }
+    }
+  },
+  {
+    "id": "588054bdfb11956f",
+    "name": "orangepro_resolve_story",
+    "url": "https://glama.ai/mcp/servers/OrangeproAI/orangepro-mcp/tools/orangepro_resolve_story",
+    "source": "https://glama.ai/mcp/servers",
+    "category": "mcp_server",
+    "subcategory": "general",
+    "description": "Listed on https://glama.ai/mcp/servers",
+    "readme_excerpt": null,
+    "language": null,
+    "stars": 0,
+    "license": null,
+    "last_updated": null,
+    "first_seen": "2026-08-14T08:36:11",
     "compatibility": "mcp_ready",
     "install_hint": "",
     "tags": [
