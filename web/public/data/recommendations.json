@@ -407,7 +407,7 @@
     "category": "claude_plugin",
     "letter": "A",
     "score": 0.884,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 42,
@@ -431,16 +431,6 @@
   },
   {
     "rank": 44,
-    "tool_id": "1b63ec93537cdef4",
-    "name": "zhnt/loushang",
-    "url": "https://github.com/zhnt/loushang",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.882,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 45,
     "tool_id": "6be3710b43fac1b5",
     "name": "awslabs/cli-agent-orchestrator",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
@@ -450,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "tool_id": "f0ca44cd13ca6284",
     "name": "ArcadeAI/arcade-mcp",
     "url": "https://github.com/ArcadeAI/arcade-mcp",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "0eadbe4280229ec4",
     "name": "vshulcz/deja-vu",
     "url": "https://github.com/vshulcz/deja-vu",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "135d05766ff2c73c",
     "name": "artokun/comfyui-mcp",
     "url": "https://github.com/artokun/comfyui-mcp",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "0342507e15665c9d",
     "name": "ruvnet/metaharness",
     "url": "https://github.com/ruvnet/metaharness",
@@ -490,13 +480,23 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "60ae4b41f392eb27",
     "name": "KeyValueSoftwareSystems/agent-opfor",
     "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.877,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "c4e7485cfd8131e8",
+    "name": "syncable-dev/memtrace-public",
+    "url": "https://github.com/syncable-dev/memtrace-public",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.875,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
