@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-15T16:40:00.953791Z",
-  "live_tools": 10603,
+  "generated_at": "2026-08-15T17:35:51.790134Z",
+  "live_tools": 10604,
   "last_crawl": {
-    "started_at": "2026-08-15T16:37:03",
-    "ended_at": "2026-08-15T16:39:51.210323",
+    "started_at": "2026-08-15T17:32:54",
+    "ended_at": "2026-08-15T17:35:39.653846",
     "new_tools": 2,
     "errors": "[]"
   },
