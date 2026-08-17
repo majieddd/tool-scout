@@ -371,16 +371,6 @@
   },
   {
     "rank": 38,
-    "tool_id": "21304ae14ee452ef",
-    "name": "zhu1090093659/deepseek-pp",
-    "url": "https://github.com/zhu1090093659/deepseek-pp",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.885,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 39,
     "tool_id": "692584b98a342218",
     "name": "fujibee/agmsg",
     "url": "https://github.com/fujibee/agmsg",
@@ -390,7 +380,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 40,
+    "rank": 39,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
@@ -400,7 +390,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 41,
+    "rank": 40,
     "tool_id": "823ea1e50f41683f",
     "name": "study8677/repobrain",
     "url": "https://github.com/study8677/repobrain",
@@ -410,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 41,
     "tool_id": "6be3710b43fac1b5",
     "name": "awslabs/cli-agent-orchestrator",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
@@ -420,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
+    "rank": 42,
     "tool_id": "f0ca44cd13ca6284",
     "name": "ArcadeAI/arcade-mcp",
     "url": "https://github.com/ArcadeAI/arcade-mcp",
@@ -430,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 43,
     "tool_id": "4c77b72c5229d285",
     "name": "Storybloq/storybloq",
     "url": "https://github.com/Storybloq/storybloq",
@@ -440,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "tool_id": "0eadbe4280229ec4",
     "name": "vshulcz/deja-vu",
     "url": "https://github.com/vshulcz/deja-vu",
@@ -450,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "tool_id": "135d05766ff2c73c",
     "name": "artokun/comfyui-mcp",
     "url": "https://github.com/artokun/comfyui-mcp",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "0342507e15665c9d",
     "name": "ruvnet/metaharness",
     "url": "https://github.com/ruvnet/metaharness",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "7e3477dae5e8c6ee",
     "name": "bvisible/mcp-ssh-manager",
     "url": "https://github.com/bvisible/mcp-ssh-manager",
@@ -490,10 +480,20 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "fbae151553eadb79",
     "name": "razzant/claudexor",
     "url": "https://github.com/razzant/claudexor",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.874,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "a210e241053bf4c0",
+    "name": "Ikalus1988/MisakaNet",
+    "url": "https://github.com/Ikalus1988/MisakaNet",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.874,
