@@ -481,21 +481,21 @@
   },
   {
     "rank": 49,
-    "tool_id": "c4e7485cfd8131e8",
-    "name": "syncable-dev/memtrace-public",
-    "url": "https://github.com/syncable-dev/memtrace-public",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.875,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
     "tool_id": "7e3477dae5e8c6ee",
     "name": "bvisible/mcp-ssh-manager",
     "url": "https://github.com/bvisible/mcp-ssh-manager",
     "category": "mcp_server",
     "letter": "B",
+    "score": 0.875,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "c4e7485cfd8131e8",
+    "name": "syncable-dev/memtrace-public",
+    "url": "https://github.com/syncable-dev/memtrace-public",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.875,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
