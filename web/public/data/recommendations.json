@@ -491,12 +491,12 @@
   },
   {
     "rank": 50,
-    "tool_id": "7e3477dae5e8c6ee",
-    "name": "bvisible/mcp-ssh-manager",
-    "url": "https://github.com/bvisible/mcp-ssh-manager",
+    "tool_id": "fbae151553eadb79",
+    "name": "razzant/claudexor",
+    "url": "https://github.com/razzant/claudexor",
     "category": "mcp_server",
-    "letter": "B",
-    "score": 0.875,
+    "letter": "A",
+    "score": 0.874,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
