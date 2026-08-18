@@ -341,9 +341,9 @@
   },
   {
     "rank": 35,
-    "tool_id": "063c37d70c9404fe",
-    "name": "huangjunsen0406/py-xiaozhi",
-    "url": "https://github.com/huangjunsen0406/py-xiaozhi",
+    "tool_id": "2382a3bd5d04f397",
+    "name": "NanoNets/Graft",
+    "url": "https://github.com/NanoNets/Graft",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.891,
@@ -351,9 +351,9 @@
   },
   {
     "rank": 36,
-    "tool_id": "2382a3bd5d04f397",
-    "name": "NanoNets/Graft",
-    "url": "https://github.com/NanoNets/Graft",
+    "tool_id": "063c37d70c9404fe",
+    "name": "huangjunsen0406/py-xiaozhi",
+    "url": "https://github.com/huangjunsen0406/py-xiaozhi",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.891,
@@ -471,6 +471,16 @@
   },
   {
     "rank": 48,
+    "tool_id": "60ae4b41f392eb27",
+    "name": "KeyValueSoftwareSystems/agent-opfor",
+    "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.877,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 49,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
@@ -480,23 +490,13 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "7e3477dae5e8c6ee",
     "name": "bvisible/mcp-ssh-manager",
     "url": "https://github.com/bvisible/mcp-ssh-manager",
     "category": "mcp_server",
     "letter": "B",
     "score": 0.875,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "fbae151553eadb79",
-    "name": "razzant/claudexor",
-    "url": "https://github.com/razzant/claudexor",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.874,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
