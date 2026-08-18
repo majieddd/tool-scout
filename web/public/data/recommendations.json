@@ -231,21 +231,21 @@
   },
   {
     "rank": 24,
-    "tool_id": "e0151d8d8bd9df0e",
-    "name": "Untrivial-ai/agent-orchestrator",
-    "url": "https://github.com/Untrivial-ai/agent-orchestrator",
-    "category": "claude_plugin",
-    "letter": "B",
-    "score": 0.9,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 25,
     "tool_id": "d55a08b521e4f15d",
     "name": "holaboss-ai/holaOS",
     "url": "https://github.com/holaboss-ai/holaOS",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 25,
+    "tool_id": "e0151d8d8bd9df0e",
+    "name": "Untrivial-ai/agent-orchestrator",
+    "url": "https://github.com/Untrivial-ai/agent-orchestrator",
+    "category": "claude_plugin",
+    "letter": "B",
     "score": 0.9,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
@@ -291,9 +291,9 @@
   },
   {
     "rank": 30,
-    "tool_id": "65273898ba911850",
-    "name": "KnockOutEZ/wigolo",
-    "url": "https://github.com/KnockOutEZ/wigolo",
+    "tool_id": "cc1dd61aa26f6e76",
+    "name": "vitali87/code-graph-rag",
+    "url": "https://github.com/vitali87/code-graph-rag",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.894,
@@ -301,9 +301,9 @@
   },
   {
     "rank": 31,
-    "tool_id": "cc1dd61aa26f6e76",
-    "name": "vitali87/code-graph-rag",
-    "url": "https://github.com/vitali87/code-graph-rag",
+    "tool_id": "65273898ba911850",
+    "name": "KnockOutEZ/wigolo",
+    "url": "https://github.com/KnockOutEZ/wigolo",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.894,
