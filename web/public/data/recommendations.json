@@ -361,16 +361,6 @@
   },
   {
     "rank": 37,
-    "tool_id": "063c37d70c9404fe",
-    "name": "huangjunsen0406/py-xiaozhi",
-    "url": "https://github.com/huangjunsen0406/py-xiaozhi",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.891,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 38,
     "tool_id": "fdd10a9cf3bab09b",
     "name": "stickerdaniel/linkedin-mcp-server",
     "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
@@ -380,7 +370,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 39,
+    "rank": 38,
     "tool_id": "5cc80a4dbdcb6c6d",
     "name": "chrisryugj/korean-law-mcp",
     "url": "https://github.com/chrisryugj/korean-law-mcp",
@@ -390,7 +380,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 39,
     "tool_id": "692584b98a342218",
     "name": "fujibee/agmsg",
     "url": "https://github.com/fujibee/agmsg",
@@ -400,7 +390,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 41,
+    "rank": 40,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
@@ -410,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 41,
     "tool_id": "9bd1cc8f39fe60cb",
     "name": "thClaws/thClaws",
     "url": "https://github.com/thClaws/thClaws",
@@ -420,13 +410,23 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
+    "rank": 42,
     "tool_id": "6be3710b43fac1b5",
     "name": "awslabs/cli-agent-orchestrator",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.882,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 43,
+    "tool_id": "f0ca44cd13ca6284",
+    "name": "ArcadeAI/arcade-mcp",
+    "url": "https://github.com/ArcadeAI/arcade-mcp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.881,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -491,9 +491,9 @@
   },
   {
     "rank": 50,
-    "tool_id": "fbae151553eadb79",
-    "name": "razzant/claudexor",
-    "url": "https://github.com/razzant/claudexor",
+    "tool_id": "a210e241053bf4c0",
+    "name": "Ikalus1988/MisakaNet",
+    "url": "https://github.com/Ikalus1988/MisakaNet",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.874,
