@@ -481,22 +481,22 @@
   },
   {
     "rank": 49,
-    "tool_id": "60ae4b41f392eb27",
-    "name": "KeyValueSoftwareSystems/agent-opfor",
-    "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.877,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
     "tool_id": "c4e7485cfd8131e8",
     "name": "syncable-dev/memtrace-public",
     "url": "https://github.com/syncable-dev/memtrace-public",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.875,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "a210e241053bf4c0",
+    "name": "Ikalus1988/MisakaNet",
+    "url": "https://github.com/Ikalus1988/MisakaNet",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.874,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
