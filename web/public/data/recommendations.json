@@ -321,21 +321,21 @@
   },
   {
     "rank": 33,
-    "tool_id": "4b88c907cbb197eb",
-    "name": "IvanMurzak/Unity-MCP",
-    "url": "https://github.com/IvanMurzak/Unity-MCP",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.892,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 34,
     "tool_id": "2382a3bd5d04f397",
     "name": "NanoNets/Graft",
     "url": "https://github.com/NanoNets/Graft",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.893,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 34,
+    "tool_id": "4b88c907cbb197eb",
+    "name": "IvanMurzak/Unity-MCP",
+    "url": "https://github.com/IvanMurzak/Unity-MCP",
+    "category": "mcp_server",
+    "letter": "B",
     "score": 0.892,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
