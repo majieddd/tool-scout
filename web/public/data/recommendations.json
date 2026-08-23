@@ -311,16 +311,6 @@
   },
   {
     "rank": 32,
-    "tool_id": "5720873393b5d31a",
-    "name": "TabularisDB/tabularis",
-    "url": "https://github.com/TabularisDB/tabularis",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.893,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 33,
     "tool_id": "2382a3bd5d04f397",
     "name": "NanoNets/Graft",
     "url": "https://github.com/NanoNets/Graft",
@@ -328,6 +318,16 @@
     "letter": "A",
     "score": 0.893,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 33,
+    "tool_id": "5720873393b5d31a",
+    "name": "TabularisDB/tabularis",
+    "url": "https://github.com/TabularisDB/tabularis",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.893,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 34,
