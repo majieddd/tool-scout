@@ -411,21 +411,21 @@
   },
   {
     "rank": 42,
-    "tool_id": "4c77b72c5229d285",
-    "name": "Storybloq/storybloq",
-    "url": "https://github.com/Storybloq/storybloq",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.878,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 43,
     "tool_id": "0eadbe4280229ec4",
     "name": "vshulcz/deja-vu",
     "url": "https://github.com/vshulcz/deja-vu",
     "category": "mcp_server",
     "letter": "B",
+    "score": 0.878,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 43,
+    "tool_id": "4c77b72c5229d285",
+    "name": "Storybloq/storybloq",
+    "url": "https://github.com/Storybloq/storybloq",
+    "category": "mcp_server",
+    "letter": "A",
     "score": 0.878,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
