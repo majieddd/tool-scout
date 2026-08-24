@@ -451,16 +451,6 @@
   },
   {
     "rank": 46,
-    "tool_id": "c4e7485cfd8131e8",
-    "name": "syncable-dev/memtrace-public",
-    "url": "https://github.com/syncable-dev/memtrace-public",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.875,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 47,
     "tool_id": "bb0df0faa2413e25",
     "name": "liliu-z/stashbase",
     "url": "https://github.com/liliu-z/stashbase",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "a210e241053bf4c0",
     "name": "Ikalus1988/MisakaNet",
     "url": "https://github.com/Ikalus1988/MisakaNet",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "fbae151553eadb79",
     "name": "razzant/claudexor",
     "url": "https://github.com/razzant/claudexor",
@@ -490,13 +480,23 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "47bbf8b7592b4d44",
     "name": "YoanWai/agent-manager",
     "url": "https://github.com/YoanWai/agent-manager",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.873,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "c3e1903477c43929",
+    "name": "olo-dot-io/Uni-CLI",
+    "url": "https://github.com/olo-dot-io/Uni-CLI",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.871,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
