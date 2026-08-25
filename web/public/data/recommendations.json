@@ -451,16 +451,6 @@
   },
   {
     "rank": 46,
-    "tool_id": "0eadbe4280229ec4",
-    "name": "vshulcz/deja-vu",
-    "url": "https://github.com/vshulcz/deja-vu",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.879,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 47,
     "tool_id": "4c77b72c5229d285",
     "name": "Storybloq/storybloq",
     "url": "https://github.com/Storybloq/storybloq",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "135d05766ff2c73c",
     "name": "artokun/comfyui-mcp",
     "url": "https://github.com/artokun/comfyui-mcp",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "0342507e15665c9d",
     "name": "ruvnet/metaharness",
     "url": "https://github.com/ruvnet/metaharness",
@@ -490,13 +480,23 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "bb0df0faa2413e25",
     "name": "liliu-z/stashbase",
     "url": "https://github.com/liliu-z/stashbase",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.875,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "a210e241053bf4c0",
+    "name": "Ikalus1988/MisakaNet",
+    "url": "https://github.com/Ikalus1988/MisakaNet",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.874,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
