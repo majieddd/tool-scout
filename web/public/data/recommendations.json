@@ -411,16 +411,6 @@
   },
   {
     "rank": 42,
-    "tool_id": "692584b98a342218",
-    "name": "fujibee/agmsg",
-    "url": "https://github.com/fujibee/agmsg",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.884,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 43,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
@@ -428,6 +418,16 @@
     "letter": "A",
     "score": 0.884,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 43,
+    "tool_id": "692584b98a342218",
+    "name": "fujibee/agmsg",
+    "url": "https://github.com/fujibee/agmsg",
+    "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.884,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 44,
