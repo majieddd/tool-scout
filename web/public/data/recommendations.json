@@ -231,6 +231,16 @@
   },
   {
     "rank": 24,
+    "tool_id": "e0151d8d8bd9df0e",
+    "name": "Untrivial-ai/agent-orchestrator",
+    "url": "https://github.com/Untrivial-ai/agent-orchestrator",
+    "category": "claude_plugin",
+    "letter": "B",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 25,
     "tool_id": "d08cb4995a03f6dd",
     "name": "NanmiCoder/cc-haha",
     "url": "https://github.com/NanmiCoder/cc-haha",
@@ -240,7 +250,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 25,
+    "rank": 26,
     "tool_id": "85ae089ddfa50939",
     "name": "QwenLM/qwen-code",
     "url": "https://github.com/QwenLM/qwen-code",
@@ -250,7 +260,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 26,
+    "rank": 27,
     "tool_id": "f220f0f85bb4aac6",
     "name": "Hmbown/CodeWhale",
     "url": "https://github.com/Hmbown/CodeWhale",
@@ -260,22 +270,12 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 27,
+    "rank": 28,
     "tool_id": "b7ff271463be7a4e",
     "name": "amruthpillai/reactive-resume",
     "url": "https://github.com/amruthpillai/reactive-resume",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.9,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 28,
-    "tool_id": "e0151d8d8bd9df0e",
-    "name": "Untrivial-ai/agent-orchestrator",
-    "url": "https://github.com/Untrivial-ai/agent-orchestrator",
-    "category": "claude_plugin",
-    "letter": "B",
     "score": 0.9,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
@@ -481,19 +481,19 @@
   },
   {
     "rank": 49,
-    "tool_id": "4c77b72c5229d285",
-    "name": "Storybloq/storybloq",
-    "url": "https://github.com/Storybloq/storybloq",
+    "tool_id": "c5cb87dcb8aa1b20",
+    "name": "riponcm/projectmem",
+    "url": "https://github.com/riponcm/projectmem",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.878,
+    "score": 0.879,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 50,
-    "tool_id": "135d05766ff2c73c",
-    "name": "artokun/comfyui-mcp",
-    "url": "https://github.com/artokun/comfyui-mcp",
+    "tool_id": "4c77b72c5229d285",
+    "name": "Storybloq/storybloq",
+    "url": "https://github.com/Storybloq/storybloq",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.878,
