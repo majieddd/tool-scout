@@ -306,7 +306,7 @@
     "url": "https://github.com/TabularisDB/tabularis",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.893,
+    "score": 0.894,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
@@ -421,9 +421,9 @@
   },
   {
     "rank": 43,
-    "tool_id": "4c77b72c5229d285",
-    "name": "Storybloq/storybloq",
-    "url": "https://github.com/Storybloq/storybloq",
+    "tool_id": "135d05766ff2c73c",
+    "name": "artokun/comfyui-mcp",
+    "url": "https://github.com/artokun/comfyui-mcp",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.878,
@@ -431,9 +431,9 @@
   },
   {
     "rank": 44,
-    "tool_id": "135d05766ff2c73c",
-    "name": "artokun/comfyui-mcp",
-    "url": "https://github.com/artokun/comfyui-mcp",
+    "tool_id": "4c77b72c5229d285",
+    "name": "Storybloq/storybloq",
+    "url": "https://github.com/Storybloq/storybloq",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.878,
@@ -456,7 +456,7 @@
     "url": "https://github.com/cbrock84/headcount",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.876,
+    "score": 0.877,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
