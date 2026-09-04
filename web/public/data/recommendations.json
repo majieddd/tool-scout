@@ -421,21 +421,21 @@
   },
   {
     "rank": 43,
-    "tool_id": "9bd1cc8f39fe60cb",
-    "name": "thClaws/thClaws",
-    "url": "https://github.com/thClaws/thClaws",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.883,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 44,
     "tool_id": "b7e5a14c0f84305c",
     "name": "cbrock84/headcount",
     "url": "https://github.com/cbrock84/headcount",
     "category": "mcp_server",
     "letter": "B",
+    "score": 0.883,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 44,
+    "tool_id": "9bd1cc8f39fe60cb",
+    "name": "thClaws/thClaws",
+    "url": "https://github.com/thClaws/thClaws",
+    "category": "claude_plugin",
+    "letter": "A",
     "score": 0.883,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
