@@ -311,9 +311,9 @@
   },
   {
     "rank": 32,
-    "tool_id": "cc1dd61aa26f6e76",
-    "name": "vitali87/code-graph-rag",
-    "url": "https://github.com/vitali87/code-graph-rag",
+    "tool_id": "65273898ba911850",
+    "name": "KnockOutEZ/wigolo",
+    "url": "https://github.com/KnockOutEZ/wigolo",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.894,
@@ -321,9 +321,9 @@
   },
   {
     "rank": 33,
-    "tool_id": "65273898ba911850",
-    "name": "KnockOutEZ/wigolo",
-    "url": "https://github.com/KnockOutEZ/wigolo",
+    "tool_id": "cc1dd61aa26f6e76",
+    "name": "vitali87/code-graph-rag",
+    "url": "https://github.com/vitali87/code-graph-rag",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.894,
@@ -386,7 +386,7 @@
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.885,
+    "score": 0.886,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
