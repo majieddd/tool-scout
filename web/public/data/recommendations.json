@@ -431,16 +431,6 @@
   },
   {
     "rank": 44,
-    "tool_id": "f0ca44cd13ca6284",
-    "name": "ArcadeAI/arcade-mcp",
-    "url": "https://github.com/ArcadeAI/arcade-mcp",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.881,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 45,
     "tool_id": "062cc8b1f252bf2e",
     "name": "2akouwu/reverify",
     "url": "https://github.com/2akouwu/reverify",
@@ -450,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "tool_id": "dc2bbb529efcf6e0",
     "name": "arben-adm/mcp-sequential-thinking",
     "url": "https://github.com/arben-adm/mcp-sequential-thinking",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "671c4a1f853871de",
     "name": "MaxFreedomPollard/Compartment",
     "url": "https://github.com/MaxFreedomPollard/Compartment",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "135d05766ff2c73c",
     "name": "artokun/comfyui-mcp",
     "url": "https://github.com/artokun/comfyui-mcp",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "4c77b72c5229d285",
     "name": "Storybloq/storybloq",
     "url": "https://github.com/Storybloq/storybloq",
@@ -490,13 +480,23 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "0342507e15665c9d",
     "name": "ruvnet/metaharness",
     "url": "https://github.com/ruvnet/metaharness",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.878,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "60ae4b41f392eb27",
+    "name": "KeyValueSoftwareSystems/agent-opfor",
+    "url": "https://github.com/KeyValueSoftwareSystems/agent-opfor",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.877,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
