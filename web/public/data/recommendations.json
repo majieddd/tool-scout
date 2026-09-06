@@ -401,16 +401,6 @@
   },
   {
     "rank": 41,
-    "tool_id": "692584b98a342218",
-    "name": "fujibee/agmsg",
-    "url": "https://github.com/fujibee/agmsg",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.884,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 42,
     "tool_id": "b7e5a14c0f84305c",
     "name": "cbrock84/headcount",
     "url": "https://github.com/cbrock84/headcount",
@@ -420,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
+    "rank": 42,
     "tool_id": "9bd1cc8f39fe60cb",
     "name": "thClaws/thClaws",
     "url": "https://github.com/thClaws/thClaws",
@@ -430,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 43,
     "tool_id": "6be3710b43fac1b5",
     "name": "awslabs/cli-agent-orchestrator",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
@@ -440,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "tool_id": "f0ca44cd13ca6284",
     "name": "ArcadeAI/arcade-mcp",
     "url": "https://github.com/ArcadeAI/arcade-mcp",
@@ -448,6 +438,16 @@
     "letter": "A",
     "score": 0.881,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 45,
+    "tool_id": "dc2bbb529efcf6e0",
+    "name": "arben-adm/mcp-sequential-thinking",
+    "url": "https://github.com/arben-adm/mcp-sequential-thinking",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.881,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 46,
