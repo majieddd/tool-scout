@@ -256,7 +256,7 @@
     "url": "https://github.com/chaitanyagiri/munder-difflin",
     "category": "claude_plugin",
     "letter": "A",
-    "score": 0.896,
+    "score": 0.897,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -286,7 +286,7 @@
     "url": "https://github.com/trailhq/Graft",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.895,
+    "score": 0.896,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -471,9 +471,9 @@
   },
   {
     "rank": 48,
-    "tool_id": "135d05766ff2c73c",
-    "name": "artokun/comfyui-mcp",
-    "url": "https://github.com/artokun/comfyui-mcp",
+    "tool_id": "4c77b72c5229d285",
+    "name": "Storybloq/storybloq",
+    "url": "https://github.com/Storybloq/storybloq",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.879,
@@ -481,9 +481,9 @@
   },
   {
     "rank": 49,
-    "tool_id": "4c77b72c5229d285",
-    "name": "Storybloq/storybloq",
-    "url": "https://github.com/Storybloq/storybloq",
+    "tool_id": "135d05766ff2c73c",
+    "name": "artokun/comfyui-mcp",
+    "url": "https://github.com/artokun/comfyui-mcp",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.879,
