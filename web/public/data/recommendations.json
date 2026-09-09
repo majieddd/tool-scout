@@ -261,20 +261,20 @@
   },
   {
     "rank": 27,
-    "tool_id": "0915d40354d7601f",
-    "name": "chaitanyagiri/munder-difflin",
-    "url": "https://github.com/chaitanyagiri/munder-difflin",
-    "category": "claude_plugin",
+    "tool_id": "aeca17d03a6c7358",
+    "name": "trailhq/Graft",
+    "url": "https://github.com/trailhq/Graft",
+    "category": "mcp_server",
     "letter": "A",
     "score": 0.897,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 28,
-    "tool_id": "aeca17d03a6c7358",
-    "name": "trailhq/Graft",
-    "url": "https://github.com/trailhq/Graft",
-    "category": "mcp_server",
+    "tool_id": "0915d40354d7601f",
+    "name": "chaitanyagiri/munder-difflin",
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.897,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
