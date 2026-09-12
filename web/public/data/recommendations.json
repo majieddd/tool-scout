@@ -491,9 +491,9 @@
   },
   {
     "rank": 50,
-    "tool_id": "671c4a1f853871de",
-    "name": "MaxFreedomPollard/Compartment",
-    "url": "https://github.com/MaxFreedomPollard/Compartment",
+    "tool_id": "135d05766ff2c73c",
+    "name": "artokun/comfyui-mcp",
+    "url": "https://github.com/artokun/comfyui-mcp",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.879,
