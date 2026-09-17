@@ -276,7 +276,7 @@
     "url": "https://github.com/trailhq/Graft",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.898,
+    "score": 0.899,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -396,7 +396,7 @@
     "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.891,
+    "score": 0.892,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -441,16 +441,6 @@
   },
   {
     "rank": 45,
-    "tool_id": "b7e5a14c0f84305c",
-    "name": "cbrock84/headcount",
-    "url": "https://github.com/cbrock84/headcount",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.885,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 46,
     "tool_id": "6be3710b43fac1b5",
     "name": "awslabs/cli-agent-orchestrator",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "9bd1cc8f39fe60cb",
     "name": "thClaws/thClaws",
     "url": "https://github.com/thClaws/thClaws",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "fed735fea7657fd7",
     "name": "agentrq/agentrq",
     "url": "https://github.com/agentrq/agentrq",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "135d05766ff2c73c",
     "name": "artokun/comfyui-mcp",
     "url": "https://github.com/artokun/comfyui-mcp",
@@ -490,10 +480,20 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "671c4a1f853871de",
     "name": "MaxFreedomPollard/Compartment",
     "url": "https://github.com/MaxFreedomPollard/Compartment",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.879,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "4c77b72c5229d285",
+    "name": "Storybloq/storybloq",
+    "url": "https://github.com/Storybloq/storybloq",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.879,
