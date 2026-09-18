@@ -491,9 +491,9 @@
   },
   {
     "rank": 50,
-    "tool_id": "c4e7485cfd8131e8",
-    "name": "syncable-dev/memtrace-public",
-    "url": "https://github.com/syncable-dev/memtrace-public",
+    "tool_id": "47bbf8b7592b4d44",
+    "name": "YoanWai/agent-manager",
+    "url": "https://github.com/YoanWai/agent-manager",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.875,
