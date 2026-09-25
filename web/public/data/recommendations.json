@@ -71,6 +71,16 @@
   },
   {
     "rank": 8,
+    "tool_id": "68310ed34aa5e9f6",
+    "name": "wshobson/agents",
+    "url": "https://github.com/wshobson/agents",
+    "category": "claude_plugin",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 9,
     "tool_id": "07017ec54bcbb005",
     "name": "superset-sh/superset",
     "url": "https://github.com/superset-sh/superset",
@@ -80,7 +90,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 9,
+    "rank": 10,
     "tool_id": "98d8d012b406fff0",
     "name": "getpaseo/paseo",
     "url": "https://github.com/getpaseo/paseo",
@@ -90,20 +100,10 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 10,
+    "rank": 11,
     "tool_id": "354cca612204791a",
     "name": "ComposioHQ/composio",
     "url": "https://github.com/ComposioHQ/composio",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.9,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 11,
-    "tool_id": "6bb25462214ed79a",
-    "name": "alibaba/page-agent",
-    "url": "https://github.com/alibaba/page-agent",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.9,
