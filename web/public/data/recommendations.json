@@ -316,7 +316,7 @@
     "url": "https://github.com/vastsa/PI-Desktop",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.895,
+    "score": 0.896,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -391,20 +391,20 @@
   },
   {
     "rank": 40,
-    "tool_id": "fdd10a9cf3bab09b",
-    "name": "stickerdaniel/linkedin-mcp-server",
-    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
-    "category": "mcp_server",
+    "tool_id": "c884b95657ebf9f9",
+    "name": "code-yeongyu/lazycodex",
+    "url": "https://github.com/code-yeongyu/lazycodex",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.892,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 41,
-    "tool_id": "c884b95657ebf9f9",
-    "name": "code-yeongyu/lazycodex",
-    "url": "https://github.com/code-yeongyu/lazycodex",
-    "category": "claude_plugin",
+    "tool_id": "fdd10a9cf3bab09b",
+    "name": "stickerdaniel/linkedin-mcp-server",
+    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+    "category": "mcp_server",
     "letter": "A",
     "score": 0.892,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
