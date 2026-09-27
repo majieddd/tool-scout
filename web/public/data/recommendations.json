@@ -291,9 +291,9 @@
   },
   {
     "rank": 30,
-    "tool_id": "2c9e9d9199c516b1",
-    "name": "oomol-lab/open-connector",
-    "url": "https://github.com/oomol-lab/open-connector",
+    "tool_id": "3cd7896e5e5210b2",
+    "name": "vastsa/PI-Desktop",
+    "url": "https://github.com/vastsa/PI-Desktop",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.896,
@@ -301,9 +301,9 @@
   },
   {
     "rank": 31,
-    "tool_id": "3cd7896e5e5210b2",
-    "name": "vastsa/PI-Desktop",
-    "url": "https://github.com/vastsa/PI-Desktop",
+    "tool_id": "2c9e9d9199c516b1",
+    "name": "oomol-lab/open-connector",
+    "url": "https://github.com/oomol-lab/open-connector",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.896,
@@ -326,7 +326,7 @@
     "url": "https://github.com/TabularisDB/tabularis",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.894,
+    "score": 0.895,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
