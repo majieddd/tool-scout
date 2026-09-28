@@ -351,16 +351,6 @@
   },
   {
     "rank": 36,
-    "tool_id": "fbd1b812fbc71b2c",
-    "name": "golutra/golutra",
-    "url": "https://github.com/golutra/golutra",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.892,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 37,
     "tool_id": "94346b228662cd9b",
     "name": "yvgude/lean-ctx",
     "url": "https://github.com/yvgude/lean-ctx",
@@ -370,7 +360,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 38,
+    "rank": 37,
     "tool_id": "c884b95657ebf9f9",
     "name": "code-yeongyu/lazycodex",
     "url": "https://github.com/code-yeongyu/lazycodex",
@@ -380,7 +370,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 39,
+    "rank": 38,
     "tool_id": "fdd10a9cf3bab09b",
     "name": "stickerdaniel/linkedin-mcp-server",
     "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
@@ -390,7 +380,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 39,
     "tool_id": "5135d26d23f40d4a",
     "name": "redhat-et/ripwire",
     "url": "https://github.com/redhat-et/ripwire",
@@ -400,7 +390,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 41,
+    "rank": 40,
     "tool_id": "1c45c4e037952195",
     "name": "can4hou6joeng4/boss-agent-cli",
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
@@ -410,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 41,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
@@ -420,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
+    "rank": 42,
     "tool_id": "6be3710b43fac1b5",
     "name": "awslabs/cli-agent-orchestrator",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
@@ -430,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 44,
+    "rank": 43,
     "tool_id": "9bd1cc8f39fe60cb",
     "name": "thClaws/thClaws",
     "url": "https://github.com/thClaws/thClaws",
@@ -440,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "tool_id": "fed735fea7657fd7",
     "name": "agentrq/agentrq",
     "url": "https://github.com/agentrq/agentrq",
@@ -450,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "tool_id": "bb0df0faa2413e25",
     "name": "liliu-z/stashbase",
     "url": "https://github.com/liliu-z/stashbase",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "4c77b72c5229d285",
     "name": "Storybloq/storybloq",
     "url": "https://github.com/Storybloq/storybloq",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "0342507e15665c9d",
     "name": "ruvnet/metaharness",
     "url": "https://github.com/ruvnet/metaharness",
@@ -480,23 +470,33 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
+    "rank": 48,
+    "tool_id": "47bbf8b7592b4d44",
+    "name": "YoanWai/agent-manager",
+    "url": "https://github.com/YoanWai/agent-manager",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.876,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
     "rank": 49,
-    "tool_id": "4285ed78efbc8b30",
-    "name": "ojuschugh1/sqz",
-    "url": "https://github.com/ojuschugh1/sqz",
+    "tool_id": "7e3477dae5e8c6ee",
+    "name": "bvisible/mcp-ssh-manager",
+    "url": "https://github.com/bvisible/mcp-ssh-manager",
     "category": "mcp_server",
     "letter": "B",
-    "score": 0.878,
+    "score": 0.876,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 50,
-    "tool_id": "4a1df0a087a3a787",
-    "name": "irinabuht12-oss/marketing-skills",
-    "url": "https://github.com/irinabuht12-oss/marketing-skills",
+    "tool_id": "c4e7485cfd8131e8",
+    "name": "syncable-dev/memtrace-public",
+    "url": "https://github.com/syncable-dev/memtrace-public",
     "category": "mcp_server",
-    "letter": "B",
-    "score": 0.876,
+    "letter": "A",
+    "score": 0.875,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
