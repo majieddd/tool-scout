@@ -21,16 +21,6 @@
   },
   {
     "rank": 3,
-    "tool_id": "17c877f3c7f176fd",
-    "name": "assafelovic/gpt-researcher",
-    "url": "https://github.com/assafelovic/gpt-researcher",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.9,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 4,
     "tool_id": "88a4bd0fbc51dfc1",
     "name": "nukeop/nuclear",
     "url": "https://github.com/nukeop/nuclear",
@@ -40,7 +30,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 5,
+    "rank": 4,
     "tool_id": "ce9450c3e068e59c",
     "name": "microsoft/mcp-for-beginners",
     "url": "https://github.com/microsoft/mcp-for-beginners",
@@ -50,10 +40,20 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 6,
+    "rank": 5,
     "tool_id": "a7120db1c4edd30e",
     "name": "triggerdotdev/trigger.dev",
     "url": "https://github.com/triggerdotdev/trigger.dev",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 6,
+    "tool_id": "ebcf72ba8deff69d",
+    "name": "yusufkaraaslan/Skill_Seekers",
+    "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.9,
