@@ -371,16 +371,6 @@
   },
   {
     "rank": 38,
-    "tool_id": "4b88c907cbb197eb",
-    "name": "IvanMurzak/Unity-MCP",
-    "url": "https://github.com/IvanMurzak/Unity-MCP",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.893,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 39,
     "tool_id": "918dda28e9b98040",
     "name": "evalstate/fast-agent",
     "url": "https://github.com/evalstate/fast-agent",
@@ -390,7 +380,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 39,
     "tool_id": "94346b228662cd9b",
     "name": "yvgude/lean-ctx",
     "url": "https://github.com/yvgude/lean-ctx",
@@ -400,10 +390,20 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 41,
+    "rank": 40,
     "tool_id": "6cef3e9564600404",
     "name": "pipeshub-ai/pipeshub-ai",
     "url": "https://github.com/pipeshub-ai/pipeshub-ai",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.892,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 41,
+    "tool_id": "fdd10a9cf3bab09b",
+    "name": "stickerdaniel/linkedin-mcp-server",
+    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.892,
@@ -421,16 +421,6 @@
   },
   {
     "rank": 43,
-    "tool_id": "fdd10a9cf3bab09b",
-    "name": "stickerdaniel/linkedin-mcp-server",
-    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.892,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 44,
     "tool_id": "5cc80a4dbdcb6c6d",
     "name": "chrisryugj/korean-law-mcp",
     "url": "https://github.com/chrisryugj/korean-law-mcp",
@@ -440,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 44,
     "tool_id": "5135d26d23f40d4a",
     "name": "redhat-et/ripwire",
     "url": "https://github.com/redhat-et/ripwire",
@@ -450,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "tool_id": "8070d1b02a574ecf",
     "name": "tigerless-labs/agent-memory",
     "url": "https://github.com/tigerless-labs/agent-memory",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "1c45c4e037952195",
     "name": "can4hou6joeng4/boss-agent-cli",
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "6be3710b43fac1b5",
     "name": "awslabs/cli-agent-orchestrator",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
@@ -490,13 +480,23 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "062cc8b1f252bf2e",
     "name": "2akouwu/reverify",
     "url": "https://github.com/2akouwu/reverify",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.883,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "fed735fea7657fd7",
+    "name": "agentrq/agentrq",
+    "url": "https://github.com/agentrq/agentrq",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.882,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
