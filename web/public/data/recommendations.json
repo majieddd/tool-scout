@@ -306,7 +306,7 @@
     "url": "https://github.com/vastsa/PI-Desktop",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.896,
+    "score": 0.897,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -441,6 +441,16 @@
   },
   {
     "rank": 45,
+    "tool_id": "8070d1b02a574ecf",
+    "name": "tigerless-labs/agent-memory",
+    "url": "https://github.com/tigerless-labs/agent-memory",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.889,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 46,
     "tool_id": "5135d26d23f40d4a",
     "name": "redhat-et/ripwire",
     "url": "https://github.com/redhat-et/ripwire",
@@ -450,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "tool_id": "1c45c4e037952195",
     "name": "can4hou6joeng4/boss-agent-cli",
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
@@ -460,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
@@ -470,7 +480,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "tool_id": "6be3710b43fac1b5",
     "name": "awslabs/cli-agent-orchestrator",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
@@ -480,23 +490,13 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
-    "tool_id": "9bd1cc8f39fe60cb",
-    "name": "thClaws/thClaws",
-    "url": "https://github.com/thClaws/thClaws",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.883,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
     "rank": 50,
-    "tool_id": "fed735fea7657fd7",
-    "name": "agentrq/agentrq",
-    "url": "https://github.com/agentrq/agentrq",
+    "tool_id": "823ea1e50f41683f",
+    "name": "study8677/repobrain",
+    "url": "https://github.com/study8677/repobrain",
     "category": "mcp_server",
-    "letter": "B",
-    "score": 0.882,
+    "letter": "A",
+    "score": 0.884,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
