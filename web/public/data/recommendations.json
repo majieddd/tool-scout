@@ -381,21 +381,21 @@
   },
   {
     "rank": 39,
-    "tool_id": "94346b228662cd9b",
-    "name": "yvgude/lean-ctx",
-    "url": "https://github.com/yvgude/lean-ctx",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.892,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 40,
     "tool_id": "fdd10a9cf3bab09b",
     "name": "stickerdaniel/linkedin-mcp-server",
     "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.892,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 40,
+    "tool_id": "94346b228662cd9b",
+    "name": "yvgude/lean-ctx",
+    "url": "https://github.com/yvgude/lean-ctx",
+    "category": "mcp_server",
+    "letter": "B",
     "score": 0.892,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
@@ -471,16 +471,6 @@
   },
   {
     "rank": 48,
-    "tool_id": "31d54295d1d0de80",
-    "name": "vmoranv/jshookmcp",
-    "url": "https://github.com/vmoranv/jshookmcp",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.887,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 49,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
@@ -490,10 +480,20 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "6be3710b43fac1b5",
     "name": "awslabs/cli-agent-orchestrator",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.884,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "823ea1e50f41683f",
+    "name": "study8677/repobrain",
+    "url": "https://github.com/study8677/repobrain",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.884,
