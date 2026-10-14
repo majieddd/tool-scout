@@ -341,20 +341,20 @@
   },
   {
     "rank": 35,
-    "tool_id": "9214bed5700ce3f3",
-    "name": "gptme/gptme",
-    "url": "https://github.com/gptme/gptme",
-    "category": "harness",
+    "tool_id": "4b88c907cbb197eb",
+    "name": "IvanMurzak/Unity-MCP",
+    "url": "https://github.com/IvanMurzak/Unity-MCP",
+    "category": "mcp_server",
     "letter": "B",
     "score": 0.893,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 36,
-    "tool_id": "4b88c907cbb197eb",
-    "name": "IvanMurzak/Unity-MCP",
-    "url": "https://github.com/IvanMurzak/Unity-MCP",
-    "category": "mcp_server",
+    "tool_id": "9214bed5700ce3f3",
+    "name": "gptme/gptme",
+    "url": "https://github.com/gptme/gptme",
+    "category": "harness",
     "letter": "B",
     "score": 0.893,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
