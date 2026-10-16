@@ -381,16 +381,6 @@
   },
   {
     "rank": 39,
-    "tool_id": "8070d1b02a574ecf",
-    "name": "tigerless-labs/agent-memory",
-    "url": "https://github.com/tigerless-labs/agent-memory",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.892,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 40,
     "tool_id": "fdd10a9cf3bab09b",
     "name": "stickerdaniel/linkedin-mcp-server",
     "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
@@ -398,6 +388,16 @@
     "letter": "A",
     "score": 0.892,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 40,
+    "tool_id": "8070d1b02a574ecf",
+    "name": "tigerless-labs/agent-memory",
+    "url": "https://github.com/tigerless-labs/agent-memory",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.892,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 41,
