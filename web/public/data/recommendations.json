@@ -471,6 +471,16 @@
   },
   {
     "rank": 48,
+    "tool_id": "31d54295d1d0de80",
+    "name": "vmoranv/jshookmcp",
+    "url": "https://github.com/vmoranv/jshookmcp",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.887,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 49,
     "tool_id": "741c1858d24ba132",
     "name": "kajisho5/ffmpeg-skill",
     "url": "https://github.com/kajisho5/ffmpeg-skill",
@@ -480,23 +490,13 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.886,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "6be3710b43fac1b5",
-    "name": "awslabs/cli-agent-orchestrator",
-    "url": "https://github.com/awslabs/cli-agent-orchestrator",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.884,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
