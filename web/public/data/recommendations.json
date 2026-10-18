@@ -261,20 +261,20 @@
   },
   {
     "rank": 27,
-    "tool_id": "0034d907fd694f2a",
-    "name": "strands-agents/harness-sdk",
-    "url": "https://github.com/strands-agents/harness-sdk",
-    "category": "mcp_server",
+    "tool_id": "ff579c7f267b81e7",
+    "name": "HarnessMD/munder-difflin",
+    "url": "https://github.com/HarnessMD/munder-difflin",
+    "category": "claude_plugin",
     "letter": "A",
     "score": 0.899,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 28,
-    "tool_id": "ff579c7f267b81e7",
-    "name": "HarnessMD/munder-difflin",
-    "url": "https://github.com/HarnessMD/munder-difflin",
-    "category": "claude_plugin",
+    "tool_id": "0034d907fd694f2a",
+    "name": "strands-agents/harness-sdk",
+    "url": "https://github.com/strands-agents/harness-sdk",
+    "category": "mcp_server",
     "letter": "A",
     "score": 0.899,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
@@ -431,16 +431,6 @@
   },
   {
     "rank": 44,
-    "tool_id": "5cc80a4dbdcb6c6d",
-    "name": "chrisryugj/korean-law-mcp",
-    "url": "https://github.com/chrisryugj/korean-law-mcp",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.889,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 45,
     "tool_id": "5135d26d23f40d4a",
     "name": "redhat-et/ripwire",
     "url": "https://github.com/redhat-et/ripwire",
@@ -450,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 45,
     "tool_id": "1c45c4e037952195",
     "name": "can4hou6joeng4/boss-agent-cli",
     "url": "https://github.com/can4hou6joeng4/boss-agent-cli",
@@ -460,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "tool_id": "31d54295d1d0de80",
     "name": "vmoranv/jshookmcp",
     "url": "https://github.com/vmoranv/jshookmcp",
@@ -470,7 +460,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 47,
     "tool_id": "741c1858d24ba132",
     "name": "kajisho5/ffmpeg-skill",
     "url": "https://github.com/kajisho5/ffmpeg-skill",
@@ -480,7 +470,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 49,
+    "rank": 48,
     "tool_id": "4e5b26fed127bd1c",
     "name": "OpenOSINT/OpenOSINT",
     "url": "https://github.com/OpenOSINT/OpenOSINT",
@@ -490,10 +480,20 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 50,
+    "rank": 49,
     "tool_id": "6be3710b43fac1b5",
     "name": "awslabs/cli-agent-orchestrator",
     "url": "https://github.com/awslabs/cli-agent-orchestrator",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.884,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 50,
+    "tool_id": "823ea1e50f41683f",
+    "name": "study8677/repobrain",
+    "url": "https://github.com/study8677/repobrain",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.884,
