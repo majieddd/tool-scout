@@ -321,16 +321,6 @@
   },
   {
     "rank": 33,
-    "tool_id": "cc1dd61aa26f6e76",
-    "name": "vitali87/code-graph-rag",
-    "url": "https://github.com/vitali87/code-graph-rag",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.895,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 34,
     "tool_id": "5720873393b5d31a",
     "name": "TabularisDB/tabularis",
     "url": "https://github.com/TabularisDB/tabularis",
@@ -338,6 +328,16 @@
     "letter": "A",
     "score": 0.895,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+  },
+  {
+    "rank": 34,
+    "tool_id": "cc1dd61aa26f6e76",
+    "name": "vitali87/code-graph-rag",
+    "url": "https://github.com/vitali87/code-graph-rag",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.895,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 35,
