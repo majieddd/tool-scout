@@ -371,9 +371,9 @@
   },
   {
     "rank": 38,
-    "tool_id": "fdd10a9cf3bab09b",
-    "name": "stickerdaniel/linkedin-mcp-server",
-    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+    "tool_id": "741c1858d24ba132",
+    "name": "kajisho5/ffmpeg-skill",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.893,
@@ -381,9 +381,9 @@
   },
   {
     "rank": 39,
-    "tool_id": "741c1858d24ba132",
-    "name": "kajisho5/ffmpeg-skill",
-    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "tool_id": "fdd10a9cf3bab09b",
+    "name": "stickerdaniel/linkedin-mcp-server",
+    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.893,
@@ -491,12 +491,12 @@
   },
   {
     "rank": 50,
-    "tool_id": "135d05766ff2c73c",
-    "name": "artokun/comfyui-mcp",
-    "url": "https://github.com/artokun/comfyui-mcp",
+    "tool_id": "0342507e15665c9d",
+    "name": "ruvnet/metaharness",
+    "url": "https://github.com/ruvnet/metaharness",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.88,
+    "score": 0.879,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
