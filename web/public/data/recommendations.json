@@ -491,12 +491,12 @@
   },
   {
     "rank": 50,
-    "tool_id": "0eadbe4280229ec4",
-    "name": "vshulcz/deja-vu",
-    "url": "https://github.com/vshulcz/deja-vu",
+    "tool_id": "062cc8b1f252bf2e",
+    "name": "2akouwu/reverify",
+    "url": "https://github.com/2akouwu/reverify",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.884,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
