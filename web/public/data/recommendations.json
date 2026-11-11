@@ -331,6 +331,16 @@
   },
   {
     "rank": 34,
+    "tool_id": "813339bf946b6ad4",
+    "name": "vercel-labs/agent-desktop",
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "category": "mcp_server",
+    "letter": "B",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 35,
     "tool_id": "ff579c7f267b81e7",
     "name": "HarnessMD/munder-difflin",
     "url": "https://github.com/HarnessMD/munder-difflin",
@@ -340,7 +350,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 35,
+    "rank": 36,
     "tool_id": "0034d907fd694f2a",
     "name": "strands-agents/harness-sdk",
     "url": "https://github.com/strands-agents/harness-sdk",
@@ -350,7 +360,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 36,
+    "rank": 37,
     "tool_id": "3cd7896e5e5210b2",
     "name": "vastsa/PI-Desktop",
     "url": "https://github.com/vastsa/PI-Desktop",
@@ -360,7 +370,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 37,
+    "rank": 38,
     "tool_id": "fa027d63957baf8a",
     "name": "KunAgent/Kun",
     "url": "https://github.com/KunAgent/Kun",
@@ -370,7 +380,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 38,
+    "rank": 39,
     "tool_id": "2c9e9d9199c516b1",
     "name": "oomol-lab/open-connector",
     "url": "https://github.com/oomol-lab/open-connector",
@@ -380,7 +390,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 39,
+    "rank": 40,
     "tool_id": "54d5d00880b8a3cf",
     "name": "netease-youdao/LobsterAI",
     "url": "https://github.com/netease-youdao/LobsterAI",
@@ -390,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "tool_id": "5720873393b5d31a",
     "name": "TabularisDB/tabularis",
     "url": "https://github.com/TabularisDB/tabularis",
@@ -400,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "tool_id": "cc1dd61aa26f6e76",
     "name": "vitali87/code-graph-rag",
     "url": "https://github.com/vitali87/code-graph-rag",
@@ -410,20 +420,10 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "tool_id": "741c1858d24ba132",
     "name": "kajisho5/ffmpeg-skill",
     "url": "https://github.com/kajisho5/ffmpeg-skill",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.894,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 43,
-    "tool_id": "c12cde44c23f185d",
-    "name": "ag2ai/ag2",
-    "url": "https://github.com/ag2ai/ag2",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.894,
@@ -491,12 +491,12 @@
   },
   {
     "rank": 50,
-    "tool_id": "918dda28e9b98040",
-    "name": "evalstate/fast-agent",
-    "url": "https://github.com/evalstate/fast-agent",
+    "tool_id": "90cf651fd7ac88fd",
+    "name": "shaongitbd/doory",
+    "url": "https://github.com/shaongitbd/doory",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.892,
+    "score": 0.889,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
