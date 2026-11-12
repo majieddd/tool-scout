@@ -431,21 +431,21 @@
   },
   {
     "rank": 44,
-    "tool_id": "4b88c907cbb197eb",
-    "name": "IvanMurzak/Unity-MCP",
-    "url": "https://github.com/IvanMurzak/Unity-MCP",
-    "category": "mcp_server",
-    "letter": "B",
-    "score": 0.894,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 45,
     "tool_id": "be01399faa544c95",
     "name": "KKKKhazix/agent-autoloop",
     "url": "https://github.com/KKKKhazix/agent-autoloop",
     "category": "mcp_server",
     "letter": "A",
+    "score": 0.894,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 45,
+    "tool_id": "4b88c907cbb197eb",
+    "name": "IvanMurzak/Unity-MCP",
+    "url": "https://github.com/IvanMurzak/Unity-MCP",
+    "category": "mcp_server",
+    "letter": "B",
     "score": 0.894,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
