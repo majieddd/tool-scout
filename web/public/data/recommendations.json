@@ -421,16 +421,6 @@
   },
   {
     "rank": 43,
-    "tool_id": "8070d1b02a574ecf",
-    "name": "tigerless-labs/agent-memory",
-    "url": "https://github.com/tigerless-labs/agent-memory",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.894,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
-  },
-  {
-    "rank": 44,
     "tool_id": "be01399faa544c95",
     "name": "KKKKhazix/agent-autoloop",
     "url": "https://github.com/KKKKhazix/agent-autoloop",
@@ -438,6 +428,16 @@
     "letter": "A",
     "score": 0.894,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 44,
+    "tool_id": "8070d1b02a574ecf",
+    "name": "tigerless-labs/agent-memory",
+    "url": "https://github.com/tigerless-labs/agent-memory",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.894,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
     "rank": 45,
