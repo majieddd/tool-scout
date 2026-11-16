@@ -71,6 +71,16 @@
   },
   {
     "rank": 8,
+    "tool_id": "ebcf72ba8deff69d",
+    "name": "yusufkaraaslan/Skill_Seekers",
+    "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 9,
     "tool_id": "2696e75fee93bc6e",
     "name": "DeusData/codebase-memory-mcp",
     "url": "https://github.com/DeusData/codebase-memory-mcp",
@@ -80,7 +90,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 9,
+    "rank": 10,
     "tool_id": "e25dbd259c0056f9",
     "name": "HKUDS/nanobot",
     "url": "https://github.com/HKUDS/nanobot",
@@ -90,7 +100,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 10,
+    "rank": 11,
     "tool_id": "68310ed34aa5e9f6",
     "name": "wshobson/agents",
     "url": "https://github.com/wshobson/agents",
@@ -100,7 +110,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 11,
+    "rank": 12,
     "tool_id": "17051c8b1c993b89",
     "name": "davila7/claude-code-templates",
     "url": "https://github.com/davila7/claude-code-templates",
@@ -110,7 +120,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 12,
+    "rank": 13,
     "tool_id": "98d8d012b406fff0",
     "name": "getpaseo/paseo",
     "url": "https://github.com/getpaseo/paseo",
@@ -120,7 +130,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 13,
+    "rank": 14,
     "tool_id": "d55a08b521e4f15d",
     "name": "holaboss-ai/holaOS",
     "url": "https://github.com/holaboss-ai/holaOS",
@@ -130,7 +140,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "tool_id": "354cca612204791a",
     "name": "ComposioHQ/composio",
     "url": "https://github.com/ComposioHQ/composio",
@@ -140,7 +150,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 15,
+    "rank": 16,
     "tool_id": "6bb25462214ed79a",
     "name": "alibaba/page-agent",
     "url": "https://github.com/alibaba/page-agent",
@@ -150,7 +160,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 16,
+    "rank": 17,
     "tool_id": "717ba51b47520225",
     "name": "HKUDS/Vibe-Trading",
     "url": "https://github.com/HKUDS/Vibe-Trading",
@@ -160,7 +170,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "tool_id": "1ebd4cb431c81c4f",
     "name": "can1357/oh-my-pi",
     "url": "https://github.com/can1357/oh-my-pi",
@@ -170,22 +180,12 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 18,
+    "rank": 19,
     "tool_id": "fc31d0ba2caa8529",
     "name": "deepset-ai/haystack",
     "url": "https://github.com/deepset-ai/haystack",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.9,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 19,
-    "tool_id": "9da21edc519e6070",
-    "name": "esengine/DeepSeek-Reasonix",
-    "url": "https://github.com/esengine/DeepSeek-Reasonix",
-    "category": "harness",
-    "letter": "B",
     "score": 0.9,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
@@ -491,9 +491,9 @@
   },
   {
     "rank": 50,
-    "tool_id": "90cf651fd7ac88fd",
-    "name": "shaongitbd/doory",
-    "url": "https://github.com/shaongitbd/doory",
+    "tool_id": "5cc80a4dbdcb6c6d",
+    "name": "chrisryugj/korean-law-mcp",
+    "url": "https://github.com/chrisryugj/korean-law-mcp",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.89,
