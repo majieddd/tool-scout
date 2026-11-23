@@ -291,6 +291,16 @@
   },
   {
     "rank": 30,
+    "tool_id": "741c1858d24ba132",
+    "name": "kajisho5/ffmpeg-skill",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.9,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 31,
     "tool_id": "c7bbe63ecb77db9b",
     "name": "DayuanJiang/next-ai-draw-io",
     "url": "https://github.com/DayuanJiang/next-ai-draw-io",
@@ -300,7 +310,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 31,
+    "rank": 32,
     "tool_id": "f555cdf176e93799",
     "name": "xerj-org/xerj",
     "url": "https://github.com/xerj-org/xerj",
@@ -310,7 +320,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 32,
+    "rank": 33,
     "tool_id": "f620f34044905e6d",
     "name": "ruvnet/RuView",
     "url": "https://github.com/ruvnet/RuView",
@@ -320,7 +330,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 33,
+    "rank": 34,
     "tool_id": "813339bf946b6ad4",
     "name": "vercel-labs/agent-desktop",
     "url": "https://github.com/vercel-labs/agent-desktop",
@@ -330,20 +340,10 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 34,
+    "rank": 35,
     "tool_id": "19016c866a0d1ec8",
     "name": "nexu-io/openmotion",
     "url": "https://github.com/nexu-io/openmotion",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.9,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 35,
-    "tool_id": "741c1858d24ba132",
-    "name": "kajisho5/ffmpeg-skill",
-    "url": "https://github.com/kajisho5/ffmpeg-skill",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.9,
@@ -381,6 +381,16 @@
   },
   {
     "rank": 39,
+    "tool_id": "7ee877929909ac4f",
+    "name": "open-multi-agent/open-multi-agent",
+    "url": "https://github.com/open-multi-agent/open-multi-agent",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.897,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 40,
     "tool_id": "f933fe3d93f01fa3",
     "name": "mdiri-ai/SoduWork",
     "url": "https://github.com/mdiri-ai/SoduWork",
@@ -390,7 +400,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "tool_id": "be01399faa544c95",
     "name": "KKKKhazix/agent-autoloop",
     "url": "https://github.com/KKKKhazix/agent-autoloop",
@@ -400,7 +410,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "tool_id": "2c9e9d9199c516b1",
     "name": "oomol-lab/open-connector",
     "url": "https://github.com/oomol-lab/open-connector",
@@ -410,7 +420,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "tool_id": "1127cde22877e06f",
     "name": "vAPI-Network/vapi-network",
     "url": "https://github.com/vAPI-Network/vapi-network",
@@ -420,7 +430,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "tool_id": "5720873393b5d31a",
     "name": "TabularisDB/tabularis",
     "url": "https://github.com/TabularisDB/tabularis",
@@ -430,7 +440,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA,tool-scout"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "tool_id": "cc1dd61aa26f6e76",
     "name": "vitali87/code-graph-rag",
     "url": "https://github.com/vitali87/code-graph-rag",
@@ -440,7 +450,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "tool_id": "d4f28533cc199068",
     "name": "onehumanbeing/esp32-iphone-agent",
     "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
@@ -450,7 +460,17 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 46,
+    "rank": 47,
+    "tool_id": "c12cde44c23f185d",
+    "name": "ag2ai/ag2",
+    "url": "https://github.com/ag2ai/ag2",
+    "category": "mcp_server",
+    "letter": "A",
+    "score": 0.895,
+    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
+  },
+  {
+    "rank": 48,
     "tool_id": "4b88c907cbb197eb",
     "name": "IvanMurzak/Unity-MCP",
     "url": "https://github.com/IvanMurzak/Unity-MCP",
@@ -460,7 +480,7 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 47,
+    "rank": 49,
     "tool_id": "9214bed5700ce3f3",
     "name": "gptme/gptme",
     "url": "https://github.com/gptme/gptme",
@@ -470,33 +490,13 @@
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
-    "rank": 48,
+    "rank": 50,
     "tool_id": "143a7fcca0834fc4",
     "name": "haris-musa/excel-mcp-server",
     "url": "https://github.com/haris-musa/excel-mcp-server",
     "category": "mcp_server",
     "letter": "A",
     "score": 0.893,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 49,
-    "tool_id": "fdd10a9cf3bab09b",
-    "name": "stickerdaniel/linkedin-mcp-server",
-    "url": "https://github.com/stickerdaniel/linkedin-mcp-server",
-    "category": "mcp_server",
-    "letter": "A",
-    "score": 0.893,
-    "reasoning": "relevance 1.00; recent activity; matches HYDRA"
-  },
-  {
-    "rank": 50,
-    "tool_id": "fbd1b812fbc71b2c",
-    "name": "golutra/golutra",
-    "url": "https://github.com/golutra/golutra",
-    "category": "claude_plugin",
-    "letter": "A",
-    "score": 0.892,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   }
 ]
