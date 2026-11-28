@@ -376,7 +376,7 @@
     "url": "https://github.com/vastsa/PI-Desktop",
     "category": "mcp_server",
     "letter": "A",
-    "score": 0.898,
+    "score": 0.899,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
@@ -461,22 +461,22 @@
   },
   {
     "rank": 47,
-    "tool_id": "9214bed5700ce3f3",
-    "name": "gptme/gptme",
-    "url": "https://github.com/gptme/gptme",
-    "category": "harness",
+    "tool_id": "f4a38fa8704ab8f2",
+    "name": "EL4CTEO/fast-anything",
+    "url": "https://github.com/EL4CTEO/fast-anything",
+    "category": "mcp_server",
     "letter": "B",
     "score": 0.894,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
     "rank": 48,
-    "tool_id": "f4a38fa8704ab8f2",
-    "name": "EL4CTEO/fast-anything",
-    "url": "https://github.com/EL4CTEO/fast-anything",
-    "category": "mcp_server",
+    "tool_id": "9214bed5700ce3f3",
+    "name": "gptme/gptme",
+    "url": "https://github.com/gptme/gptme",
+    "category": "harness",
     "letter": "B",
-    "score": 0.893,
+    "score": 0.894,
     "reasoning": "relevance 1.00; recent activity; matches HYDRA"
   },
   {
